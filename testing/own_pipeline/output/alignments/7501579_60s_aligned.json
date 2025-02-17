@@ -1,0 +1,50 @@
+{
+  "audio_file": "7501579_60s.opus",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.028781250000002,
+      "asr_text": ".",
+      "human_text": "",
+      "cer": 1.0,
+      "start_idx": 0,
+      "end_idx": 0
+    },
+    {
+      "start": 14.028781250000002,
+      "end": 29.46096875,
+      "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen, bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
+      "human_text": "Guten Tag, Liebe Kolleginnen und Kollegen, bitte nehmen Sie Platz.",
+      "cer": 0.2857142857142857,
+      "start_idx": 0,
+      "end_idx": 10
+    },
+    {
+      "start": 29.46096875,
+      "end": 46.09128125,
+      "asr_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die besorgniserregenden Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
+      "human_text": "nehmen Sie Platz. Ich eröffne die Sitzung. Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die Besorgnis erregenden Varianten des SARS-Covid-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
+      "cer": 0.2696629213483146,
+      "start_idx": 7,
+      "end_idx": 38
+    },
+    {
+      "start": 46.09128125,
+      "end": 57.06846875,
+      "asr_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7",
+      "human_text": "Deutschland identifiziert worden. Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7",
+      "cer": 0.29310344827586204,
+      "start_idx": 35,
+      "end_idx": 51
+    },
+    {
+      "start": 57.06846875,
+      "end": 77.06846875,
+      "asr_text": "deutlich infektiöser ist als das bisher bekannte Virus.",
+      "human_text": "B.1.1.7 deutlich infektiöser ist als das bisher bekannte",
+      "cer": 0.2727272727272727,
+      "start_idx": 50,
+      "end_idx": 58
+    }
+  ]
+}

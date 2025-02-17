@@ -1,0 +1,5301 @@
+1
+00:00:17,140 --> 00:00:19,140
+Guten Tag,
+Liebe Kolleginnen und Kollegen,
+
+2
+00:00:19,141 --> 00:00:21,141
+bitte nehmen Sie Platz.
+
+3
+00:00:26,440 --> 00:00:28,440
+Ich eröffne die Sitzung.
+
+4
+00:00:31,270 --> 00:00:36,622
+Liebe Kolleginnen und Kollegen, wie
+Sie wissen, sind die Besorgnis erregenden
+
+5
+00:00:36,623 --> 00:00:42,633
+Varianten des SARS-Covid-2-Virus weltweit,
+aber auch in Europa
+
+6
+00:00:42,634 --> 00:00:45,434
+und in Deutschland
+identifiziert worden.
+
+7
+00:00:46,640 --> 00:00:51,412
+Epidemiologische
+Erkenntnisse deuten darauf hin,
+
+8
+00:00:51,413 --> 00:00:57,018
+dass insbesondere die in Deutschland
+nachgewiesene Mutation B.1.1.7 deutlich
+
+9
+00:00:57,019 --> 00:01:00,961
+infektiöser ist als das
+bisher bekannte Virus.
+
+10
+00:01:00,962 --> 00:01:05,522
+Die Verbreitung einer Virusmutation mit
+höherem Ansteckungspotenzial
+
+11
+00:01:05,523 --> 00:01:08,412
+würde eine schwerwiegende
+Verschärfung der
+
+12
+00:01:08,413 --> 00:01:10,413
+pandemischen Lage bedeuten.
+
+13
+00:01:11,140 --> 00:01:14,747
+Vor diesem Hintergrund kommt dem
+Tragen von medizinischen
+
+14
+00:01:14,748 --> 00:01:17,921
+Gesichtsmasken, die
+anerkanntermaßen eine höhere
+
+15
+00:01:17,922 --> 00:01:22,214
+Schutzwirkung als sogenannte Alltagsmasken
+haben, eine besondere Bedeutung zu.
+
+16
+00:01:23,140 --> 00:01:25,767
+Dementsprechend wurde die
+Verpflichtung zum Tragen
+
+17
+00:01:25,768 --> 00:01:28,705
+medizinische Gesichtsmasken für
+zahlreiche Situationen,
+
+18
+00:01:28,706 --> 00:01:31,848
+in denen ein engerer oder längerer
+Kontakt zu anderen Personen,
+
+19
+00:01:31,849 --> 00:01:34,734
+insbesondere in geschlossenen
+Räumen, unvermeidbar ist,
+
+20
+00:01:34,735 --> 00:01:36,735
+eingeführt.
+
+21
+00:01:36,736 --> 00:01:40,110
+Angesichts dieser Entwicklungen habe
+ich mich entschlossen, mit
+
+22
+00:01:40,111 --> 00:01:42,617
+heute in Kraft getretener hausrechtlicher
+
+23
+00:01:42,618 --> 00:01:47,072
+Allgemeinverfügung eine Pflicht zum
+Tragen medizinischer Gesichtsmasken
+
+24
+00:01:47,073 --> 00:01:51,099
+in den Gebäuden des Bundestags
+anzuordnen. Zu den medizinischen
+
+25
+00:01:51,100 --> 00:01:54,883
+Gesichtsmasken zählen die
+sogenannten OP- und die FFP2-Masken
+
+26
+00:01:54,884 --> 00:01:58,240
+sowie Masken mit
+vergleichbaren Standards.
+
+27
+00:01:58,241 --> 00:02:02,329
+Diese Pflicht zum Tragen medizinischer
+Gesichtsmasken tritt an die Stelle
+
+28
+00:02:02,330 --> 00:02:06,601
+der bisherigen Verpflichtung zum
+Tragen einer Mund-Nasen-Bedeckung.
+
+29
+00:02:06,602 --> 00:02:10,201
+Im Übrigen bleibt es bei den
+Regelungen zum Umfang der Tragepflicht,
+
+30
+00:02:10,202 --> 00:02:14,107
+wie Sie sie bereits aus der
+seit Oktober geltenden
+
+31
+00:02:14,108 --> 00:02:16,108
+Allgemeinverfügung kennen.
+
+32
+00:02:16,540 --> 00:02:19,777
+Bitte denken Sie daran,
+wenn Sie hier durch den Saal oder
+
+33
+00:02:19,778 --> 00:02:22,011
+zum Rednerpult gehen,
+eine medizinische
+
+34
+00:02:22,012 --> 00:02:24,012
+Gesichtsmaske zu tragen.
+
+35
+00:02:24,440 --> 00:02:28,096
+In der heutigen Präsidiumssitzung
+haben wir bekräftigt, das Verstöße
+
+36
+00:02:28,097 --> 00:02:30,991
+gegen diese hausrechtliche
+Anordnung hier im Plenarsaal
+
+37
+00:02:30,992 --> 00:02:33,887
+zugleich auch ein Verstoß gegen
+unsere parlamentarische
+
+38
+00:02:33,888 --> 00:02:35,888
+Ordnung darstellen.
+
+39
+00:02:35,889 --> 00:02:40,058
+Eine gesundheitliche Gefährdung von
+Abgeordneten durch das Verhalten
+
+40
+00:02:40,059 --> 00:02:44,289
+anderer Abgeordneter gefährdet die
+Erledigung der uns aufgetragenen
+
+41
+00:02:44,290 --> 00:02:46,290
+parlamentarischen Arbeit.
+
+42
+00:02:46,440 --> 00:02:50,559
+Daher mache ich erneut darauf
+aufmerksam, dass Verstöße gegen die
+
+43
+00:02:50,560 --> 00:02:54,741
+Maskenpflicht auch mit den Mitteln
+des parlamentarischen Ordnungsrechts
+
+44
+00:02:54,742 --> 00:02:58,799
+geahndet werden können,
+sofern diese in unseren Sitzungen
+
+45
+00:02:58,800 --> 00:03:02,420
+auftreten. Dies schließt
+selbstverständlich die namentlichen
+
+46
+00:03:02,421 --> 00:03:05,916
+Abstimmungen, Wahlen und das
+Hammelsprungverfahren ein.
+
+47
+00:03:06,340 --> 00:03:13,501
+Ich bitte Sie nachdrücklich,
+sich an die neuen Vorgaben zu halten.
+
+48
+00:03:13,502 --> 00:03:19,167
+Für die heutige 208. und
+die morgige 209. und die 210. Sitzung
+
+49
+00:03:19,168 --> 00:03:21,760
+am Freitag konnte zwischen den
+Fraktionen keine
+
+50
+00:03:21,761 --> 00:03:25,228
+Tagesordnung vereinbart werden.
+Die Fraktion der AfD hat
+
+51
+00:03:25,229 --> 00:03:29,027
+dem Vorschlag der anderen Fraktionen
+widersprochen. Ich habe den Bundestag
+
+52
+00:03:29,028 --> 00:03:32,665
+mit der vorgeschlagenen Tagesordnung
+einberufen. Nach 21 Absatz 3 der
+
+53
+00:03:32,666 --> 00:03:35,875
+Geschäftsordnung ist für die
+Genehmigung der Tagesordnung
+
+54
+00:03:35,876 --> 00:03:38,016
+ein Plenarbeschluss erforderlich.
+
+55
+00:03:38,440 --> 00:03:42,272
+Interfraktionell ist vereinbart
+worden, die noch zu beschließende
+
+56
+00:03:42,273 --> 00:03:45,566
+Tagesordnung um die in der
+Zusatzpunkteliste aufgeführten
+
+57
+00:03:45,567 --> 00:03:48,536
+Punkte zu erweitern:
+Von der Frist für den Beginn der
+
+58
+00:03:48,537 --> 00:03:51,506
+Beratungen soll soweit
+erforderlich, abgewichen werden.
+
+59
+00:03:52,440 --> 00:03:56,441
+Auf Verlangen der Fraktion Bündnis
+90/Die Grünen findet heute nach der
+
+60
+00:03:56,442 --> 00:03:59,731
+Fragestunde eine Aktuelle Stunde zum
+Thema Konsequenzen der
+
+61
+00:03:59,732 --> 00:04:03,240
+Bundesregierung aus den jüngsten
+gewaltsamen, willkürlichen und
+
+62
+00:04:03,241 --> 00:04:05,707
+repressiven Entwicklungen
+in Russland statt.
+
+63
+00:04:06,940 --> 00:04:10,295
+Tagesordnungspunkt 4 wird
+abgesetzt. Stattdessen soll ein
+
+64
+00:04:10,296 --> 00:04:13,706
+Antrag für einen Stufenplan in der
+Pandemie beraten werden.
+
+65
+00:04:14,340 --> 00:04:18,330
+Tagesordnungspunkt 22 wird in
+verbundener Beratung aufgerufen.
+
+66
+00:04:18,331 --> 00:04:21,877
+Am Donnerstag wird
+Tagesordnungspunkt 7 abgesetzt.
+
+67
+00:04:21,878 --> 00:04:25,615
+An dieser Stelle soll der
+Tagesordnungspunkt 19 aufgerufen werden.
+
+68
+00:04:25,616 --> 00:04:29,543
+Nach Tagesordnungspunkt 11
+soll ein Gesetzentwurf zur
+
+69
+00:04:29,544 --> 00:04:33,977
+Verbesserung der strafrechtlichen
+Bekämpfung der Geldwäsche auf der
+
+70
+00:04:33,978 --> 00:04:37,018
+Drucksache 19/24180
+abschließend beraten werden.
+
+71
+00:04:37,540 --> 00:04:41,734
+Der Tagesordnungspunkt 12 und die
+weiteren Tagesordnungspunkte der
+
+72
+00:04:41,735 --> 00:04:45,679
+Koalitionsfraktionen verschieben
+sich entsprechend nach hinten.
+
+73
+00:04:45,680 --> 00:04:48,810
+Tagesordnungspunkt 17 wird am
+Freitag aufgerufen.
+
+74
+00:04:48,811 --> 00:04:52,128
+Stattdessen soll eine
+Beschlussempfehlung zum Antrag
+
+75
+00:04:52,129 --> 00:04:55,948
+Friedensbemühungen im Jemen
+intensivieren, humanitäre Lage
+
+76
+00:04:55,949 --> 00:04:59,517
+verbessern, auf der Drucksache
+19/26220 aufgesetzt werden.
+
+77
+00:05:00,040 --> 00:05:03,779
+Als erster Punkt am Freitag soll der
+Entwurf eines Gesetzes zur
+
+78
+00:05:03,780 --> 00:05:07,168
+Fortgeltung der die
+epidemische Lage von
+
+79
+00:05:07,169 --> 00:05:10,850
+nationaler Tragweite betreffenden
+Regelungen aufgerufen werden.
+
+80
+00:05:10,851 --> 00:05:13,071
+Tagesordnungspunkt 20
+wird abgesetzt.
+
+81
+00:05:13,072 --> 00:05:16,141
+An dieser Stelle sollen in
+verbundener Beratung drei Vorlagen
+
+82
+00:05:16,142 --> 00:05:19,563
+zur Familienpolitik in der Pandemie aufgesetzt werden.
+
+83
+00:05:20,240 --> 00:05:24,803
+Tagesordnungspunkt 21 wird abgesetzt.
+An dieser Stelle soll mit einer
+
+84
+00:05:24,804 --> 00:05:29,368
+Debattenzeit von 30 Minuten der
+Entwurf eines Dritten Corona-Steuerhilfegesetzes
+
+85
+00:05:29,369 --> 00:05:31,618
+aufgesetzt werden.
+
+86
+00:05:32,140 --> 00:05:35,513
+Daran anschließend soll mit einer
+Debattenzeit von ebenfalls 30
+
+87
+00:05:35,514 --> 00:05:38,582
+Minuten der Gesetzentwurf zur
+Regelung einer Einmalzahlung
+
+88
+00:05:38,583 --> 00:05:42,437
+der Grundsicherungssysteme an
+erwachsene Leistungsberechtigte
+
+89
+00:05:42,438 --> 00:05:45,941
+und zur Verlängerung des
+erleichterten Zugangs zu sozialer
+
+90
+00:05:45,942 --> 00:05:49,796
+Sicherung und zur Änderung des
+Sozialdienster-Einsatzgesetzes aus Anlass
+
+91
+00:05:49,797 --> 00:05:52,367
+der COVID-19 Pandemie aufgerufen werden.
+
+92
+00:05:52,368 --> 00:05:56,047
+An der Stelle des Tagesordnungspunkt
+22 soll der Tagesordnungspunkt 17
+
+93
+00:05:56,048 --> 00:05:58,048
+aufgerufen werden.
+
+94
+00:05:58,440 --> 00:06:03,216
+Die Tagesordnungspunkte 16, 28 c, d und
+e sollen abgesetzt werden.
+
+95
+00:06:03,640 --> 00:06:08,033
+Außerdem mache ich Sie auf die
+Überweisung im Anhang zur
+
+96
+00:06:08,034 --> 00:06:12,852
+Zusatzpunkteliste aufmerksam. Und
+damit kommen wir zur Feststellung
+
+97
+00:06:12,853 --> 00:06:17,246
+der Tagesordnungen der 208., 209., 210
+Sitzung mit den genannten
+
+98
+00:06:17,247 --> 00:06:22,065
+Änderungen und Ergänzungen. Wer
+stimmt dafür? Wer stimmt dagegen?
+
+99
+00:06:22,066 --> 00:06:27,026
+Wer enthält sich? Dann sind die Tagesordnungen
+gegen die Stimme der AfD mit den
+
+100
+00:06:27,027 --> 00:06:31,039
+Stimmen des übrigen Hauses
+so beschlossen.
+
+101
+00:06:31,040 --> 00:06:33,942
+Ich rufe auf den Tagesordnungspunkt 1:
+Befragung der Bundesregierung.
+
+102
+00:06:33,943 --> 00:06:37,396
+Die Bundesregierung hat mitgeteilt,
+dass heute die Bundesministerin für
+
+103
+00:06:37,397 --> 00:06:40,701
+Umwelt, Naturschutz und nukleare
+Sicherheit, Frau Svenja Schulze,
+
+104
+00:06:40,702 --> 00:06:42,702
+zur Verfügung steht.
+
+105
+00:06:42,740 --> 00:06:44,740
+Frau Bundesministerin,
+wenn Sie mögen, haben Sie das Wort
+
+106
+00:06:44,741 --> 00:06:46,741
+für einleitende Ausführungen.
+
+107
+00:06:50,540 --> 00:06:54,206
+Herr Präsident! Sehr geehrte Damen
+und Herren Abgeordnete! Alle Augen
+
+108
+00:06:54,207 --> 00:06:57,822
+und Ohren sind heute natürlich auf
+die Bund-Länder-Runde gerichtet,
+
+109
+00:06:57,823 --> 00:07:01,398
+wie es weitergeht mit den Corona-
+beschränkungen und dem Impfen.
+
+110
+00:07:01,399 --> 00:07:04,534
+Das bestimmt die Diskussion in den
+Medien und sicherlich
+
+111
+00:07:04,535 --> 00:07:06,335
+auch in den Wohnzimmern.
+
+112
+00:07:06,336 --> 00:07:09,455
+Dennoch will ich heute mit Ihnen
+über Umweltpolitik reden,
+
+113
+00:07:09,556 --> 00:07:12,866
+denn die Pandemie lehrt uns: Eine
+intakte Natur und
+
+114
+00:07:13,067 --> 00:07:17,407
+die entsprechenden Investitionen
+zahlen sich aus. Deshalb hat
+
+115
+00:07:17,608 --> 00:07:21,531
+die Bundesregierung trotz des Lockdowns
+in den letzten Wochen und
+
+116
+00:07:21,532 --> 00:07:25,099
+Monaten im Umweltschutz ganz
+wichtige Fortschritte gemacht.
+
+117
+00:07:25,400 --> 00:07:28,612
+Gerade heute beim
+Schutz der Insekten.
+
+118
+00:07:28,613 --> 00:07:32,343
+Das Bundeskabinett hat das
+Insektenschutzgesetz auf den Weg
+
+119
+00:07:32,344 --> 00:07:36,075
+gebracht und die Anwendung
+umweltschädlicher Pestizide ganz
+
+120
+00:07:36,076 --> 00:07:38,076
+erheblich eingeschränkt.
+Endlich!
+
+121
+00:07:38,077 --> 00:07:42,042
+Anderthalb Jahre ist es
+jetzt her, dass ich mit dem
+
+122
+00:07:42,043 --> 00:07:46,073
+Aktionsprogramm Insektenschutz ein
+Umsteuern eingeleitet habe.
+
+123
+00:07:46,074 --> 00:07:48,963
+Und heute hat das Kabinett sehr
+deutlich bewiesen,
+
+124
+00:07:48,964 --> 00:07:50,764
+dass wir das ernst meinen.
+
+125
+00:07:50,765 --> 00:07:54,260
+Äcker sollen wieder einladender
+werden für Insekten:
+
+126
+00:07:54,261 --> 00:07:58,645
+Mehr Klatschmohn und Kornblume,
+weniger Ackergifte und ausgeräumte
+
+127
+00:07:58,646 --> 00:08:03,222
+Agrarlandschaften. Auch Städte
+sollen insektenfreundlicher werden
+
+128
+00:08:03,223 --> 00:08:06,591
+durch weniger Lichtverschmutzungen,
+mehr Raum für Insekten
+
+129
+00:08:06,592 --> 00:08:09,642
+auch außerhalb von Parks und Gärten.
+
+130
+00:08:09,843 --> 00:08:13,504
+Was ändert sich jetzt konkret?
+Glyphosat wird endlich verboten.
+
+131
+00:08:14,005 --> 00:08:17,854
+Es tötet wahllos Wildpflanzen ab
+und zerstört damit die
+
+132
+00:08:17,855 --> 00:08:20,750
+Nahrungsgrundlage für
+Vögel und Insekten.
+
+133
+00:08:20,851 --> 00:08:23,996
+Bis Ende 2023 gibt es eine
+europarechtlich bedingte
+
+134
+00:08:24,197 --> 00:08:28,351
+Übergangszeit und dann eben ein
+Komplettverbot. Und bis dahin wird
+
+135
+00:08:28,352 --> 00:08:31,972
+der Einsatz erheblich eingeschränkt
+werden. Flüsse, Bäche,
+
+136
+00:08:31,973 --> 00:08:34,762
+Seen werden sauberer,
+da Pestizide nur noch in
+
+137
+00:08:34,763 --> 00:08:38,680
+angemessenem Abstand eingesetzt
+werden dürfen. Das schützt Tiere
+
+138
+00:08:38,681 --> 00:08:42,776
+und Pflanzen im Wasser und am Ufer.
+In Schutzgebieten sollen Insekten
+
+139
+00:08:42,777 --> 00:08:46,693
+wieder echten Schutz finden. Mittel,
+die Insekten und Wildkräuter
+
+140
+00:08:46,694 --> 00:08:50,018
+abtöten und dabei die biologische
+Vielfalt schädigen,
+
+141
+00:08:50,019 --> 00:08:53,698
+wären weitestgehend verbannt.
+Zusätzliche Flächen werden als
+
+142
+00:08:53,699 --> 00:08:57,319
+Biotop anerkannt und unter Schutz
+gestellt. Und auch bei der
+
+143
+00:08:57,320 --> 00:09:00,240
+Landschaftsplanung soll künftig der
+Insektenschutz stärker
+
+144
+00:09:00,241 --> 00:09:03,564
+berücksichtigt werden.
+Das erleichtert es zum Beispiel,
+
+145
+00:09:03,665 --> 00:09:06,551
+Biotope zu einem Netzwerk
+geschützter Lebensräume
+
+146
+00:09:06,552 --> 00:09:07,952
+zu verbinden.
+
+147
+00:09:08,153 --> 00:09:10,581
+Wir haben im Kabinett damit
+Lösungen gefunden,
+
+148
+00:09:10,582 --> 00:09:13,365
+die der Landwirtschaft und den
+Insekten gleichermaßen
+
+149
+00:09:13,366 --> 00:09:15,974
+gerecht werden.
+Die neuen Regelungen sind eine
+
+150
+00:09:15,975 --> 00:09:19,686
+Mischung aus neuen rechtlichen
+Vorgaben, der Öffnung für
+
+151
+00:09:19,687 --> 00:09:23,020
+Vertragsnaturschutz und
+gesellschaftlich gemeinsam
+
+152
+00:09:23,021 --> 00:09:25,021
+erarbeiteten Lösungen.
+
+153
+00:09:25,222 --> 00:09:28,943
+Die aufgeheizte Debatte der letzten
+Wochen zu diesem Thema hat erneut
+
+154
+00:09:28,944 --> 00:09:33,113
+deutlich gemacht, wie wichtig das
+Herstellen von Gemeinsamkeit in
+
+155
+00:09:33,114 --> 00:09:35,114
+unserer Gesellschaft ist.
+
+156
+00:09:35,115 --> 00:09:39,033
+Ich weiß: die Landwirtinnen und
+Landwirte sind unter Druck aufgrund
+
+157
+00:09:39,334 --> 00:09:42,627
+der teilweise unanständigen
+Preispolitik des Handels und
+
+158
+00:09:42,628 --> 00:09:46,660
+aufgrund einer jahrelang verfehlten
+Agrarpolitik. Deshalb setze ich
+
+159
+00:09:46,661 --> 00:09:49,865
+mich dafür ein, dass das Umsteuern
+in der Landwirtschaft künftig
+
+160
+00:09:49,866 --> 00:09:53,235
+besser entlohnt wird.
+Wir brauchen deutlich mehr Geld aus
+
+161
+00:09:53,336 --> 00:09:56,646
+der Agrarförderung in der
+sogenannten zweiten Säule,
+
+162
+00:09:56,647 --> 00:09:59,656
+um vertragliche kooperative
+Vereinbarungen besser
+
+163
+00:09:59,657 --> 00:10:01,657
+finanzieren zu können.
+
+164
+00:10:02,058 --> 00:10:06,151
+Meine Damen und Herren Abgeordnete,
+Insekten, das sind kleine Nutztiere.
+
+165
+00:10:06,152 --> 00:10:09,720
+Sie bestäuben Blüten,
+sie fressen Schädlinge,
+
+166
+00:10:09,721 --> 00:10:13,362
+sie bereiten gesunde Böden,
+sie ernähren Vögel
+
+167
+00:10:13,363 --> 00:10:15,363
+und andere Tiere.
+
+168
+00:10:15,364 --> 00:10:18,330
+Insektenschutz sichert nicht nur das
+Überleben von Hirschkäfern
+
+169
+00:10:18,331 --> 00:10:19,631
+und Erdhummeln.
+
+170
+00:10:19,632 --> 00:10:23,070
+Er sichert auch die Zukunft unserer
+Landwirtschaft und nutzt
+
+171
+00:10:23,071 --> 00:10:25,729
+damit uns allen.
+Gleiches gilt für viele
+
+172
+00:10:25,730 --> 00:10:29,304
+Projekte der Umweltpolitik,
+zum Beispiel beim Klimaschutz.
+
+173
+00:10:29,305 --> 00:10:33,636
+Letzte Woche hat das Bundeskabinett
+beschlossen, den Anteil erneuerbarer
+
+174
+00:10:33,637 --> 00:10:36,485
+Energien im Verkehr
+ganz erheblich zu steigern.
+
+175
+00:10:36,886 --> 00:10:40,681
+Weitere Schritte sind nötig,
+schon allein aufgrund der Anhebung
+
+176
+00:10:40,820 --> 00:10:44,630
+des EU-Klimazieles für 2030, ein
+weiterer großer Erfolg der letzten
+
+177
+00:10:44,693 --> 00:10:47,395
+Wochen und das
+Ergebnis wirklich harter Arbeit.
+
+178
+00:10:47,496 --> 00:10:50,111
+Auch bei der Reduzierung von
+Plastikmüll geht es voran.
+
+179
+00:10:50,113 --> 00:10:53,617
+Wer sich Essen oder Kaffee zum
+Mitnehmen kauft, soll künftig die
+
+180
+00:10:53,618 --> 00:10:56,327
+Wahl haben zwischen
+Mehrweg- und  Einwegbehältern.
+
+181
+00:10:56,327 --> 00:11:00,823
+Das hat das Kabinett Ende Januar
+vereinbart und heute erst Regelungen
+
+182
+00:11:00,840 --> 00:11:04,758
+zur Kennzeichnung von Einweg-
+produkten. Also die Klimakrise,
+
+183
+00:11:04,843 --> 00:11:08,391
+Die Plastikflut, der Insektenschwund,
+der Verlust von
+
+184
+00:11:08,392 --> 00:11:12,313
+Lebensräume, all das geht weiter,
+leider auch im Pandemiezeiten.
+
+185
+00:11:12,314 --> 00:11:16,413
+Lassen wir uns daher weiter an Lösungen
+arbeiten, die Menschen und
+
+186
+00:11:16,414 --> 00:11:18,585
+Umwelt gleichermaßen zugute kommen.
+
+187
+00:11:18,586 --> 00:11:22,306
+Lassen Sie uns das gemeinsam tun.
+Ich freue mich jetzt auf Ihre Fragen.
+
+188
+00:11:26,440 --> 00:11:30,364
+Die erste Frage stellt der Kollege
+Karsten Hilse, AfD.
+
+189
+00:11:36,440 --> 00:11:40,607
+Vielen Dank, Herr Präsident.
+Sehr geehrte Ministerin!
+
+190
+00:11:40,608 --> 00:11:43,291
+Zum Thema CO2-Steuer:
+Die Bundesregierung hat,
+
+191
+00:11:43,292 --> 00:11:45,292
+wirksam zum ersten 1. Januar 2021,
+
+192
+00:11:45,293 --> 00:11:50,247
+die CO2-Steuer eingeführt.
+Deren Wirksamkeit ist offenkundig;
+
+193
+00:11:50,248 --> 00:11:54,151
+denn die gesamte Energie verteuerte
+sich ab dem ersten 1. Januar 2021
+
+194
+00:11:54,152 --> 00:11:56,572
+schlagartig.
+
+195
+00:11:56,840 --> 00:12:02,279
+Das Vergleichsportal Verivox
+errechnete im Schnitt stattliche 7 % mehr,
+
+196
+00:12:02,280 --> 00:12:04,329
+nur für den Januar.
+
+197
+00:12:04,740 --> 00:12:07,515
+Das ist zum geringen Teil natürlich
+auch durch die Rücknahme der
+
+198
+00:12:07,516 --> 00:12:10,292
+Mehrwertsteuersenkung geschuldet,
+aber eben nur zum geringen Teil.
+
+199
+00:12:10,293 --> 00:12:15,732
+Den Löwenanteil verursacht die CO2-
+Steuer. Und das bei gleichzeitiger
+
+200
+00:12:15,733 --> 00:12:20,428
+Steigerung von CO2-Emissionen weltweit,
+zum Beispiel in China und Indien.
+
+201
+00:12:20,429 --> 00:12:24,468
+Jetzt meine Frage: Wie kommen Sie
+und Ihre Regierung auf die Idee,
+
+202
+00:12:24,469 --> 00:12:27,644
+dass die deutsche Energie-
+verteuerung etwas anderes
+
+203
+00:12:27,645 --> 00:12:31,338
+bewirkt, als dass die Wirtschaft
+abwandert und die Leute mittels
+
+204
+00:12:31,339 --> 00:12:34,744
+hoher Preise bei gleichzeitigem
+Arbeitsplatzverlust in die
+
+205
+00:12:34,745 --> 00:12:36,745
+Armut getrieben werden.
+
+206
+00:12:36,746 --> 00:12:38,746
+Frau Bundesministerin.
+
+207
+00:12:40,840 --> 00:12:43,041
+Ganz herzlichen Dank für die Frage.
+
+208
+00:12:43,042 --> 00:12:47,143
+Wir haben einen CO2-Preis eingeführt,
+weil CO2 eine Belastung für das Klima
+
+209
+00:12:47,144 --> 00:12:50,609
+für die Umwelt ist und deswegen CO2
+reduziert werden muss.
+
+210
+00:12:50,920 --> 00:12:55,806
+CO2-Preis wirkt ab ersten 1. Januar.
+Und das ist genau das Richtige,
+
+211
+00:12:55,807 --> 00:13:00,875
+um eben ein Umsteuern Richtung der
+klimafreundlichen Alternativen auf
+
+212
+00:13:00,876 --> 00:13:02,876
+den Weg zu bringen.
+
+213
+00:13:02,877 --> 00:13:06,066
+Wir haben weltweit eine
+Verantwortung, wir haben eine
+
+214
+00:13:06,067 --> 00:13:10,083
+Verantwortung, weil wir eben in
+großem Umfang CO2 emittiert haben,
+
+215
+00:13:10,084 --> 00:13:14,218
+und dieser Verantwortung werden wir
+in dieser Regierung auch gerecht.
+
+216
+00:13:14,219 --> 00:13:17,237
+Dieser Verantwortung werden wir
+europaweit gerecht.
+
+217
+00:13:17,270 --> 00:13:20,855
+Das wird die AfD hier im
+Parlament und auch
+
+218
+00:13:20,856 --> 00:13:23,650
+generell nicht verhindern.
+Wir haben da eine
+
+219
+00:13:23,651 --> 00:13:25,651
+Verantwortung für die Zukunft.
+
+220
+00:13:25,940 --> 00:13:28,250
+Nachfrage, Herr Kollege?
+
+221
+00:13:31,410 --> 00:13:33,410
+Ja, vielen Dank!
+
+222
+00:13:33,450 --> 00:13:36,458
+Frau Ministerin, in einem Wortbeitrag
+im Bayerischen Rundfunk
+
+223
+00:13:36,459 --> 00:13:41,191
+Im Zusammenhang mit der Corona-
+epidemie sagten Sie konkret:
+
+224
+00:13:41,192 --> 00:13:44,196
+Wir merken im Moment ja alle,
+dass wir eben
+
+225
+00:13:44,197 --> 00:13:46,376
+nicht alles steuern können.
+
+226
+00:13:47,240 --> 00:13:50,073
+Dem können wir natürlich
+zustimmen, nur zustimmen.
+
+227
+00:13:50,240 --> 00:13:52,966
+Würden Sie uns daher bitte in
+einfachen, verständlichen Worten
+
+228
+00:13:52,967 --> 00:13:56,629
+erklären, was Sie und Ihre
+Regierung dazu veranlasst,
+
+229
+00:13:58,230 --> 00:14:01,923
+die Gesellschaft auch darauf
+auszurichten, dass das mindestens so
+
+230
+00:14:01,924 --> 00:14:06,184
+komplexe, wenn nicht sogar
+komplexere Klimasystem der Erde sich
+
+231
+00:14:06,185 --> 00:14:09,780
+von uns oder von ihrer Regierung
+beeinflussen lässt.
+
+232
+00:14:13,440 --> 00:14:16,564
+Herr Abgeordneter, ja,
+mit dem Klima, mit der Natur,
+
+233
+00:14:16,565 --> 00:14:20,044
+mit der Umwelt können Sie nicht
+verhandeln. Es gibt keine
+
+234
+00:14:20,045 --> 00:14:22,580
+Verhandlungslösung.
+Das Klima wartet nicht,
+
+235
+00:14:22,581 --> 00:14:24,434
+bis wir soweit sind,
+
+236
+00:14:24,435 --> 00:14:28,031
+sondern wir müssen Maßnahmen
+ergreifen, und wir sind davon
+
+237
+00:14:28,032 --> 00:14:31,333
+geprägt, dass wir sagen:
+Wir müssen Vorsorge leisten.
+
+238
+00:14:31,334 --> 00:14:36,391
+Wir müssen CO2-Emissionen reduzieren;
+denn 99,8 % aller
+
+239
+00:14:36,392 --> 00:14:39,964
+Wissenschaftlerinnen und
+Wissenschaftler auf der Welt sind
+
+240
+00:14:40,765 --> 00:14:44,337
+sich einig, dass wir etwas gegen
+diese Klimaveränderungen
+
+241
+00:14:44,338 --> 00:14:46,886
+tun sollen.
+Schauen Sie ins IPCC,
+
+242
+00:14:46,887 --> 00:14:50,577
+in das internationale Klima-Panel!
+Da sehen Sie, dass es eine große
+
+243
+00:14:50,578 --> 00:14:54,598
+Einigkeit in der Wissenschaft gibt.
+Wir folgen hier der Wissenschaft,
+
+244
+00:14:54,599 --> 00:14:58,124
+wir reduzieren CO2. Wir sind in
+Deutschland in den letzten Jahren da
+
+245
+00:14:58,125 --> 00:15:02,035
+wirklich schon vorangekommen und wir
+werden bis Mitte des Jahrhunderts
+
+246
+00:15:02,036 --> 00:15:05,205
+treibhausgasneutral werden.
+Das sind wir dieser Gesellschaft und
+
+247
+00:15:05,206 --> 00:15:07,674
+das sind wir der internationalen
+Verantwortung schuldig.
+
+248
+00:15:08,720 --> 00:15:11,197
+Der Kollege Dr. Hoffmann, FDP
+hat eine Nachfrage.
+
+249
+00:15:12,140 --> 00:15:15,755
+Entschuldigung.
+Mit dem Mund-und Nasen-Schutz ist
+
+250
+00:15:15,756 --> 00:15:17,822
+man zwar geschützt,
+aber auch davor,
+
+251
+00:15:17,823 --> 00:15:19,823
+dass man erkannt wird.
+
+252
+00:15:21,170 --> 00:15:23,840
+Vielen Dank, Herr Präsident.
+Deswegen hatten wir früher auch mal
+
+253
+00:15:23,841 --> 00:15:25,841
+ein Vermummungsverbot.
+
+254
+00:15:27,840 --> 00:15:31,389
+Vielen Dank, Herr Präsident. Frau
+Ministerin, Sie haben es gerade
+
+255
+00:15:31,390 --> 00:15:35,049
+angesprochen: Bei den CO2-Bepreisungen
+grundsätzlich sind wir da ja auf
+
+256
+00:15:35,050 --> 00:15:38,064
+der gleichen Schiene.
+Sie haben aber in diesem Jahr auch
+
+257
+00:15:38,065 --> 00:15:40,084
+gleichzeitig die
+Kfz-Steuer angehoben.
+
+258
+00:15:40,250 --> 00:15:44,093
+Das ist jetzt nur eine Steuer,
+die geringe Einkommen belastet
+
+259
+00:15:44,094 --> 00:15:47,818
+besonders teuer dann ist,
+wenn man das Fahrzeug wenig benutzt
+
+260
+00:15:47,819 --> 00:15:51,422
+Ist diese systemwidrige Art,
+genau das andere zu tun,
+
+261
+00:15:51,423 --> 00:15:55,388
+ausgerechnet bei der Mobilität, im
+Sinne der Bundesregierung, im
+
+262
+00:15:55,389 --> 00:15:58,091
+Sinne Ihres Ressorts?
+Herr Abgeordneter, ja,
+
+263
+00:15:58,392 --> 00:16:00,855
+wir haben auch
+die Kfz-Steuer angehoben.
+
+264
+00:16:00,856 --> 00:16:05,397
+Das ist genau der richtige Anreiz,
+eben auf sparsame, auf kleinere
+
+265
+00:16:05,398 --> 00:16:08,770
+Fahrzeuge zu setzen und der Anreiz,
+stärker die
+
+266
+00:16:08,771 --> 00:16:12,043
+E-Mobilität voranzubringen.
+Wir haben es geschafft,
+
+267
+00:16:12,044 --> 00:16:15,689
+mit all den Förderprogrammen,
+die wir auf den Weg gebracht haben,
+
+268
+00:16:15,690 --> 00:16:18,830
+so viele neue Anmeldungen bei den E-
+Fahrzeugen zu haben
+
+269
+00:16:18,831 --> 00:16:20,831
+wie noch niemals zuvor.
+
+270
+00:16:20,832 --> 00:16:24,801
+Und das ist genau der richtige Weg,
+den wir da weitergehen wollen.
+
+271
+00:16:24,802 --> 00:16:29,371
+Die Kfz-Steuer ist ein Baustein in
+dem gesamten Maßnahmenprogramm,
+
+272
+00:16:29,372 --> 00:16:31,372
+was dazu einen Beitrag liefert.
+
+273
+00:16:31,640 --> 00:16:35,913
+Danke sehr. Ich lasse es noch eine Nachfrage
+des Kollegen Marc Bernhard, AfD, zu,
+
+274
+00:16:35,914 --> 00:16:39,309
+und dann komme ich zu der Frage des
+Kollegen Alois Gerig.
+
+275
+00:16:43,340 --> 00:16:47,033
+Vielen Dank, Herr Präsident.
+Frau Ministerin,
+
+276
+00:16:47,034 --> 00:16:51,440
+bereits heute muss eine vierköpfige
+Familie für Ihre ganzen Klima-
+
+277
+00:16:51,441 --> 00:16:56,042
+maßnahmen 4000 € im Jahr bezahlen
+und trotz dieser massiven und den
+
+278
+00:16:56,043 --> 00:17:00,255
+Belastungen hat eben in den letzten
+zehn Jahren der CO2-Ausstoß
+
+279
+00:17:00,256 --> 00:17:04,468
+Deutschlands so gut wie überhaupt
+nicht abgenommen; er hat sich nicht
+
+280
+00:17:04,469 --> 00:17:08,810
+verändert. Und jetzt kommen durch
+Ihre CO2-Steuer bis 2026
+
+281
+00:17:08,811 --> 00:17:13,088
+weitere 2600 € zusätzliche
+Belastungen auf diese vierköpfige
+
+282
+00:17:13,089 --> 00:17:17,625
+Familie zu. Dann kommt noch der Green
+Deal dazu; das sollen ja weitere
+
+283
+00:17:17,626 --> 00:17:21,967
+1000 Milliarden Euro bis 2030
+ausgegeben werden. Das sind noch mal
+
+284
+00:17:21,968 --> 00:17:26,634
+mehr als 1600 € pro vierköpfige
+Familie pro Jahr, also in Summe weit
+
+285
+00:17:26,635 --> 00:17:31,106
+über 8000 € pro Jahr für
+vier-köpfige Familien. Jetzt ist die
+
+286
+00:17:31,107 --> 00:17:35,254
+Frage: Wie sollen sich die Menschen
+in unserem Land diese ganzen
+
+287
+00:17:35,255 --> 00:17:37,976
+Ausgaben eigentlich
+noch leisten können?
+
+288
+00:17:37,977 --> 00:17:42,956
+Insbesondere angesichts der
+größten Wirtschaftskrise seit 1929,
+
+289
+00:17:42,957 --> 00:17:47,862
+wie Bundeskanzlerin Merkel ja sagt.
+Sehr geehrter Herr Abgeordnete,
+
+290
+00:17:47,863 --> 00:17:50,274
+was wir wollen ist,
+dass die klimafreundlichen
+
+291
+00:17:50,275 --> 00:17:53,576
+Alternativen gewählt werden.
+Wir wollen als Staat gar nicht mehr
+
+292
+00:17:53,577 --> 00:17:57,051
+Geld einnehmen über den CO2-Preis
+zum Beispiel, sondern wir wollen,
+
+293
+00:17:57,052 --> 00:17:59,922
+dass die klimafreundlichen
+Alternativen diejenigen sind,
+
+294
+00:17:59,923 --> 00:18:02,945
+die günstiger sind und ich
+bezweifele erstmal Ihre Zahlen,
+
+295
+00:18:02,946 --> 00:18:06,970
+die Sie hier gerade genannt haben.
+Wir haben auch enorme Entlastungen,
+
+296
+00:18:06,971 --> 00:18:09,733
+gerade für Familien
+auf den Weg gebracht.
+
+297
+00:18:09,734 --> 00:18:12,994
+Wir haben ein Mobilitätsgeld eingeführt,
+also die Pendlerpauschale verändert.
+
+298
+00:18:12,995 --> 00:18:17,122
+Wir helfen bei der Sanierung von
+Gebäuden. Es gibt ein Programm zum
+
+299
+00:18:17,123 --> 00:18:20,951
+Austausch alter Ölheizungen.
+Wir machen das Bahnfahren billiger.
+
+300
+00:18:20,952 --> 00:18:25,020
+Wir haben den Strompreis
+gedeckelt. Wir haben also auch eine
+
+301
+00:18:25,021 --> 00:18:28,730
+ganze Menge Dinge auch auf den Weg
+gebracht, die kostendämpfend wirken,
+
+302
+00:18:28,731 --> 00:18:32,978
+aber was wir brauchen, und das ist
+die Umsteuerung, die auf uns alle zu
+
+303
+00:18:32,979 --> 00:18:36,509
+kommt. Wir müssen alle die
+klimafreundlichen Alternativen
+
+304
+00:18:36,510 --> 00:18:39,560
+wählen. Das ist das,
+was künftig günstiger ist.
+
+305
+00:18:39,561 --> 00:18:42,834
+Das ist das was Gutes für die
+Menschen und für die Umwelt.
+
+306
+00:18:44,540 --> 00:18:49,625
+Danke sehr. Alois Gerig, CDU/CSU,
+stellt die nächste Frage.
+
+307
+00:18:57,540 --> 00:19:02,755
+Sehr geehrte Frau Bundesministerin,
+danke, dass ich fragen darf. Sie sind
+
+308
+00:19:02,756 --> 00:19:06,884
+doch hoffentlich mit mir einer
+Meinung, dass wir unseren
+
+309
+00:19:06,885 --> 00:19:10,724
+Bäuerinnen und Bauern
+den Rücken stärken müssen.
+
+310
+00:19:10,725 --> 00:19:14,869
+Global gesehen nimmt
+der Hunger exorbitant zu.
+
+311
+00:19:14,870 --> 00:19:19,900
+Bei uns schließen täglich Höfe
+ihre Tore für immer,
+
+312
+00:19:19,901 --> 00:19:25,560
+und die Marktanteile für die
+Selbstversorgung sind permanent.
+
+313
+00:19:25,561 --> 00:19:31,921
+Deswegen meine Fragen: Wie wollen Sie
+im Insektenschutzgesetz verhindern,
+
+314
+00:19:31,922 --> 00:19:38,025
+dass neue zusätzliche Bürokratie
+aufgebaut wird und dieser nationale
+
+315
+00:19:38,026 --> 00:19:43,700
+ordnungspolitische Alleingang
+die Arbeit unserer Bäuerinnen und
+
+316
+00:19:43,701 --> 00:19:45,849
+Bauen weiter erschwert?
+
+317
+00:19:45,910 --> 00:19:50,320
+Und zweitens: Wie ist sichergestellt,
+dass die guten kooperativen
+
+318
+00:19:50,321 --> 00:19:54,866
+Ansätze, die wir beispielsweise in
+Baden Württemberg und anderen
+
+319
+00:19:54,867 --> 00:19:59,142
+Bundesländern mit viel Mühe
+gemeinsam mit Politik, NGOs und
+
+320
+00:19:59,143 --> 00:20:03,620
+der Landwirtschaft umgesetzt haben,
+nicht gefährdet werden?
+
+321
+00:20:06,140 --> 00:20:09,593
+Sehr geehrter Herr Abgeordneter,
+ich glaube uns liegt allen die
+
+322
+00:20:09,594 --> 00:20:12,831
+Zukunft der Landwirtschaft am
+Herzen. Wir wollen, dass in
+
+323
+00:20:12,832 --> 00:20:16,178
+Deutschland gute Lebensmittel
+hergestellt werden und deswegen
+
+324
+00:20:16,179 --> 00:20:19,255
+haben wir das Gesetz,
+was wir auf den Weg gebracht haben
+
+325
+00:20:19,256 --> 00:20:23,033
+und übrigens auch die Verordnung,
+die aber bei meiner Kollegin Klöckner
+
+326
+00:20:23,034 --> 00:20:26,975
+liegt, sehr ausgewogen gestaltet.
+Wir werden mit meinem Gesetzentwurf
+
+327
+00:20:26,976 --> 00:20:30,636
+die Landschaftsplanung stärken,
+wir werden den gesetzlichen
+
+328
+00:20:30,637 --> 00:20:34,837
+Biotopschutz nach vorne bringen,
+den Biozideinsatz in Schutzgebieten
+
+329
+00:20:34,838 --> 00:20:37,178
+jetzt endlich
+sozusagen einschränken.
+
+330
+00:20:37,179 --> 00:20:40,151
+Wir werden temporäre
+Naturschutzmaßnahmen ermöglichen,
+
+331
+00:20:40,152 --> 00:20:43,380
+etwas, was aus der Landwirtschaft
+heraus sehr gefordert wurde,
+
+332
+00:20:43,381 --> 00:20:46,251
+wir werden Beleuchtungsanlagen
+verändern.
+
+333
+00:20:46,252 --> 00:20:49,737
+Ddas sind alles wichtige Punkte zum
+Insektenschutz. Es ist nicht mehr
+
+334
+00:20:49,738 --> 00:20:53,736
+Bürokratie für die Landwirtschaft.
+Wir haben in der Pflanzenschutz-
+
+335
+00:20:53,737 --> 00:20:58,112
+anwendungsverordnung im Ressort meiner
+Kollegin Klöckner sehr gut den
+
+336
+00:20:58,113 --> 00:21:02,002
+kooperativen Ansatz unterstützt.
+Solche Modelle, wie wir sie aus
+
+337
+00:21:02,003 --> 00:21:05,629
+Niedersachsen, aus Brandenburg
+kennen, wo alle sich an einen Tisch
+
+338
+00:21:05,630 --> 00:21:08,168
+setzen, gemeinsam Maßnahmen
+nach vorne bringen,
+
+339
+00:21:08,169 --> 00:21:10,973
+solche Modelle werden jetzt
+ausdrücklich unterstützt,
+
+340
+00:21:10,974 --> 00:21:13,930
+gefördert und für ganz Deutschland
+auf den Weg gebracht.
+
+341
+00:21:17,040 --> 00:21:21,117
+Nachfrage? Danke. Dann hat der Kollege
+Dr. Hoffmann jetzt eine Nachfrage.
+
+342
+00:21:23,540 --> 00:21:26,686
+Vielen Dank, Herr Präsident für die
+Möglichkeit zur Nachfrage. Frau Ministerin,
+
+343
+00:21:26,687 --> 00:21:29,192
+ich will die Frage von Herrn Gerig noch
+
+344
+00:21:29,193 --> 00:21:32,461
+mal aufgreifen und konkreter machen.
+Wir haben in Baden-Württemberg
+
+345
+00:21:32,462 --> 00:21:35,246
+guten Kompromiss gehabt,
+aber jetzt kommen Sie mit neuen
+
+346
+00:21:35,247 --> 00:21:38,471
+Insektenschutzgesetz und stülpen
+den so drüber und machen die
+
+347
+00:21:38,472 --> 00:21:40,472
+Situation nicht besser.
+
+348
+00:21:40,473 --> 00:21:43,744
+Ich will's nochmal konkreter machen:
+Wollen Sie tatsächlich immer noch
+
+349
+00:21:43,745 --> 00:21:46,878
+dass in FFH-Gebieten auch überhaupt
+keine Pflanzenschutzmittel mehr
+
+350
+00:21:46,879 --> 00:21:49,651
+ausgebracht werden?
+Also wir sprechen nicht über
+
+351
+00:21:49,652 --> 00:21:52,229
+Naturschutzgebiete,
+sondern FFH-Gebiete,
+
+352
+00:21:52,230 --> 00:21:56,129
+das bedeutet in Lörrach zum
+Beispiel in meinem Wahlkreis:
+
+353
+00:21:56,130 --> 00:21:59,650
+266 HektarAcker, 50 Hektar Wein und 7
+30 Hektar Obstanbau.
+
+354
+00:22:00,220 --> 00:22:02,220
+Die Flächen können dann im Grunde
+auch nicht
+
+355
+00:22:02,221 --> 00:22:05,074
+mehr bewirtschaftet werden.
+Werden Sie die Flächen ankaufen
+
+356
+00:22:05,075 --> 00:22:08,122
+oder wollen Sie die kalte Enteignung
+so durchgehen lassen?
+
+357
+00:22:11,040 --> 00:22:14,286
+Sehr geehrter Herr Abgeordneter,
+wir haben mit dem Insektenschutz-
+
+358
+00:22:14,287 --> 00:22:17,386
+gesetz und der Pflanzenschutz-
+anwendungsverordnung einen sehr
+
+359
+00:22:17,387 --> 00:22:20,879
+guten Schutz der Insekten auf den
+Weg gebracht und gleichzeitig dafür
+
+360
+00:22:20,880 --> 00:22:24,422
+gesorgt, dass auch Landwirtinnen und
+Landwirte klare Perspektiven haben
+
+361
+00:22:24,423 --> 00:22:27,030
+klar wissen, woran sie sind und
+natürlich weiterhin
+
+362
+00:22:27,031 --> 00:22:29,031
+Landwirtschaft betreiben können.
+
+363
+00:22:29,032 --> 00:22:32,106
+Und wenn Sie sich das Gesetz und die
+Verordnung ansehen,
+
+364
+00:22:32,107 --> 00:22:35,074
+dann werden Sie sehen,
+dass wir kooperative Maßnahmen
+
+365
+00:22:35,075 --> 00:22:38,797
+unterstützen und dass natürlich
+weiter Landwirtschaft möglich ist.
+
+366
+00:22:38,798 --> 00:22:42,554
+Es gibt überhaupt nur in einem kleinen Teil
+der FFH-Gebiete im Moment
+
+367
+00:22:42,555 --> 00:22:46,189
+Landwirtschaft,
+die nicht nach biologischen
+
+368
+00:22:46,190 --> 00:22:48,250
+Maßgaben betrieben wird.
+
+369
+00:22:48,251 --> 00:22:52,603
+Und für diesen kleinen Teil,
+also für den Weinanbau,
+
+370
+00:22:52,604 --> 00:22:56,718
+für den Obst-, Hopfen- und
+
+371
+00:22:56,719 --> 00:23:01,546
+Gemüseanbau haben wir Ausnahmen
+gemacht, so dass dort weiterhin
+
+372
+00:23:01,547 --> 00:23:05,181
+Landwirtschaft stattfindet.
+Das ist selbstverständlich,
+
+373
+00:23:05,182 --> 00:23:08,662
+dass wir so was auf den Weg bringen.
+Wir haben ein Großteil jetzt
+
+374
+00:23:08,663 --> 00:23:11,736
+geschützt, aber Landwirtschaft wird
+weiter in diesen
+
+375
+00:23:11,737 --> 00:23:13,737
+Gebieten möglich sein.
+
+376
+00:23:14,640 --> 00:23:16,640
+Frau Kollegin,
+
+377
+00:23:19,440 --> 00:23:22,972
+Vielen Dank für das Wort. Sehr geehrte Frau
+Ministerin, haben Sie zum Beispiel
+
+378
+00:23:22,973 --> 00:23:27,136
+an dem gestrigen Tag mit den
+Landwirten Kontakt aufgenommen
+
+379
+00:23:27,137 --> 00:23:30,514
+und ihnen gesprochen?
+Ich hab diese langen Kolonnen von
+
+380
+00:23:30,515 --> 00:23:34,399
+den Traktoren gestern gesehen,
+in der Stadt, Unter den Linden
+
+381
+00:23:34,400 --> 00:23:37,787
+und auf der Leipziger Straße.
+Die Bauern sind verzweifelt,
+
+382
+00:23:37,788 --> 00:23:40,355
+und wenn Sie sagen,
+Sie ermöglichen weiterhin
+
+383
+00:23:40,356 --> 00:23:43,579
+Landwirtschaft, dann ist das für
+mich etwas sehr schwach,
+
+384
+00:23:43,580 --> 00:23:46,911
+denn ich muss sagen Landwirtschaft
+ist unsere Lebensquelle.
+
+385
+00:23:46,912 --> 00:23:50,944
+Und wenn man die Landwirtschaft nur
+noch eindämmt, und zügelt und
+
+386
+00:23:50,945 --> 00:23:52,962
+Vorschriften macht,
+
+387
+00:23:53,240 --> 00:23:56,469
+werden wir alle verhungern. Oder
+glauben Sie, wir können durch
+
+388
+00:23:56,470 --> 00:24:00,115
+Lieferketten überleben?
+Das hat man ja gesehen, wie fabelhaft das
+
+389
+00:24:00,116 --> 00:24:04,795
+jetzt funktioniert in der Pandemie. Danke.
+Frau Abgeordnete, nicht nur
+
+390
+00:24:04,796 --> 00:24:09,150
+ich, wir sind insgesamt in der
+Regierung sehr oft mit Landwirtinnen
+
+391
+00:24:09,151 --> 00:24:12,725
+und Landwirten im Gespräch,
+es gibt sogar eine eigene
+
+392
+00:24:12,726 --> 00:24:16,235
+Kommission, die Zukunftskommission
+Landwirtschaft bei
+
+393
+00:24:16,236 --> 00:24:19,476
+der Bundeskanzlerin.
+Es gibt intensive Gespräche genau
+
+394
+00:24:19,477 --> 00:24:22,748
+zu diesem Thema. Landwirtinnen
+und Landwirte stehen mit
+
+395
+00:24:22,749 --> 00:24:24,749
+dem Rücken zur Wand,
+
+396
+00:24:24,750 --> 00:24:28,854
+weil es eine Preispolitik gibt,
+die die Preise für Lebensmittel
+
+397
+00:24:28,855 --> 00:24:31,634
+immer weiter runterdrückt.
+
+398
+00:24:31,635 --> 00:24:34,554
+Selbst mit den Zuschüssen,
+die über die gemeinsame
+
+399
+00:24:34,555 --> 00:24:37,805
+Agrarpolitik gezahlt werden,
+können einfach immer weniger
+
+400
+00:24:37,806 --> 00:24:41,332
+Landwirtinnen und Landwirte leben.
+Deswegen muss das endlich
+
+401
+00:24:41,333 --> 00:24:44,969
+verändert werden. Die Herstellung von Milch
+und anderer Produkte hierzulande
+
+402
+00:24:44,970 --> 00:24:48,496
+muss auch dazu führen,
+dass Landwirtinnen und Landwirte
+
+403
+00:24:48,497 --> 00:24:51,582
+davon leben können.
+Diese unselige Preisspirale, alles immer
+
+404
+00:24:51,583 --> 00:24:53,583
+billiger zu machen.
+
+405
+00:24:53,584 --> 00:24:57,365
+Das muss endlich gestoppt werden.
+Landwirtinnen und Landwirte leisten
+
+406
+00:24:57,366 --> 00:25:00,597
+wichtige Arbeit und diese Arbeit
+spiegelt sich in ihren Produkten
+
+407
+00:25:00,598 --> 00:25:03,387
+wieder, die auf hohem
+Qualitätsniveau sind und die haben
+
+408
+00:25:03,388 --> 00:25:05,388
+auch einen angemessenen Preis.
+
+409
+00:25:08,040 --> 00:25:11,729
+Die nächste Frage stellt der
+Kollege Andreas Beck, AfD.
+
+410
+00:25:14,900 --> 00:25:19,493
+Sehr geehrte Frau Ministerin, artenreiches
+Grünland und Streuobstwiesen sollen
+
+411
+00:25:19,494 --> 00:25:22,975
+den Biotopschutz überführt werden.
+Das drohende Verbot von
+
+412
+00:25:22,976 --> 00:25:26,612
+Pflanzenschutzmitteln auch dort
+könnte dazu führen,
+
+413
+00:25:26,613 --> 00:25:31,221
+dass einige Bauern,
+die ja dort auch freiwillig Umweltschutz
+
+414
+00:25:31,222 --> 00:25:35,912
+betrieben haben,
+jetzt diese Streuobstwiesen, dieses
+
+415
+00:25:35,913 --> 00:25:40,357
+Grünland umbrechen werden,
+und zwar in Ackerfläche.
+
+416
+00:25:40,358 --> 00:25:43,452
+Wie erklären Sie den Bürgern
+eigentlich, dass durch Ihr
+
+417
+00:25:43,453 --> 00:25:46,492
+Insektenschutzpaket der Umweltschutz
+jetzt sogar zum
+
+418
+00:25:46,493 --> 00:25:49,050
+Teil konterkariert wird?
+Das würde mich wirklich interessieren.
+
+419
+00:25:49,051 --> 00:25:52,301
+Herr Abgeordneter,
+ich weiß nicht, wie Sie darauf
+
+420
+00:25:52,302 --> 00:25:55,600
+kommen, dass Landwirtinnen und
+Landwirte ein Interesse daran haben,
+
+421
+00:25:55,601 --> 00:25:58,260
+haben Streuobstwiesen sozusagen um-
+zubrechen und sie
+
+422
+00:25:58,261 --> 00:26:01,257
+nicht mehr zu fördern.
+Das ist etwas, was bei vielen
+
+423
+00:26:01,258 --> 00:26:04,177
+Landwirtinnen und Landwirten
+ein hohes Ansehen hat.
+
+424
+00:26:04,178 --> 00:26:08,742
+Diese Streuobstwiesen sind übrigens
+in vielen Bundesländern heute schon
+
+425
+00:26:08,743 --> 00:26:12,815
+geschützt. Was wir jetzt
+machen, ist ein bundeseinheitlicher
+
+426
+00:26:12,816 --> 00:26:16,405
+Schutz dieser wichtigen Biotope.
+Sie sind wichtig für den Insektenschutz;
+
+427
+00:26:16,406 --> 00:26:20,331
+es handelt sich um wichtige
+Gelände. Ich bin sehr froh,
+
+428
+00:26:20,332 --> 00:26:23,424
+dass es uns jetzt gelungen ist,
+mehr Flächen unter
+
+429
+00:26:23,425 --> 00:26:27,409
+Naturschutz zu stellen.
+Gerade diese Streuobstwiesen sind
+
+430
+00:26:27,410 --> 00:26:31,090
+für den Insektenschutz
+ein ganz wichtiger Ort.
+
+431
+00:26:32,040 --> 00:26:37,740
+Die nächste Nachfrage stellt die Kollegin
+Renate Künast, Bündnis 90/Die Grünen.
+
+432
+00:26:38,841 --> 00:26:40,545
+Frau Ministerin,
+
+433
+00:26:40,546 --> 00:26:44,821
+An einer Stelle bin ich mit Ihnen
+einer Meinung. Ich wundere mich
+
+434
+00:26:44,822 --> 00:26:48,320
+auch, wie manche meinen,
+dass Boden- und Artenvielfaltschutz
+
+435
+00:26:48,521 --> 00:26:52,019
+eine Anfeindungen gegenüber
+den Landwirten sei.
+
+436
+00:26:52,200 --> 00:26:55,262
+Für mich sind das die
+Betriebsgrundlagen der
+
+437
+00:26:55,283 --> 00:26:58,582
+Landwirtschaft. Wenn sie die nicht
+haben, wird es von Betriebskosten her
+
+438
+00:26:58,583 --> 00:27:01,051
+immer teurer, weil man
+andere Mittel einsetzen muss.
+
+439
+00:27:01,352 --> 00:27:04,652
+Meine Frage an Sie bezieht sich
+konkret auf Glyphosat.
+
+440
+00:27:04,853 --> 00:27:09,432
+Sie loben in diesen, das hab ich in den
+Medien auch gelesen, Vereinbarungen
+
+441
+00:27:09,433 --> 00:27:14,364
+jetzt den Ausstieg aus Glyphosat
+Ende 2023. Wo da das Positive ist,
+
+442
+00:27:14,365 --> 00:27:19,015
+verstehe ich nicht ganz, weil
+Glyphosat doch sowieso nur bis Ende 2023
+
+443
+00:27:19,016 --> 00:27:23,384
+in der Europäischen Union
+zugelassen ist und nur noch bis
+
+444
+00:27:23,385 --> 00:27:28,387
+dahin überhaupt eine Verlängerung
+bekam, weil damals Herr Schmidt als
+
+445
+00:27:28,388 --> 00:27:33,390
+Agrarminister gegen die Vereinbarung
+der Koalition aus CDU/CSU und SPD
+
+446
+00:27:33,391 --> 00:27:37,759
+und der Kabinettsentscheidung in Brüssel
+mit Ja gestimmt hatte.
+
+447
+00:27:37,760 --> 00:27:41,890
+Wir wissen also: Glyphosat wird in
+Brüssel für die Zeit nach 2023
+
+448
+00:27:41,891 --> 00:27:45,381
+ keine Verlängerung mehr bekommen. Wo ist
+jetzt das Besondere Ihrer
+
+449
+00:27:45,382 --> 00:27:48,000
+Entscheidung, dass der Einsatz Ende
+2023 zu Ende geht?
+
+450
+00:27:49,570 --> 00:27:52,058
+Frau Abgeordnete, Sie haben
+genau richtig beschrieben,
+
+451
+00:27:52,059 --> 00:27:54,439
+warum es Glyphosateinsatz überhaupt
+europarechtlich im
+
+452
+00:27:54,440 --> 00:27:56,691
+Moment noch gibt.
+Das ist nun mal das
+
+453
+00:27:56,692 --> 00:28:00,210
+Europarecht; wir können es nicht
+vorher komplett verbieten.
+
+454
+00:28:00,211 --> 00:28:03,325
+Was wir aber machen, ist,
+vorher schon den Einsatz von
+
+455
+00:28:03,326 --> 00:28:07,247
+Glyphosat deutlich zu reduzieren.
+Das, was wir zugesagt haben,
+
+456
+00:28:07,248 --> 00:28:11,457
+nämlich einen Plan zur Reduzierung
+von Glyphosat, haben wir heute
+
+457
+00:28:11,458 --> 00:28:14,572
+auf den Weg gebracht.
+Ich stimme Ihnen absolut zu:
+
+458
+00:28:14,660 --> 00:28:17,872
+Insekten und der Schutz
+des Bodens sind
+
+459
+00:28:17,873 --> 00:28:21,227
+die Grundlage von Landwirtschaft.
+Wenn wir die Bestäubungs-
+
+460
+00:28:21,228 --> 00:28:24,175
+leistungen der Insekten als Menschen
+selber übernehmen wollten,
+
+461
+00:28:24,176 --> 00:28:27,179
+dann wäre das kaum möglich,
+
+462
+00:28:27,180 --> 00:28:30,290
+dann gäbe es in Deutschland kaum
+noch Obstanbau, dann wäre
+
+463
+00:28:30,291 --> 00:28:33,846
+die Landwirtschaft enorm gefährdet.
+Deswegen ist es uns so wichtig,
+
+464
+00:28:33,847 --> 00:28:36,661
+die Insekten, vor allen Dingen die
+Bestäuber, zu schützen.
+
+465
+00:28:38,340 --> 00:28:41,888
+Carsten Träger, SPD,
+hat eine Nachfrage.
+
+466
+00:28:44,970 --> 00:28:48,055
+Vielen Dank, Herr Präsident.
+Liebe Frau Bundesministerin,
+
+467
+00:28:48,056 --> 00:28:51,351
+herzlichen Dank für Ihren
+beharrlichen Einsatz für das Thema
+
+468
+00:28:51,352 --> 00:28:54,961
+Insektenschutz, den wir ja schon im
+Koalitionsvertrag abgesprochen hatten;
+
+469
+00:28:54,962 --> 00:28:58,518
+aber nun sind wir auf einem sehr
+guten Weg, was die Umsetzung angeht.
+
+470
+00:28:58,519 --> 00:29:01,396
+Auch aus meiner Sicht ist das
+Verbot von Glyphosat
+
+471
+00:29:01,397 --> 00:29:06,480
+ein ganz wesentlicher Baustein der
+Strategie oder das jetzt anstehenden
+
+472
+00:29:06,481 --> 00:29:10,788
+Handelns. Es ist aber nur eins von
+vielen Pflanzenschutzmitteln.
+
+473
+00:29:10,900 --> 00:29:14,536
+Deswegen wäre meine Frage: Wie
+sind die Vereinbarungen,
+
+474
+00:29:14,537 --> 00:29:18,990
+die im Kabinett getroffen wurden,
+hinsichtlich des Umgangs mit anderen
+
+475
+00:29:18,991 --> 00:29:21,624
+Pflanzenschutzmitteln?
+Herr Abgeordneter,
+
+476
+00:29:21,625 --> 00:29:24,475
+vielen Dank für diese Frage.
+Ja, glyphosathaltige
+
+477
+00:29:24,476 --> 00:29:28,281
+Pflanzenschutzmittel sind nur ein
+Teil des Problems. Deswegen haben
+
+478
+00:29:28,282 --> 00:29:31,526
+wir vereinbart, dass wir aus
+Glyphosat aussteigen wollen,
+
+479
+00:29:31,527 --> 00:29:35,276
+so schnell es geht, so schnell,
+es europarechtlich möglich ist.
+
+480
+00:29:35,277 --> 00:29:39,137
+Das ist nun mal leider erst Ende 2023.
+Wir wollen aber auf dem Weg
+
+481
+00:29:39,138 --> 00:29:42,606
+dahin die Pflanzenschutzmittel
+deutlich reduzieren. Wir werden
+
+482
+00:29:42,607 --> 00:29:45,964
+sowohl Herbizide, als auch
+Pflanzenschutzmittel deutlich
+
+483
+00:29:45,965 --> 00:29:49,657
+reduzieren in den Schutzgebieten,
+aber eben auch auf den Äckern.
+
+484
+00:29:49,658 --> 00:29:52,668
+Und deswegen haben wir auch die
+freiwilligen Lösungen noch mal
+
+485
+00:29:52,669 --> 00:29:55,993
+ausdrücklich begrüßt.
+Es ist eine deutliche Verbesserung,
+
+486
+00:29:55,994 --> 00:30:00,018
+das mit den ganzen Volksbegehren,
+Initiativen für den Artenschutz
+
+487
+00:30:00,019 --> 00:30:04,103
+sich so viele Länder schon auf den
+Weg gemacht haben, kooperative
+
+488
+00:30:04,104 --> 00:30:07,762
+Lösungen vor Ort zu finden.
+Das wollen wir jetzt für ganz
+
+489
+00:30:07,763 --> 00:30:10,872
+Deutschland ermöglichen und damit
+den Einsatz von
+
+490
+00:30:10,873 --> 00:30:13,494
+Pflanzenschutzmitteln
+deutlich reduzieren.
+
+491
+00:30:13,520 --> 00:30:18,201
+Angesichts der Vielzahl von
+Nachfragen wollte ich Ihnen gerne
+
+492
+00:30:18,202 --> 00:30:21,524
+sagen, dass ich maximal zwei
+Nachfragen aus
+
+493
+00:30:21,525 --> 00:30:23,525
+jeder Fraktion zulasse.
+
+494
+00:30:24,000 --> 00:30:28,452
+Herr Kollege Kraft, das trifft Sie immer;
+es tut mir leid.
+
+495
+00:30:28,453 --> 00:30:32,778
+aber die Kolleginnen Nicole Bauer, FDP,
+und Steffi Lemke können noch
+
+496
+00:30:32,779 --> 00:30:34,779
+eine Nachfrage stellen.
+
+497
+00:30:34,780 --> 00:30:38,559
+Dann kommen wir zu der Frage des
+Kollegen Dr. Gero Clemens Hocker.
+
+498
+00:30:48,910 --> 00:30:51,192
+Vielen Dank,
+dass Sie meine Frage zulassen. Ich habe
+
+499
+00:30:51,193 --> 00:30:54,119
+tatsächlich drei Fragen. Einerseits sagen
+Sie im Hinblick auf die Änderung der
+
+500
+00:30:54,120 --> 00:30:58,386
+Pflanzenschutz-Anwendungsverordnung,
+dass Sie sich für die
+
+501
+00:30:58,387 --> 00:31:02,593
+Zukunft der Landwirtschaft und
+für Planungssicherheit einsetzen
+
+502
+00:31:02,594 --> 00:31:07,104
+Zugleich steht im Entwurf, dass sich
+die neue Verordnung
+
+503
+00:31:07,105 --> 00:31:09,970
+bis 2024 erstreckt, und danach gilt
+
+504
+00:31:09,971 --> 00:31:11,971
+keinerlei Regelung mehr.
+Mich würde interessieren:
+
+505
+00:31:11,972 --> 00:31:14,001
+Wie ist Ihre Haltung dazu?
+
+506
+00:31:14,002 --> 00:31:16,901
+Anderseits haben Sie gesagt, die
+Landwirtschaft, die bäuerlichen
+
+507
+00:31:16,902 --> 00:31:19,900
+Betriebe liegen Ihnen am Herzen.
+In Bayern, in Baden-Württemberg,
+
+508
+00:31:19,901 --> 00:31:22,647
+überall gehen die Landwirte auf die
+Straße, auch hier in Berlin.
+
+509
+00:31:22,648 --> 00:31:26,636
+Zugleich wird die SPD in zahlreichen
+Wahlkämpfen aktuell dafür,
+
+510
+00:31:26,637 --> 00:31:29,691
+keine Pestiziden auf
+Gemeindeflächen einzusetzen.
+
+511
+00:31:29,692 --> 00:31:31,922
+Wie passt das zusammen,
+wenn Sie sich doch für die
+
+512
+00:31:31,923 --> 00:31:33,923
+regionale Landwirtschaft
+stark machen?
+
+513
+00:31:33,924 --> 00:31:36,935
+Meine dritte Frage geht in die
+Richtung: Sie sagen
+
+514
+00:31:36,936 --> 00:31:41,158
+Artenvielfalt, Biodiversität sind
+Ihnen wichtig. Warum setzen Sie sich
+
+515
+00:31:41,159 --> 00:31:43,623
+dann nicht im Rahmen der GAP
+dafür ein,
+
+516
+00:31:43,624 --> 00:31:47,576
+dass der Grünlandumbruch, das
+Grünlandumbruchsangebot angepasst
+
+517
+00:31:47,577 --> 00:31:50,990
+wird und nicht zahlreiche
+Ackerflächen alle fünf Jahre
+
+518
+00:31:50,991 --> 00:31:55,422
+erneut umgebrochen werden? Damit wird
+einerseits Biodiversität vernichtet
+
+519
+00:31:55,423 --> 00:31:59,314
+und andererseits den Menschen
+tatsächlich die Struktur zum
+
+520
+00:31:59,315 --> 00:32:01,770
+Nahrungsmittelherstellung
+genommen.
+
+521
+00:32:01,771 --> 00:32:03,771
+Das würde mich interessieren; denn
+das ist die
+
+522
+00:32:03,772 --> 00:32:07,692
+unsinnigste europäische Verordnung,
+und das fällt Ihnen auch in Ihr Gebiet.
+
+523
+00:32:07,693 --> 00:32:12,080
+Frau Abgeordnete, ich beantworte
+natürlich auch gerne die Fragen an
+
+524
+00:32:12,081 --> 00:32:15,152
+das benachbarte
+Landwirtschaftsministerium;
+
+525
+00:32:15,153 --> 00:32:18,538
+Frau Klöckner kann das aber auch gut
+selber. Noch mal,
+
+526
+00:32:18,539 --> 00:32:22,196
+Um es ganz klar zu sagen: Wir wollen
+Pflanzenschutzmittel deutlich
+
+527
+00:32:22,197 --> 00:32:26,131
+reduzieren. Wir werden das Glyphosat
+mit der Pflanzenschutzanwendungs-
+
+528
+00:32:26,132 --> 00:32:29,790
+verordnung von Frau Klöckner jetzt
+auf den Gemeindeflächen, auf
+
+529
+00:32:29,791 --> 00:32:32,118
+Spielplätzen, überall dort,
+wo es im Moment
+
+530
+00:32:32,119 --> 00:32:35,861
+noch eingesetzt wird, verbieten.
+Wir werden übrigens auch
+
+531
+00:32:35,862 --> 00:32:39,687
+die Anwendung zu Hause verbieten.
+Das ist wichtig, das ist ein ganz
+
+532
+00:32:39,688 --> 00:32:43,176
+wichtiger Schritt, um den Einsatz
+von Pflanzenschutzmittel zu reduzieren.
+
+533
+00:32:43,177 --> 00:32:46,777
+Auch in der gemeinsamen
+Agrarpolitik habe ich sehr deutlich
+
+534
+00:32:46,778 --> 00:32:49,759
+gemacht, dass ich mehr Schutz
+möchte, dass ich mehr
+
+535
+00:32:49,760 --> 00:32:51,760
+Biodiversitätsschutz möchte.
+
+536
+00:32:51,761 --> 00:32:55,161
+Wir sind auf der europäischen Ebene
+noch nicht so weit gekommen,
+
+537
+00:32:55,162 --> 00:32:58,770
+wie ich mir das gewünscht habe,
+und es wird jetzt sehr stark darauf
+
+538
+00:32:58,771 --> 00:33:02,275
+ankommen, wie wir das hier national
+umsetzen. Dazu habe ich erst im
+
+539
+00:33:02,276 --> 00:33:05,883
+letzten Monat einen großen Agrar-
+kongress veranstaltet, wo ich eine ganze
+
+540
+00:33:05,884 --> 00:33:08,872
+Reihe von ganz detaillierten
+Vorschlägen vorgelegt habe,
+
+541
+00:33:08,873 --> 00:33:12,223
+wie man das ganz konkret machen
+kann, wie man Landwirtschaft und
+
+542
+00:33:12,224 --> 00:33:15,367
+Biodiversitätsschutz, den
+Schutz von Artenvielfalt
+
+543
+00:33:15,368 --> 00:33:17,635
+zusammenbringen kann.
+Das ist möglich.
+
+544
+00:33:17,636 --> 00:33:20,503
+Das zeigen uns jeden Tag die
+Biolandwirte, die das in
+
+545
+00:33:20,504 --> 00:33:24,252
+exzellenter Art und Weise machen.
+Das ist aber auch in anderen
+
+546
+00:33:24,253 --> 00:33:26,253
+Betriebsformen möglich.
+
+547
+00:33:26,254 --> 00:33:28,254
+Wir müssen es
+nur endlich voranbringen.
+
+548
+00:33:28,255 --> 00:33:30,631
+Die Nachfrage danach bei den
+Verbraucherinnen und
+
+549
+00:33:30,632 --> 00:33:32,632
+Verbrauchern ist vorhanden.
+
+550
+00:33:33,340 --> 00:33:38,147
+Eigentlich sind bei nach Nachfragen und
+Antworten immer nur 30 Sekunden
+
+551
+00:33:38,148 --> 00:33:41,046
+vorgesehen. Ich bin da ganz großzügig;
+aber ich wollte es bloß sagen.
+
+552
+00:33:41,260 --> 00:33:44,265
+Die Minute würde ich aber ungern
+überschreiten lassen.
+
+553
+00:33:44,266 --> 00:33:46,266
+Steffi Lemke, Bündnis 90/Die Grünen.
+
+554
+00:33:46,440 --> 00:33:49,526
+Danke, dass Sie das noch mal kurz
+erwähnen, Herr Präsident.
+
+555
+00:33:49,527 --> 00:33:52,765
+Frau Ministerin, bisher kamen die
+Nachfragen ja primär aus dem
+
+556
+00:33:52,766 --> 00:33:55,761
+Bereich der Landwirtschaft.
+Ich würde gerne noch mal zum
+
+557
+00:33:55,762 --> 00:33:59,130
+Ausgangspunkt dieses Gesetzes
+zurückkommen, dem gravierenden
+
+558
+00:33:59,131 --> 00:34:02,716
+Artensterben, dass wir weltweit und
+vor allem, aber eben auch in
+
+559
+00:34:02,717 --> 00:34:06,139
+Deutschland haben, wo in sämtliche
+wissenschaftlichen Studien
+
+560
+00:34:06,140 --> 00:34:09,454
+inzwischen bestätigen, dass Land-
+nutzungsänderung in und die
+
+561
+00:34:09,455 --> 00:34:11,791
+industrialisierte
+Intensivlandwirtschaft
+
+562
+00:34:11,792 --> 00:34:15,535
+die Hauptverursacher in Deutschland
+sind. Es sind nicht die alleinigen
+
+563
+00:34:15,536 --> 00:34:18,163
+auch Lichtverschmutzung,
+aber der Hauptverursacher
+
+564
+00:34:18,164 --> 00:34:21,726
+ist die Intensivstlandwirtschaft.
+Ich bin deshalb ein bisschen
+
+565
+00:34:21,727 --> 00:34:24,781
+erstaunt, dass Sie das,
+was von Ihrem ursprünglichen Ansatz
+
+566
+00:34:24,782 --> 00:34:26,782
+übrig geblieben ist,
+jetzt hier
+
+567
+00:34:26,783 --> 00:34:29,589
+so uneingeschränkt loben.
+Ich will das an zwei konkreten
+
+568
+00:34:29,590 --> 00:34:33,220
+Beispielen festmachen: Der Refugial-
+flächenansatz ist nach meiner
+
+569
+00:34:33,221 --> 00:34:35,658
+Kenntnis komplett aus
+dem Gesetzentwurf verschwunden.
+
+570
+00:34:35,659 --> 00:34:39,077
+Vielleicht können Sie mich eines
+Besseren belehren, dann würde ich
+
+571
+00:34:39,078 --> 00:34:42,423
+das positiv finden.
+Aber er stand im Aktionsprogramm
+
+572
+00:34:42,424 --> 00:34:46,050
+Insektenschutz drin als ein ganz
+wichtiger Faktor
+
+573
+00:34:46,051 --> 00:34:49,571
+für den Insektenschutz.
+und das hatte Frau Klöckner bereits
+
+574
+00:34:49,572 --> 00:34:51,838
+unterschrieben im Kabinett.
+Wie kann es sein,
+
+575
+00:34:51,839 --> 00:34:53,839
+dass das ersatzlos verschwindet?
+
+576
+00:34:53,840 --> 00:34:57,424
+Zweite Frage: Pestizideverbot in
+Naturschutzgebieten.
+
+577
+00:34:57,425 --> 00:35:01,812
+Ausnahmeregelungen sollen in Zukunft
+möglich sein,
+
+578
+00:35:01,813 --> 00:35:04,965
+nicht mehr von der unteren
+
+579
+00:35:04,966 --> 00:35:08,653
+Naturschutzbehörde genehmigt werden,
+sondern von einer anderen Stelle.
+
+580
+00:35:08,654 --> 00:35:10,774
+Das sind zwei gravierende Fehler.
+
+581
+00:35:10,990 --> 00:35:12,999
+Die Ermahnung hat
+nicht sehr gefruchtet.
+
+582
+00:35:16,940 --> 00:35:19,848
+Frau Abgeordnete, ich stimme in
+Ihrer Analyse absolut zu.
+
+583
+00:35:19,849 --> 00:35:22,413
+Wir haben ein Riesenproblem,
+wir verlieren Insekten
+
+584
+00:35:22,414 --> 00:35:24,546
+und zwar überall.
+Wir verlieren sie dadurch,
+
+585
+00:35:24,547 --> 00:35:27,838
+dass wir Lebensräume verlieren.
+Natürlich die Hälfte Deutschlands
+
+586
+00:35:27,839 --> 00:35:29,839
+sind landwirtschaftlich
+genutzte Flächen.
+
+587
+00:35:29,840 --> 00:35:33,177
+Und das ist auch ein Riesenproblem in
+den Agrarlandschaften.
+
+588
+00:35:33,178 --> 00:35:35,988
+Ich glaube, darüber haben wir und
+sehr oft ausgetauscht,
+
+589
+00:35:35,989 --> 00:35:37,989
+und sind da einer Meinung.
+
+590
+00:35:37,990 --> 00:35:40,200
+Wie ist das mit dem Pestizidverbot?
+
+591
+00:35:40,201 --> 00:35:43,487
+Wenn Sie in einem Naturschutzgebiet
+einen Schadensfall haben,
+
+592
+00:35:43,488 --> 00:35:46,404
+dann ist es auch heute so,
+also wenn der Borkenkäfer,
+
+593
+00:35:46,405 --> 00:35:49,215
+wenn der Kiefernspinner in einem Wald
+einfällt, dass Sie
+
+594
+00:35:49,216 --> 00:35:53,134
+Maßnahmen ergreifen können.
+Das wird auch in Zukunft so bleiben.
+
+595
+00:35:53,135 --> 00:35:57,421
+Wenn es auf grünen Flächen, im
+Grünland, große Probleme gibt,
+
+596
+00:35:57,422 --> 00:36:01,976
+dann kann man Ausnahmen machen,
+um Schädlingen sozusagen
+
+597
+00:36:01,977 --> 00:36:03,977
+zu Leibe zu rücken.
+
+598
+00:36:03,978 --> 00:36:07,091
+Das ist heute der Fall,
+und das wird auch in Zukunft so
+
+599
+00:36:07,092 --> 00:36:10,372
+bleiben. Zum Refugialflächen.
+ansatz: Das ist etwas,
+
+600
+00:36:10,373 --> 00:36:13,931
+was wir in der in der Pflanzen-
+schutzmittelzulassung regeln müssen,
+
+601
+00:36:13,932 --> 00:36:16,656
+das ist also etwas,
+was wir noch vor uns haben.
+
+602
+00:36:16,657 --> 00:36:19,918
+Deswegen finden Sie diesen Ansatz jetzt
+nicht in dem Insektenschutzgesetz und
+
+603
+00:36:19,919 --> 00:36:22,365
+nicht in der Pflanzenschutz-
+anwendungsverordnung,
+
+604
+00:36:22,366 --> 00:36:24,366
+weil es dabei nicht um die Zulassung geht.
+
+605
+00:36:24,367 --> 00:36:29,889
+Dr. Gero Hocker, FDP,
+stellt die nächste Frage
+
+606
+00:36:32,740 --> 00:36:34,740
+Vielen Dank.
+Verehrter Herr Präsident,
+
+607
+00:36:34,741 --> 00:36:38,252
+Verehrte Frau Ministerin,
+Sie haben heute Vormittag ja mit der
+
+608
+00:36:38,253 --> 00:36:41,820
+Bundeslandwirtschaftsministerin eine
+gemeinsame Pressekonferenz
+
+609
+00:36:41,821 --> 00:36:45,443
+abgehalten, auch um zum Ausdruck zu
+bringen, dass es sich um ein
+
+610
+00:36:45,444 --> 00:36:49,456
+gemeinsames Papier und einem um ein
+gemeinsames Projekt zwischen Umwelt-
+
+611
+00:36:49,457 --> 00:36:51,686
+und
+Landwirtschaftsministerium handelt.
+
+612
+00:36:51,687 --> 00:36:55,374
+Vor diesem Hintergrund möchte
+ich von Ihnen gerne hören,
+
+613
+00:36:55,375 --> 00:36:59,706
+welche konkreten Inhalte, die Eingang
+in dieses Projekt, dieses gemeinsame
+
+614
+00:36:59,707 --> 00:37:03,219
+Projekt aus beiden Häusern gefunden
+haben, Ihnen besonders
+
+615
+00:37:03,220 --> 00:37:04,920
+wichtig gewesen sind.
+
+616
+00:37:05,060 --> 00:37:07,259
+Herr Abgeordneter, das möchten Sie
+jetzt auch in dieser
+
+617
+00:37:07,260 --> 00:37:09,460
+einen knappen Minute beantwortet haben.
+Ich würde dazu
+
+618
+00:37:10,261 --> 00:37:13,084
+deutlich mehr Zeit brauchen.
+Aber dass wir jetzt ein klares
+
+619
+00:37:13,185 --> 00:37:16,334
+Verbot von Glyphosat haben,
+dass wir Pflanzenschutzmittel
+
+620
+00:37:16,335 --> 00:37:19,050
+reduzieren, dass wir die
+Schutzgebiete ausweisen,
+
+621
+00:37:19,051 --> 00:37:22,581
+dass wir gleichzeitig Lösungen,
+wie wir sie in Niedersachsen, in
+
+622
+00:37:22,582 --> 00:37:25,785
+Brandenburg gefunden haben,
+nämlich die gemeinschaftlich
+
+623
+00:37:25,786 --> 00:37:29,153
+funktionieren, unterstützen und
+vorantreiben, das sind alles
+
+624
+00:37:29,154 --> 00:37:32,901
+wichtige Punkte, die Sie in der
+Verordnung und in dem Gesetz finden.
+
+625
+00:37:32,902 --> 00:37:35,756
+Und ich glaube, dass wir da eine
+sehr gute gemeinsame
+
+626
+00:37:35,757 --> 00:37:37,757
+Lösung gefunden haben.
+
+627
+00:37:38,020 --> 00:37:40,020
+Danke sehr. Nachfrage,
+Herr Kollege Hocker?
+
+628
+00:37:43,710 --> 00:37:47,417
+Vielen Dank. In der Pressekonferenz heute
+Vormittag ist ja auch in Aussicht
+
+629
+00:37:47,418 --> 00:37:51,344
+gestellt worden, dass insgesamt 140
+Millionen Euro bereitgestellt werden
+
+630
+00:37:51,345 --> 00:37:54,289
+sollen für die Nutzungs-
+erschwernisse, die jetzt auf
+
+631
+00:37:54,290 --> 00:37:56,908
+Landwirte zu kommen,
+für die kalte Enteignung,
+
+632
+00:37:56,909 --> 00:37:59,690
+wie es einige nennen,
+und viele Landwirte haben da
+
+633
+00:37:59,691 --> 00:38:02,799
+durchaus Vorbehalte,
+dass erstens diese Summe ausreicht,
+
+634
+00:38:02,800 --> 00:38:05,471
+weil sie glauben, dass die
+Erschwernisse,
+
+635
+00:38:05,472 --> 00:38:08,689
+die auf sie zukommen,
+sehr viel größer sind, und zweitens
+
+636
+00:38:08,690 --> 00:38:12,180
+haben sie, nach dem schon diese
+Bauernmilliarde von vor einigen
+
+637
+00:38:12,181 --> 00:38:15,562
+Monaten ja nicht wirklich
+tatsächlich bei den Höfen, bei den
+
+638
+00:38:15,563 --> 00:38:19,270
+Betrieben angekommen ist, große
+Vorbehalte, dass hier wiederum durch
+
+639
+00:38:19,271 --> 00:38:22,870
+staatliche Unterstützungsmaßnahmen
+diese Nutzungserschwernisse
+
+640
+00:38:22,871 --> 00:38:25,718
+ausgeglichen werden.
+Haben Sie Verständnis für die
+
+641
+00:38:25,719 --> 00:38:29,507
+Landwirte, die Vorbehalte haben,
+weil sie wissen, dass solche Gelder
+
+642
+00:38:29,508 --> 00:38:32,527
+nur zu erhalten sind,
+wenn umfangreiche, bürokratische
+
+643
+00:38:32,528 --> 00:38:35,108
+Auflagen erfüllt werden und das
+für sie sehr
+
+644
+00:38:35,109 --> 00:38:38,032
+viel Administration bedeutet?
+Was sagen Sie den Bauern,
+
+645
+00:38:38,033 --> 00:38:41,226
+die deswegen davor zurückschrecken,
+solche Anträge zu stellen?
+
+646
+00:38:42,140 --> 00:38:44,932
+Ich bin erst mal froh,
+dass wir so viele Mittel für
+
+647
+00:38:44,933 --> 00:38:47,673
+Landwirtinnen und Landwirte zur
+Verfügung stellen können.
+
+648
+00:38:47,674 --> 00:38:50,993
+Dass wir mit der
+gemeinsamen Agrarpolitik auf der
+
+649
+00:38:50,994 --> 00:38:54,819
+europäischen Ebene jedes Jahr
+wieder so viel Geld zusätzlich für
+
+650
+00:38:54,820 --> 00:38:58,106
+die Landwirtschaft bekommen.
+Und ja, Sie haben recht.
+
+651
+00:38:58,240 --> 00:39:02,100
+Sowohl in dem in der Gemeinschaftsaufgabe
+Agrarstruktur und
+
+652
+00:39:02,101 --> 00:39:05,190
+Küstenschutz ist ein eigenes
+Fenster für
+
+653
+00:39:05,191 --> 00:39:09,674
+den Insektenschutz vorgesehen.
+Wir machen Biodiversitätsförderung
+
+654
+00:39:09,675 --> 00:39:12,783
+in meinem Haus;
+wir fördern die Forschung.
+
+655
+00:39:12,784 --> 00:39:15,949
+Wir haben gerade im Rahmen der
+neuen GAP-Periode,
+
+656
+00:39:15,950 --> 00:39:19,559
+die wir jetzt auf den Weg bringen,
+noch mal neue Möglichkeiten,
+
+657
+00:39:19,560 --> 00:39:23,281
+um Ausgleiche für Landwirtinnen und
+Landwirte möglich zu machen.
+
+658
+00:39:23,340 --> 00:39:26,552
+Das ist alles sinnvoll,
+weil das nämlich alles das Ziel
+
+659
+00:39:26,553 --> 00:39:29,427
+unterstützt, mehr zu
+tun für den Insektenschutz.
+
+660
+00:39:29,428 --> 00:39:33,289
+Und ich erlebe es übrigens so,
+dass sehr viele Landwirtinnen und
+
+661
+00:39:33,290 --> 00:39:36,157
+Landwirte das aktiv unterstützen,
+dass sie sich
+
+662
+00:39:36,158 --> 00:39:39,304
+für die Umwelt einsetzen.
+Frau Künast hat eben gesagt,
+
+663
+00:39:39,305 --> 00:39:42,373
+das ist ihre Grundlage,
+und deswegen wollen sie das auch
+
+664
+00:39:42,374 --> 00:39:45,765
+noch ihre Kinder, ihre Enkel
+Landwirtschaft betreiben können.
+
+665
+00:39:45,766 --> 00:39:48,494
+Und es wird ohne
+Insekten nicht möglich sein.
+
+666
+00:39:48,495 --> 00:39:51,763
+Und deswegen ist das genau der
+richtige Weg, den wir jetzt auf dem,
+
+667
+00:39:51,764 --> 00:39:53,764
+den wir einschlagen.
+
+668
+00:39:54,840 --> 00:39:58,116
+Die nächste Frage stellt der
+Kollege Carsten Träger, SPD.
+
+669
+00:39:58,117 --> 00:40:00,117
+Oder wollen Sie nicht mehr?
+
+670
+00:40:00,440 --> 00:40:06,579
+Herr Spiering. Ihre Meldungen sind ein
+bisschen verwirrend, Herr Schneider.
+
+671
+00:40:06,580 --> 00:40:13,173
+Herr Spiering, bitte.
+
+672
+00:40:13,174 --> 00:40:17,578
+Bevor die Frage gestellt ist, können Sie
+sich noch nicht zu
+
+673
+00:40:17,579 --> 00:40:19,579
+einer Zusatzfrage melden.
+
+674
+00:40:23,940 --> 00:40:27,683
+Herr Präsident, der Herr Schneider
+verwirrt nie jemanden.
+
+675
+00:40:27,684 --> 00:40:30,086
+Das ist doch wohl völlig klar.
+Sehr geehrte Frau Ministerin,
+
+676
+00:40:31,040 --> 00:40:35,179
+Die Debatte heute und Ihre Antworten
+geben mir Anlass zu der Bitte,
+
+677
+00:40:35,180 --> 00:40:39,319
+namentlich auch der Kollegin Bauer
+etwas Nachhilfe zu geben bei der
+
+678
+00:40:39,320 --> 00:40:42,715
+Frage: Was ist ein Gesetz,
+und was ist eine Verordnung?
+
+679
+00:40:42,716 --> 00:40:46,171
+Wir werden das Insektenschutzgesetz
+hier im Hause verhandeln.
+
+680
+00:40:46,580 --> 00:40:49,762
+Deswegen sind uns da die
+Spielflächen jetzt auch noch frei.
+
+681
+00:40:49,930 --> 00:40:53,592
+Aber ich wäre sehr dankbar,
+wenn Sie jetzt definieren würden,
+
+682
+00:40:53,593 --> 00:40:57,370
+was im Bereich Agrar durch die
+Pflanzenschutzverordnung in Ihrer
+
+683
+00:40:57,371 --> 00:41:00,748
+gemeinsamen Verlautbarung jetzt die
+Ministerin Klöcker an
+
+684
+00:41:00,749 --> 00:41:04,354
+Möglichkeiten hat zu agieren,
+damit NABU, BUND, namentlich der
+
+685
+00:41:04,355 --> 00:41:08,361
+Bauernverband und vielleicht der ein
+oder andere Kollege hier im Haus
+
+686
+00:41:08,362 --> 00:41:11,910
+auch weiß, an wen er sich in Zukunft
+vertrauensvoll wenden kann,
+
+687
+00:41:11,911 --> 00:41:15,746
+wenn es um spezielle Fragen des
+Agrarbereiches geht.
+
+688
+00:41:15,747 --> 00:41:18,494
+Erst mal, Herr Abgeordneter, darf ich
+Ihnen absolut zustimmen.
+
+689
+00:41:18,495 --> 00:41:21,777
+Ich habe Herrn Schneider auch als
+jemanden kennengelernt,
+
+690
+00:41:21,778 --> 00:41:25,456
+der sehr klar kommuniziert, vielleicht das
+zum Ersten. Kritisieren Sie niemals
+
+691
+00:41:25,457 --> 00:41:29,304
+den Präsidenten. Nein, das würde ich nie-
+mals. Ich habe den Abgeordneten
+
+692
+00:41:29,305 --> 00:41:32,644
+unterstützt sozusagen. Ich würde den
+Präsident niemals kritisieren.
+
+693
+00:41:32,645 --> 00:41:35,665
+Also da darf ich Sie unterstützen, Herr
+Abgeordneter. Was ist jetzt
+
+694
+00:41:35,666 --> 00:41:39,007
+konkret im Insektenschutzgesetz und
+was ist in der Verordnung geregelt,
+
+695
+00:41:39,008 --> 00:41:41,555
+Das Insektenschutzgesetz regelt
+
+696
+00:41:41,556 --> 00:41:46,005
+die Stärkung der Landschaftsplanung.
+Das regelt den gesetzlichen
+
+697
+00:41:46,006 --> 00:41:50,454
+Biotopschutz, das regelt den Biozid-
+einsatz, also Biozide sind etwas wie
+
+698
+00:41:50,455 --> 00:41:54,528
+Holzschutzmittel in Schutzgebieten.
+Das regelt die Stärkung der
+
+699
+00:41:54,529 --> 00:41:58,163
+Naturschutzmaßnahmen und das regelt
+Beleuchtungsanlagen.
+
+700
+00:41:58,240 --> 00:42:02,194
+Alles andere, was wir heute
+diskutieren, also der Einsatz von
+
+701
+00:42:02,195 --> 00:42:05,766
+Glyphosat, die Verwendung und
+Anwendung von Herbiziden,
+
+702
+00:42:05,767 --> 00:42:09,849
+den Mindestabstandsgebot zu
+Gewässern, das werden Sie alles in
+
+703
+00:42:09,850 --> 00:42:14,314
+der Pflanzenschutzanwendungsverordnung
+finden. Also den einen Teil im
+
+704
+00:42:14,315 --> 00:42:17,057
+Gesetz, den anderen
+Teil in der Verordnung.
+
+705
+00:42:17,058 --> 00:42:21,340
+Beides ist aber Bestandteil des
+Aktionsprogramms Insektenschutz und
+
+706
+00:42:21,341 --> 00:42:23,671
+damit gehört es eben auch zusammen.
+
+707
+00:42:26,200 --> 00:42:32,404
+Der Kollege Harald Ebner, Bündnis 90/
+Die Grünen, hat eine Nachfrage.
+
+708
+00:42:32,405 --> 00:42:38,070
+Danke, Herr Präsident. Frau Ministerin,
+es kam ja schon zur Sprache:
+
+709
+00:42:38,071 --> 00:42:42,152
+Sie haben sich gegen die
+Beschränkungen des Pestizid-
+
+710
+00:42:42,153 --> 00:42:46,763
+einsatzes in FFH-Gebieten
+entschieden, anders als es
+
+711
+00:42:46,764 --> 00:42:50,618
+im Aktionsprogramm Insektenschutz
+vorgesehen war.
+
+712
+00:42:50,619 --> 00:42:55,547
+Stattdessen sollen jetzt auf 90 %
+der betroffenen Flächen freiwillige
+
+713
+00:42:55,548 --> 00:42:59,089
+Maßnahmen zur Pestizid-
+reduktion erreicht werden.
+
+714
+00:42:59,090 --> 00:43:03,126
+Die Freiwilligkeit ist eine sehr
+gute Sache, aber sie
+
+715
+00:43:03,127 --> 00:43:06,621
+muss ja finanziert sein.
+Und jetzt sind schon angesprochen
+
+716
+00:43:06,622 --> 00:43:08,972
+worden, die 100, 40
+Millionen in der GAK.
+
+717
+00:43:09,160 --> 00:43:13,195
+Frau Klöckner hat vorhin in der in
+der Pressekonferenz noch von
+
+718
+00:43:13,196 --> 00:43:16,734
+weiteren 50 Millionen gesprochen.
+Jetzt bin ich nicht
+
+719
+00:43:16,735 --> 00:43:20,658
+ganz schlau geworden aus
+Ihrer Antwort an den Kollegen
+
+720
+00:43:20,659 --> 00:43:25,089
+Hocker. Haben Sie diese Millionen
+schon im Haushalt oder brauchen Sie
+
+721
+00:43:25,090 --> 00:43:28,878
+noch einen Nachtragshaushalt oder
+widmen Sie die jetzt um?
+
+722
+00:43:28,879 --> 00:43:32,599
+Da hätte ich jetzt gerne ganz
+konkrete Antwort. Sind da
+
+723
+00:43:32,600 --> 00:43:35,410
+tatsächlich 190 Millionen übrig?
+Bisher.
+
+724
+00:43:37,130 --> 00:43:40,411
+Herr Abgeordneter, ich kenne mich in
+meinem Haushalt sehr gut aus,
+
+725
+00:43:40,412 --> 00:43:43,596
+aber in dem Haushalt von Frau
+Klöckner kenn ich mich nicht ganz so
+
+726
+00:43:43,597 --> 00:43:46,193
+gut aus, deswegen wäre das,
+glaube ich, eine Frage,
+
+727
+00:43:46,194 --> 00:43:49,181
+die wir mit der Kollegin nochmal
+ganz genau klären müssen.
+
+728
+00:43:49,182 --> 00:43:52,333
+Ich wird aber Ihre Voraus-
+bedingungen noch mal ein wenig
+
+729
+00:43:52,334 --> 00:43:55,762
+sozusagen erläutern wollen;
+denn FFH-Gebiete sind
+
+730
+00:43:55,763 --> 00:43:58,804
+nicht grundsätzlich ausgenommen,
+sondern die Gebiete,
+
+731
+00:43:58,805 --> 00:44:02,620
+die reine FFH Gebiete sind und
+keinen weiteren Schutzfaktor haben.
+
+732
+00:44:02,621 --> 00:44:06,078
+Bei diesen Gebieten haben wir
+gesagt, dass wir dort auf
+
+733
+00:44:06,079 --> 00:44:09,763
+kooperative Lösungen gehen können.
+Das sind 4,9 % der
+
+734
+00:44:09,764 --> 00:44:13,889
+landwirtschaftlich genutzten
+Flächen in Deutschland.
+
+735
+00:44:13,890 --> 00:44:17,817
+Also wir stellen jetzt sehr viel
+unter Sturz, und ein ganz kleiner
+
+736
+00:44:17,818 --> 00:44:21,511
+Teil davon sind eben auch
+landwirtschaftlich genutzte Flächen.
+
+737
+00:44:21,512 --> 00:44:25,381
+Ddas sind in erster Linie Grün-
+landflächen. Im Grünland werden
+
+738
+00:44:25,382 --> 00:44:28,254
+traditionellerweise heute schon
+deutlich weniger
+
+739
+00:44:28,255 --> 00:44:32,300
+Pflanzenschutzmittel eingesetzt und
+für diese Flächen werden jetzt
+
+740
+00:44:32,301 --> 00:44:34,763
+eben auch
+kooperative Lösungen gefunden.
+
+741
+00:44:34,764 --> 00:44:38,545
+Und ja, es wird auch zusätzliches
+Geld, es werden zusätzliche Mittel
+
+742
+00:44:38,546 --> 00:44:41,561
+zur Verfügung gestellt.
+Gemeinsame Agrarpolitik auf der
+
+743
+00:44:41,562 --> 00:44:45,144
+europäischen Ebene ermöglicht
+jetzt zum Beispiel den FFH Deckel,
+
+744
+00:44:45,145 --> 00:44:47,316
+der bisher drin war,
+also der Ausgleich
+
+745
+00:44:47,317 --> 00:44:50,068
+für FFH-Flächen,
+dieser Deckel wird angehoben.
+
+746
+00:44:50,069 --> 00:44:52,157
+Auch darüber wird es also noch mal
+neue
+
+747
+00:44:52,158 --> 00:44:54,158
+Finanzierungsmöglichkeiten geben.
+
+748
+00:44:55,520 --> 00:44:58,085
+Der Kollege Dr
+Hocker hat eine Nachfrage.
+
+749
+00:45:03,020 --> 00:45:05,945
+Vielen Dank, Herr Präsident.
+Verehrte Frau Ministerin,
+
+750
+00:45:05,946 --> 00:45:09,395
+ich bin dem Kollegen Spiering ja
+sehr dankbar für die Belehrung,
+
+751
+00:45:09,396 --> 00:45:12,844
+was das Gesetzgebungs und das Ver-
+ordnungsverfahren anbelangt.
+
+752
+00:45:12,880 --> 00:45:17,103
+Das ändert aber nichts an der
+Tatsache, dass beides keine Aussage
+
+753
+00:45:17,104 --> 00:45:20,697
+darüber trifft, ob es Ihnen als
+Ziele eigentlich darum geht,
+
+754
+00:45:20,698 --> 00:45:24,417
+die Insektenbiomasse oder die
+Insektenbiodiversität in
+
+755
+00:45:24,418 --> 00:45:28,092
+besonderer Weise zu befördern.
+Und wie Sie hoffentlich wissen,
+
+756
+00:45:28,093 --> 00:45:31,747
+steht ja beides in einem negativen
+Spannungsverhältnis zueinander.
+
+757
+00:45:31,748 --> 00:45:34,981
+Deswegen möchte ich von Ihnen gerne
+wissen, wie Sie, wenn diese Frage
+
+758
+00:45:34,982 --> 00:45:37,669
+noch nicht einmal erklärt,
+wie Sie überhaupt evaluieren
+
+759
+00:45:37,670 --> 00:45:40,493
+wollen, bewerten wollen,
+ob Sie mit Ihren Maßnahmen in Ihrem
+
+760
+00:45:40,494 --> 00:45:42,862
+Gesetz, mit Ihrer Verordnung
+überhaupt irgendeinen
+
+761
+00:45:42,863 --> 00:45:44,863
+Effekt erreichen können.
+
+762
+00:45:46,470 --> 00:45:51,054
+Herr Abgeordneter, danke für die
+Frage. Wir wollen sowohl die Menge
+
+763
+00:45:51,055 --> 00:45:55,174
+an Insekten wieder erhöhen,
+also die Masse, von der wir sehr
+
+764
+00:45:55,175 --> 00:45:58,564
+viel verloren haben, teilweise bis zu
+80 %, als auch
+
+765
+00:45:58,565 --> 00:46:01,639
+die Vielfalt der Insekten.
+Wenn Sie das heute sehen,
+
+766
+00:46:01,640 --> 00:46:03,815
+dass die Hälfte
+der Bienenarten, wir haben
+
+767
+00:46:03,816 --> 00:46:07,632
+rund 560, davon die Hälfte
+inzwischen schon auf der Roten Liste
+
+768
+00:46:07,633 --> 00:46:11,331
+ist und damit vom Aussterben
+bedroht, ist es ganz entscheidend
+
+769
+00:46:11,332 --> 00:46:14,972
+wichtig, dass wir wieder mehr
+Lebensraum für Insekten zur
+
+770
+00:46:14,973 --> 00:46:16,973
+Verfügung stellen.
+
+771
+00:46:16,974 --> 00:46:20,948
+Wir haben gleichzeitig auch die
+Forschung ausgeweitet. Es wird ein
+
+772
+00:46:20,949 --> 00:46:25,043
+Biodiversitäts-Monitoring-Zentrum
+geben, was gerade aufgebaut wird,
+
+773
+00:46:25,044 --> 00:46:28,537
+Es gibt deutlich mehr Geld für
+diese Forschung, weil ja,
+
+774
+00:46:28,538 --> 00:46:31,007
+wir müssen beim
+Monitoren besser werden.
+
+775
+00:46:31,008 --> 00:46:34,046
+Das ist in den vergangenen
+Jahrzehnten vernachlässigt worden.
+
+776
+00:46:34,047 --> 00:46:38,487
+Das ist jetzt aufgegriffen von uns.
+Dafür gibt es zusätzliches Geld.
+
+777
+00:46:38,488 --> 00:46:41,919
+Mit diesem Biodiversitäts-
+Monitoring-Zentrum werden wir auch
+
+778
+00:46:41,920 --> 00:46:45,574
+neue Zahlen, neue Möglichkeiten
+haben, das genauer zu verfolgen.
+
+779
+00:46:45,575 --> 00:46:48,017
+Danke sehr.
+Frau Kotting-Uhl, Bündnis 90/Die Grünen
+
+780
+00:46:48,018 --> 00:46:50,940
+hat die nächste Nachfrage und dann
+hat noch der Kollege
+
+781
+00:46:50,941 --> 00:46:54,871
+Dr. Kraft eine Nachfrage.
+Vielen Dank.
+
+782
+00:46:54,872 --> 00:46:59,937
+Frau Ministerin, Sie haben auf eine
+der ersten Fragen geantwortet,
+
+783
+00:46:59,938 --> 00:47:04,624
+dass besonders die bestäubenden
+Insekten zu schützen sind.
+
+784
+00:47:04,625 --> 00:47:07,974
+Gleichwohl stand in Ihrem vor zwei
+Jahren verabschiedeten
+
+785
+00:47:07,975 --> 00:47:12,132
+Aktionsprogramm Insektenschutz das
+Verbot von biodiversität-schädigenden
+
+786
+00:47:12,133 --> 00:47:16,175
+Insektiziden, Insektiziden in unter
+anderem FFH-Gebieten, und wir
+
+787
+00:47:16,176 --> 00:47:20,276
+sind uns ja wahrscheinlich völlig
+einig, dass es in der Bedrohung der
+
+788
+00:47:20,277 --> 00:47:23,684
+Arten nicht nur darum geht,
+dass wir Bestäuber potenziell
+
+789
+00:47:23,685 --> 00:47:26,976
+verlieren könnten,
+was dann zu Situationen wie in China
+
+790
+00:47:26,977 --> 00:47:30,673
+heute schon erlebbar führt,
+sondern dass es ja in der Tat auch
+
+791
+00:47:30,674 --> 00:47:34,369
+um diese große Aussterbe-Krise
+geht also, wie Sie eben sagten,
+
+792
+00:47:34,370 --> 00:47:38,297
+Vielfalt und Masse der Insekten muss
+geschützt werden, und deshalb
+
+793
+00:47:38,298 --> 00:47:41,474
+möchte ich Sie gern zur
+Veränderung eines relevanten
+
+794
+00:47:41,475 --> 00:47:44,824
+Adjektivs fragen, weil diese
+biodiversität-schädigenden
+
+795
+00:47:44,825 --> 00:47:49,040
+Insektiziden, die noch im
+Aktionsprogramm Insektenschutz
+
+796
+00:47:49,041 --> 00:47:52,044
+vorkamen, sich jetzt verwandelt
+haben in bestäuber-
+
+797
+00:47:52,045 --> 00:47:55,078
+feindliche Mittel.
+Das schränkt den Kreis,
+
+798
+00:47:55,079 --> 00:47:59,957
+was da nun nicht mehr angewendet
+werden soll, in unter anderem FFH-
+
+799
+00:47:59,958 --> 00:48:01,958
+Gebieten deutlich ein.
+
+800
+00:48:01,959 --> 00:48:03,959
+Und ich möchte fragen,
+wie diese
+
+801
+00:48:03,960 --> 00:48:07,088
+Veränderungen zustande kamen.
+Wir wissen ja, dass die Einigung
+
+802
+00:48:07,089 --> 00:48:09,833
+zwischen den beiden Häusern
+so ganz einfach war.
+
+803
+00:48:09,834 --> 00:48:11,834
+Liegt es daran?
+
+804
+00:48:11,910 --> 00:48:14,691
+Sehr geehrte Frau Abgeordnete,
+wir haben uns bemüht,
+
+805
+00:48:14,692 --> 00:48:18,350
+das, was wir im Aktionsprogramm
+Insektenschutz als biodiversität-
+
+806
+00:48:18,351 --> 00:48:21,287
+schädigend, bezeichnet haben,
+umzusetzen in die Sprache,
+
+807
+00:48:21,288 --> 00:48:25,100
+die in der Pflanzenschutzanwendungs-
+verordnung üblicherweise
+
+808
+00:48:25,101 --> 00:48:27,101
+verwendet wird.
+Und da sind
+
+809
+00:48:27,102 --> 00:48:31,282
+es einfach andere Kategorien.
+Das heißt, die Biodiversität ist
+
+810
+00:48:31,283 --> 00:48:35,817
+jetzt definiert in bienen- und
+bestäuberfeindlich, und das ist
+
+811
+00:48:35,818 --> 00:48:40,713
+aber im Kern das gleiche. Es ist nur
+eine andere Formulierung dafür
+
+812
+00:48:40,714 --> 00:48:44,673
+gefunden worden. Das,
+was wir wollen, nämlich dass die
+
+813
+00:48:44,674 --> 00:48:49,424
+Biodiversität geschützt wird,
+dass Bestäuber geschützt werden,
+
+814
+00:48:49,425 --> 00:48:54,391
+das ist mit bienen- und bestäuber-
+feindlich ganz genauso bezeichnet.
+
+815
+00:48:54,500 --> 00:48:58,600
+Danke sehr. Der Kollege Dr Kraft, FDP,
+hat die letzte Nachfrage zu
+
+816
+00:48:58,601 --> 00:49:01,513
+dieser Frage. Ja danke.
+Da wir zu diesem Themenkomplex
+
+817
+00:49:01,514 --> 00:49:04,366
+zurückgekehrt sind,
+kann ich sie auch stellen,
+
+818
+00:49:04,367 --> 00:49:06,982
+Frau Ministerin, ich
+bin etwas überrascht.
+
+819
+00:49:06,983 --> 00:49:09,261
+Sie erwecken den Eindruck,
+als ob die Landwirte in Deutschland
+
+820
+00:49:09,262 --> 00:49:11,262
+nichts Besseres zu tun haben,
+als ihr Geld für
+
+821
+00:49:11,263 --> 00:49:13,614
+Pflanzenschutzmittel auszugeben,
+die sie auf die Felder kloppen,
+
+822
+00:49:13,615 --> 00:49:15,615
+obwohl es nicht notwendig ist.
+
+823
+00:49:15,616 --> 00:49:18,862
+Die Bauern können in der Regel sehr
+gut und sehr hart kalkulieren,
+
+824
+00:49:18,863 --> 00:49:22,062
+weil sie auch mit ihrem eigenen Geld
+arbeiten. Also diese Ausgaben,
+
+825
+00:49:22,063 --> 00:49:25,261
+sind ein Investment dafür, dass
+der Landwirt sich davon einen
+
+826
+00:49:25,262 --> 00:49:27,841
+Mehrwert verspricht.
+Wenn Sie jetzt Gesetze erlassen,
+
+827
+00:49:27,842 --> 00:49:31,184
+die dazu führen, dass weniger in
+diesem Bereich investiert wird für
+
+828
+00:49:31,185 --> 00:49:34,479
+den Pflanzenschutz der Feldfrüchte
+auf dem Land, welche Minderungen
+
+829
+00:49:34,480 --> 00:49:37,774
+werden die Landwirte dann noch in
+ihren Erträgen erhalten, oder wenn
+
+830
+00:49:37,775 --> 00:49:40,974
+Sie hier suggerieren, dass weiterhin
+die Landwirte aus Spaß an der
+
+831
+00:49:40,975 --> 00:49:44,030
+Freude und komplett
+unnütz ihr Geld für Pflanzenschutz-
+
+832
+00:49:44,031 --> 00:49:47,421
+mittel ausgegeben haben und sie zum
+Vergiften der Umwelt auf den Feldern
+
+833
+00:49:47,422 --> 00:49:50,143
+verteilt haben, obwohl es nicht
+notwendig gewesen wäre.
+
+834
+00:49:50,400 --> 00:49:52,400
+Herr Abgeordneter, diesen Eindruck
+muss ich erst
+
+835
+00:49:52,401 --> 00:49:55,264
+einmal deutlich zurückweisen.
+Das ist von niemandem in der
+
+836
+00:49:55,265 --> 00:49:58,413
+Bundesregierung jemals nur in
+Betracht gezogen worden.
+
+837
+00:49:58,414 --> 00:50:00,443
+dass Landwirtinnen und
+Landwirte so agieren können.
+
+838
+00:50:03,200 --> 00:50:06,687
+Landwirtinnen und Landwirte gehen
+sehr verantwortlich mit
+
+839
+00:50:06,688 --> 00:50:09,935
+der Landwirtschaft um.
+Was wir jetzt aber wollen ist,
+
+840
+00:50:09,936 --> 00:50:13,519
+dass der Einsatz von
+Pflanzenschutzmitteln reduziert wird
+
+841
+00:50:13,520 --> 00:50:16,114
+und dafür wird
+es auch Ausgleiche geben.
+
+842
+00:50:16,115 --> 00:50:19,026
+Das ist doch selbstverständlich und
+daran haben wir alle als
+
+843
+00:50:19,027 --> 00:50:22,096
+Gesellschaft ein Interesse.
+Weil wenn es keine Bestäuber mehr
+
+844
+00:50:22,097 --> 00:50:24,500
+gibt, dann wird es auch keine
+Landwirtschaft in
+
+845
+00:50:24,501 --> 00:50:26,501
+Deutschland mehr geben.
+
+846
+00:50:26,502 --> 00:50:30,033
+Wir wollen, dass nicht nur diese
+Generation, sondern dass auch die
+
+847
+00:50:30,034 --> 00:50:33,294
+nächsten Generationen hier in
+Deutschland noch hochwertige
+
+848
+00:50:33,295 --> 00:50:36,718
+Lebensmittel produzieren können und
+wir arbeiten vorsorglich.
+
+849
+00:50:36,719 --> 00:50:40,529
+Unser Vorsorgeprinzip ist genau das,
+was Sie jetzt in dem Gesetz, in der
+
+850
+00:50:40,530 --> 00:50:43,282
+Pflanzenschutzanwendungs-
+verordnung wieder finden.
+
+851
+00:50:43,283 --> 00:50:45,971
+Das ist die Politik, die
+die Menschen von uns erwarten.
+
+852
+00:50:45,972 --> 00:50:49,149
+Es soll hier auch in Zukunft noch
+möglich sein, gute Lebensmittel
+
+853
+00:50:49,150 --> 00:50:51,991
+herzustellen und dafür schaffen wir
+heute die Bedingungen.
+
+854
+00:50:55,290 --> 00:50:57,290
+Ralph Lenkert, Die Linke.
+
+855
+00:51:00,990 --> 00:51:04,604
+Frau Ministerin,
+die Notwendigkeit von Insektenschutz
+
+856
+00:51:04,605 --> 00:51:07,846
+ist richtig und die Notwendigkeit
+der Eigenvorsorge
+
+857
+00:51:07,847 --> 00:51:09,847
+mit Lebensmitteln ebenfalls.
+
+858
+00:51:09,900 --> 00:51:13,542
+Und ich stelle Ihnen hier die Frage:
+Wie wollen Sie Landwirten und
+
+859
+00:51:13,543 --> 00:51:16,966
+Landwirten ermöglichen,
+Insekten freundlich zu wirtschaften
+
+860
+00:51:17,090 --> 00:51:20,510
+Bei den Dumpingpreisen
+der Agrarindustrie,
+
+861
+00:51:20,511 --> 00:51:23,391
+bei den Dumpingpreisen der
+Einzelhandels- und
+
+862
+00:51:23,392 --> 00:51:25,392
+der Großhandelsketten?
+
+863
+00:51:25,393 --> 00:51:28,424
+Wie wollen Sie sicherstellen,
+dass Landwirtnnen und Landwirten
+
+864
+00:51:28,425 --> 00:51:32,052
+vernünftige Fruchtfolgen einführen
+können, wenn die Rahmenbedingungen
+
+865
+00:51:32,053 --> 00:51:34,973
+dazu nicht gestellt werden?
+Und wie stellen Sie
+
+866
+00:51:34,974 --> 00:51:38,262
+sicher, dass Landwirte im
+Biolandbau, die bisher über KULAP-
+
+867
+00:51:38,263 --> 00:51:41,349
+Maßnahmen gefördert sind,
+zukünftig diese Einnahmen nicht
+
+868
+00:51:41,350 --> 00:51:44,790
+verlieren, weil nämlich dann die
+gesetzlichen Rahmenbedingungen da
+
+869
+00:51:44,791 --> 00:51:46,669
+sind und damit
+die Zusatzförderung wegfällt?
+
+870
+00:51:49,670 --> 00:51:51,924
+Herr Abgeordnete, erstmal freue ich
+mich sehr darüber,
+
+871
+00:51:51,925 --> 00:51:54,384
+dass ich so viele Fragen aus dem
+landwirtschaftlichen Bereich
+
+872
+00:51:54,385 --> 00:51:56,708
+gestellt bekomme.
+Ich will nur noch einmal kurz darauf
+
+873
+00:51:56,709 --> 00:51:59,836
+hinweisen, dass das zwei Ministerien
+sind, also meins heißt Umwelt,
+
+874
+00:51:59,837 --> 00:52:02,692
+Naturschutz und nukleare Sicherheit,
+und dann gibt es auch ein
+
+875
+00:52:02,693 --> 00:52:06,258
+Ministerium für die Landwirtschaft.
+Trotzdem beantworte ich
+
+876
+00:52:06,259 --> 00:52:09,857
+Ihre Frage natürlich gerne.
+Ja, wir brauchen vielfältige
+
+877
+00:52:09,858 --> 00:52:14,485
+Fruchtfolgen, wir müssen eine
+andere Ackerbaustrategie verfolgen,
+
+878
+00:52:14,486 --> 00:52:16,868
+um eben die Böden,
+auch den Humus-
+
+879
+00:52:16,869 --> 00:52:18,869
+Aufbau weiter zu fördern.
+
+880
+00:52:18,910 --> 00:52:21,371
+Das hat Frau
+Klöckner ja bereits angekündigt.
+
+881
+00:52:21,372 --> 00:52:26,172
+Dass diese Ackerbaustrategie von
+ihr erarbeitet ist und dass die
+
+882
+00:52:26,173 --> 00:52:30,147
+jetzt diskutiert werden soll.
+Ich teile aber Ihre Ansicht,
+
+883
+00:52:30,148 --> 00:52:34,153
+dass die Dumpingpreise ein riesiges
+Problem sind und dass das
+
+884
+00:52:34,154 --> 00:52:37,588
+unanständig ist, was der
+Handel da inzwischen macht.
+
+885
+00:52:37,589 --> 00:52:39,876
+Da müssen wir
+stärker gegen vorgehen.
+
+886
+00:52:39,960 --> 00:52:43,973
+Es muss für das, was Landwirtinnen
+und Landwirte leisten,
+
+887
+00:52:43,974 --> 00:52:46,120
+auch angemessene Preise geben.
+
+888
+00:52:46,140 --> 00:52:51,582
+Das ist das, was ich jedenfalls
+immer wieder einfordere.
+
+889
+00:52:51,583 --> 00:52:55,807
+Nachfrage, Herr Lenkert?
+
+890
+00:52:57,809 --> 00:53:01,530
+Frau Ministerin, Sie haben also nach
+wie vor in der Bundesregierung keine
+
+891
+00:53:01,531 --> 00:53:05,052
+Maßnahmen zur Sicherstellung für
+die für eine insektenfreundliche
+
+892
+00:53:05,053 --> 00:53:08,298
+Landwirtschaft getroffen,
+stelle ich jetzt fest. Ich frage
+
+893
+00:53:08,299 --> 00:53:12,273
+Sie zu Ihrem Haus. In Ihrem Haus
+gibt es das Förderprogramm für
+
+894
+00:53:12,274 --> 00:53:14,545
+Straßenbeleuchtung.
+Haben Sie vor, die
+
+895
+00:53:14,546 --> 00:53:18,294
+Förderbedingungen dahingehend zu
+ergänzen, dass zukünftig eine
+
+896
+00:53:18,295 --> 00:53:21,701
+Förderung der Umstellung auf
+bessere Lampen, Leuchtmittel,
+
+897
+00:53:21,702 --> 00:53:24,751
+Ich sage bewusst nicht LED,
+weil es andere Alternativen gibt
+
+898
+00:53:24,752 --> 00:53:27,401
+an das Kriterium, Insekten
+Freundlichkeit zu koppeln,
+
+899
+00:53:27,402 --> 00:53:29,402
+und wie lange wird das dauern?
+
+900
+00:53:30,180 --> 00:53:32,665
+Erst mal, Herr Abgeordneter,
+Wir haben auch jetzt schon
+
+901
+00:53:32,666 --> 00:53:36,143
+Maßnahmen auf den Weg gebracht.
+Ich hatte das hier zu Beginn gesagt,
+
+902
+00:53:36,144 --> 00:53:39,950
+dass wir in der Gemeinschaftsaufgabe
+Agrarstruktur und Küstenschutz schon
+
+903
+00:53:39,951 --> 00:53:42,344
+ein Fenster für den Insektenschutz haben,
+dass wir das
+
+904
+00:53:42,345 --> 00:53:45,988
+Biodiversitäts-Monitoring-
+Zentrum auf den Weg gebracht haben,
+
+905
+00:53:45,989 --> 00:53:49,144
+dass wir in meinem Haus ein extra
+Programm haben für den
+
+906
+00:53:49,145 --> 00:53:52,190
+Biodiversitätsschutz,
+woraus man Mittel bekommen kann.
+
+907
+00:53:52,191 --> 00:53:55,731
+Also wir haben schon große Teile
+des Aktionsprogramms
+
+908
+00:53:55,732 --> 00:53:57,732
+Insektenschutz umgesetzt.
+
+909
+00:53:58,000 --> 00:54:00,594
+Wird es bei
+den Beleuchtungen Regelungen geben?
+
+910
+00:54:00,595 --> 00:54:04,751
+Ja, das ist ein Teil dessen,
+was Sie jetzt auch in der Insekten
+
+911
+00:54:04,752 --> 00:54:08,245
+Schutzgesetz finden wollen.
+Ich will in Schutzgebieten,
+
+912
+00:54:08,246 --> 00:54:11,662
+vor allem da, wo sehr viele
+nachtaktive Insekten sind,
+
+913
+00:54:11,663 --> 00:54:15,452
+die von künstlichen Lichtquellen
+angelockt werden könnten,
+
+914
+00:54:15,453 --> 00:54:19,987
+die neue Errichtung solcher Anlagen
+auf jeden Fall verhindern und es ist
+
+915
+00:54:19,988 --> 00:54:23,715
+in dem Gesetz vorgesehen,
+eine Ermächtigungsgrundlage für
+
+916
+00:54:23,716 --> 00:54:27,007
+den Erlass von Rechtsverordnungen,
+weil auch weitere
+
+917
+00:54:27,008 --> 00:54:29,307
+Lichtverschmutzung,
+zum Beispiel von
+
+918
+00:54:29,308 --> 00:54:31,308
+Werbetafeln und so weiter
+
+919
+00:54:31,309 --> 00:54:33,309
+eingeschränkt werden muss.
+
+920
+00:54:33,310 --> 00:54:35,580
+Das andere auch.
+Ja, danke schön.
+
+921
+00:54:35,581 --> 00:54:37,947
+Die Kollegin Steffi Lemke
+hat eine Nachfrage dazu.
+
+922
+00:54:38,370 --> 00:54:43,030
+30 Sekunden! Sie erinnern sich
+vermutlich an die Krefelder Studie,
+
+923
+00:54:43,031 --> 00:54:47,907
+Frau Ministerin. Der gleiche Forscherkreis
+hat gerade ganz alarmierende neue Studien-
+
+924
+00:54:47,908 --> 00:54:52,927
+ergebnisse zu den Schwebfliegen vorgelegt.
+Die Schwebfliegen sind bekanntermaßen
+
+925
+00:54:52,928 --> 00:54:57,804
+keine Bestäuber, aber Nützlinge,
+weil sie Blattläuse vertilgen.
+
+926
+00:54:57,805 --> 00:55:00,979
+Können Sie mir vor diesem
+Hintergrund eventuell noch mal
+
+927
+00:55:00,980 --> 00:55:04,428
+erläutern, warum aus die
+aus biodiversitätsschädlich bestäuberschädlich
+
+928
+00:55:04,429 --> 00:55:08,315
+in Ihrem
+Insektenschutzgesetz geworden ist,
+
+929
+00:55:08,316 --> 00:55:10,834
+und ob Sie jetzt unterscheiden
+zwischen guten
+
+930
+00:55:10,835 --> 00:55:12,835
+und schlechten Insekten.
+
+931
+00:55:13,560 --> 00:55:17,190
+Wir unterscheiden nicht zwischen
+guten und schlechten Insekten,
+
+932
+00:55:17,191 --> 00:55:20,594
+sondern wir haben einfach die
+Kategorien, die bisher im
+
+933
+00:55:20,595 --> 00:55:23,885
+Pflanzenschutzrecht
+üblich waren, jetzt wieder
+
+934
+00:55:23,886 --> 00:55:26,779
+aufgegriffen. Die Mittel, die für Bienen
+und andere Bestäuber schädlich
+
+935
+00:55:27,030 --> 00:55:31,047
+ sind, sind auch schädlich für
+Schwebfliegen.
+
+936
+00:55:31,048 --> 00:55:34,700
+Natürlich werden
+damit dann auch Schweb-
+
+937
+00:55:34,701 --> 00:55:37,622
+fliegen geschützt. Wir haben ein
+Vokabular verwendent,
+
+938
+00:55:37,623 --> 00:55:41,390
+das eins zu eins beschreibt,
+was im
+
+939
+00:55:41,391 --> 00:55:45,646
+Aktionsprogramm Insektenschutz
+steht, und zwar in einer Sprache,
+
+940
+00:55:45,647 --> 00:55:49,590
+die ich für den Rechtskreis
+sozusagen angemessen ist.
+
+941
+00:55:49,591 --> 00:55:53,408
+Es gibt da keinen Unterschied, es
+entsteht keine Schutzlücke.
+
+942
+00:55:53,770 --> 00:55:55,770
+Danke sehr.
+Die nächste Frage stellt die
+
+943
+00:55:55,771 --> 00:55:57,771
+Kollegin Lisa Badum,
+Bündnis 90/Die Grünen.
+
+944
+00:56:05,750 --> 00:56:08,921
+Vielen Dank Herr Präsident.
+Sehr geehrte Frau Ministerin,
+
+945
+00:56:08,922 --> 00:56:11,709
+ich möchte gern zum
+neuen Thema hier fragen,
+
+946
+00:56:11,710 --> 00:56:14,977
+und zwar zu Nord Stream 2. Das scheint
+ja für die SPD das bei weitem
+
+947
+00:56:14,978 --> 00:56:17,141
+wichtigste Projekt diese
+Legislatur zu sein.
+
+948
+00:56:17,142 --> 00:56:20,342
+Frau Schwesig kündigt eine neue
+Stiftung, Herr Scholz lässt sich
+
+949
+00:56:20,343 --> 00:56:23,543
+von der amerikanischen Regierung
+erpressen und verspricht deutsche
+
+950
+00:56:23,544 --> 00:56:25,544
+Steuergelder als Lösegeld.
+
+951
+00:56:25,545 --> 00:56:29,046
+Der Bundespräsident setzt sich ein,
+wo sie sich rechtlich bewegt,
+
+952
+00:56:29,047 --> 00:56:32,915
+scheint der SPD mittlerweile egal zu
+sein, aber Sie stehen hier nicht als
+
+953
+00:56:32,916 --> 00:56:35,843
+Parteimitglied, sondern als
+Umweltministerin, als Klima-
+
+954
+00:56:35,844 --> 00:56:38,980
+Ministerin und von daher würde ich
+von Ihnen gerne wissen,
+
+955
+00:56:38,981 --> 00:56:42,535
+warum sie das Projekten Nord Stream 2
+und den Dirty Deal von Herrn
+
+956
+00:56:42,536 --> 00:56:45,771
+Scholz weiter unterstützen,
+obwohl das ganz klar gegen
+
+957
+00:56:45,772 --> 00:56:49,236
+EU-Klimaziele verstößt, obwohl die EU
+ganz klar keine Fossilen-
+
+958
+00:56:49,237 --> 00:56:52,199
+infrastrukturen mehr fördern will.
+Warum unterstützen
+
+959
+00:56:52,200 --> 00:56:54,200
+Sie dieses Projekt?
+
+960
+00:56:54,360 --> 00:56:56,698
+Erst mal, Fra Abgeordnete, weise ich
+hier deutlich zurück,
+
+961
+00:56:56,699 --> 00:56:58,791
+dass es irgendwelche schmutzigen
+Deals da gibt, das
+
+962
+00:56:58,792 --> 00:57:00,792
+ist nicht der Fall.
+
+963
+00:57:03,300 --> 00:57:07,389
+Dann sind wir uns doch einig, wir
+wollen aus der Kohleverstromung
+
+964
+00:57:07,390 --> 00:57:11,603
+aussteigen und wir wollen aus der
+Nutzung von Atomstrom aussteigen,
+
+965
+00:57:11,604 --> 00:57:15,445
+wir werden die Atomkraftwerke
+abschalten, das heißt aber wir
+
+966
+00:57:15,446 --> 00:57:19,597
+brauchen für den Übergang Gas.
+Es wird gar nicht anders möglich
+
+967
+00:57:19,598 --> 00:57:23,377
+sein. Sie können sich Studien
+ansehen, ich kann zum Beispiel die von
+
+968
+00:57:23,378 --> 00:57:26,600
+Angora empfehlen, die sehr klar
+nachgewiesen haben,
+
+969
+00:57:26,601 --> 00:57:30,752
+dass gerade für den Umbau der
+Stahlindustrie, wir im Übergang auf
+
+970
+00:57:30,753 --> 00:57:35,152
+Gas angewiesen sein werden, so lange
+bis wir genug erneuerbare Energien
+
+971
+00:57:35,153 --> 00:57:38,313
+zurVerfügung haben,
+um dann eben auch daraus zum
+
+972
+00:57:38,314 --> 00:57:42,403
+beispiel Wasserstoff herzustellen,
+daraus Kerosin herzustellen und
+
+973
+00:57:42,404 --> 00:57:46,431
+deswegen ist Gas ein wichtiger
+Faktor für den Übergang. Das ist
+
+974
+00:57:46,432 --> 00:57:49,282
+nicht lange der Fall,
+die Forschung sagt uns,
+
+975
+00:57:49,283 --> 00:57:52,939
+dass das wahrscheinlich bis rund 2040
+der Fall sein wird,
+
+976
+00:57:52,940 --> 00:57:57,153
+aber so lange brauchen wir Gas und
+dann möglichst viele Quellen zu
+
+977
+00:57:57,154 --> 00:58:01,676
+haben, damit es für die Verbraucherinnen
+und Verbraucher möglichst günstig
+
+978
+00:58:01,677 --> 00:58:05,766
+ist und damit man auch einen Einfluss
+auf die Preisgestaltung hat.
+
+979
+00:58:05,767 --> 00:58:10,747
+Ich finde, das ist genau der richtige
+Weg und kann das nur unterstützen,
+
+980
+00:58:10,748 --> 00:58:13,546
+dass wir Gas
+als Zwischenlösung nutzen.
+
+981
+00:58:13,547 --> 00:58:18,462
+Die Alternativen, Atom aus Frankreich oder
+Kohlestrom aus Polen unterstütze ich nicht.
+
+982
+00:58:18,463 --> 00:58:22,781
+Nachfrage, Frau Badum? Vielen Dank.
+Frau Ministerin, dass der schmutzige Deal
+
+983
+00:58:22,782 --> 00:58:26,369
+nicht zustande kam,
+lag nicht an der Bundesregierung,
+
+984
+00:58:26,370 --> 00:58:30,356
+sondern weil Herr Trump diesen Deal
+nicht eingewilligt hat.
+
+985
+00:58:30,357 --> 00:58:32,891
+Es ist so, dass die
+Bundesnetzagentur und sinkende Bedarf
+
+986
+00:58:32,892 --> 00:58:35,703
+an Gas für Deutschland
+vorhersagt und dass die Pipelines
+
+987
+00:58:35,704 --> 00:58:38,285
+die, jetzt zu uns führen, überhaupt
+nicht ausgelastet sind.
+
+988
+00:58:38,286 --> 00:58:41,801
+Deswegen frage ich Sie noch mal,
+warum unterstützen Sie als oberste
+
+989
+00:58:41,802 --> 00:58:44,961
+Klimaschützerin dieser
+Bundesregierung einen Mehrausstoß
+
+990
+00:58:44,962 --> 00:58:47,510
+von 100 Millionen Tonnen CO2 und
+wollen noch
+
+991
+00:58:47,511 --> 00:58:50,887
+1 Milliarde Euro dafür zahlen?
+Das würde ich gerne von Ihnen
+
+992
+00:58:50,888 --> 00:58:54,807
+wissen, Frau Abgeordnete. Erst mal,
+noch mal, ich weise es deutlich
+
+993
+00:58:54,808 --> 00:58:59,095
+zurück. Es gibt keinen schmutzigen
+Deal, auch wenn sie es immer wieder
+
+994
+00:58:59,096 --> 00:59:02,709
+behaupten. Ich darf Ihnen keine
+Gegenfrage stellen; das ist nicht üblich.
+
+995
+00:59:02,710 --> 00:59:06,139
+Aber ich stelle mir dann selber die
+
+996
+00:59:06,140 --> 00:59:08,835
+Frage, was das für
+einen Sinn machen soll,
+
+997
+00:59:08,836 --> 00:59:13,150
+ein genehmigtes Projekt zu stoppen,
+dafür Milliarden zu zahlen,
+
+998
+00:59:13,151 --> 00:59:16,603
+nur damit eine Pipeline
+nicht fertig gestellt wird.
+
+999
+00:59:16,604 --> 00:59:20,571
+Entscheidend ist doch,
+wie viel Gas wir am Ende verwenden.
+
+1000
+00:59:20,610 --> 00:59:23,938
+Das ist das, was wir versuchen
+möglichst zu reduzieren.
+
+1001
+00:59:23,939 --> 00:59:27,014
+Wir wollen aus allen fossilen
+Energien aussteigen,
+
+1002
+00:59:27,015 --> 00:59:30,392
+wir tun es bei der Kohle,
+wir werden die Atomkraftwerke
+
+1003
+00:59:30,393 --> 00:59:34,493
+abschalten, aber wir brauchen Gas im
+Übergang. Wenn Sie dafür eine
+
+1004
+00:59:34,494 --> 00:59:38,293
+Alternative haben, sehr schön,
+lassen Sie uns das diskutieren.
+
+1005
+00:59:38,294 --> 00:59:42,093
+Die Forschung sagt uns eindeutig: Wir
+brauchen im Übergang Gas
+
+1006
+00:59:47,550 --> 00:59:50,370
+Dr. Rainer Kraft, AfD stellt die
+nächste Nachfrage.
+
+1007
+00:59:53,530 --> 00:59:55,549
+Vielen Dank, Frau Ministerin,
+ich möchte bestätigen
+
+1008
+00:59:55,550 --> 00:59:57,834
+was Sie gesagt haben.
+Es ist richtig, dass auch die
+
+1009
+00:59:57,835 --> 01:00:00,259
+Papiere des
+Bundeswirtschaftsministeriums sagen,
+
+1010
+01:00:00,260 --> 01:00:02,882
+dass es eine verstärkten
+Wechsel auf Gas geben wird.
+
+1011
+01:00:02,883 --> 01:00:05,298
+Und selbstverständlich ist es nicht
+so wie die Kollegin
+
+1012
+01:00:05,299 --> 01:00:07,941
+insinuiert, dass nur ein Angebot von
+Gas zu einem Mehrverbrauch
+
+1013
+01:00:07,942 --> 01:00:09,942
+führt. Das ist ja gemäß dem
+Erneuerbare-Energien-Gesetz
+
+1014
+01:00:09,943 --> 01:00:11,943
+gar nicht möglich.
+Allerdings und jetzt muss ich
+
+1015
+01:00:11,944 --> 01:00:13,944
+widersprechen,
+
+1016
+01:00:13,945 --> 01:00:16,408
+ist es nicht nur so,
+dass das Abschalten von Kohle und
+
+1017
+01:00:16,409 --> 01:00:19,410
+Kernkraftwerken bei uns zu einem
+erhöhten Gaskonsum führen wird
+
+1018
+01:00:19,411 --> 01:00:21,644
+durch die Gaskraftwerke.
+Es ist tatsächlich so,
+
+1019
+01:00:21,645 --> 01:00:24,635
+dass wir in eine verstärkte
+Abhängigkeit von ausländischen
+
+1020
+01:00:24,636 --> 01:00:26,854
+Kernkraftwerken wandern.
+Das kann man sehen,
+
+1021
+01:00:26,855 --> 01:00:30,086
+an den Nettoimportströmen,
+die aus Frankreich importiert werden
+
+1022
+01:00:30,087 --> 01:00:33,269
+müssen und im Jahr 2019 die Größe
+von über 14 Terawattstunden
+
+1023
+01:00:33,270 --> 01:00:35,922
+überschritten hat,
+was zwei kompletten französischen
+
+1024
+01:00:35,923 --> 01:00:38,961
+Kraftwerksblöcken entspricht,
+die auf dem Papier zu 100 % für den
+
+1025
+01:00:38,962 --> 01:00:40,962
+Export nach Deutschland arbeiten.
+
+1026
+01:00:40,963 --> 01:00:43,713
+Das ist ein Ergebnis Ihrer
+Energiepolitik, und das ist
+
+1027
+01:00:43,714 --> 01:00:45,714
+auch ein Ergebnis des
+
+1028
+01:00:45,715 --> 01:00:48,146
+Verzichtes auf die
+Souveränität,
+
+1029
+01:00:50,340 --> 01:00:52,340
+auf die deutsche Stromerzeugungsautarkie
+
+1030
+01:00:52,341 --> 01:00:54,531
+Geben Sie mir recht, dass es so
+kommen muss, dass ich
+
+1031
+01:00:54,532 --> 01:00:57,151
+mich, wenn ich bei uns
+Stromerzeuger abschalte, dann in die
+
+1032
+01:00:57,152 --> 01:00:59,471
+Abhängigkeit von ausländischen
+Stromerzeugenden begebe,
+
+1033
+01:00:59,472 --> 01:01:01,576
+in diesem Fall von französischen
+Kernkraftwerken?
+
+1034
+01:01:02,040 --> 01:01:04,106
+Nein, Herr Abgeordneter,
+ich kann Ihnen da
+
+1035
+01:01:04,107 --> 01:01:07,471
+leider überhaupt nicht zustimmen.
+Das Gegenteil ist der Fall.
+
+1036
+01:01:07,690 --> 01:01:12,238
+Deutschland produziert immer noch
+deutlich mehr Energie, als wir selber
+
+1037
+01:01:12,239 --> 01:01:16,275
+verbrauchen. Wir exportieren
+Energie in die Nachbarländer.
+
+1038
+01:01:16,276 --> 01:01:19,445
+Dass wir einen europäischen
+Energiemarkt anstreben,
+
+1039
+01:01:19,446 --> 01:01:23,273
+das halte ich allerdings für
+sinnvoll. Es ist absolut sinnvoll,
+
+1040
+01:01:23,274 --> 01:01:25,905
+größere Räume hier
+zusammenzuschließen,
+
+1041
+01:01:25,906 --> 01:01:30,151
+das, was wir europäisch jetzt auch
+gemeinsam tun, und uns gegenseitig
+
+1042
+01:01:30,152 --> 01:01:34,218
+zu unterstützen und zu stützen.
+Dass es gerade jetzt in der Frage
+
+1043
+01:01:34,219 --> 01:01:37,508
+des Umbaus wichtig,
+weil ja auch unsere Nachbarländer
+
+1044
+01:01:37,509 --> 01:01:40,618
+jetzt sehen, dass sie aus Kohle
+aussteigen müssen,
+
+1045
+01:01:40,619 --> 01:01:44,386
+weil ja auch wir Transitland sind,
+zum Beispiel für Gas.
+
+1046
+01:01:44,387 --> 01:01:47,736
+Wir leiten Gas durch Deutschland
+hindurch eben auch zu anderen.
+
+1047
+01:01:47,737 --> 01:01:51,743
+Das dann eben auch gemeinsam zu
+planen und gemeinsames Netz zu
+
+1048
+01:01:51,744 --> 01:01:54,375
+haben, das halte
+ich für absolut sinnvoll.
+
+1049
+01:01:55,340 --> 01:01:57,764
+Die nächste Nachfrage stellt die
+Kollegin Verlinden.
+
+1050
+01:02:03,940 --> 01:02:08,315
+Vielen Dank, Frau Präsidentin.
+Frau Ministerin, wussten Sie davon,
+
+1051
+01:02:08,316 --> 01:02:12,562
+dass diese Gespräche geführt
+werden von Ihren Kabinettskollegen
+
+1052
+01:02:12,563 --> 01:02:16,295
+mit den Amerikanern bezüglich
+dieser Erpressungsversuche
+
+1053
+01:02:16,296 --> 01:02:20,201
+und des Lösegeldes,
+was da im Gespräch war. Außerdem
+
+1054
+01:02:20,202 --> 01:02:23,597
+möchte ich darauf hinweisen.
+Sie sagen, es sei zwar eine
+
+1055
+01:02:23,598 --> 01:02:26,334
+genehmigte Leitung,
+aber sie ist doch ganz klar in einem
+
+1056
+01:02:26,335 --> 01:02:29,502
+Riesenkonflikt mit dem Europarecht
+und all unseren europäischen
+
+1057
+01:02:29,503 --> 01:02:31,854
+Partnern, und dann
+möchte ich darauf hinweisen.
+
+1058
+01:02:31,855 --> 01:02:34,974
+Ihr eigener Staatssekretär,
+und Sie haben das
+
+1059
+01:02:34,975 --> 01:02:38,902
+eben noch mal ähnlich formuliert.
+Herr Flasbarth sagt: Natürlich
+
+1060
+01:02:38,903 --> 01:02:42,549
+werden wir in den 2040er Jahren
+aus dem fossilen
+
+1061
+01:02:42,550 --> 01:02:44,550
+Erdgas ausgestiegen sein.
+
+1062
+01:02:44,551 --> 01:02:48,887
+So, und dann erklären Sie mir doch
+mal, warum Sie jetzt zusätzlich zu
+
+1063
+01:02:48,888 --> 01:02:51,959
+100 Millionen Tonnen CO2,
+die jährlich durch eine
+
+1064
+01:02:51,960 --> 01:02:55,333
+zusätzliche Pipeline nach Europa
+gebracht werden soll,
+
+1065
+01:02:55,334 --> 01:02:58,996
+warum das offenbar noch nicht genug
+ist, sondern Herr Scholz es für
+
+1066
+01:02:58,997 --> 01:03:02,362
+offenbar notwendig hält,
+zusätzlich noch zig Millionen
+
+1067
+01:03:02,363 --> 01:03:06,013
+Tonnen CO2 jedes Jahr über LNG-
+Terminals anzuliefern,
+
+1068
+01:03:06,014 --> 01:03:09,333
+die europaweit überhaupt
+nicht  ausgelastet sind.
+
+1069
+01:03:09,334 --> 01:03:12,589
+die,die es schon gibt.
+Also insofern die Frage der Amortisation
+
+1070
+01:03:12,590 --> 01:03:15,899
+von riesigen Infrastrukturprojekten.
+Achten Sie bitte auf die Zeit!
+
+1071
+01:03:15,900 --> 01:03:19,535
+die tatsächlich in ein finanzielles
+
+1072
+01:03:19,536 --> 01:03:22,954
+Desaster führen für all die
+Investoren. Wo passt das zusammen
+
+1073
+01:03:22,955 --> 01:03:26,613
+Steuergelder auszugeben auf der einen
+Seite,
+
+1074
+01:03:26,614 --> 01:03:31,325
+sollten sie das recht ein
+privatwirtschaftliches Projekt?
+
+1075
+01:03:31,326 --> 01:03:35,658
+Frau Abgeordnete, noch mal, ich weise diese
+Unterstellungen ganz
+
+1076
+01:03:35,659 --> 01:03:38,872
+deutlich zurück.
+Also auch wenn Sie hier mehrfach
+
+1077
+01:03:38,873 --> 01:03:43,045
+wiederholt werden. Die Entscheidungen
+von Investoren, die werde ich hier
+
+1078
+01:03:43,046 --> 01:03:46,174
+nicht kommentieren,
+das sind deren Entscheidungen. Was
+
+1079
+01:03:46,175 --> 01:03:49,361
+klar ist, wir werden nicht mehr
+lange Gas brauchen.
+
+1080
+01:03:49,362 --> 01:03:53,401
+Das wird wahrscheinlich in den
+frühen 40er Jahren der Fall sein,
+
+1081
+01:03:53,402 --> 01:03:57,020
+dass wir kein Gas mehr hier in
+Deutschland beziehen werden.
+
+1082
+01:03:57,021 --> 01:03:59,614
+Sie hatten auch LNG-Terminals angesprochen.
+
