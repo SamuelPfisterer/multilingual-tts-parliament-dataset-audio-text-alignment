@@ -18,6 +18,9 @@ import pickle
 from pathlib import Path
 from dotenv import load_dotenv
 
+# Load .env file from the same directory as this script
+load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
+
 @dataclass
 class TranscribedSegment:
     segment: Segment   
@@ -277,11 +280,12 @@ def initialize_vad_pipeline():
     Initialize the pyannote VAD pipeline.
     """
     cache_dir = os.getenv("HF_CACHE_DIR")
+    print(f"Cache directory: {cache_dir}")
     
     # First load the model with cache_dir
     model = Model.from_pretrained(
         "pyannote/segmentation",
-        use_auth_token=os.getenv("HF_AUTH_TOKEN"),
+        use_auth_token=os.getenv("HF_TOKEN"),
         cache_dir=cache_dir
     )
     
@@ -491,9 +495,10 @@ def main():
         directory.mkdir(parents=True, exist_ok=True)
     
     # Define file paths
-    file_name = "7501579_3840s"
+    file_name = "7501579_960s"
     audio_path = audio_dir / f"{file_name}.opus"
-    transcript_path = transcript_dir / f"{file_name}.txt"
+    #transcript_path = transcript_dir / f"{file_name}.txt"
+    transcript_path = "output.txt"
     cache_path = cache_dir / f"{file_name}_transcribed.pkl"
     alignment_path = alignment_dir / f"{file_name}_aligned.json"
     
@@ -505,7 +510,7 @@ def main():
         print("Transcribing audio segments...")
         vad_pipeline = initialize_vad_pipeline()
         segmenter = AudioSegmenter(vad_pipeline)
-        transcribed_segments = segmenter.segment_and_transcribe(audio_path)
+        transcribed_segments = segmenter.segment_and_transcribe(str(audio_path))
         
         # Cache the results
         print("Caching transcribed segments...")
@@ -514,10 +519,14 @@ def main():
     # Load human transcript
     with open(transcript_path, "r") as f:
         human_transcript = f.read()
-        
+    
+    print(f"Starting alignment...")
+    start_time = time.time()
     # Align transcripts
     aligner = TranscriptAligner(window_token_margin=30)
     aligned_segments = aligner.align_transcript(transcribed_segments, human_transcript)
+    end_time = time.time()
+    print(f"Alignment completed in {end_time - start_time} seconds")
     
     # Save alignments
     # Save final alignments as JSON (keeping this as JSON since it's useful to inspect)

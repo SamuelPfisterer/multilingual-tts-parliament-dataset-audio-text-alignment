@@ -1,509 +1,509 @@
 {
-  "audio_file": "7501579_960s.opus",
+  "audio_file": "data/audio/7501579_960s.opus",
   "segments": [
     {
       "start": 0.0,
       "end": 14.028781250000002,
       "asr_text": ".",
-      "human_text": "",
-      "cer": 1.0,
-      "start_idx": 0,
-      "end_idx": 0
+      "human_text": ".",
+      "cer": 0.0,
+      "start_idx": 26,
+      "end_idx": 27
     },
     {
       "start": 14.028781250000002,
       "end": 29.46096875,
       "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen, bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
-      "human_text": "Guten Tag, Liebe Kolleginnen und Kollegen, bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
-      "cer": 0.01098901098901099,
-      "start_idx": 0,
-      "end_idx": 14
+      "human_text": "Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung",
+      "cer": 0.7362637362637363,
+      "start_idx": 8,
+      "end_idx": 22
     },
     {
       "start": 29.46096875,
       "end": 46.09128125,
       "asr_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die besorgniserregenden Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
-      "human_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die Besorgnis erregenden Varianten des SARS-Covid-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
-      "cer": 0.028089887640449437,
-      "start_idx": 14,
-      "end_idx": 38
+      "human_text": "208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der Tagesordnung",
+      "cer": 0.7359550561797753,
+      "start_idx": 6,
+      "end_idx": 26
     },
     {
       "start": 46.09128125,
       "end": 61.20284375,
       "asr_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infektiöser ist als das bisher bekannte Virus.",
-      "human_text": "worden. Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infektiöser ist als das bisher bekannte Virus.",
-      "cer": 0.046511627906976744,
-      "start_idx": 37,
-      "end_idx": 59
+      "human_text": "Deutscher Bundestag Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung",
+      "cer": 0.75,
+      "start_idx": 2,
+      "end_idx": 22
     },
     {
       "start": 61.20284375,
       "end": 75.67315625,
       "asr_text": "Die Verbreitung einer Virusmutation mit höherem Ansteckungspotenzial würde eine schwerwiegende Verschärfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen",
-      "human_text": "Virus. Die Verbreitung einer Virusmutation mit höherem Ansteckungspotenzial würde eine schwerwiegende Verschärfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen",
-      "cer": 0.03553299492385787,
-      "start_idx": 58,
-      "end_idx": 82
+      "human_text": "Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der Tagesordnung",
+      "cer": 0.7461928934010152,
+      "start_idx": 4,
+      "end_idx": 26
     },
     {
       "start": 75.67315625,
       "end": 95.532375,
       "asr_text": "die anerkanntermaßen eine höhere Schutzwirkung als sogenannte Alltagsmasken haben, eine besondere Bedeutung zu. Dementsprechend wurde die Verpflichtung zum Tragen medizinischer Gesichtsmasken für zahlreiche Situationen, in denen ein engerer oder längerer Kontakt zu anderen Personen, insbesondere in geschlossenen Räumen, unvermeidbar ist, eingeführt.",
-      "human_text": "Gesichtsmasken, die anerkanntermaßen eine höhere Schutzwirkung als sogenannte Alltagsmasken haben, eine besondere Bedeutung zu. Dementsprechend wurde die Verpflichtung zum Tragen medizinische Gesichtsmasken für zahlreiche Situationen, in denen ein engerer oder längerer Kontakt zu anderen Personen, insbesondere in geschlossenen Räumen, unvermeidbar ist, eingeführt.",
-      "cer": 0.04843304843304843,
-      "start_idx": 82,
-      "end_idx": 124
+      "human_text": "Plenarprotokoll 19/208 Deutscher Bundestag Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der Tagesordnung .",
+      "cer": 0.7635327635327636,
+      "start_idx": 0,
+      "end_idx": 27
     },
     {
       "start": 95.532375,
       "end": 115.532375,
       "asr_text": "Angesichts dieser Entwicklungen habe ich mich entschlossen, mit heute in Kraft getretener hausrechtlicher Allgemeinverfügung eine Pflicht zum Tragen medizinischer Gesichtsmasken in den Gebäuden des Bundestags anzuordnen. Zu den medizinischen Gesichtsmasken zählen die sogenannten OP- und die FFP2-Masken.",
-      "human_text": "eingeführt. Angesichts dieser Entwicklungen habe ich mich entschlossen, mit heute in Kraft getretener hausrechtlicher Allgemeinverfügung eine Pflicht zum Tragen medizinischer Gesichtsmasken in den Gebäuden des Bundestags anzuordnen. Zu den medizinischen Gesichtsmasken zählen die sogenannten OP- und die FFP2-Masken",
-      "cer": 0.04276315789473684,
-      "start_idx": 123,
-      "end_idx": 161
+      "human_text": "Plenarprotokoll 19/208 Deutscher Bundestag Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der Tagesordnung . .",
+      "cer": 0.7598684210526315,
+      "start_idx": 0,
+      "end_idx": 28
     },
     {
       "start": 115.532375,
       "end": 131.61378125,
       "asr_text": "sowie Masken mit vergleichbaren Standards. Diese Pflicht zum Tragen medizinischer Gesichtsmasken tritt an die Stelle der bisherigen Verpflichtung zum Tragen einer Mund-Nasen-Bedeckung. Im Übrigen bleibt es bei den Regelungen zum Umfang der",
-      "human_text": "sowie Masken mit vergleichbaren Standards. Diese Pflicht zum Tragen medizinischer Gesichtsmasken tritt an die Stelle der bisherigen Verpflichtung zum Tragen einer Mund-Nasen-Bedeckung. Im Übrigen bleibt es bei den Regelungen zum",
-      "cer": 0.04602510460251046,
-      "start_idx": 161,
-      "end_idx": 191
+      "human_text": "19/208 Deutscher Bundestag Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der",
+      "cer": 0.7364016736401674,
+      "start_idx": 1,
+      "end_idx": 25
     },
     {
       "start": 131.61378125,
       "end": 143.94096875000002,
       "asr_text": "wie Sie bereits aus der seit Oktober geltenden Allgemeinverfügung kennen. Bitte denken Sie also daran, wenn Sie hier durch den Saal oder zum Rednerpult gehen, eine medizinische Gesichtsmaske zu tragen.",
-      "human_text": "wie Sie sie bereits aus der seit Oktober geltenden Allgemeinverfügung kennen. Bitte denken Sie daran, wenn Sie hier durch den Saal oder zum Rednerpult gehen, eine medizinische Gesichtsmaske zu tragen.",
-      "cer": 0.04477611940298507,
-      "start_idx": 194,
-      "end_idx": 224
+      "human_text": "Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der Tagesordnung",
+      "cer": 0.7412935323383084,
+      "start_idx": 4,
+      "end_idx": 26
     },
     {
       "start": 143.94096875000002,
       "end": 163.94096875000002,
       "asr_text": "In der heutigen Präsidiumssitzung haben wir bekräftigt, dass Verstöße gegen diese hausrechtliche Anordnung hier im Plenarsaal zugleich auch einen Verstoß gegen unsere parlamentarische Ordnung darstellen. Eine gesundheitliche Gefährdung von Abgeordneten durch das Verhalten anderer Abgeordneter gefährdet die Erledigung der uns aufgetragenen",
-      "human_text": "zu tragen. In der heutigen Präsidiumssitzung haben wir bekräftigt, das Verstöße gegen diese hausrechtliche Anordnung hier im Plenarsaal zugleich auch ein Verstoß gegen unsere parlamentarische Ordnung darstellen. Eine gesundheitliche Gefährdung von Abgeordneten durch das Verhalten anderer Abgeordneter gefährdet die Erledigung der uns aufgetragenen",
-      "cer": 0.041176470588235294,
-      "start_idx": 222,
-      "end_idx": 265
+      "human_text": "19/208 Deutscher Bundestag Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der Tagesordnung . . .",
+      "cer": 0.7588235294117647,
+      "start_idx": 1,
+      "end_idx": 29
     },
     {
       "start": 163.94096875000002,
       "end": 179.74971875,
       "asr_text": "parlamentarischen Arbeit. Daher mache ich erneut darauf aufmerksam, dass Verstöße gegen die Maskenpflicht auch mit den Mitteln des parlamentarischen Ordnungsrechts geahndet werden können, sofern diese in unseren Sitzungen auftreten.",
-      "human_text": "parlamentarischen Arbeit. Daher mache ich erneut darauf aufmerksam, dass Verstöße gegen die Maskenpflicht auch mit den Mitteln des parlamentarischen Ordnungsrechts geahndet werden können, sofern diese in unseren Sitzungen",
-      "cer": 0.04741379310344827,
-      "start_idx": 265,
-      "end_idx": 293
+      "human_text": "Bundestag Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der Tagesordnung .",
+      "cer": 0.7327586206896551,
+      "start_idx": 3,
+      "end_idx": 27
     },
     {
       "start": 179.74971875,
       "end": 191.95034375,
       "asr_text": "Dies schließt selbstverständlich die namentlichen Abstimmungen, Wahlen und das Hammelsprungverfahren ein. Ich bitte Sie nachdrücklich, sich an die neuen Vorgaben zu halten.",
-      "human_text": "Dies schließt selbstverständlich die namentlichen Abstimmungen, Wahlen und das Hammelsprungverfahren ein. Ich bitte Sie nachdrücklich, sich an die neuen Vorgaben zu",
-      "cer": 0.046511627906976744,
-      "start_idx": 294,
-      "end_idx": 315
+      "human_text": "Deutscher Bundestag Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n",
+      "cer": 0.75,
+      "start_idx": 2,
+      "end_idx": 16
     },
     {
       "start": 191.95034375,
       "end": 208.19253125,
       "asr_text": "Für die heutige 208. und die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen.",
-      "human_text": "halten. Für die heutige 208. und die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen.",
-      "cer": 0.0365296803652968,
-      "start_idx": 315,
-      "end_idx": 349
+      "human_text": "Bundestag Stenografischer Bericht 208. Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der Tagesordnung",
+      "cer": 0.726027397260274,
+      "start_idx": 3,
+      "end_idx": 26
     },
     {
       "start": 208.19253125,
       "end": 227.49753125,
       "asr_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach § 21 Absatz 2 der Geschäftsordnung ist für die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschließende Tagesordnung um die in der Zusatzpunkteliste aufgeführten Punkte zu erweitern.",
-      "human_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach 21 Absatz 3 der Geschäftsordnung ist für die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschließende Tagesordnung um die in der Zusatzpunkteliste aufgeführten Punkte zu",
-      "cer": 0.04229607250755287,
-      "start_idx": 349,
-      "end_idx": 390
+      "human_text": "Sitzung Berlin, Mittwoch, den 10. Februar 2021 I n h a l t : Erweiterung und Abwicklung der Tagesordnung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26207 D Absetzung der Tagesordnungspunkte 4, 7, 20, 21, 16, 28 c,",
+      "cer": 0.7311178247734139,
+      "start_idx": 7,
+      "end_idx": 78
     },
     {
       "start": 227.49753125,
       "end": 246.34690625000002,
       "asr_text": "Und der Frist für den Beginn der Beratungen soll so weiter förderlich abgewichen werden. Auf Verlangen der Fraktion Bündnis 90 Die Grünen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den jüngsten gewaltsamen, willkürlichen und repressiven Entwicklungen in Russland statt.",
-      "human_text": "Von der Frist für den Beginn der Beratungen soll soweit erforderlich, abgewichen werden. Auf Verlangen der Fraktion Bündnis 90/Die Grünen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den jüngsten gewaltsamen, willkürlichen und repressiven Entwicklungen in Russland",
-      "cer": 0.04878048780487805,
-      "start_idx": 391,
-      "end_idx": 434
+      "human_text": ". . . . . . . . 26210 D Feststellung der Tagesordnung . . . . . . . . . . . . . . . 26210 D Tagesordnungspunkt 1: Befragung der Bundesregierung Svenja Schulze, Bundesministerin BMU .",
+      "cer": 0.7195121951219512,
+      "start_idx": 105,
+      "end_idx": 145
     },
     {
       "start": 246.34690625000002,
       "end": 265.95565625,
       "asr_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag für einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
-      "human_text": "statt. Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag für einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
-      "cer": 0.02348993288590604,
-      "start_idx": 434,
-      "end_idx": 473
+      "human_text": "Tagesordnung . . . . . . . . . . . . . . . 26210 D Tagesordnungspunkt 1: Befragung der Bundesregierung Svenja Schulze, Bundesministerin BMU .",
+      "cer": 0.7114093959731543,
+      "start_idx": 117,
+      "end_idx": 145
     },
     {
       "start": 265.95565625,
       "end": 284.88940625,
       "asr_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bekämpfung der Geldwäsche auf der Drucksache 19-24186 abschließend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
-      "human_text": "werden. Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bekämpfung der Geldwäsche auf der Drucksache 19/24180 abschließend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
-      "cer": 0.03322259136212625,
-      "start_idx": 472,
-      "end_idx": 507
+      "human_text": "D Tagesordnungspunkt 1: Befragung der Bundesregierung Svenja Schulze, Bundesministerin BMU . . . . . 26211 A Karsten Hilse (AfD) . . . . . . . . . . . . . . . . . . . . . . . . . 26211 D Svenja Schulze, Bundesministerin",
+      "cer": 0.7275747508305648,
+      "start_idx": 134,
+      "end_idx": 184
     },
     {
       "start": 284.88940625,
       "end": 300.06003125,
       "asr_text": "Tagesordnungspunkt 17 wird am Freitag aufgerufen. Stattdessen soll eine Beschlussempfehlung zum Antrag Friedensbemühungen im Jemen intensivieren, humanitäre Lage verbessern, auf der Drucksache 19 26 220 aufgesetzt werden.",
-      "human_text": "hinten. Tagesordnungspunkt 17 wird am Freitag aufgerufen. Stattdessen soll eine Beschlussempfehlung zum Antrag Friedensbemühungen im Jemen intensivieren, humanitäre Lage verbessern, auf der Drucksache 19/26220 aufgesetzt werden.",
-      "cer": 0.04524886877828054,
-      "start_idx": 506,
-      "end_idx": 532
+      "human_text": ". . . . . . . . . . . . . . . . . . . . . . . . . 26211 D Svenja Schulze, Bundesministerin BMU . . . . . 26212 A Karsten",
+      "cer": 0.8054298642533937,
+      "start_idx": 154,
+      "end_idx": 193
     },
     {
       "start": 300.06003125,
       "end": 310.85159375,
       "asr_text": "Als erster Punkt. Am Freitag soll der Entwurf eines Gesetzes zur Fortgeltung der die epidemische Lage von nationaler Tragweite betreffenden Regelungen aufgerufen werden.",
-      "human_text": "Als erster Punkt am Freitag soll der Entwurf eines Gesetzes zur Fortgeltung der die epidemische Lage von nationaler Tragweite betreffenden Regelungen aufgerufen werden.",
-      "cer": 0.011834319526627219,
-      "start_idx": 532,
-      "end_idx": 555
+      "human_text": ". . . . . . . . . . . . . . . . 26211 D Svenja Schulze, Bundesministerin BMU . . . . . 26212 A Karsten Hilse (AfD) .",
+      "cer": 0.7928994082840237,
+      "start_idx": 163,
+      "end_idx": 196
     },
     {
       "start": 310.85159375,
       "end": 323.17878125000004,
       "asr_text": "Tagesordnungspunkt 20 wird abgesetzt. An dieser Stelle soll in verbundener Beratung drei Vorlagen zur Familienpolitik in der Pandemie aufgesetzt werden. Tagesordnungspunkt 21 wird abgesetzt.",
-      "human_text": "Tagesordnungspunkt 20 wird abgesetzt. An dieser Stelle sollen in verbundener Beratung drei Vorlagen zur Familienpolitik in der Pandemie aufgesetzt werden. Tagesordnungspunkt 21 wird abgesetzt.",
-      "cer": 0.010526315789473684,
-      "start_idx": 555,
-      "end_idx": 579
+      "human_text": ". . . . . . . . . . . . . 26211 D Svenja Schulze, Bundesministerin BMU . . . . . 26212 A Karsten Hilse",
+      "cer": 0.8052631578947368,
+      "start_idx": 166,
+      "end_idx": 194
     },
     {
       "start": 323.17878125000004,
       "end": 336.72940625,
       "asr_text": "An dieser Stelle soll mit einer Debattenzeit von 30 Minuten der Entwurf eines dritten Coronasteuerhilfegesetzes aufgesetzt werden. Daran anschließend soll mit einer Debattenzeit von ebenfalls 30 Minuten der Gesetzentwurf",
-      "human_text": "An dieser Stelle soll mit einer Debattenzeit von 30 Minuten der Entwurf eines Dritten Corona-Steuerhilfegesetzes aufgesetzt werden. Daran anschließend soll mit einer Debattenzeit von ebenfalls 30 Minuten der Gesetzentwurf",
-      "cer": 0.013636363636363636,
-      "start_idx": 579,
-      "end_idx": 608
+      "human_text": ". . . . 26211 D Svenja Schulze, Bundesministerin BMU . . . . . 26212 A Karsten Hilse (AfD) . . . . . . . . . . . . . . . . . . . . . . . . . 26212 A Svenja Schulze, Bundesministerin",
+      "cer": 0.7863636363636364,
+      "start_idx": 175,
+      "end_idx": 225
     },
     {
       "start": 336.72940625,
       "end": 352.32190625000004,
       "asr_text": "zur Regelung einer Einmalzahlung der Grundsicherungssysteme an Erwachsene, Leistungsberechtigte und zur Verlängerung des erleichterten Zugangs zu sozialer Sicherung und des Sozialdienstleister-Einsatzgesetzes aus Anlass der Covid-19-Pandemie aufgerufen werden.",
-      "human_text": "zur Regelung einer Einmalzahlung der Grundsicherungssysteme an erwachsene Leistungsberechtigte und zur Verlängerung des erleichterten Zugangs zu sozialer Sicherung und zur Änderung des Sozialdienster-Einsatzgesetzes aus Anlass der COVID-19 Pandemie aufgerufen werden.",
-      "cer": 0.09615384615384616,
-      "start_idx": 608,
-      "end_idx": 638
+      "human_text": "A Svenja Schulze, Bundesministerin BMU . . . . . 26212 B Till Mansmann (FDP) . . . . . . . . . . . . . . . . . . . . . . . 26212 C Svenja Schulze, Bundesministerin BMU . . . . . 26212 C Marc Bernhard",
+      "cer": 0.7961538461538461,
+      "start_idx": 221,
+      "end_idx": 274
     },
     {
       "start": 352.32190625000004,
       "end": 368.53878125,
-      "asr_text": "An der Stelle des Tagesordnungspunkt 22 soll der Tagesordnungspunkt 17 aufgerufen werden. Die Tagesordnungspunkte 16, 28c, d und e sollen abgesetzt werden. Außerdem mache ich Sie auf die Überweisung im Anhang zur Zusatzpunkteliste aufmerksam.",
-      "human_text": "werden. An der Stelle des Tagesordnungspunkt 22 soll der Tagesordnungspunkt 17 aufgerufen werden. Die Tagesordnungspunkte 16, 28 c, d und e sollen abgesetzt werden. Außerdem mache ich Sie auf die Überweisung im Anhang zur Zusatzpunkteliste aufmerksam.",
-      "cer": 0.0371900826446281,
-      "start_idx": 637,
-      "end_idx": 673
+      "asr_text": "An der Stelle des Tagesordnungspunkt 22 soll der Tagesordnungspunkt 17 aufgerufen werden. Die Tagesordnungspunkte 16, 28, c, d und e sollen abgesetzt werden. Außerdem mache ich Sie auf die Überweisung im Anhang zur Zusatzpunkteliste aufmerksam.",
+      "human_text": "C Svenja Schulze, Bundesministerin BMU . . . . . 26212 C Marc Bernhard (AfD) . . . . . . . . . . . . . . . . . . . . . . . 26212 D Svenja Schulze, Bundesministerin",
+      "cer": 0.7950819672131147,
+      "start_idx": 260,
+      "end_idx": 303
     },
     {
       "start": 368.53878125,
       "end": 379.432375,
       "asr_text": "Damit kommen wir zur Feststellung der Tagesordnung der 208. und 209. Sitzung mit den genannten Änderungen und Ergänzungen. Wer stimmt dafür?",
-      "human_text": "damit kommen wir zur Feststellung der Tagesordnungen der 208., 209., 210 Sitzung mit den genannten Änderungen und Ergänzungen. Wer stimmt dafür?",
-      "cer": 0.08571428571428572,
-      "start_idx": 674,
-      "end_idx": 695
+      "human_text": "D Svenja Schulze, Bundesministerin BMU . . . . . 26213 A Alois Gerig (CDU/CSU) . . . .",
+      "cer": 0.7857142857142857,
+      "start_idx": 299,
+      "end_idx": 318
     },
     {
       "start": 379.432375,
       "end": 390.40034375000005,
       "asr_text": "Wer stimmt dagegen? Wer enthält sich? Dann ist die Tagesordnung gegen die Stimme der AfD mit den Stimmen des übrigen Hauses so beschlossen.",
-      "human_text": "Wer stimmt dagegen? Wer enthält sich? Dann sind die Tagesordnungen gegen die Stimme der AfD mit den Stimmen des übrigen Hauses so beschlossen.",
-      "cer": 0.03597122302158273,
-      "start_idx": 695,
-      "end_idx": 718
+      "human_text": "Christoph Hoffmann (FDP) . . . . . . . . . . . . . . 26213 C Svenja Schulze, Bundesministerin BMU . .",
+      "cer": 0.7841726618705036,
+      "start_idx": 348,
+      "end_idx": 373
     },
     {
       "start": 390.40034375000005,
       "end": 408.09534375000004,
       "asr_text": "Ich rufe auf den Tagesordnungspunkt 1, Befragung der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verfügung steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
-      "human_text": "beschlossen. Ich rufe auf den Tagesordnungspunkt 1: Befragung der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verfügung steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
-      "cer": 0.04430379746835443,
-      "start_idx": 717,
-      "end_idx": 759
+      "human_text": ". . . . . . . . . . 26213 C Svenja Schulze, Bundesministerin BMU . . . . . 26213 D Franziska Gminder (AfD) . . . . . . . . . . . . . . . . . . . 26214 A Svenja Schulze, Bundesministerin BMU . . . . . 26214 B Andreas Bleck (AfD) .",
+      "cer": 0.7341772151898734,
+      "start_idx": 355,
+      "end_idx": 417
     },
     {
       "start": 408.09534375000004,
       "end": 428.09534375000004,
       "asr_text": "Herr Präsident, sehr geehrte Damen und Herren Abgeordnete, alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, wie es weitergeht mit den Corona-Beschränkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen über Unabhängigkeit",
-      "human_text": "Herr Präsident! Sehr geehrte Damen und Herren Abgeordnete! Alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, wie es weitergeht mit den Corona- beschränkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen über Umweltpolitik",
-      "cer": 0.05357142857142857,
-      "start_idx": 759,
-      "end_idx": 809
+      "human_text": ". . . . . . . . . . . . . 26214 A Svenja Schulze, Bundesministerin BMU . . . . . 26214 B Andreas Bleck (AfD) . . . . . . . . . . . . . . . . . . . . . . . . 26214 C Svenja Schulze, Bundesministerin BMU . . . . . 26214 C Renate Künast",
+      "cer": 0.7857142857142857,
+      "start_idx": 387,
+      "end_idx": 455
     },
     {
       "start": 428.09534375000004,
       "end": 448.09534375000004,
       "asr_text": "Denn die Pandemie lehrt uns eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten.",
-      "human_text": "reden, denn die Pandemie lehrt uns: Eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht. Gerade heute beim Schutz der Insekten.",
-      "cer": 0.04332129963898917,
-      "start_idx": 809,
-      "end_idx": 850
+      "human_text": ". . . . . . . . . . . . . . . . . . . 26214 D Svenja Schulze, Bundesministerin BMU . . . . . 26214 D Carsten Träger (SPD) . . . . . . . . . . . . . . . . . . . . . . . . 26215 A Svenja Schulze, Bundesministerin BMU .",
+      "cer": 0.7870036101083032,
+      "start_idx": 467,
+      "end_idx": 533
     },
     {
       "start": 448.09534375000004,
       "end": 468.09534375000004,
-      "asr_text": "Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltschädlicher Pestizide ganz erheblich eingeschränkt. Endlich, anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr deutlich...",
-      "human_text": "Insekten. Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltschädlicher Pestizide ganz erheblich eingeschränkt. Endlich! Anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr deutlich",
-      "cer": 0.04807692307692308,
-      "start_idx": 849,
-      "end_idx": 891
+      "asr_text": "Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltschädlicher Pestizide ganz erheblich eingeschränkt. Endlich, anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr deutlich,",
+      "human_text": "A Svenja Schulze, Bundesministerin BMU . . . . . 26215 B Nicole Bauer (FDP) . . . . . . . . . . . . . . . . . . . . . . . . . 26215 C Svenja Schulze, Bundesministerin BMU . . . . . 26215 D Steffi",
+      "cer": 0.7935483870967742,
+      "start_idx": 527,
+      "end_idx": 581
     },
     {
       "start": 468.09534375000004,
       "end": 488.09534375000004,
-      "asr_text": "dass wir das ernst meinen. Äcker sollen wieder einladender werden für Insekten, mehr Klatschbohnen und Kornblume, weniger Ackergifte und ausgeräumte Agrarlandschaften. Und auch Städte sollen insektenfreundlicher werden durch weniger Lichtverschmutzungen, mehr Raum für Insekten auch außerhalb von",
-      "human_text": "dass wir das ernst meinen. Äcker sollen wieder einladender werden für Insekten: Mehr Klatschmohn und Kornblume, weniger Ackergifte und ausgeräumte Agrarlandschaften. Auch Städte sollen insektenfreundlicher werden durch weniger Lichtverschmutzungen, mehr Raum für Insekten auch außerhalb",
-      "cer": 0.0472972972972973,
-      "start_idx": 892,
-      "end_idx": 927
+      "asr_text": "dass wir das ernst meinen. Äcker sollen wieder einladender werden für Insekten, mehr Klatschbohnen und Kornblume, weniger Ackergifte und ausgeräumte Agrarlandschaften. Und auch Städte sollen insektenfreundlicher werden durch weniger Lichtverschmutzungen, mehr Raum für Insekten auch außerhalb von der Stadt.",
+      "human_text": ". . . . . . 26216 D Svenja Schulze, Bundesministerin BMU . . . . . 26216 D Dr. Gero Clemens Hocker (FDP) . . . . . . . . . . . . . 26217 A Svenja Schulze, Bundesministerin BMU . . . . . 26217 B Rainer Spiering",
+      "cer": 0.7915309446254072,
+      "start_idx": 611,
+      "end_idx": 663
     },
     {
       "start": 488.09534375000004,
       "end": 508.09534375000004,
       "asr_text": "von Parks und Gärten. Was ändert sich jetzt konkret? Glyphosat wird endlich verboten. Es tötet wahllos Wildpflanzen ab und zerstört damit die Nahrungsgrundlage für Vögel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte Übergangszeit und dann eben ein Komplettverbot. Und bis dahin",
-      "human_text": "außerhalb von Parks und Gärten. Was ändert sich jetzt konkret? Glyphosat wird endlich verboten. Es tötet wahllos Wildpflanzen ab und zerstört damit die Nahrungsgrundlage für Vögel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte Übergangszeit und dann eben ein Komplettverbot. Und bis dahin",
-      "cer": 0.03367003367003367,
-      "start_idx": 926,
-      "end_idx": 971
+      "human_text": "Hocker (FDP) . . . . . . . . . . . . . 26217 A Svenja Schulze, Bundesministerin BMU . . . . . 26217 B Rainer Spiering (SPD) . . . . . . . .",
+      "cer": 0.7912457912457912,
+      "start_idx": 633,
+      "end_idx": 672
     },
     {
       "start": 508.09534375000004,
       "end": 528.09534375,
       "asr_text": "wird der Einsatz erheblich eingeschränkt werden. Flüsse, Bäche, Seen werden sauberer, da Pestizide nur noch in angemessenem Abstand eingesetzt werden dürfen. Das schützt Tiere und Pflanzen im Wasser und am Ufer. In Schutzgebieten sollen Insekten wieder echten Schutz finden, Mittel, die Insekten und Wildkräuter abtun.",
-      "human_text": "bis dahin wird der Einsatz erheblich eingeschränkt werden. Flüsse, Bäche, Seen werden sauberer, da Pestizide nur noch in angemessenem Abstand eingesetzt werden dürfen. Das schützt Tiere und Pflanzen im Wasser und am Ufer. In Schutzgebieten sollen Insekten wieder echten Schutz finden. Mittel, die Insekten und Wildkräuter abtöten",
-      "cer": 0.04716981132075472,
-      "start_idx": 969,
-      "end_idx": 1016
+      "human_text": "Bundesministerin BMU . . . . . 26217 D Harald Ebner (BÜNDNIS 90/DIE GRÜNEN) 26218 A Svenja Schulze, Bundesministerin BMU . . . . . 26218 B Dr. Gero Clemens Hocker (FDP) . . . . . . . . . . . . . 26218 C Svenja Schulze, Bundesministerin",
+      "cer": 0.7767295597484277,
+      "start_idx": 691,
+      "end_idx": 741
     },
     {
       "start": 528.09534375,
       "end": 548.09534375,
       "asr_text": "und dabei die biologische Vielfalt schädigen, wären weitestgehend verbannt. Zusätzliche Flächen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll künftig der Insektenschutz stärker berücksichtigt werden, das erleichtert es zum Beispiel, Biotope zu einem Netzwerk geschützter Lebensräume zu verbinden.",
-      "human_text": "abtöten und dabei die biologische Vielfalt schädigen, wären weitestgehend verbannt. Zusätzliche Flächen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll künftig der Insektenschutz stärker berücksichtigt werden. Das erleichtert es zum Beispiel, Biotope zu einem Netzwerk geschützter Lebensräume zu verbinden.",
-      "cer": 0.028901734104046242,
-      "start_idx": 1015,
-      "end_idx": 1060
+      "human_text": ". . . . . . . . . . . 26219 A Svenja Schulze, Bundesministerin BMU . . . . . 26219 B Dr. Rainer Kraft (AfD) . . . . . . . . . . . . . . . . . . . . . . 26219 C Svenja Schulze, Bundesministerin BMU . . . . . 26219 C Ralph Lenkert (DIE LINKE) . .",
+      "cer": 0.7976878612716763,
+      "start_idx": 771,
+      "end_idx": 840
     },
     {
       "start": 548.09534375,
       "end": 568.09534375,
       "asr_text": "Wir haben im Kabinett damit Lösungen gefunden, die der Landwirtschaft und den Insekten gleichermaßen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben, der Öffnung für Vertragsnaturschutz und gesellschaftlich gemeinsam erarbeiteten Lösungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema",
-      "human_text": "zu verbinden. Wir haben im Kabinett damit Lösungen gefunden, die der Landwirtschaft und den Insekten gleichermaßen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben, der Öffnung für Vertragsnaturschutz und gesellschaftlich gemeinsam erarbeiteten Lösungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema",
-      "cer": 0.04154302670623145,
-      "start_idx": 1058,
-      "end_idx": 1104
+      "human_text": ". . 26219 C Svenja Schulze, Bundesministerin BMU . . . . . 26219 C Ralph Lenkert (DIE LINKE) . . . . . . . . . . . . . . . . 26219 D Svenja Schulze, Bundesministerin BMU . . . . . 26220 A Ralph Lenkert (DIE LINKE) .",
+      "cer": 0.7952522255192879,
+      "start_idx": 819,
+      "end_idx": 872
     },
     {
       "start": 568.09534375,
       "end": 588.09534375,
       "asr_text": "erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich weiß, die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanständigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Deshalb setze ich mich dafür ein, dass das Umfeld",
-      "human_text": "hat erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich weiß: die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanständigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Deshalb setze ich mich dafür ein, dass",
-      "cer": 0.04953560371517028,
-      "start_idx": 1104,
-      "end_idx": 1147
+      "human_text": "Bundesministerin BMU . . . . . 26220 B Steffi Lemke (BÜNDNIS 90/DIE GRÜNEN) . 26220 C Svenja Schulze, Bundesministerin BMU . . . . . 26220 D Lisa Badum (BÜNDNIS 90/DIE GRÜNEN) . 26221 A Svenja Schulze, Bundesministerin BMU . . . . . 26221 A Lisa Badum",
+      "cer": 0.7956656346749226,
+      "start_idx": 891,
+      "end_idx": 940
     },
     {
       "start": 588.09534375,
       "end": 608.09534375,
       "asr_text": "in der Landwirtschaft künftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarförderung in der sogenannten zweiten Säule, um vertragliche kooperative Vereinbarungen besser finanzieren zu können. Meine Damen und Herren Abgeordnete, Insekten, das sind kleine Nutztiere. Sie bestäuben, blüten, sie fressen,",
-      "human_text": "Umsteuern in der Landwirtschaft künftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarförderung in der sogenannten zweiten Säule, um vertragliche kooperative Vereinbarungen besser finanzieren zu können. Meine Damen und Herren Abgeordnete, Insekten, das sind kleine Nutztiere. Sie bestäuben Blüten, sie fressen",
-      "cer": 0.040372670807453416,
-      "start_idx": 1148,
-      "end_idx": 1192
+      "human_text": "II Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 Dr. Rainer Kraft (AfD) . . . . . . . . . . . . . . . . . . . . . . 26221 D Svenja Schulze, Bundesministerin",
+      "cer": 0.7857142857142857,
+      "start_idx": 958,
+      "end_idx": 1002
     },
     {
       "start": 608.09534375,
       "end": 628.09534375,
-      "asr_text": "Sie bereiten gesunde Böden, sie ernähren Vögel und andere Tiere. Insektenschutz sichert nicht nur das Überleben von Hirschkäfern und Erdhummeln, es sichert auch die Zukunft unserer Landwirtschaft und nutzt damit uns allen. Gleiches gilt für viele Projekte der Umweltpolitik, zum Beispiel beim Klimaschutz.",
-      "human_text": "Schädlinge, sie bereiten gesunde Böden, sie ernähren Vögel und andere Tiere. Insektenschutz sichert nicht nur das Überleben von Hirschkäfern und Erdhummeln. Er sichert auch die Zukunft unserer Landwirtschaft und nutzt damit uns allen. Gleiches gilt für viele Projekte der Umweltpolitik, zum Beispiel beim Klimaschutz.",
-      "cer": 0.04918032786885246,
-      "start_idx": 1192,
-      "end_idx": 1236
+      "asr_text": "Schädlinge, sie bereiten gesunde Böden, sie ernähren Vögel und andere Tiere. Insektenschutz sichert nicht nur das Überleben von Hirschkäfern und Erdhummeln, es sichert auch die Zukunft unserer Landwirtschaft und nutzt damit uns allen. Gleiches gilt für viele Projekte der Umweltpolitik, zum Beispiel beim Klimaschutz.",
+      "human_text": "Schulze, Bundesministerin BMU . . . . . 26222 A Dr. Julia Verlinden (BÜNDNIS 90/ DIE GRÜNEN) . . . . . . . . . . . . . . . . . . . . . . . . . . . 26222 B Svenja Schulze, Bundesministerin BMU .",
+      "cer": 0.7917981072555205,
+      "start_idx": 1000,
+      "end_idx": 1051
     },
     {
       "start": 628.09534375,
       "end": 648.09534375,
       "asr_text": "Letzte Woche hat das Bundeskabinett beschlossen, den Anteil erneuerbarer Energien im Verkehr ganz erheblich zu steigern. Weitere Schritte sind nötig, schon alleine aufgrund der Anhebung des EU-Klimazieles für 2030. Ein weiterer großer Erfolg der letzten Wochen und das Ergebnis wirklich harter Arbeit. Auch bei der Reziduzierung",
-      "human_text": "Letzte Woche hat das Bundeskabinett beschlossen, den Anteil erneuerbarer Energien im Verkehr ganz erheblich zu steigern. Weitere Schritte sind nötig, schon allein aufgrund der Anhebung des EU-Klimazieles für 2030, ein weiterer großer Erfolg der letzten Wochen und das Ergebnis wirklich harter Arbeit. Auch bei der Reduzierung",
-      "cer": 0.01524390243902439,
-      "start_idx": 1236,
-      "end_idx": 1282
+      "human_text": "Svenja Schulze, Bundesministerin BMU . . . . . 26222 C Stephan Brandner (AfD) . . . . . . . . . . . . . . . . . . . . . 26223 A Svenja Schulze, Bundesministerin BMU . . . . . 26223 A Lorenz Gösta Beutin (DIE LINKE) . . . . .",
+      "cer": 0.7804878048780488,
+      "start_idx": 1046,
+      "end_idx": 1104
     },
     {
       "start": 648.09534375,
       "end": 668.09534375,
       "asr_text": "Von Plastikmüll geht es voran. Wer sich Essen oder Kaffee zum Mitnehmen kauft, soll künftig die Wahl haben zwischen Mehrweg- und Einwegbehältern. Das hat das Kabinett Ende Januar vereinbart und heute erst Regelungen zur Kennzeichnung von Einwegprodukten. Also die Klimakrise, die Plastikflut, der Insektenverschwund, der Verlust von Lebensräumen, all",
-      "human_text": "von Plastikmüll geht es voran. Wer sich Essen oder Kaffee zum Mitnehmen kauft, soll künftig die Wahl haben zwischen Mehrweg- und Einwegbehältern. Das hat das Kabinett Ende Januar vereinbart und heute erst Regelungen zur Kennzeichnung von Einweg- produkten. Also die Klimakrise, Die Plastikflut, der Insektenschwund, der Verlust von Lebensräume,",
-      "cer": 0.03428571428571429,
-      "start_idx": 1282,
-      "end_idx": 1331
+      "human_text": "C Dr. Lukas Köhler (FDP) . . . . . . . . . . . . . . . . . . . . . 26223 D Svenja Schulze, Bundesministerin BMU . . . . . 26223 D Marc Bernhard (AfD) . . . . . . . . . . . . . . . . . . . . . . . 26224 A Svenja Schulze, Bundesministerin BMU",
+      "cer": 0.7942857142857143,
+      "start_idx": 1121,
+      "end_idx": 1192
     },
     {
       "start": 668.09534375,
       "end": 684.12659375,
       "asr_text": "das geht leider auch in Pandemiezeiten weiter. Lassen Sie uns daher weiter an Lösungen arbeiten, denen die Menschen und die Umwelt gleichermaßen zugutekommen. Lassen Sie uns das gemeinsam tun. Ich freue mich jetzt auf Ihre Fragen.",
-      "human_text": "weiter, leider auch im Pandemiezeiten. Lassen wir uns daher weiter an Lösungen arbeiten, die Menschen und Umwelt gleichermaßen zugute kommen. Lassen Sie uns das gemeinsam tun. Ich freue mich jetzt auf Ihre Fragen.",
-      "cer": 0.12173913043478261,
-      "start_idx": 1334,
-      "end_idx": 1367
+      "human_text": ". . . . . . . . . . . . . . . . . . . . . . . 26224 C Svenja Schulze, Bundesministerin BMU . . . . . 26224 C Tagesordnungspunkt 2: Fragestunde Drucksache 19/26439 .",
+      "cer": 0.7739130434782608,
+      "start_idx": 1202,
+      "end_idx": 1244
     },
     {
       "start": 684.12659375,
       "end": 695.31128125,
       "asr_text": "Die erste Frage stellt der Kollege Carsten Hilse, AfD.",
-      "human_text": "Die erste Frage stellt der Kollege Karsten Hilse, AfD.",
-      "cer": 0.018518518518518517,
-      "start_idx": 1367,
-      "end_idx": 1376
+      "human_text": "Mündliche Frage 6 Dr. Marcus Faber (FDP)",
+      "cer": 0.7037037037037037,
+      "start_idx": 1268,
+      "end_idx": 1275
     },
     {
       "start": 695.31128125,
       "end": 715.31128125,
       "asr_text": "Vielen Dank, Herr Präsident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingeführt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021.",
-      "human_text": "Vielen Dank, Herr Präsident. Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum ersten 1. Januar 2021, die CO2-Steuer eingeführt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem ersten 1.",
-      "cer": 0.12295081967213115,
-      "start_idx": 1376,
-      "end_idx": 1412
+      "human_text": "Marcus Faber (FDP) Gründe für die Änderungen bei der Förde- rung energieeffizienten Bauens Antwort Thomas Bareiß, Parl. Staatssekretär BMWi . . . 26225",
+      "cer": 0.7581967213114754,
+      "start_idx": 1272,
+      "end_idx": 1295
     },
     {
       "start": 715.31128125,
       "end": 733.30878125,
       "asr_text": "schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur für den Januar. Das ist zum geringen Teil natürlich auch durch die Rücknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den Löwenanteil verursacht die CO2-Steuer.",
-      "human_text": "2021 schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 % mehr, nur für den Januar. Das ist zum geringen Teil natürlich auch durch die Rücknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den Löwenanteil verursacht die CO2- Steuer.",
-      "cer": 0.04929577464788732,
-      "start_idx": 1413,
-      "end_idx": 1454
+      "human_text": ". 26225 A Mündliche Frage 6 Dr. Marcus Faber (FDP) Gründe für die Änderungen bei der Förde- rung energieeffizienten Bauens Antwort Thomas Bareiß, Parl. Staatssekretär",
+      "cer": 0.7535211267605634,
+      "start_idx": 1265,
+      "end_idx": 1290
     },
     {
       "start": 733.30878125,
       "end": 753.30878125,
       "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatz",
-      "human_text": "bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien. Jetzt meine Frage: Wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energie- verteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatzverlust",
-      "cer": 0.05555555555555555,
-      "start_idx": 1456,
-      "end_idx": 1502
+      "human_text": "Mündliche Frage 6 Dr. Marcus Faber (FDP) Gründe für die Änderungen bei der Förde- rung energieeffizienten Bauens Antwort Thomas Bareiß, Parl. Staatssekretär BMWi . . . 26225 A Zusatzfragen Dr.",
+      "cer": 0.7592592592592593,
+      "start_idx": 1268,
+      "end_idx": 1298
     },
     {
       "start": 753.30878125,
       "end": 773.30878125,
       "asr_text": "in die Armut getrieben werden. Frau Bundesministerin. Ganz herzlichen Dank für die Frage. Wir haben einen CO2-Preis eingeführt, weil CO2 eine Belastung für das Klima, für die Umwelt ist und deswegen CO2 reduziert werden muss. Der CO2-Preis wirkt ab 1. Januar",
-      "human_text": "in die Armut getrieben werden. Frau Bundesministerin. Ganz herzlichen Dank für die Frage. Wir haben einen CO2-Preis eingeführt, weil CO2 eine Belastung für das Klima für die Umwelt ist und deswegen CO2 reduziert werden muss. CO2-Preis wirkt ab ersten",
-      "cer": 0.050387596899224806,
-      "start_idx": 1502,
-      "end_idx": 1541
+      "human_text": "Änderungen bei der Förde- rung energieeffizienten Bauens Antwort Thomas Bareiß, Parl. Staatssekretär BMWi . . . 26225 A Zusatzfragen Dr. Marcus Faber (FDP) . . . .",
+      "cer": 0.7364341085271318,
+      "start_idx": 1278,
+      "end_idx": 1305
     },
     {
       "start": 773.30878125,
       "end": 793.30878125,
       "asr_text": "Das ist genau das Richtige, um eine Umsteuerung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir in großem Umfang CO2 emittiert haben. Diese Verantwortung werden wir in dieser Regierung",
-      "human_text": "das ist genau das Richtige, um eben ein Umsteuern Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung, wir haben eine Verantwortung, weil wir eben in großem Umfang CO2 emittiert haben, und dieser Verantwortung werden wir in dieser Regierung",
-      "cer": 0.0989010989010989,
-      "start_idx": 1544,
-      "end_idx": 1588
+      "human_text": ". . . . . . . . . . . . . . . . . . . . 26225 B Mündliche Frage 8 Dr. Rainer Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort Thomas Bareiß, Parl.",
+      "cer": 0.7326007326007326,
+      "start_idx": 1302,
+      "end_idx": 1343
     },
     {
       "start": 793.30878125,
       "end": 809.5669062500001,
       "asr_text": "auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier auch im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung für die Zukunft. Nachfrage, Herr Kollege.",
-      "human_text": "auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung für die Zukunft. Nachfrage, Herr Kollege?",
-      "cer": 0.027906976744186046,
-      "start_idx": 1588,
-      "end_idx": 1619
+      "human_text": "Frage 8 Dr. Rainer Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort Thomas Bareiß, Parl.",
+      "cer": 0.7255813953488373,
+      "start_idx": 1325,
+      "end_idx": 1343
     },
     {
       "start": 809.5669062500001,
       "end": 826.90596875,
       "asr_text": "Vielen Dank. Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk im Zusammenhang mit der Corona-Epidemie sagten Sie konkret, wir merken im Moment ja alle, dass wir eben nicht alles steuern können.",
-      "human_text": "vielen Dank! Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk Im Zusammenhang mit der Corona- epidemie sagten Sie konkret: Wir merken im Moment ja alle, dass wir eben nicht alles steuern können.",
-      "cer": 0.03398058252427184,
-      "start_idx": 1620,
-      "end_idx": 1652
+      "human_text": "Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort Thomas Bareiß, Parl. Staatssekretär BMWi .",
+      "cer": 0.7330097087378641,
+      "start_idx": 1329,
+      "end_idx": 1346
     },
     {
       "start": 826.90596875,
       "end": 846.90596875,
       "asr_text": "Dem können wir natürlich zustimmen, nur zustimmen. Würden Sie uns daher bitte in einfachen und verständlichen Worten erklären, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass mindestens so komplexe, wenn nicht sogar komplexere Klimasysteme der Erde sich von",
-      "human_text": "Dem können wir natürlich zustimmen, nur zustimmen. Würden Sie uns daher bitte in einfachen, verständlichen Worten erklären, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass das mindestens so komplexe, wenn nicht sogar komplexere Klimasystem der Erde sich",
-      "cer": 0.04318936877076412,
-      "start_idx": 1652,
-      "end_idx": 1694
+      "human_text": "Dr. Rainer Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort Thomas Bareiß, Parl. Staatssekretär BMWi . . . 26226 A Zusatzfragen Dr. Rainer",
+      "cer": 0.760797342192691,
+      "start_idx": 1327,
+      "end_idx": 1353
     },
     {
       "start": 846.90596875,
       "end": 866.90596875,
-      "asr_text": "oder von Ihrer Regierung beeinflussen lässt? Herr Abgeordneter, ja, mit dem Klima, mit der Natur, mit der Umwelt können Sie nicht verhandeln. Es gibt keine Verhandlungslösung. Das Klima wartet nicht, bis wir so weit sind, sondern wir müssen Maßnahmen ergreifen.",
-      "human_text": "von uns oder von ihrer Regierung beeinflussen lässt. Herr Abgeordneter, ja, mit dem Klima, mit der Natur, mit der Umwelt können Sie nicht verhandeln. Es gibt keine Verhandlungslösung. Das Klima wartet nicht, bis wir soweit sind, sondern wir müssen Maßnahmen ergreifen,",
-      "cer": 0.04597701149425287,
-      "start_idx": 1694,
-      "end_idx": 1735
+      "asr_text": "oder von Ihrer Regierung beeinflussen lässt? Herr Abgeordneter, ja, mit dem Klima, mit der Natur, mit der Umwelt können Sie nicht verhandeln. Es gibt keine Verhandlungslösung. Das Klima wartet nicht, bis wir so weit sind, sondern wir müssen Maßnahmen ergreifen. Und wir",
+      "human_text": "Frage 8 Dr. Rainer Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort Thomas Bareiß, Parl. Staatssekretär BMWi",
+      "cer": 0.7472118959107806,
+      "start_idx": 1325,
+      "end_idx": 1345
     },
     {
       "start": 866.90596875,
       "end": 886.90596875,
       "asr_text": "Wir müssen Vorsorge leisten. Wir müssen CO2 emittieren. 99,8 Prozent aller Wissenschaftlerinnen und Wissenschaftler auf der Welt sind sich einig, dass wir etwas gegen diese Klimaveränderungen tun sollen. Schauen Sie in den IPC.",
-      "human_text": "dass wir sagen: Wir müssen Vorsorge leisten. Wir müssen CO2-Emissionen reduzieren; denn 99,8 % aller Wissenschaftlerinnen und Wissenschaftler auf der Welt sind sich einig, dass wir etwas gegen diese Klimaveränderungen tun sollen. Schauen Sie ins IPCC,",
-      "cer": 0.21585903083700442,
-      "start_idx": 1740,
-      "end_idx": 1776
+      "human_text": "B Mündliche Frage 8 Dr. Rainer Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort Thomas Bareiß, Parl.",
+      "cer": 0.73568281938326,
+      "start_idx": 1323,
+      "end_idx": 1343
     },
     {
       "start": 886.90596875,
       "end": 906.90596875,
       "asr_text": "in das internationale Klimapanel, da sehen Sie, dass es eine große Einigkeit in der Wissenschaft gibt. Wir folgen hier der Wissenschaft, wir reduzieren CO2, wir sind in Deutschland in den letzten Jahren da wirklich schon vorangekommen und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung.",
-      "human_text": "ins IPCC, in das internationale Klima-Panel! Da sehen Sie, dass es eine große Einigkeit in der Wissenschaft gibt. Wir folgen hier der Wissenschaft, wir reduzieren CO2. Wir sind in Deutschland in den letzten Jahren da wirklich schon vorangekommen und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung",
-      "cer": 0.043701799485861184,
-      "start_idx": 1774,
-      "end_idx": 1833
+      "human_text": ". . . 26225 B Mündliche Frage 8 Dr. Rainer Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort Thomas Bareiß, Parl. Staatssekretär BMWi . . . 26226 A Zusatzfragen Dr. Rainer Kraft (AfD) .",
+      "cer": 0.7455012853470437,
+      "start_idx": 1319,
+      "end_idx": 1356
     },
     {
       "start": 906.90596875,
       "end": 925.81815625,
       "asr_text": "der Verwaltung schuldig. Herr Kollege Dr. Hoffmann, FDP, hat eine Nachfrage. Mit dem Mund- und Nasenschutz ist man zwar geschützt, aber auch davor, dass man erkannt wird. Vielen Dank, Herr Präsident. Deswegen hatten wir früher auch mal ein Vermutungsverbot.",
-      "human_text": "Verantwortung schuldig. Der Kollege Dr. Hoffmann, FDP hat eine Nachfrage. Entschuldigung. Mit dem Mund-und Nasen-Schutz ist man zwar geschützt, aber auch davor, dass man erkannt wird. Vielen Dank, Herr Präsident. Deswegen hatten wir früher auch mal ein Vermummungsverbot.",
-      "cer": 0.12062256809338522,
-      "start_idx": 1832,
-      "end_idx": 1870
+      "human_text": "8 Dr. Rainer Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort Thomas Bareiß, Parl.",
+      "cer": 0.7470817120622568,
+      "start_idx": 1326,
+      "end_idx": 1343
     },
     {
       "start": 925.81815625,
       "end": 945.81815625,
       "asr_text": "Vielen Dank, Herr Präsident. Frau Ministerin, Sie haben es gerade angesprochen, die CO2-Bepreisung. Grundsätzlich sind wir da ja auf der gleichen Schiene. Sie haben aber in diesem Jahr auch gleichzeitig die Kfz-Steuer angehoben. Das ist jetzt nur eine Steuer, die geringe Einkommen belastet und besonders teuer dann ist, wenn man das Fahrzeug wenig benutzt.",
-      "human_text": "Vielen Dank, Herr Präsident. Frau Ministerin, Sie haben es gerade angesprochen: Bei den CO2-Bepreisungen grundsätzlich sind wir da ja auf der gleichen Schiene. Sie haben aber in diesem Jahr auch gleichzeitig die Kfz-Steuer angehoben. Das ist jetzt nur eine Steuer, die geringe Einkommen belastet besonders teuer dann ist, wenn man das Fahrzeug wenig benutzt",
-      "cer": 0.0392156862745098,
-      "start_idx": 1870,
-      "end_idx": 1924
+      "human_text": "B Mündliche Frage 8 Dr. Rainer Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort Thomas Bareiß, Parl. Staatssekretär BMWi . . . 26226 A Zusatzfragen Dr. Rainer Kraft (AfD) . . . .",
+      "cer": 0.7619047619047619,
+      "start_idx": 1323,
+      "end_idx": 1359
     },
     {
       "start": 945.81815625,
       "end": 956.356125,
       "asr_text": "Ist diese systemwidrige Art, genau das andere zu tun, ausgerechnet bei der Mobilität der Bundesregierung im Sinne ihres Ressorts?",
-      "human_text": "Ist diese systemwidrige Art, genau das andere zu tun, ausgerechnet bei der Mobilität, im Sinne der Bundesregierung, im Sinne Ihres Ressorts?",
-      "cer": 0.09302325581395349,
-      "start_idx": 1924,
-      "end_idx": 1945
+      "human_text": "Kraft (AfD) Haftungsfragen bei der Finanzierung des Rückbaus von Windenergieanlagen Antwort",
+      "cer": 0.7131782945736435,
+      "start_idx": 1329,
+      "end_idx": 1340
     },
     {
       "start": 956.356125,
       "end": 976.356125,
       "asr_text": "Herr Abgeordneter, ja, wir haben auch die Kfz-Steuer angehoben.",
-      "human_text": "Herr Abgeordneter, ja, wir haben auch die Kfz-Steuer angehoben.",
-      "cer": 0.0,
-      "start_idx": 1945,
-      "end_idx": 1954
+      "human_text": "der Finanzierung des Rückbaus von Windenergieanlagen",
+      "cer": 0.7301587301587301,
+      "start_idx": 1333,
+      "end_idx": 1339
     }
   ]
 }
