@@ -7,14 +7,14 @@ import pypandoc
 
 def main():
     # get pdf path
-    pdf_path = "data/pdf/7501579.pdf"
+    pdf_path = "data/pdf/norway-10168-1.pdf"
     md_text = pymupdf4llm.to_markdown(pdf_path)
-    pathlib.Path("output.md").write_bytes(md_text.encode())
+    pathlib.Path("norway-10168-1.md").write_bytes(md_text.encode())
 
     output = pypandoc.convert_file(
-        'output.md',
+        'norway-10168-1.md',
         'plain',
-        outputfile='output.txt'
+        outputfile='norway-10168-1.txt'
     )
 
 if __name__ == "__main__":

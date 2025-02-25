@@ -1,0 +1,721 @@
+{
+    "threshold": 0.3,
+    "context_window": 2,
+    "total_jumps": 14,
+    "jumps": [
+        {
+            "jump_index": 14,
+            "cer_change": 0.45737233807383393,
+            "context_segments": [
+                {
+                    "segment_idx": 12,
+                    "is_jump_point": false,
+                    "start_time": 191.95034375,
+                    "end_time": 208.19253125,
+                    "cer": 0.0182648401826484,
+                    "asr_text": "F\u00fcr die heutige 208. und die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen.",
+                    "human_text": "F\u00fcr die heutige 208., die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen."
+                },
+                {
+                    "segment_idx": 13,
+                    "is_jump_point": false,
+                    "start_time": 208.19253125,
+                    "end_time": 227.49753125,
+                    "cer": 0.006042296072507553,
+                    "asr_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach \u00a7 21 Absatz 2 der Gesch\u00e4ftsordnung ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern.",
+                    "human_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach \u00a7 21 Absatz 3 der Gesch\u00e4ftsordnung ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern:"
+                },
+                {
+                    "segment_idx": 14,
+                    "is_jump_point": true,
+                    "start_time": 227.49753125,
+                    "end_time": 246.34690625000002,
+                    "cer": 0.4634146341463415,
+                    "asr_text": "Und der Frist f\u00fcr den Beginn der Beratungen soll so weiter f\u00f6rderlich abgewichen werden. Auf Verlangen der Fraktion B\u00fcndnis 90 Die Gr\u00fcnen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den j\u00fcngsten gewaltsamen, willk\u00fcrlichen und repressiven Entwicklungen in Russland statt.",
+                    "human_text": "in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern: ZP 1 Aktuelle Stunde auf Verlangen der Fraktion B\u00dcNDNIS 90/DIE GR\u00dcNEN Konsequenzen der Bundesregierung aus den j\u00fcngsten gewaltsamen, willk\u00fcrlichen und repressiven Entwicklungen in Russland ZP"
+                },
+                {
+                    "segment_idx": 15,
+                    "is_jump_point": false,
+                    "start_time": 246.34690625000002,
+                    "end_time": 265.95565625,
+                    "cer": 0.7080536912751678,
+                    "asr_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag f\u00fcr einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
+                    "human_text": "Abgeordneter und der Fraktion der FDP Bundesweiten Stufenplan vorlegen \u2013 Dem Land eine Perspektive geben Drucksache 19/26536 \u00dcberweisungsvorschlag: Ausschuss f\u00fcr Gesundheit (f) Ausschuss f\u00fcr"
+                },
+                {
+                    "segment_idx": 16,
+                    "is_jump_point": false,
+                    "start_time": 265.95565625,
+                    "end_time": 284.88940625,
+                    "cer": 0.7541528239202658,
+                    "asr_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bek\u00e4mpfung der Geldw\u00e4sche auf der Drucksache 19-24186 abschlie\u00dfend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
+                    "human_text": "10. Februar 2021 Pr\u00e4sident Dr. Wolfgang Sch\u00e4uble (A) Ausschuss f\u00fcr Recht und Verbraucherschutz Ausschuss f\u00fcr Wirtschaft und Energie Ausschuss f\u00fcr Arbeit und Soziales Ausschuss f\u00fcr Familie, Senioren, Frauen und Jugend"
+                }
+            ]
+        },
+        {
+            "jump_index": 17,
+            "cer_change": -0.7224786157754695,
+            "context_segments": [
+                {
+                    "segment_idx": 15,
+                    "is_jump_point": false,
+                    "start_time": 246.34690625000002,
+                    "end_time": 265.95565625,
+                    "cer": 0.7080536912751678,
+                    "asr_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag f\u00fcr einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
+                    "human_text": "Abgeordneter und der Fraktion der FDP Bundesweiten Stufenplan vorlegen \u2013 Dem Land eine Perspektive geben Drucksache 19/26536 \u00dcberweisungsvorschlag: Ausschuss f\u00fcr Gesundheit (f) Ausschuss f\u00fcr"
+                },
+                {
+                    "segment_idx": 16,
+                    "is_jump_point": false,
+                    "start_time": 265.95565625,
+                    "end_time": 284.88940625,
+                    "cer": 0.7541528239202658,
+                    "asr_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bek\u00e4mpfung der Geldw\u00e4sche auf der Drucksache 19-24186 abschlie\u00dfend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
+                    "human_text": "10. Februar 2021 Pr\u00e4sident Dr. Wolfgang Sch\u00e4uble (A) Ausschuss f\u00fcr Recht und Verbraucherschutz Ausschuss f\u00fcr Wirtschaft und Energie Ausschuss f\u00fcr Arbeit und Soziales Ausschuss f\u00fcr Familie, Senioren, Frauen und Jugend"
+                },
+                {
+                    "segment_idx": 17,
+                    "is_jump_point": true,
+                    "start_time": 284.88940625,
+                    "end_time": 300.06003125,
+                    "cer": 0.03167420814479638,
+                    "asr_text": "Tagesordnungspunkt 17 wird am Freitag aufgerufen. Stattdessen soll eine Beschlussempfehlung zum Antrag Friedensbem\u00fchungen im Jemen intensivieren, humanit\u00e4re Lage verbessern, auf der Drucksache 19 26 220 aufgesetzt werden.",
+                    "human_text": "Tagesordnungspunkt 17 wird am Freitag aufgerufen. Stattdessen soll eine Beschlussempfehlung zum Antrag \u201eFriedensbem\u00fchungen im Jemen intensivieren \u2013 Humanit\u00e4re Lage verbessern\u201c auf der Drucksache 19/26220 aufgesetzt werden."
+                },
+                {
+                    "segment_idx": 18,
+                    "is_jump_point": false,
+                    "start_time": 300.06003125,
+                    "end_time": 310.85159375,
+                    "cer": 0.011834319526627219,
+                    "asr_text": "Als erster Punkt. Am Freitag soll der Entwurf eines Gesetzes zur Fortgeltung der die epidemische Lage von nationaler Tragweite betreffenden Regelungen aufgerufen werden.",
+                    "human_text": "Als erster Punkt am Freitag soll der Entwurf eines Gesetzes zur Fortgeltung der die epidemische Lage von nationaler Tragweite betreffenden Regelungen aufgerufen werden."
+                },
+                {
+                    "segment_idx": 19,
+                    "is_jump_point": false,
+                    "start_time": 310.85159375,
+                    "end_time": 323.17878125000004,
+                    "cer": 0.010526315789473684,
+                    "asr_text": "Tagesordnungspunkt 20 wird abgesetzt. An dieser Stelle soll in verbundener Beratung drei Vorlagen zur Familienpolitik in der Pandemie aufgesetzt werden. Tagesordnungspunkt 21 wird abgesetzt.",
+                    "human_text": "Tagesordnungspunkt 20 wird abgesetzt. An dieser Stelle sollen in verbundener Beratung drei Vorlagen zur Familienpolitik in der Pandemie aufgesetzt werden. Tagesordnungspunkt 21 wird abgesetzt."
+                }
+            ]
+        },
+        {
+            "jump_index": 25,
+            "cer_change": 0.6369183134505054,
+            "context_segments": [
+                {
+                    "segment_idx": 23,
+                    "is_jump_point": false,
+                    "start_time": 368.53878125,
+                    "end_time": 379.432375,
+                    "cer": 0.08571428571428572,
+                    "asr_text": "Damit kommen wir zur Feststellung der Tagesordnung der 208. und 209. Sitzung mit den genannten \u00c4nderungen und Erg\u00e4nzungen. Wer stimmt daf\u00fcr?",
+                    "human_text": "Damit kommen wir zur Feststellung der Tagesord- nungen der 208., 209., 210. Sitzung mit den genannten \u00c4nderungen und Erg\u00e4nzungen. Wer stimmt daf\u00fcr?"
+                },
+                {
+                    "segment_idx": 24,
+                    "is_jump_point": false,
+                    "start_time": 379.432375,
+                    "end_time": 390.40034375000005,
+                    "cer": 0.07194244604316546,
+                    "asr_text": "Wer stimmt dagegen? Wer enth\u00e4lt sich? Dann ist die Tagesordnung gegen die Stimme der AfD mit den Stimmen des \u00fcbrigen Hauses so beschlossen.",
+                    "human_text": "Wer stimmt dagegen? \u2013 Wer enth\u00e4lt sich? \u2013 Dann sind die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des \u00fcbrigen Hauses so beschlossen."
+                },
+                {
+                    "segment_idx": 25,
+                    "is_jump_point": true,
+                    "start_time": 390.40034375000005,
+                    "end_time": 408.09534375000004,
+                    "cer": 0.7088607594936709,
+                    "asr_text": "Ich rufe auf den Tagesordnungspunkt 1, Befragung der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verf\u00fcgung steht. Frau Bundesministerin, wenn Sie m\u00f6gen, haben Sie das Wort f\u00fcr einleitende Ausf\u00fchrungen.",
+                    "human_text": "die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des \u00fcbrigen Hauses so beschlossen. (C) (D) (E) ZP 18 Beratung der Beschlussempfehlung und des Berichts des Ausw\u00e4rtigen"
+                },
+                {
+                    "segment_idx": 26,
+                    "is_jump_point": false,
+                    "start_time": 408.09534375000004,
+                    "end_time": 428.09534375000004,
+                    "cer": 0.7351190476190477,
+                    "asr_text": "Herr Pr\u00e4sident, sehr geehrte Damen und Herren Abgeordnete, alle Augen und Ohren sind heute nat\u00fcrlich auf die Bund-L\u00e4nder-Runde gerichtet, wie es weitergeht mit den Corona-Beschr\u00e4nkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen \u00fcber Unabh\u00e4ngigkeit",
+                    "human_text": "(3. Ausschuss) zu dem Antrag der Abgeordneten Katja Keul, Margarete Bause, Dr. Franziska Brantner, weiterer Abgeordneter und der Fraktion B\u00dcNDNIS 90/DIE GR\u00dcNEN Dem Atomwaffenverbotsvertrag der Verein- ten Nationen beitreten Drucksachen 19/25811, 19/\u2026 ZP 19 Beratung der"
+                },
+                {
+                    "segment_idx": 27,
+                    "is_jump_point": false,
+                    "start_time": 428.09534375000004,
+                    "end_time": 448.09534375000004,
+                    "cer": 0.01444043321299639,
+                    "asr_text": "Denn die Pandemie lehrt uns eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten.",
+                    "human_text": "Denn die Pandemie lehrt uns: Eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. \u2013 Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten."
+                }
+            ]
+        },
+        {
+            "jump_index": 27,
+            "cer_change": -0.7206786144060513,
+            "context_segments": [
+                {
+                    "segment_idx": 25,
+                    "is_jump_point": false,
+                    "start_time": 390.40034375000005,
+                    "end_time": 408.09534375000004,
+                    "cer": 0.7088607594936709,
+                    "asr_text": "Ich rufe auf den Tagesordnungspunkt 1, Befragung der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verf\u00fcgung steht. Frau Bundesministerin, wenn Sie m\u00f6gen, haben Sie das Wort f\u00fcr einleitende Ausf\u00fchrungen.",
+                    "human_text": "die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des \u00fcbrigen Hauses so beschlossen. (C) (D) (E) ZP 18 Beratung der Beschlussempfehlung und des Berichts des Ausw\u00e4rtigen"
+                },
+                {
+                    "segment_idx": 26,
+                    "is_jump_point": false,
+                    "start_time": 408.09534375000004,
+                    "end_time": 428.09534375000004,
+                    "cer": 0.7351190476190477,
+                    "asr_text": "Herr Pr\u00e4sident, sehr geehrte Damen und Herren Abgeordnete, alle Augen und Ohren sind heute nat\u00fcrlich auf die Bund-L\u00e4nder-Runde gerichtet, wie es weitergeht mit den Corona-Beschr\u00e4nkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen \u00fcber Unabh\u00e4ngigkeit",
+                    "human_text": "(3. Ausschuss) zu dem Antrag der Abgeordneten Katja Keul, Margarete Bause, Dr. Franziska Brantner, weiterer Abgeordneter und der Fraktion B\u00dcNDNIS 90/DIE GR\u00dcNEN Dem Atomwaffenverbotsvertrag der Verein- ten Nationen beitreten Drucksachen 19/25811, 19/\u2026 ZP 19 Beratung der"
+                },
+                {
+                    "segment_idx": 27,
+                    "is_jump_point": true,
+                    "start_time": 428.09534375000004,
+                    "end_time": 448.09534375000004,
+                    "cer": 0.01444043321299639,
+                    "asr_text": "Denn die Pandemie lehrt uns eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten.",
+                    "human_text": "Denn die Pandemie lehrt uns: Eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. \u2013 Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten."
+                },
+                {
+                    "segment_idx": 28,
+                    "is_jump_point": false,
+                    "start_time": 448.09534375000004,
+                    "end_time": 468.09534375000004,
+                    "cer": 0.6967741935483871,
+                    "asr_text": "Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltsch\u00e4dlicher Pestizide ganz erheblich eingeschr\u00e4nkt. Endlich, anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr deutlich,",
+                    "human_text": "und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten. erarbeiteten L\u00f6sungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema hat erneut deutlich"
+                },
+                {
+                    "segment_idx": 29,
+                    "is_jump_point": false,
+                    "start_time": 468.09534375000004,
+                    "end_time": 488.09534375000004,
+                    "cer": 0.7068403908794788,
+                    "asr_text": "dass wir das ernst meinen. \u00c4cker sollen wieder einladender werden f\u00fcr Insekten, mehr Klatschbohnen und Kornblume, weniger Ackergifte und ausger\u00e4umte Agrarlandschaften. Und auch St\u00e4dte sollen insektenfreundlicher werden durch weniger Lichtverschmutzungen, mehr Raum f\u00fcr Insekten auch au\u00dferhalb von der Stadt.",
+                    "human_text": "wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich wei\u00df: Die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanst\u00e4ndigen Preispolitik des Handels und aufgrund einer"
+                }
+            ]
+        },
+        {
+            "jump_index": 28,
+            "cer_change": 0.6823337603353907,
+            "context_segments": [
+                {
+                    "segment_idx": 26,
+                    "is_jump_point": false,
+                    "start_time": 408.09534375000004,
+                    "end_time": 428.09534375000004,
+                    "cer": 0.7351190476190477,
+                    "asr_text": "Herr Pr\u00e4sident, sehr geehrte Damen und Herren Abgeordnete, alle Augen und Ohren sind heute nat\u00fcrlich auf die Bund-L\u00e4nder-Runde gerichtet, wie es weitergeht mit den Corona-Beschr\u00e4nkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen \u00fcber Unabh\u00e4ngigkeit",
+                    "human_text": "(3. Ausschuss) zu dem Antrag der Abgeordneten Katja Keul, Margarete Bause, Dr. Franziska Brantner, weiterer Abgeordneter und der Fraktion B\u00dcNDNIS 90/DIE GR\u00dcNEN Dem Atomwaffenverbotsvertrag der Verein- ten Nationen beitreten Drucksachen 19/25811, 19/\u2026 ZP 19 Beratung der"
+                },
+                {
+                    "segment_idx": 27,
+                    "is_jump_point": false,
+                    "start_time": 428.09534375000004,
+                    "end_time": 448.09534375000004,
+                    "cer": 0.01444043321299639,
+                    "asr_text": "Denn die Pandemie lehrt uns eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten.",
+                    "human_text": "Denn die Pandemie lehrt uns: Eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. \u2013 Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten."
+                },
+                {
+                    "segment_idx": 28,
+                    "is_jump_point": true,
+                    "start_time": 448.09534375000004,
+                    "end_time": 468.09534375000004,
+                    "cer": 0.6967741935483871,
+                    "asr_text": "Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltsch\u00e4dlicher Pestizide ganz erheblich eingeschr\u00e4nkt. Endlich, anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr deutlich,",
+                    "human_text": "und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten. erarbeiteten L\u00f6sungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema hat erneut deutlich"
+                },
+                {
+                    "segment_idx": 29,
+                    "is_jump_point": false,
+                    "start_time": 468.09534375000004,
+                    "end_time": 488.09534375000004,
+                    "cer": 0.7068403908794788,
+                    "asr_text": "dass wir das ernst meinen. \u00c4cker sollen wieder einladender werden f\u00fcr Insekten, mehr Klatschbohnen und Kornblume, weniger Ackergifte und ausger\u00e4umte Agrarlandschaften. Und auch St\u00e4dte sollen insektenfreundlicher werden durch weniger Lichtverschmutzungen, mehr Raum f\u00fcr Insekten auch au\u00dferhalb von der Stadt.",
+                    "human_text": "wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich wei\u00df: Die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanst\u00e4ndigen Preispolitik des Handels und aufgrund einer"
+                },
+                {
+                    "segment_idx": 30,
+                    "is_jump_point": false,
+                    "start_time": 488.09534375000004,
+                    "end_time": 508.09534375000004,
+                    "cer": 0.7037037037037037,
+                    "asr_text": "von Parks und G\u00e4rten. Was \u00e4ndert sich jetzt konkret? Glyphosat wird endlich verboten. Es t\u00f6tet wahllos Wildpflanzen ab und zerst\u00f6rt damit die Nahrungsgrundlage f\u00fcr V\u00f6gel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte \u00dcbergangszeit und dann eben ein Komplettverbot. Und bis dahin",
+                    "human_text": "in der Landwirtschaft k\u00fcnftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarf\u00f6rderung in der sogenannten zweiten S\u00e4ule, um vertragliche kooperative Vereinbarungen besser finanzieren k\u00f6nnen. Meine Damen"
+                }
+            ]
+        },
+        {
+            "jump_index": 32,
+            "cer_change": -0.6645399352891991,
+            "context_segments": [
+                {
+                    "segment_idx": 30,
+                    "is_jump_point": false,
+                    "start_time": 488.09534375000004,
+                    "end_time": 508.09534375000004,
+                    "cer": 0.7037037037037037,
+                    "asr_text": "von Parks und G\u00e4rten. Was \u00e4ndert sich jetzt konkret? Glyphosat wird endlich verboten. Es t\u00f6tet wahllos Wildpflanzen ab und zerst\u00f6rt damit die Nahrungsgrundlage f\u00fcr V\u00f6gel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte \u00dcbergangszeit und dann eben ein Komplettverbot. Und bis dahin",
+                    "human_text": "in der Landwirtschaft k\u00fcnftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarf\u00f6rderung in der sogenannten zweiten S\u00e4ule, um vertragliche kooperative Vereinbarungen besser finanzieren k\u00f6nnen. Meine Damen"
+                },
+                {
+                    "segment_idx": 31,
+                    "is_jump_point": false,
+                    "start_time": 508.09534375000004,
+                    "end_time": 528.09534375,
+                    "cer": 0.6761006289308176,
+                    "asr_text": "wird der Einsatz erheblich eingeschr\u00e4nkt werden. Fl\u00fcsse, B\u00e4che, Seen werden sauberer, da Pestizide nur noch in angemessenem Abstand eingesetzt werden d\u00fcrfen. Das sch\u00fctzt Tiere und Pflanzen im Wasser und am Ufer. In Schutzgebieten sollen Insekten wieder echten Schutz finden, Mittel, die Insekten und Wildkr\u00e4uter abtun.",
+                    "human_text": "Vereinbarungen besser finanzieren k\u00f6nnen. Meine Damen und Herren Abgeordnete, Insekten, das sind kleine Nutztiere. Sie best\u00e4uben Bl\u00fcten, sie fressen Sch\u00e4dlinge, sie bereiten gesunde B\u00f6den, sie ern\u00e4hren V\u00f6gel und andere Tiere."
+                },
+                {
+                    "segment_idx": 32,
+                    "is_jump_point": true,
+                    "start_time": 528.09534375,
+                    "end_time": 548.09534375,
+                    "cer": 0.011560693641618497,
+                    "asr_text": "und dabei die biologische Vielfalt sch\u00e4digen, w\u00e4ren weitestgehend verbannt. Zus\u00e4tzliche Fl\u00e4chen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll k\u00fcnftig der Insektenschutz st\u00e4rker ber\u00fccksichtigt werden, das erleichtert es zum Beispiel, Biotope zu einem Netzwerk gesch\u00fctzter Lebensr\u00e4ume zu verbinden.",
+                    "human_text": "und dabei die biologische Vielfalt sch\u00e4digen, werden weitestgehend verbannt. Zus\u00e4tzliche Fl\u00e4chen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll k\u00fcnftig der Insektenschutz st\u00e4rker ber\u00fccksichtigt werden. Das erleichtert es zum Beispiel, Biotope zu einem Netzwerk gesch\u00fctzter Lebensr\u00e4ume zu verbinden."
+                },
+                {
+                    "segment_idx": 33,
+                    "is_jump_point": false,
+                    "start_time": 548.09534375,
+                    "end_time": 568.09534375,
+                    "cer": 0.23738872403560832,
+                    "asr_text": "Wir haben im Kabinett damit L\u00f6sungen gefunden, die der Landwirtschaft und den Insekten gleicherma\u00dfen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben, der \u00d6ffnung f\u00fcr Vertragsnaturschutz und gesellschaftlich gemeinsam erarbeiteten L\u00f6sungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema",
+                    "human_text": "Wir haben im Kabinett damit L\u00f6sungen gefunden, die der Landwirtschaft und den Insekten gleicherma\u00dfen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben, der \u00d6ffnung f\u00fcr Vertragsnaturschutz und gesellschaftlich gemeinsam ------------------------------------------------------------------------ 26212"
+                },
+                {
+                    "segment_idx": 34,
+                    "is_jump_point": false,
+                    "start_time": 568.09534375,
+                    "end_time": 588.09534375,
+                    "cer": 0.02476780185758514,
+                    "asr_text": "erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich wei\u00df, die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanst\u00e4ndigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Deshalb setze ich mich daf\u00fcr ein, dass das Umfeld",
+                    "human_text": "erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich wei\u00df: Die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanst\u00e4ndigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Deshalb setze ich mich daf\u00fcr ein, dass das Umsteuern"
+                }
+            ]
+        },
+        {
+            "jump_index": 43,
+            "cer_change": 0.4956529299252304,
+            "context_segments": [
+                {
+                    "segment_idx": 41,
+                    "is_jump_point": false,
+                    "start_time": 695.31128125,
+                    "end_time": 715.31128125,
+                    "cer": 0.10655737704918032,
+                    "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021.",
+                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1."
+                },
+                {
+                    "segment_idx": 42,
+                    "is_jump_point": false,
+                    "start_time": 715.31128125,
+                    "end_time": 733.30878125,
+                    "cer": 0.035211267605633804,
+                    "asr_text": "schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch durch die R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den L\u00f6wenanteil verursacht die CO2-Steuer.",
+                    "human_text": "schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr, nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch der R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil; den L\u00f6wenanteil verursacht die CO2-Steuer."
+                },
+                {
+                    "segment_idx": 43,
+                    "is_jump_point": true,
+                    "start_time": 733.30878125,
+                    "end_time": 753.30878125,
+                    "cer": 0.5308641975308642,
+                    "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatz",
+                    "human_text": "bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien. (C) (D) (E) Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltsch\u00e4dlicher Pestizide ganz erheblich"
+                },
+                {
+                    "segment_idx": 44,
+                    "is_jump_point": false,
+                    "start_time": 753.30878125,
+                    "end_time": 773.30878125,
+                    "cer": 0.21705426356589147,
+                    "asr_text": "in die Armut getrieben werden. Frau Bundesministerin. Ganz herzlichen Dank f\u00fcr die Frage. Wir haben einen CO2-Preis eingef\u00fchrt, weil CO2 eine Belastung f\u00fcr das Klima, f\u00fcr die Umwelt ist und deswegen CO2 reduziert werden muss. Der CO2-Preis wirkt ab 1. Januar",
+                    "human_text": "und nukleare Sicherheit: Ganz herzlichen Dank f\u00fcr die Frage. Wir haben einen CO2-Preis eingef\u00fchrt, weil CO2 eine Belastung f\u00fcr das Klima und f\u00fcr die Umwelt ist und deswegen der CO2Aussto\u00df reduziert werden muss. Der CO2-Preis wirkt ab 1. Januar."
+                },
+                {
+                    "segment_idx": 45,
+                    "is_jump_point": false,
+                    "start_time": 773.30878125,
+                    "end_time": 793.30878125,
+                    "cer": 0.07692307692307693,
+                    "asr_text": "Das ist genau das Richtige, um eine Umsteuerung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir in gro\u00dfem Umfang CO2 emittiert haben. Diese Verantwortung werden wir in dieser Regierung",
+                    "human_text": "Das ist genau das Richtige, um eben ein Umsteuern in Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir eben in gro\u00dfem Umfang CO2 emittiert haben. Dieser Verantwortung werden wir in dieser Regierung"
+                }
+            ]
+        },
+        {
+            "jump_index": 44,
+            "cer_change": -0.31380993396497275,
+            "context_segments": [
+                {
+                    "segment_idx": 42,
+                    "is_jump_point": false,
+                    "start_time": 715.31128125,
+                    "end_time": 733.30878125,
+                    "cer": 0.035211267605633804,
+                    "asr_text": "schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch durch die R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den L\u00f6wenanteil verursacht die CO2-Steuer.",
+                    "human_text": "schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr, nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch der R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil; den L\u00f6wenanteil verursacht die CO2-Steuer."
+                },
+                {
+                    "segment_idx": 43,
+                    "is_jump_point": false,
+                    "start_time": 733.30878125,
+                    "end_time": 753.30878125,
+                    "cer": 0.5308641975308642,
+                    "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatz",
+                    "human_text": "bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien. (C) (D) (E) Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltsch\u00e4dlicher Pestizide ganz erheblich"
+                },
+                {
+                    "segment_idx": 44,
+                    "is_jump_point": true,
+                    "start_time": 753.30878125,
+                    "end_time": 773.30878125,
+                    "cer": 0.21705426356589147,
+                    "asr_text": "in die Armut getrieben werden. Frau Bundesministerin. Ganz herzlichen Dank f\u00fcr die Frage. Wir haben einen CO2-Preis eingef\u00fchrt, weil CO2 eine Belastung f\u00fcr das Klima, f\u00fcr die Umwelt ist und deswegen CO2 reduziert werden muss. Der CO2-Preis wirkt ab 1. Januar",
+                    "human_text": "und nukleare Sicherheit: Ganz herzlichen Dank f\u00fcr die Frage. Wir haben einen CO2-Preis eingef\u00fchrt, weil CO2 eine Belastung f\u00fcr das Klima und f\u00fcr die Umwelt ist und deswegen der CO2Aussto\u00df reduziert werden muss. Der CO2-Preis wirkt ab 1. Januar."
+                },
+                {
+                    "segment_idx": 45,
+                    "is_jump_point": false,
+                    "start_time": 773.30878125,
+                    "end_time": 793.30878125,
+                    "cer": 0.07692307692307693,
+                    "asr_text": "Das ist genau das Richtige, um eine Umsteuerung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir in gro\u00dfem Umfang CO2 emittiert haben. Diese Verantwortung werden wir in dieser Regierung",
+                    "human_text": "Das ist genau das Richtige, um eben ein Umsteuern in Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir eben in gro\u00dfem Umfang CO2 emittiert haben. Dieser Verantwortung werden wir in dieser Regierung"
+                },
+                {
+                    "segment_idx": 46,
+                    "is_jump_point": false,
+                    "start_time": 793.30878125,
+                    "end_time": 809.5669062500001,
+                    "cer": 0.12093023255813953,
+                    "asr_text": "auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier auch im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung f\u00fcr die Zukunft. Nachfrage, Herr Kollege.",
+                    "human_text": "auch gerecht, dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung f\u00fcr die Zukunft. Pr\u00e4sident Dr. Wolfgang"
+                }
+            ]
+        },
+        {
+            "jump_index": 60,
+            "cer_change": 0.5267506876493664,
+            "context_segments": [
+                {
+                    "segment_idx": 58,
+                    "is_jump_point": false,
+                    "start_time": 1002.47846875,
+                    "end_time": 1022.47846875,
+                    "cer": 0.0695364238410596,
+                    "asr_text": "Frau Ministerin, danke, Herr Pr\u00e4sident. Frau Ministerin, bereits heute muss eine vierk\u00f6pfige Familie f\u00fcr ihre ganzen Klimama\u00dfnahmen 4 000 Euro im Jahr bezahlen. Und trotz dieser massiven Belastungen hat eben in den letzten zehn Jahren der CO2-Aussto\u00df Deutschlands so gut wie \u00fcberhaupt nicht abgenommen.",
+                    "human_text": "Bernhard (AfD): Danke, Herr Pr\u00e4sident. \u2013 Frau Ministerin, bereits heute muss eine vierk\u00f6pfige Familie f\u00fcr Ihre ganzen Klimama\u00dfnahmen 4 000 Euro im Jahr bezahlen. Und trotz dieser massiven Belastungen hat eben in den letzten zehn Jahren der CO2-Aussto\u00df Deutschlands so gut wie \u00fcberhaupt nicht abgenommen;"
+                },
+                {
+                    "segment_idx": 59,
+                    "is_jump_point": false,
+                    "start_time": 1022.47846875,
+                    "end_time": 1042.47846875,
+                    "cer": 0.026119402985074626,
+                    "asr_text": "sich nicht ver\u00e4ndert. Jetzt kommen durch Ihre CO2-Steuer bis 2026 weitere 2 600 Euro zus\u00e4tzliche Belastungen auf diese vierk\u00f6pfige Familie zu. Dann kommt noch der Green Deal dazu. Da sollen ja weitere 1 000 Milliarden Euro bis 2030 ausgegeben werden. Das sind noch mal",
+                    "human_text": "sich nicht ver\u00e4ndert. Und jetzt kommen durch Ihre CO2-Steuer bis 2026 weitere 2 600 Euro zus\u00e4tzliche Belastungen auf diese vierk\u00f6pfige Familie zu. Dann kommt noch der Green Deal dazu; da sollen ja weitere 1 000 Milliarden Euro bis 2030 ausgegeben werden. Das sind noch mal"
+                },
+                {
+                    "segment_idx": 60,
+                    "is_jump_point": true,
+                    "start_time": 1042.47846875,
+                    "end_time": 1062.47846875,
+                    "cer": 0.552870090634441,
+                    "asr_text": "mehr als 1.600 Euro pro vierk\u00f6pfige Familie pro Jahr. Also in Summe weit \u00fcber 8.000 Euro pro Jahr f\u00fcr vierk\u00f6pfige Familien. Und jetzt ist die Frage, wie sollen sich die Menschen in unserem Land diese ganzen Ausgaben eigentlich noch leisten k\u00f6nnen, insbesondere angesichts der gr\u00f6\u00dften Wirtschaftskrise, wie Bundeskanzlerin Merkel ja",
+                    "human_text": "mehr als 1 600 Euro pro vierk\u00f6pfige Familie pro Jahr, also in Summe weit \u00fcber 8 000 Euro pro Jahr f\u00fcr vierk\u00f6pfige Familien. ------------------------------------------------------------------------ Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar"
+                },
+                {
+                    "segment_idx": 61,
+                    "is_jump_point": false,
+                    "start_time": 1062.47846875,
+                    "end_time": 1082.47846875,
+                    "cer": 0.7,
+                    "asr_text": "Herr Dr. Dr. Dr. Dr.",
+                    "human_text": "den 10. Februar"
+                },
+                {
+                    "segment_idx": 62,
+                    "is_jump_point": false,
+                    "start_time": 1082.47846875,
+                    "end_time": 1102.47846875,
+                    "cer": 0.6935483870967742,
+                    "asr_text": "Wir haben auch gerade enorme Entlastungen f\u00fcr Familien auf den Weg gebracht. Wir haben ein Mobilit\u00e4tsgeld, also die Pendlerpauschale, ver\u00e4ndert. Wir helfen bei der Sanierung von Geb\u00e4uden. Es gibt ein Programm zum Austausch alter \u00d6lheizungen. Wir machen das Bahnfahren billiger. Wir haben den Strompreis erh\u00f6ht.",
+                    "human_text": "Bernhard (A) Jetzt ist die Frage: Wie sollen sich die Menschen in unserem Land diese ganzen Ausgaben eigentlich noch leisten k\u00f6nnen, insbesondere angesichts der gr\u00f6\u00dften Wirtschaftskrise seit 1929, wie Bundeskanzlerin Merkel ja sagt? Weg gebracht"
+                }
+            ]
+        },
+        {
+            "jump_index": 64,
+            "cer_change": -0.6266393442622951,
+            "context_segments": [
+                {
+                    "segment_idx": 62,
+                    "is_jump_point": false,
+                    "start_time": 1082.47846875,
+                    "end_time": 1102.47846875,
+                    "cer": 0.6935483870967742,
+                    "asr_text": "Wir haben auch gerade enorme Entlastungen f\u00fcr Familien auf den Weg gebracht. Wir haben ein Mobilit\u00e4tsgeld, also die Pendlerpauschale, ver\u00e4ndert. Wir helfen bei der Sanierung von Geb\u00e4uden. Es gibt ein Programm zum Austausch alter \u00d6lheizungen. Wir machen das Bahnfahren billiger. Wir haben den Strompreis erh\u00f6ht.",
+                    "human_text": "Bernhard (A) Jetzt ist die Frage: Wie sollen sich die Menschen in unserem Land diese ganzen Ausgaben eigentlich noch leisten k\u00f6nnen, insbesondere angesichts der gr\u00f6\u00dften Wirtschaftskrise seit 1929, wie Bundeskanzlerin Merkel ja sagt? Weg gebracht"
+                },
+                {
+                    "segment_idx": 63,
+                    "is_jump_point": false,
+                    "start_time": 1102.47846875,
+                    "end_time": 1122.47846875,
+                    "cer": 0.725,
+                    "asr_text": "Wir haben eine ganze Menge Dinge auf den Weg gebracht, die kostend\u00e4mpfend wirken. Aber was wir brauchen, und das ist die Umsteuerung, die auf uns alle zukommt, wir m\u00fcssen alle die klimafreundlichen Alternativen w\u00e4hlen. Das ist das, was k\u00fcnftig g\u00fcnstiger ist. Das ist das, was gut ist f\u00fcr die Menschen und f\u00fcr die Umwelt.",
+                    "human_text": "seit 1929, wie Bundeskanzlerin Merkel ja sagt? Weg gebracht haben, und \u00fcbrigens auch die Verordnung, f\u00fcr die die Verantwortung bei meiner Kollegin Kl\u00f6ckner liegt, sehr ausgewogen gestaltet. Wir werden mit meinem Gesetzentwurf die Landschaftsplanung st\u00e4rken. Wir werden den gesetzlichen"
+                },
+                {
+                    "segment_idx": 64,
+                    "is_jump_point": true,
+                    "start_time": 1122.47846875,
+                    "end_time": 1135.04346875,
+                    "cer": 0.09836065573770492,
+                    "asr_text": "Danke sehr. Alois Kehrig, CDU, CSU, stellt die n\u00e4chste Frage.",
+                    "human_text": "Danke sehr. \u2013 Alois Gerig, CDU/CSU, stellt die n\u00e4chste Frage."
+                },
+                {
+                    "segment_idx": 65,
+                    "is_jump_point": false,
+                    "start_time": 1135.04346875,
+                    "end_time": 1155.04346875,
+                    "cer": 0.03734439834024896,
+                    "asr_text": "Sehr geehrte Frau Bundesministerin, danke, dass ich fragen darf. Sie sind doch hoffentlich mit mir einer Meinung, dass wir unseren B\u00e4uerinnen und Bauern den R\u00fccken st\u00e4rken m\u00fcssen. Global gesehen nimmt der Hunger exorbitant zu. Bei uns in der",
+                    "human_text": "Sehr geehrte Frau Bundesministerin, danke, dass ich fragen darf. Sie sind doch hoffentlich mit mir einer Meinung, dass wir unseren B\u00e4uerinnen und Bauern den R\u00fccken st\u00e4rken m\u00fcssen? Global gesehen, nimmt der Hunger exorbitant zu. Bei uns"
+                },
+                {
+                    "segment_idx": 66,
+                    "is_jump_point": false,
+                    "start_time": 1155.04346875,
+                    "end_time": 1175.04346875,
+                    "cer": 0.24347826086956523,
+                    "asr_text": "schlie\u00dfen t\u00e4glich H\u00f6fe ihre Tore f\u00fcr immer, und die Marktanteile f\u00fcr die Selbstversorgung sinken permanent. Deswegen meine Fragen. Wie wollen Sie im Insektenschutzgesetz verhindern, dass neue zus\u00e4tzliche B\u00fcrokratie aufgebaut wird?",
+                    "human_text": "schlie\u00dfen t\u00e4glich H\u00f6fe ihre Tore f\u00fcr immer, und die Marktanteile f\u00fcr die Selbstversorgung sinken permanent. Deswegen lauten meine Fragen: Erstens. Wie wollen Sie verhindern, dass mit dem Insektenschutzgesetz neue, zus\u00e4tzliche B\u00fcrokratie aufgebaut wird"
+                }
+            ]
+        },
+        {
+            "jump_index": 70,
+            "cer_change": -0.36602707784263977,
+            "context_segments": [
+                {
+                    "segment_idx": 68,
+                    "is_jump_point": false,
+                    "start_time": 1195.04346875,
+                    "end_time": 1205.78346875,
+                    "cer": 0.07874015748031496,
+                    "asr_text": "anderen Bundesl\u00e4ndern mit viel M\u00fche gemeinsam mit Politik, NGOs und der Landwirtschaft umgesetzt haben, nicht gef\u00e4hrdet werden.",
+                    "human_text": "anderen Bundesl\u00e4ndern mit viel M\u00fche gemeinsam \u2013 Politik, NGOs und Landwirtschaft \u2013 umgesetzt haben, nicht gef\u00e4hrdet werden?"
+                },
+                {
+                    "segment_idx": 69,
+                    "is_jump_point": false,
+                    "start_time": 1205.78346875,
+                    "end_time": 1225.78346875,
+                    "cer": 0.3688760806916426,
+                    "asr_text": "Sehr geehrter Herr Abgeordneter, ich glaube, uns liegt allen die Zukunft der Landwirtschaft am Herzen. Wir wollen, dass in Deutschland gute Lebensmittel hergestellt werden. Und deswegen haben wir das Gesetz, was wir auf den Weg gebracht haben, und \u00fcbrigens auch die Verordnung, die ja bei meiner Kollegin Kl\u00f6ckner liegt, sehr ausgewogen gestaltet.",
+                    "human_text": "Verehrter Herr Abgeordneter, ich glaube, uns allen liegt die Zukunft der Landwirtschaft am Herzen. Wir wollen, dass in Deutschland gute Lebensmittel hergestellt werden. Deswegen haben wir das Gesetz, das wir auf den ------------------------------------------------------------------------ 26214 Deutscher Bundestag 19."
+                },
+                {
+                    "segment_idx": 70,
+                    "is_jump_point": true,
+                    "start_time": 1225.78346875,
+                    "end_time": 1245.78346875,
+                    "cer": 0.002849002849002849,
+                    "asr_text": "Wir werden mit einem Gesetzentwurf die Landschaftsplanung st\u00e4rken. Wir werden den gesetzlichen Biotopschutz nach vorne bringen, den Biozideinsatz in Schutzgebieten jetzt endlich einschr\u00e4nken. Wir werden tempor\u00e4re Naturschutzma\u00dfnahmen erm\u00f6glichen, etwas, was aus der Landwirtschaft heraus sehr gefordert wurde. Wir werden Beleuchtungsanlagen ver\u00e4ndern.",
+                    "human_text": "Wir werden mit meinem Gesetzentwurf die Landschaftsplanung st\u00e4rken. Wir werden den gesetzlichen Biotopschutz nach vorne bringen, den Biozideinsatz in Schutzgebieten jetzt endlich einschr\u00e4nken. Wir werden tempor\u00e4re Naturschutzma\u00dfnahmen erm\u00f6glichen, etwas, was aus der Landwirtschaft heraus sehr gefordert wurde. Wir werden Beleuchtungsanlagen ver\u00e4ndern."
+                },
+                {
+                    "segment_idx": 71,
+                    "is_jump_point": false,
+                    "start_time": 1245.78346875,
+                    "end_time": 1265.78346875,
+                    "cer": 0.05309734513274336,
+                    "asr_text": "Das sind alles wichtige Punkte zum Insektenschutz. Das ist nicht mehr B\u00fcrokratie f\u00fcr die Landwirtschaft. Wir haben in der Pflanzenschutz-Anwendungsverordnung bei meiner Kollegin Kl\u00f6ckner sehr gut den kooperativen Ansatz unterst\u00fctzt. Solche Modelle, wie wir sie aus Niedersachsen, aus Brandenburg kennen, wo alle sich an einen Tisch setzen,",
+                    "human_text": "Das sind alles wichtige Punkte zum Insektenschutz. Es ist nicht mehr B\u00fcrokratie f\u00fcr die Landwirtschaft. Wir haben in der Pflanzenschutz-Anwendungsverordnung im Ressort meiner Kollegin Kl\u00f6ckner sehr gut den kooperativen Ansatz unterst\u00fctzt. Modelle, wie wir sie aus Niedersachsen, aus Brandenburg kennen, wo alle sich an einen Tisch setzen,"
+                },
+                {
+                    "segment_idx": 72,
+                    "is_jump_point": false,
+                    "start_time": 1265.78346875,
+                    "end_time": 1282.3453437500002,
+                    "cer": 0.2300469483568075,
+                    "asr_text": "gemeinsam Ma\u00dfnahmen nach vorne bringen. Solche Modelle werden jetzt ausdr\u00fccklich unterst\u00fctzt, gef\u00f6rdert und f\u00fcr ganz Deutschland auf den Weg gebracht. Danke, dann hat der Kollege Dr. Hoffmann jetzt eine Nachfrage.",
+                    "human_text": "gemeinsam Ma\u00dfnahmen nach vorne bringen, solche Modelle werden jetzt ausdr\u00fccklich unterst\u00fctzt, gef\u00f6rdert und f\u00fcr ganz Deutschland auf den Weg gebracht. (Beifall bei Abgeordneten der"
+                }
+            ]
+        },
+        {
+            "jump_index": 77,
+            "cer_change": 0.3925925925925926,
+            "context_segments": [
+                {
+                    "segment_idx": 75,
+                    "is_jump_point": false,
+                    "start_time": 1319.7656562500001,
+                    "end_time": 1330.4230000000002,
+                    "cer": 0.049079754601226995,
+                    "asr_text": "Die Fl\u00e4chen k\u00f6nnen dann im Grunde auch nicht mehr bewirtschaftet werden. Werden Sie die Fl\u00e4chen ankaufen oder wollen Sie die kalte Enteignung so durchgehen lassen?",
+                    "human_text": "Diese Fl\u00e4chen k\u00f6nnen dann im Grunde nicht mehr bewirtschaftet werden. Werden Sie die Fl\u00e4chen ankaufen, oder wollen Sie die kalte Enteignung so durchgehen lassen?"
+                },
+                {
+                    "segment_idx": 76,
+                    "is_jump_point": false,
+                    "start_time": 1330.4230000000002,
+                    "end_time": 1350.4230000000002,
+                    "cer": 0.03333333333333333,
+                    "asr_text": "Sehr geehrter Herr Abgeordneter, wir haben mit dem Insektenschutzgesetz und der Pflanzenschutzanwendungsverordnung einen sehr guten Schutz der Insekten auf den Weg gebracht und gleichzeitig daf\u00fcr gesorgt, dass auch Landwirtinnen und Landwirte klare Perspektiven haben, klar wissen, woran sie sind und nat\u00fcrlich weiterhin Landwirtschaft betreiben k\u00f6nnen. Und wenn Sie sich das Gesetz und die",
+                    "human_text": "Sehr geehrter Herr Abgeordneter, wir haben mit dem Insektenschutzgesetz und der Pflanzenschutz-Anwendungsverordnung einen sehr guten Schutz der Insekten auf den Weg gebracht und gleichzeitig daf\u00fcr gesorgt, dass Landwirtinnen und Landwirte klare Perspektiven haben, klar wissen, woran sie sind, und nat\u00fcrlich weiterhin Landwirtschaft betreiben k\u00f6nnen. Wenn Sie sich das Gesetz und die"
+                },
+                {
+                    "segment_idx": 77,
+                    "is_jump_point": true,
+                    "start_time": 1350.4230000000002,
+                    "end_time": 1370.4230000000002,
+                    "cer": 0.42592592592592593,
+                    "asr_text": "Verordnung ansehen, dann werden Sie sehen, dass wir kooperative Ma\u00dfnahmen unterst\u00fctzen und dass nat\u00fcrlich weiter Landwirtschaft m\u00f6glich ist. Es ist nur in einem kleinen Teil der FFH-Gebiete im Moment \u00fcberhaupt Landwirtschaft, die eben nicht nach biologischen Ma\u00dfnahmen funktioniert. Und f\u00fcr diesen kleinen Teil, also f\u00fcr den",
+                    "human_text": "Verordnung ansehen, dann werden Sie sehen, dass wir kooperative Ma\u00dfnahmen unterst\u00fctzen und dass nat\u00fcrlich weiter Landwirtschaft m\u00f6glich ist. (C) (D) (E) Svenja Schulze, Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit: Sehr geehrter Herr Abgeordneter, was wir"
+                },
+                {
+                    "segment_idx": 78,
+                    "is_jump_point": false,
+                    "start_time": 1370.4230000000002,
+                    "end_time": 1390.4230000000002,
+                    "cer": 0.7101910828025477,
+                    "asr_text": "f\u00fcr den Weinanbau, f\u00fcr den Obst, f\u00fcr Hopfen, f\u00fcr Obst, Hopfen, Gem\u00fcse, haben wir Ausnahmen gemacht, sodass dort weiterhin Landwirtschaft stattfindet. Das ist, glaube ich, selbstverst\u00e4ndlich, dass wir so etwas auf den Weg bringen. Wir haben einen Gro\u00dfteil jetzt gesch\u00fctzt, aber Landwirtschaft wird weiterentwickelt.",
+                    "human_text": "Sicherheit: Sehr geehrter Herr Abgeordneter, was wir wollen, ist, dass die klimafreundlichen Alternativen gew\u00e4hlt werden. Wir wollen als Staat gar nicht mehr Geld einnehmen, zum Beispiel \u00fcber den CO2-Preis, sondern wir"
+                },
+                {
+                    "segment_idx": 79,
+                    "is_jump_point": false,
+                    "start_time": 1390.4230000000002,
+                    "end_time": 1410.4230000000002,
+                    "cer": 0.3162393162393162,
+                    "asr_text": "weiter in diesen Gebieten m\u00f6glich sein. Frau Kollegin. Das Wort. Sehr geehrte Frau Ministerin, haben Sie an dem gestrigen Tag zum Beispiel mit den Landwirten Kontakt aufgenommen und ihnen gesprochen? Ich habe diese langen Kolonnen von",
+                    "human_text": "Franziska Gminder (AfD): Vielen Dank f\u00fcr das Wort. \u2013 Sehr geehrte Frau Ministerin, haben Sie zum Beispiel an dem gestrigen Tag mit den Landwirten Kontakt aufgenommen und mit ihnen gesprochen? Ich habe diese langen Kolonnen von"
+                }
+            ]
+        },
+        {
+            "jump_index": 79,
+            "cer_change": -0.3939517665632315,
+            "context_segments": [
+                {
+                    "segment_idx": 77,
+                    "is_jump_point": false,
+                    "start_time": 1350.4230000000002,
+                    "end_time": 1370.4230000000002,
+                    "cer": 0.42592592592592593,
+                    "asr_text": "Verordnung ansehen, dann werden Sie sehen, dass wir kooperative Ma\u00dfnahmen unterst\u00fctzen und dass nat\u00fcrlich weiter Landwirtschaft m\u00f6glich ist. Es ist nur in einem kleinen Teil der FFH-Gebiete im Moment \u00fcberhaupt Landwirtschaft, die eben nicht nach biologischen Ma\u00dfnahmen funktioniert. Und f\u00fcr diesen kleinen Teil, also f\u00fcr den",
+                    "human_text": "Verordnung ansehen, dann werden Sie sehen, dass wir kooperative Ma\u00dfnahmen unterst\u00fctzen und dass nat\u00fcrlich weiter Landwirtschaft m\u00f6glich ist. (C) (D) (E) Svenja Schulze, Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit: Sehr geehrter Herr Abgeordneter, was wir"
+                },
+                {
+                    "segment_idx": 78,
+                    "is_jump_point": false,
+                    "start_time": 1370.4230000000002,
+                    "end_time": 1390.4230000000002,
+                    "cer": 0.7101910828025477,
+                    "asr_text": "f\u00fcr den Weinanbau, f\u00fcr den Obst, f\u00fcr Hopfen, f\u00fcr Obst, Hopfen, Gem\u00fcse, haben wir Ausnahmen gemacht, sodass dort weiterhin Landwirtschaft stattfindet. Das ist, glaube ich, selbstverst\u00e4ndlich, dass wir so etwas auf den Weg bringen. Wir haben einen Gro\u00dfteil jetzt gesch\u00fctzt, aber Landwirtschaft wird weiterentwickelt.",
+                    "human_text": "Sicherheit: Sehr geehrter Herr Abgeordneter, was wir wollen, ist, dass die klimafreundlichen Alternativen gew\u00e4hlt werden. Wir wollen als Staat gar nicht mehr Geld einnehmen, zum Beispiel \u00fcber den CO2-Preis, sondern wir"
+                },
+                {
+                    "segment_idx": 79,
+                    "is_jump_point": true,
+                    "start_time": 1390.4230000000002,
+                    "end_time": 1410.4230000000002,
+                    "cer": 0.3162393162393162,
+                    "asr_text": "weiter in diesen Gebieten m\u00f6glich sein. Frau Kollegin. Das Wort. Sehr geehrte Frau Ministerin, haben Sie an dem gestrigen Tag zum Beispiel mit den Landwirten Kontakt aufgenommen und ihnen gesprochen? Ich habe diese langen Kolonnen von",
+                    "human_text": "Franziska Gminder (AfD): Vielen Dank f\u00fcr das Wort. \u2013 Sehr geehrte Frau Ministerin, haben Sie zum Beispiel an dem gestrigen Tag mit den Landwirten Kontakt aufgenommen und mit ihnen gesprochen? Ich habe diese langen Kolonnen von"
+                },
+                {
+                    "segment_idx": 80,
+                    "is_jump_point": false,
+                    "start_time": 1410.4230000000002,
+                    "end_time": 1430.4230000000002,
+                    "cer": 0.11337209302325581,
+                    "asr_text": "den Traktoren gestern gesehen in der Stadt, unter den Linden und auf der Leipziger Stra\u00dfe. Die Bauern sind verzweifelt. Und wenn Sie sagen, Sie erm\u00f6glichen weiterhin Landwirtschaft, dann ist das f\u00fcr mich etwas sehr schwach. Denn ich muss sagen, Landwirtschaft ist unsere Lebensquelle. Und wenn man die Landwirtschaft nur noch eind\u00e4mmt und z\u00fcgig",
+                    "human_text": "von Traktoren gestern in der Stadt gesehen, Unter den Linden und auf der Leipziger Stra\u00dfe. Die Bauern sind verzweifelt. Wenn Sie sagen, Sie erm\u00f6glichen weiterhin Landwirtschaft, dann ist das f\u00fcr mich sehr schwach. Denn ich muss sagen: Landwirtschaft ist unsere Lebensquelle. Wenn man die Landwirtschaft nur noch eind\u00e4mmt und z\u00fcgelt"
+                },
+                {
+                    "segment_idx": 81,
+                    "is_jump_point": false,
+                    "start_time": 1430.4230000000002,
+                    "end_time": 1444.5225312500002,
+                    "cer": 0.20202020202020202,
+                    "asr_text": "und Vorschriften vorwirft, wir werden alle verhungern. Oder glauben Sie, wir k\u00f6nnen durch Lieferketten \u00fcberleben? Das hat man ja gesehen, wie fabelhaft das jetzt funktioniert in der Pandemie. Danke.",
+                    "human_text": "Vorschriften macht, werden wir alle verhungern. Oder glauben Sie, wir k\u00f6nnen durch Lieferketten \u00fcberleben? Das hat man ja gesehen, wie fabelhaft das jetzt in der Pandemie"
+                }
+            ]
+        },
+        {
+            "jump_index": 96,
+            "cer_change": -0.44545454545454544,
+            "context_segments": [
+                {
+                    "segment_idx": 94,
+                    "is_jump_point": false,
+                    "start_time": 1668.0319062500002,
+                    "end_time": 1688.0319062500002,
+                    "cer": 0.5608308605341247,
+                    "asr_text": "Frau Abgeordnete, Sie haben genau richtig beschrieben, warum es Glyphosat \u00fcberhaupt europarechtlich im Moment noch gibt. Aber das ist nun mal das Europarecht. Wir k\u00f6nnen es nicht vorher komplett verbieten. Was wir aber machen, ist, vorher schon den Einsatz von Glyphosat deutlich zu reduzieren. Das, was wir zugesagt haben, n\u00e4mlich einen",
+                    "human_text": "Frau Abgeordnete, Sie haben genau richtig beschrieben, warum es Glyphosateinsatz europarechtlich im Moment \u00fcberhaupt noch gibt. Das ist nun mal das Euro (C) (D) ------------------------------------------------------------------------ Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar"
+                },
+                {
+                    "segment_idx": 95,
+                    "is_jump_point": false,
+                    "start_time": 1688.0319062500002,
+                    "end_time": 1708.0319062500002,
+                    "cer": 0.5969696969696969,
+                    "asr_text": "Plan zur Reduzierung von Glyphosat haben wir jetzt heute auf den Weg gebracht. Und ich stimme Ihnen absolut zu. Insekten, der Schutz des Bodens, das ist die Grundlage von Landwirtschaft. Wenn wir die Best\u00e4ubungsleistungen der Insekten selber \u00fcbernehmen wollten als Menschen, dann w\u00e4re das kaum m\u00f6glich. Dann g\u00e4be es in Deutschland",
+                    "human_text": "wir aber machen, ist, vorher schon den Einsatz von Glyphosat deutlich zu reduzieren. Das, was wir zugesagt haben, n\u00e4mlich einen Plan zur Reduzierung von Glyphosat, haben wir heute auf den Weg gebracht. Ich stimme Ihnen absolut zu: Insekten und der Schutz des Bodens sind die Grundlage von Landwirtschaft. Wenn wir die Best\u00e4ubungsleistungen der Insekten als Menschen selber \u00fcbernehmen wollten, dann w\u00e4re das kaum m\u00f6glich, dann g\u00e4be"
+                },
+                {
+                    "segment_idx": 96,
+                    "is_jump_point": true,
+                    "start_time": 1708.0319062500002,
+                    "end_time": 1723.3819062500002,
+                    "cer": 0.15151515151515152,
+                    "asr_text": "kaum noch Obstanbau, dann w\u00e4re die Landwirtschaft enorm gef\u00e4hrdet. Deswegen ist es uns so wichtig, die Insekten, vor allen Dingen die Best\u00e4uber, zu sch\u00fctzen. Carsten Tr\u00e4ger, SPD, hat eine Nachfrage.",
+                    "human_text": "kaum noch Obstanbau, dann w\u00e4re die Landwirtschaft enorm gef\u00e4hrdet. Deswegen ist es uns so wichtig, die Insekten, vor allen Dingen die Best\u00e4uber, zu sch\u00fctzen. Pr\u00e4sident Dr. Wolfgang Sch\u00e4uble:"
+                },
+                {
+                    "segment_idx": 97,
+                    "is_jump_point": false,
+                    "start_time": 1723.3819062500002,
+                    "end_time": 1743.3819062500002,
+                    "cer": 0.040229885057471264,
+                    "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Liebe Frau Bundesministerin, herzlichen Dank f\u00fcr Ihren beharrlichen Einsatz f\u00fcr das Thema Insektenschutz, das wir ja schon im Koalitionsvertrag besprochen hatten. Aber nun sind wir auf einem sehr guten Weg, was die Umsetzung angeht. Und auch aus meiner Sicht ist das Verbot von Glyphosat ein ganz wesentlicher Baustein,",
+                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Liebe Frau Bundesministerin, herzlichen Dank f\u00fcr Ihren beharrlichen Einsatz f\u00fcr das Thema Insektenschutz, den wir ja schon im Koalitionsvertrag abgesprochen hatten; aber nun sind wir auf einem sehr guten Weg, was die Umsetzung angeht. Auch aus meiner Sicht ist das Verbot von Glyphosat ein ganz wesentlicher Baustein"
+                },
+                {
+                    "segment_idx": 98,
+                    "is_jump_point": false,
+                    "start_time": 1743.3819062500002,
+                    "end_time": 1760.3128437500002,
+                    "cer": 0.08203125,
+                    "asr_text": "der Strategie oder des jetzt anstehenden Handelns, ist aber ja nur eines von vielen Pflanzenschutzmitteln. Deswegen w\u00e4re meine Frage, wie die Vereinbarungen, die im Kabinett getroffen wurden, hinsichtlich des Umgangs mit anderen Pflanzenschutzmitteln sind.",
+                    "human_text": "der Strategie oder des jetzt anstehenden Handelns. Es ist aber nur eins von vielen Pflanzenschutzmitteln. Deswegen w\u00e4re meine Frage: Wie sind die Vereinbarungen, die im Kabinett getroffen wurden, hinsichtlich des Umgangs mit anderen Pflanzenschutzmitteln?"
+                }
+            ]
+        }
+    ]
+}

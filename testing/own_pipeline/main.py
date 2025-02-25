@@ -255,6 +255,19 @@ class AudioSegmenter:
             # Define the window we're looking at
             window_start = current_pos + self.window_min_size
             window_end = current_pos + self.window_max_size
+
+            # check if the window only contains silence
+            max_segment_silence = self.get_longest_silence(
+                non_speech_regions, 
+                current_pos, 
+                window_end
+            )
+            if max_segment_silence and max_segment_silence.start == current_pos and max_segment_silence.duration > self.window_min_size:
+                # if the segment we are checking only contains silence, we skip it and adjust the current position accordingly
+                current_pos = max_segment_silence.end # we move the current position to the end of the silence
+                continue
+            
+            
             
             # Get the longest silence in this window
             max_silence = self.get_longest_silence(
@@ -311,15 +324,18 @@ def get_max_segment(segments: Union[Timeline, Annotation]) -> Optional[Segment]:
 class TranscriptAligner:
     def __init__(self, 
                  window_token_margin: int = 30,
-                 cer_threshold: float = 0.3):
+                 region_cer_threshold: float = 0.3,
+                 finetune_cer_threshold: float = 0.05):
         """Initialize the TranscriptAligner.
         
         Args:
             window_token_margin: Extra tokens to consider on each side of the window
-            cer_threshold: Maximum allowable Character Error Rate for early stopping
+            region_cer_threshold: Maximum allowable Character Error Rate for a region to be considered a good match
+            finetune_cer_threshold: Maximum allowable Character Error Rate for early stopping during fine-tuning
         """
         self.window_token_margin = window_token_margin
-        self.cer_threshold = cer_threshold
+        self.region_cer_threshold = region_cer_threshold
+        self.finetune_cer_threshold = finetune_cer_threshold
         
     def compute_cer(self, asr_text: str, human_text: str) -> float:
         """Compute Character Error Rate between two strings.
@@ -341,6 +357,10 @@ class TranscriptAligner:
                        start_search_idx: int = 0) -> AlignedTranscript:
         """Find best matching segment in human transcript for ASR segment.
         
+        Uses a two-phase approach:
+        1. Find the most promising region in the transcript
+        2. Fine-tune the exact match boundaries within that region
+        
         Args:
             asr_segment: TranscribedSegment from ASR
             transcript_tokens: Tokenized human transcript
@@ -349,34 +369,189 @@ class TranscriptAligner:
         Returns:
             AlignedTranscript containing the best match
         """
-        asr_tokens = asr_segment.text.split()
-        print(f"ASR Tokens: {asr_tokens}")
-        print(f"Number of tokens: {len(asr_tokens)}")
-        print("Individual tokens:")
-        for i, token in enumerate(asr_tokens):
-            print(f"  {i}: {token}")
-        num_predicted = len(asr_tokens)
-        window_size = num_predicted + 2 * self.window_token_margin
+        # Phase 1: Find the best matching region
+        region_start_idx = self._find_match_region(
+            asr_segment.text,
+            transcript_tokens,
+            start_search_idx, 
+            coarse_window_size = len(asr_segment.text.split())
+        )
         
+        if region_start_idx is None:
+            # No good matching region found, so we try to find a region at the beginning of the transcript
+            region_start_idx = self._find_match_region(
+                asr_segment.text,
+                transcript_tokens,
+                0,
+                coarse_window_size = len(asr_segment.text.split()),
+            )
+            if region_start_idx is None:
+                return self._create_fallback_alignment(asr_segment, transcript_tokens, start_search_idx)
+        
+        # Phase 2: Fine-tune the match within the identified region
+        return self._fine_tune_match(
+            asr_segment,
+            transcript_tokens,
+            region_start_idx
+        )
+
+    def _find_match_region(self,
+                          asr_text: str,
+                          transcript_tokens: List[str],
+                          start_search_idx: int,
+                          coarse_window_size: int = 50,
+                          region_cer_threshold: float = 0.3,
+                          max_backward_search: int = 250,  # Maximum tokens to search backward
+                          forward_priority: int = 5  # Check this many forward windows before one backward
+                          ) -> Optional[int]:
+        """Find the most promising region for matching.
+        
+        Uses an expanding search pattern that continues until either:
+        1. A good match is found (CER below threshold)
+        2. The entire remaining transcript has been searched
+        Uses an expanding search pattern that prioritizes forward search.
+        For every backward step, checks forward_priority number of forward steps first.
+        
+        Args:
+            asr_text: Text from ASR segment
+            transcript_tokens: Full transcript tokens
+            start_search_idx: Starting point for search
+            coarse_window_size: Size of window for coarse search
+            region_cer_threshold: Maximum CER to consider a region as promising
+            max_backward_search: Maximum number of tokens to search backward
+            forward_priority: Number of forward windows to check before each backward window
+        
+        Returns:
+            Starting index of best matching region or None if no good match found
+        """
+        
+         # Initialize debug info collection
+        debug_info = [f"Finding best matching region for {asr_text}"]
+
         best_cer = float('inf')
+        best_start_idx = None
+        
+        # Initialize search boundaries
+        backward_limit = max(0, start_search_idx - max_backward_search)
+        forward_limit = len(transcript_tokens)
+        debug_info.append(f"Search boundaries: backward_limit={backward_limit}, forward_limit={forward_limit}")
+        
+        # Initialize positions
+        forward_pos = start_search_idx
+        backward_pos = start_search_idx
+        forward_steps = 0  # Counter for forward steps taken
+        
+        while True:
+            # Check forward positions with priority
+            while forward_steps < forward_priority and forward_pos < forward_limit:
+                if forward_pos + coarse_window_size > forward_limit:
+                    # if we are close to the end of the trancript, we want to still have a last full window to check
+                    forward_pos = forward_limit - coarse_window_size
+                candidate_end = min(forward_pos + coarse_window_size, forward_limit)
+                candidate_text = " ".join(transcript_tokens[forward_pos:candidate_end])
+                cer = self.compute_cer(asr_text, candidate_text)
+                
+                if cer < best_cer:
+                    best_cer = cer
+                    best_start_idx = forward_pos
+                    
+                    if cer <= region_cer_threshold:
+                        debug_info.extend([
+                            f"Best match found at index {forward_pos} with CER {cer}",
+                            f"Best match Region is {transcript_tokens[forward_pos:candidate_end]}"
+                        ])
+                        # Write debug info before returning
+                        with open("debugging.txt", "a", encoding="utf-8") as debug_file:
+                            if debug_file.tell() > 0:
+                                debug_file.write("\n")
+                            debug_file.write("\n".join(debug_info) + "\n")
+                        return forward_pos
+                
+                forward_pos += coarse_window_size
+                forward_steps += 1
+            
+            # Reset forward steps counter
+            forward_steps = 0
+            
+            # Try one backward position if within bounds
+            if backward_pos > backward_limit:
+                backward_pos = max(backward_pos - coarse_window_size, backward_limit)
+                candidate_end = min(backward_pos + coarse_window_size, forward_limit)
+                candidate_text = " ".join(transcript_tokens[backward_pos:candidate_end])
+                cer = self.compute_cer(asr_text, candidate_text)
+                
+                if cer < best_cer:
+                    best_cer = cer
+                    best_start_idx = backward_pos
+                    
+                    if cer <= region_cer_threshold:
+                        debug_info.extend([
+                            f"Best match found at index {backward_pos} with CER {cer}",
+                            f"Best match Region is {transcript_tokens[backward_pos:candidate_end]}"
+                        ])
+                        # Write debug info before returning
+                        with open("debugging.txt", "a", encoding="utf-8") as debug_file:
+                            if debug_file.tell() > 0:
+                                debug_file.write("\n")
+                            debug_file.write("\n".join(debug_info) + "\n")
+                        return backward_pos
+            
+            # Stop if we've searched the entire valid range
+            if forward_pos >= forward_limit and backward_pos <= backward_limit:
+                break
+        
+        # If we've searched everything and found no good match,
+        # return the best match we found if it's reasonable, otherwise None
+        
+        # Add final debug info for no good match case
+        debug_info.extend([
+            f"Best match found at index {best_start_idx} with CER {best_cer}",
+            f"Best match Region is {transcript_tokens[best_start_idx:best_start_idx + coarse_window_size]}"
+        ])
+        
+        # Write all debug info at the end
+        with open("debugging.txt", "a", encoding="utf-8") as debug_file:
+            if debug_file.tell() > 0:
+                debug_file.write("\n")
+            debug_file.write("\n".join(debug_info) + "\n")
+
+        return best_start_idx if best_cer <= region_cer_threshold * 1.5 else None
+
+    def _fine_tune_match(self,
+                        asr_segment: TranscribedSegment,
+                        transcript_tokens: List[str],
+                        region_start_idx: int) -> AlignedTranscript:
+        """Fine-tune the exact match boundaries within the identified region.
+        
+        This uses the original window-based approach but focused on the identified region.
+        """
+        debug_info = [f"Fine-tuning match for {asr_segment.text}"]
+        
+        asr_tokens = asr_segment.text.split()
+        num_predicted = len(asr_tokens)
+        best_cer = float('inf')
+        crossed_cer_threshold = False
         best_match = None
         
-        # Iterate over possible start positions
-        for start_offset in range(-self.window_token_margin, self.window_token_margin + 1):
-            candidate_start = start_search_idx + start_offset
+        # Search within a smaller window around the identified region
+        local_margin = self.window_token_margin // 2  # Use smaller margin for fine-tuning
+        
+        
+        for start_offset in range(-local_margin, local_margin + 1):
+            candidate_start = region_start_idx + start_offset
             if candidate_start < 0:
                 continue
+            best_cer_for_candidate_start = float('inf')  # Variable representing the best CER achieved for the current candidate_start
                 
-            # Iterate over possible window sizes
-            for window_tokens in range(num_predicted - self.window_token_margin, 
-                                    num_predicted + self.window_token_margin + 1):
+            for window_tokens in range(num_predicted - local_margin, 
+                                     num_predicted + local_margin + 1):
                 candidate_end = candidate_start + window_tokens
                 if candidate_end > len(transcript_tokens):
                     break
                     
-                # Extract and compare candidate text
                 candidate_text = " ".join(transcript_tokens[candidate_start:candidate_end])
                 cer = self.compute_cer(asr_segment.text, candidate_text)
+                best_cer_for_candidate_start = min(best_cer_for_candidate_start, cer)
                 
                 if cer < best_cer:
                     best_cer = cer
@@ -388,11 +563,57 @@ class TranscriptAligner:
                         cer=cer
                     )
                     
-                    # Early stopping if we found a very good match
-                    if cer <= self.cer_threshold:
-                        return best_match
-                        
+                    if cer <= self.finetune_cer_threshold:
+                        crossed_cer_threshold = True
+            
+            if crossed_cer_threshold and best_cer_for_candidate_start > self.finetune_cer_threshold: # we stop fine-tuning if we have already crossed the CER threshold and we have now moved out of the CER threshold
+                debug_info.extend([
+                    f"Best match found for {asr_segment.text}",
+                    f"Human text: {best_match.human_text}",
+                    f"CER: {best_cer}",
+                    f"Segment: {transcript_tokens[best_match.start_idx:best_match.end_idx]}\n"
+                ])
+                with open("debugging.txt", "a") as debug_file:
+                    debug_file.write("\n".join(debug_info))
+                return best_match
+        # Add final debug info for case where no match below threshold was found
+        debug_info.extend([
+            f"Best match found for {asr_segment.text}",
+            f"Human text: {best_match.human_text}",
+            f"CER: {best_cer}",
+            f"Segment: {transcript_tokens[best_match.start_idx:best_match.end_idx]}\n"
+        ])
+        with open("debugging.txt", "a") as debug_file:
+            debug_file.write("\n".join(debug_info))
         return best_match
+
+    def _create_fallback_alignment(self,
+                                 asr_segment: TranscribedSegment,
+                                 transcript_tokens: List[str],
+                                 start_search_idx: int) -> AlignedTranscript:
+        """Create a fallback alignment when no good match is found."""
+        # if we are at the beginning of the transcript, we just take the first window
+        # we simply apply the fine-tuning from this start_search_idx
+        return self._fine_tune_match(asr_segment, transcript_tokens, start_search_idx)
+        '''
+        # Use a minimal window as fallback
+        end_idx = min(start_search_idx + len(asr_segment.text.split()), len(transcript_tokens))
+
+        debug_info = [f"Fallback alignment for {asr_segment.text}"]
+        debug_info.append(f"Human text: {transcript_tokens[start_search_idx:end_idx]}")
+        debug_info.append(f"Start index: {start_search_idx}, End index: {end_idx}")
+        debug_info.append("")
+        with open("debugging.txt", "a") as debug_file:
+            debug_file.write("\n".join(debug_info))
+
+        return AlignedTranscript(
+            asr_segment=asr_segment,
+            human_text=" ".join(transcript_tokens[start_search_idx:end_idx]),
+            start_idx=start_search_idx,
+            end_idx=end_idx,
+            cer=1.0  # Maximum CER to indicate poor match
+        )
+        '''
 
     def align_transcript(self, 
                         transcribed_segments: List[TranscribedSegment],
@@ -495,7 +716,7 @@ def main():
         directory.mkdir(parents=True, exist_ok=True)
     
     # Define file paths
-    file_name = "7501579_960s"
+    file_name = "7501579_3840s"
     audio_path = audio_dir / f"{file_name}.opus"
     #transcript_path = transcript_dir / f"{file_name}.txt"
     transcript_path = "output.txt"

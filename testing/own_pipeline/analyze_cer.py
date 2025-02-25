@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from typing import Dict, Any
 import numpy as np
+import os
 
 def load_alignments(json_path: str) -> pd.DataFrame:
     """Load aligned segments from JSON file into DataFrame.
@@ -30,32 +31,33 @@ def compute_statistics(df: pd.DataFrame) -> Dict[str, Any]:
     # Define CER thresholds for analysis
     cer_thresholds = [0.05, 0.1, 0.15, 0.2, 0.3]
     
-    # Basic statistics
+    # Basic statistics - convert numpy types to native Python types
     stats = {
-        "mean_cer": df["cer"].mean(),
-        "median_cer": df["cer"].median(),
-        "std_cer": df["cer"].std(),
-        "min_cer": df["cer"].min(),
-        "max_cer": df["cer"].max(),
-        "total_segments": len(df),
-        "percentile_10": df["cer"].quantile(0.1),
-        "percentile_25": df["cer"].quantile(0.25),
-        "percentile_75": df["cer"].quantile(0.75),
-        "percentile_90": df["cer"].quantile(0.9)
+        "mean_cer": float(df["cer"].mean()),
+        "median_cer": float(df["cer"].median()),
+        "std_cer": float(df["cer"].std()),
+        "min_cer": float(df["cer"].min()),
+        "max_cer": float(df["cer"].max()),
+        "total_segments": int(len(df)),
+        "percentile_10": float(df["cer"].quantile(0.1)),
+        "percentile_25": float(df["cer"].quantile(0.25)),
+        "percentile_75": float(df["cer"].quantile(0.75)),
+        "percentile_90": float(df["cer"].quantile(0.9))
     }
     
-    # Add threshold statistics
+    # Add threshold statistics - convert numpy types to native Python types
     for threshold in cer_thresholds:
-        stats[f"segments_below_{threshold}"] = (df["cer"] < threshold).sum()
-        stats[f"percent_below_{threshold}"] = (stats[f"segments_below_{threshold}"] / stats["total_segments"]) * 100
+        stats[f"segments_below_{threshold}"] = int((df["cer"] < threshold).sum())
+        stats[f"percent_below_{threshold}"] = float((stats[f"segments_below_{threshold}"] / stats["total_segments"]) * 100)
     
     return stats
 
-def analyze_cer_jumps(df: pd.DataFrame, threshold_jump: float = 0.3, context_window: int = 2):
+def analyze_cer_jumps(df: pd.DataFrame, output_dir: str, threshold_jump: float = 0.3, context_window: int = 2):
     """Analyze segments around significant CER jumps.
     
     Args:
         df: DataFrame containing alignment data
+        output_dir: Directory to save results
         threshold_jump: Minimum CER difference to consider as a jump
         context_window: Number of segments to show before and after the jump
     """
@@ -65,32 +67,65 @@ def analyze_cer_jumps(df: pd.DataFrame, threshold_jump: float = 0.3, context_win
     # Find indices where jumps occur
     jump_indices = cer_diffs[abs(cer_diffs) > threshold_jump].index
     
+    # Prepare jumps data for JSON
+    jumps_data = []
+    
     if len(jump_indices) == 0:
         print("\nNo significant CER jumps found.")
-        return
-    
-    print(f"\nFound {len(jump_indices)} significant CER jumps (threshold: {threshold_jump}):")
-    
-    for jump_idx in jump_indices:
-        print(f"\n{'='*80}")
-        print(f"Jump at segment {jump_idx} (CER change: {cer_diffs[jump_idx]:.3f})")
-        print(f"{'='*80}")
+    else:
+        print(f"\nFound {len(jump_indices)} significant CER jumps (threshold: {threshold_jump}):")
         
-        # Get context window indices
-        start_idx = max(0, jump_idx - context_window)
-        end_idx = min(len(df), jump_idx + context_window + 1)
-        
-        # Display segments around the jump
-        context_df = df.iloc[start_idx:end_idx]
-        for idx, row in context_df.iterrows():
-            marker = ">>> " if idx == jump_idx else "    "
-            print(f"\n{marker}Segment {idx}:")
-            print(f"    Time: {row['start']:.1f}s → {row['end']:.1f}s")
-            print(f"    CER: {row['cer']:.3f}")
-            print(f"    ASR Text: {row['asr_text']}")
-            print(f"    Human Text: {row['human_text']}")
+        for jump_idx in jump_indices:
+            # Get context window indices
+            start_idx = max(0, jump_idx - context_window)
+            end_idx = min(len(df), jump_idx + context_window + 1)
+            
+            # Collect context segments
+            context_segments = []
+            context_df = df.iloc[start_idx:end_idx]
+            for idx, row in context_df.iterrows():
+                segment_data = {
+                    "segment_idx": idx,
+                    "is_jump_point": idx == jump_idx,
+                    "start_time": row["start"],
+                    "end_time": row["end"],
+                    "cer": row["cer"],
+                    "asr_text": row["asr_text"],
+                    "human_text": row["human_text"]
+                }
+                context_segments.append(segment_data)
+            
+            jump_data = {
+                "jump_index": jump_idx,
+                "cer_change": cer_diffs[jump_idx],
+                "context_segments": context_segments
+            }
+            jumps_data.append(jump_data)
+            
+            # Print information
+            print(f"\n{'='*80}")
+            print(f"Jump at segment {jump_idx} (CER change: {cer_diffs[jump_idx]:.3f})")
+            print(f"{'='*80}")
+            
+            for segment in context_segments:
+                marker = ">>> " if segment["is_jump_point"] else "    "
+                print(f"\n{marker}Segment {segment['segment_idx']}:")
+                print(f"    Time: {segment['start_time']:.1f}s → {segment['end_time']:.1f}s")
+                print(f"    CER: {segment['cer']:.3f}")
+                print(f"    ASR Text: {segment['asr_text']}")
+                print(f"    Human Text: {segment['human_text']}")
+    
+    # Save jumps data to JSON
+    jumps_file = os.path.join(output_dir, "cer_jumps.json")
+    with open(jumps_file, "w", encoding="utf-8") as f:
+        json.dump({
+            "threshold": threshold_jump,
+            "context_window": context_window,
+            "total_jumps": len(jump_indices),
+            "jumps": jumps_data
+        }, f, indent=4)
 
-def plot_cer_distribution(df: pd.DataFrame, output_dir: str = "plots"):
+def plot_cer_distribution(df: pd.DataFrame, output_dir: str):
     """Create various plots for CER analysis.
     
     Args:
@@ -178,14 +213,25 @@ def plot_cer_distribution(df: pd.DataFrame, output_dir: str = "plots"):
 
 def main():
     # Load data
-    json_path = "7501579_1920s_aligned.json"
+    json_path = "output/alignments/7501579_3840s_aligned.json"
     df = load_alignments(json_path)
+    
+    # Create output directory structure
+    base_dir = "cer_analyze"
+    file_name = os.path.splitext(os.path.basename(json_path))[0]
+    output_dir = os.path.join(base_dir, file_name)
+    os.makedirs(output_dir, exist_ok=True)
     
     # Compute statistics
     stats = compute_statistics(df)
     
+    # Save statistics to JSON
+    stats_file = os.path.join(output_dir, "statistics.json")
+    with open(stats_file, "w", encoding="utf-8") as f:
+        json.dump(stats, f, indent=4)
+    
     # Print statistics
-    print("\nCER Statistics:")
+    print(f"\nCER Statistics (saved to {stats_file}):")
     print("-" * 50)
     print(f"Total Segments: {stats['total_segments']}")
     print(f"Mean CER: {stats['mean_cer']:.3f}")
@@ -204,12 +250,12 @@ def main():
               f"{stats[f'segments_below_{threshold}']} "
               f"({stats[f'percent_below_{threshold}']:.1f}%)")
     
-    # Create plots
-    plot_cer_distribution(df)
-    print("\nPlots have been saved to the 'plots' directory.")
+    # Create plots in the file-specific directory
+    plot_cer_distribution(df, output_dir)
+    print(f"\nPlots have been saved to: {output_dir}")
 
-    # Add after creating plots
-    analyze_cer_jumps(df)
+    # Analyze CER jumps and save to JSON
+    analyze_cer_jumps(df, output_dir)
 
 if __name__ == "__main__":
     main() 
