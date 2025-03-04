@@ -1,6 +1,6 @@
 from pyannote.audio.pipelines import VoiceActivityDetection
 from pyannote.core import Segment, Annotation, Timeline
-from pyannote.audio import Model
+from pyannote.audio import Model, Pipeline
 from transformers import pipeline, AutoModelForSpeechSeq2Seq, AutoProcessor
 import torch
 from huggingface_hub import login
@@ -17,6 +17,8 @@ from tqdm import tqdm  # Add this import at the top
 import pickle
 from pathlib import Path
 from dotenv import load_dotenv
+from datetime import timedelta
+
 
 # Load .env file from the same directory as this script
 load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
@@ -95,7 +97,7 @@ class AlignedTranscript:
         }
 
 class AudioSegmenter:
-    def __init__(self, vad_pipeline: VoiceActivityDetection, window_min_size: float = 10.0, window_max_size: float = 20.0):
+    def __init__(self, vad_pipeline: VoiceActivityDetection, diarization_pipeline: Pipeline, window_min_size: float = 10.0, window_max_size: float = 20.0):
         """Initialize the AudioSegmenter.
         
         Args:
@@ -104,6 +106,7 @@ class AudioSegmenter:
             window_max_size: Maximum size of the window to look for silence in seconds
         """
         self.vad_pipeline = vad_pipeline
+        self.diarization_pipeline = diarization_pipeline
         self.window_min_size = window_min_size
         self.window_max_size = window_max_size
         
@@ -244,14 +247,31 @@ class AudioSegmenter:
             Timeline containing all segments
         """
         # Get speech regions for the entire audio
+        print(f"Converting audio file to wav before segmenting: {audio_path}")
+        audio_path = self.convert_audio_to_wav(audio_path)
+        print(f"Segmenting audio file: {audio_path}")
         speech_regions = self.vad_pipeline(audio_path)
+        print(f"Speech regions: {speech_regions}")
+        print(f"Speech regions type: {type(speech_regions)}")
         non_speech_regions = speech_regions.get_timeline().gaps()
+        print(f"Non speech regions: {non_speech_regions}")
+        print(f"Non speech regions type: {type(non_speech_regions)}")
+        diarization = self.diarization_pipeline(audio_path)
+        print(f"Diarization: {diarization}")
+        print(f"Diarization type: {type(diarization)}")
+        # get the timeline with overlapping speaker segments its of type Timeline
+        overlapping_speaker_segments = diarization.get_overlap()
+
+
         
         segments = Timeline()
-        current_pos = 0.0
+        # we skip initial silence
+        current_pos = speech_regions.get_timeline().extent().start
+        # we also skip the last silence
         audio_end = speech_regions.get_timeline().extent().end
         
         while current_pos < audio_end:
+            print(f"Current position: {current_pos}")
             # Define the window we're looking at
             window_start = current_pos + self.window_min_size
             window_end = current_pos + self.window_max_size
@@ -262,13 +282,50 @@ class AudioSegmenter:
                 current_pos, 
                 window_end
             )
+            print(f"Max segment silence: {max_segment_silence}")
             if max_segment_silence and max_segment_silence.start == current_pos and max_segment_silence.duration > self.window_min_size:
                 # if the segment we are checking only contains silence, we skip it and adjust the current position accordingly
                 current_pos = max_segment_silence.end # we move the current position to the end of the silence
                 continue
             
+            # check if the segment starts with an overlapping speaker segment
+            print(f"Overlapping speaker segments: {overlapping_speaker_segments}")
+            print(f"current pos in time-format like 00:12:52.264: {timedelta(seconds=current_pos)} ")
+            overlapping_speaker_segments_window_start = overlapping_speaker_segments.crop(Segment(current_pos, window_end), mode="loose")
+            print(f"Overlapping speaker segments window start: {overlapping_speaker_segments_window_start}")
+            if overlapping_speaker_segments_window_start:
+                # if there is an overlapping speaker segment, we just move the current position to the end of this overlap
+                current_pos = overlapping_speaker_segments_window_start[0].end + 1e-6
+                continue
+
             
+            # check if there is a speaker change in this segment
+            overlapping_segments = diarization.crop(Segment(current_pos, window_end), mode="intersection")
+            print(f"Overlapping segments: {overlapping_segments}")
+            last_speaker = None
+            speaker_change_detected = False
             
+            # Correct way to iterate through an Annotation object
+            for segment, track, label in overlapping_segments.itertracks(yield_label=True):
+                if last_speaker is None:
+                    last_speaker = label
+                    print(f"Last speaker: {last_speaker}")
+                elif label != last_speaker:
+                    print(f"Speaker change detected at {segment.start}s")
+                    print(f"Current position: {current_pos}")
+                    print(f"Segment start: {segment.start}")
+                    print(f"Last speaker: {last_speaker}")
+                    print(f"New speaker: {label}")
+                    segments.add(Segment(current_pos, segment.start))
+                    current_pos = segment.start
+                    speaker_change_detected = True
+                    break
+                    
+            if speaker_change_detected:
+                # if there is a speaker change, we have already added the segment and moved the current position, so we continue to the next segment
+                continue
+                
+            # If we reach here, no speaker change was detected
             # Get the longest silence in this window
             max_silence = self.get_longest_silence(
                 non_speech_regions, 
@@ -314,6 +371,24 @@ def initialize_vad_pipeline():
     })
     
     return vad_pipeline
+
+def initialize_diarization_pipeline(): 
+    """
+    Initialize the pyannote diarization pipeline.
+    """
+    hf_token = os.getenv("HF_AUTH_TOKEN")
+    print(f"HF token: {hf_token}")
+    cache_dir = os.getenv("HF_CACHE_DIR")
+    print(f"Cache directory: {cache_dir}")
+    pipeline = Pipeline.from_pretrained(
+        "pyannote/speaker-diarization",
+        use_auth_token=hf_token,
+        cache_dir=cache_dir
+    )
+
+    pipeline.to(torch.device("cuda"))
+
+    return pipeline
 
 def get_max_segment(segments: Union[Timeline, Annotation]) -> Optional[Segment]:
     if len(segments) == 0:
@@ -716,10 +791,10 @@ def main():
         directory.mkdir(parents=True, exist_ok=True)
     
     # Define file paths
-    file_name = "7501579_3840s"
+    file_name = "7501579_1920s"
     audio_path = audio_dir / f"{file_name}.opus"
     #transcript_path = transcript_dir / f"{file_name}.txt"
-    transcript_path = "output.txt"
+    transcript_path = "7501579.txt"
     cache_path = cache_dir / f"{file_name}_transcribed.pkl"
     alignment_path = alignment_dir / f"{file_name}_aligned.json"
     
@@ -730,7 +805,8 @@ def main():
     else:
         print("Transcribing audio segments...")
         vad_pipeline = initialize_vad_pipeline()
-        segmenter = AudioSegmenter(vad_pipeline)
+        diarization_pipeline = initialize_diarization_pipeline()    
+        segmenter = AudioSegmenter(vad_pipeline, diarization_pipeline)
         transcribed_segments = segmenter.segment_and_transcribe(str(audio_path))
         
         # Cache the results
@@ -739,6 +815,7 @@ def main():
     
     # Load human transcript
     with open(transcript_path, "r") as f:
+        print(f"Loading human transcript from {transcript_path}")
         human_transcript = f.read()
     
     print(f"Starting alignment...")

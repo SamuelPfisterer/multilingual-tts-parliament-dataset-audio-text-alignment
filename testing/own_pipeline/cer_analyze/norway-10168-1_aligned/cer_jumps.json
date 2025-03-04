@@ -1,0 +1,1162 @@
+{
+    "threshold": 0.3,
+    "context_window": 2,
+    "total_jumps": 23,
+    "jumps": [
+        {
+            "jump_index": 2,
+            "cer_change": -0.30000000000000004,
+            "context_segments": [
+                {
+                    "segment_idx": 0,
+                    "is_jump_point": false,
+                    "start_time": 144.12659375,
+                    "end_time": 158.89721875,
+                    "cer": 0.75,
+                    "asr_text": "Gracias.",
+                    "human_text": "fra"
+                },
+                {
+                    "segment_idx": 1,
+                    "is_jump_point": false,
+                    "start_time": 158.89721875,
+                    "end_time": 172.40065625,
+                    "cer": 0.8,
+                    "asr_text": "Thank you.",
+                    "human_text": "96 \u00b7 28."
+                },
+                {
+                    "segment_idx": 2,
+                    "is_jump_point": true,
+                    "start_time": 172.40065625,
+                    "end_time": 191.30909375000002,
+                    "cer": 0.5,
+                    "asr_text": "Men.",
+                    "human_text": "sep."
+                },
+                {
+                    "segment_idx": 3,
+                    "is_jump_point": false,
+                    "start_time": 191.30909375000002,
+                    "end_time": 206.30909375000002,
+                    "cer": 0.7,
+                    "asr_text": "Thank you.",
+                    "human_text": "den 28."
+                },
+                {
+                    "segment_idx": 4,
+                    "is_jump_point": false,
+                    "start_time": 216.62159375000002,
+                    "end_time": 236.62159375000002,
+                    "cer": 0.15605095541401273,
+                    "asr_text": "Stortingets m\u00f8te er lovlig satt. Det foreligger to permisjonss\u00f8knader. Fra Kristi Folkeparti Stortingsgruppe om permisjon for representanten Hans Fredrik R\u00f8van fredag 28. september for \u00e5 delta i det forente nasjonens 73. ordin\u00e6re generalforsamling i New York. Fra Kristi Folkeparti Stortingsgruppe om sykepermisjon",
+                    "human_text": "3. Referat Presidenten: Det foreligger to permisjonss\u00f8knader: \u2013 fra Kristelig Folkepartis stortingsgruppe om permisjon for representanten Hans Fredrik Gr\u00f8van fredag 28. september for \u00e5 delta i De forente nasjoners 73. ordin\u00e6re generalforsamling i New York \u2013 fra Kristelig Folkepartis stortingsgruppe om sykepermisjon"
+                }
+            ]
+        },
+        {
+            "jump_index": 4,
+            "cer_change": -0.5439490445859873,
+            "context_segments": [
+                {
+                    "segment_idx": 2,
+                    "is_jump_point": false,
+                    "start_time": 172.40065625,
+                    "end_time": 191.30909375000002,
+                    "cer": 0.5,
+                    "asr_text": "Men.",
+                    "human_text": "sep."
+                },
+                {
+                    "segment_idx": 3,
+                    "is_jump_point": false,
+                    "start_time": 191.30909375000002,
+                    "end_time": 206.30909375000002,
+                    "cer": 0.7,
+                    "asr_text": "Thank you.",
+                    "human_text": "den 28."
+                },
+                {
+                    "segment_idx": 4,
+                    "is_jump_point": true,
+                    "start_time": 216.62159375000002,
+                    "end_time": 236.62159375000002,
+                    "cer": 0.15605095541401273,
+                    "asr_text": "Stortingets m\u00f8te er lovlig satt. Det foreligger to permisjonss\u00f8knader. Fra Kristi Folkeparti Stortingsgruppe om permisjon for representanten Hans Fredrik R\u00f8van fredag 28. september for \u00e5 delta i det forente nasjonens 73. ordin\u00e6re generalforsamling i New York. Fra Kristi Folkeparti Stortingsgruppe om sykepermisjon",
+                    "human_text": "3. Referat Presidenten: Det foreligger to permisjonss\u00f8knader: \u2013 fra Kristelig Folkepartis stortingsgruppe om permisjon for representanten Hans Fredrik Gr\u00f8van fredag 28. september for \u00e5 delta i De forente nasjoners 73. ordin\u00e6re generalforsamling i New York \u2013 fra Kristelig Folkepartis stortingsgruppe om sykepermisjon"
+                },
+                {
+                    "segment_idx": 5,
+                    "is_jump_point": false,
+                    "start_time": 236.62159375000002,
+                    "end_time": 256.62159375,
+                    "cer": 0.5118343195266272,
+                    "asr_text": "for representanten Toril Brandstad fredag 28. september. Disse s\u00f8knadene foresl\u00e5s behandles straks og innbygget, og det anses vedtatt. Varerepresentantene P. Sverre Kvinleug og Tove Velle Haugland foresl\u00e5s innkalt for \u00e5 m\u00f8te i permisjonstiden. Det anses ogs\u00e5 vedtatt. P. Sverre Kvinleug og Tove Velle Haugland er til stede og vil ta sete.",
+                    "human_text": "for representanten Torhild Bransdal fredag 28. september Etter forslag fra presidenten ble enstemmig besluttet: \u2013 S\u00f8knadene behandles straks og innvilges. \u2013 F\u00f8lgende vararepresentanter innkalles for \u00e5 m\u00f8te i permisjonstiden: \u2013 Per Sverre Kvinlaug og Tove Welle Haugland Presidenten: Per Sverre"
+                },
+                {
+                    "segment_idx": 6,
+                    "is_jump_point": false,
+                    "start_time": 256.62159375,
+                    "end_time": 276.62159375,
+                    "cer": 0.06060606060606061,
+                    "asr_text": "Fra statsministerens kontor foreligger f\u00f8lgende to brev til Stortinget. Det f\u00f8rste brevet, datert 13. august 2018, lyder \u00abEndring i regjeringens sammensetning og endring blant statssekret\u00e6rene\u00bb. Statsr\u00e5det ble holdt p\u00e5 Oslo slott 13. august 2018 kl. 13. under ledelse av hans majestet kongen. Det ble truffet f\u00f8lgende vedkommende.",
+                    "human_text": "Fra Statsministerens kontor foreligger f\u00f8lgende to brev til Stortinget. Det f\u00f8rste brevet, datert 13. august 2018, lyder: \u00abEndring i regjeringens sammensetning og endring blant statssekret\u00e6rene Statsr\u00e5d ble holdt p\u00e5 Oslo slott 13. august 2018 kl. 1300 under ledelse av Hans Majestet Kongen. Det ble truffet f\u00f8lgende vedtak:"
+                }
+            ]
+        },
+        {
+            "jump_index": 5,
+            "cer_change": 0.35578336411261446,
+            "context_segments": [
+                {
+                    "segment_idx": 3,
+                    "is_jump_point": false,
+                    "start_time": 191.30909375000002,
+                    "end_time": 206.30909375000002,
+                    "cer": 0.7,
+                    "asr_text": "Thank you.",
+                    "human_text": "den 28."
+                },
+                {
+                    "segment_idx": 4,
+                    "is_jump_point": false,
+                    "start_time": 216.62159375000002,
+                    "end_time": 236.62159375000002,
+                    "cer": 0.15605095541401273,
+                    "asr_text": "Stortingets m\u00f8te er lovlig satt. Det foreligger to permisjonss\u00f8knader. Fra Kristi Folkeparti Stortingsgruppe om permisjon for representanten Hans Fredrik R\u00f8van fredag 28. september for \u00e5 delta i det forente nasjonens 73. ordin\u00e6re generalforsamling i New York. Fra Kristi Folkeparti Stortingsgruppe om sykepermisjon",
+                    "human_text": "3. Referat Presidenten: Det foreligger to permisjonss\u00f8knader: \u2013 fra Kristelig Folkepartis stortingsgruppe om permisjon for representanten Hans Fredrik Gr\u00f8van fredag 28. september for \u00e5 delta i De forente nasjoners 73. ordin\u00e6re generalforsamling i New York \u2013 fra Kristelig Folkepartis stortingsgruppe om sykepermisjon"
+                },
+                {
+                    "segment_idx": 5,
+                    "is_jump_point": true,
+                    "start_time": 236.62159375000002,
+                    "end_time": 256.62159375,
+                    "cer": 0.5118343195266272,
+                    "asr_text": "for representanten Toril Brandstad fredag 28. september. Disse s\u00f8knadene foresl\u00e5s behandles straks og innbygget, og det anses vedtatt. Varerepresentantene P. Sverre Kvinleug og Tove Velle Haugland foresl\u00e5s innkalt for \u00e5 m\u00f8te i permisjonstiden. Det anses ogs\u00e5 vedtatt. P. Sverre Kvinleug og Tove Velle Haugland er til stede og vil ta sete.",
+                    "human_text": "for representanten Torhild Bransdal fredag 28. september Etter forslag fra presidenten ble enstemmig besluttet: \u2013 S\u00f8knadene behandles straks og innvilges. \u2013 F\u00f8lgende vararepresentanter innkalles for \u00e5 m\u00f8te i permisjonstiden: \u2013 Per Sverre Kvinlaug og Tove Welle Haugland Presidenten: Per Sverre"
+                },
+                {
+                    "segment_idx": 6,
+                    "is_jump_point": false,
+                    "start_time": 256.62159375,
+                    "end_time": 276.62159375,
+                    "cer": 0.06060606060606061,
+                    "asr_text": "Fra statsministerens kontor foreligger f\u00f8lgende to brev til Stortinget. Det f\u00f8rste brevet, datert 13. august 2018, lyder \u00abEndring i regjeringens sammensetning og endring blant statssekret\u00e6rene\u00bb. Statsr\u00e5det ble holdt p\u00e5 Oslo slott 13. august 2018 kl. 13. under ledelse av hans majestet kongen. Det ble truffet f\u00f8lgende vedkommende.",
+                    "human_text": "Fra Statsministerens kontor foreligger f\u00f8lgende to brev til Stortinget. Det f\u00f8rste brevet, datert 13. august 2018, lyder: \u00abEndring i regjeringens sammensetning og endring blant statssekret\u00e6rene Statsr\u00e5d ble holdt p\u00e5 Oslo slott 13. august 2018 kl. 1300 under ledelse av Hans Majestet Kongen. Det ble truffet f\u00f8lgende vedtak:"
+                },
+                {
+                    "segment_idx": 7,
+                    "is_jump_point": false,
+                    "start_time": 276.62159375,
+                    "end_time": 288.90565625,
+                    "cer": 0.040229885057471264,
+                    "asr_text": "Statsr\u00e5d Per Sandberg gis avsked i n\u00e5de. Society & Media Manager Harald Tom Nesvik utnevnes til statsr\u00e5d og overtar styret av fiskerisaker i n\u00e6rings- og fiskeridepartementet.",
+                    "human_text": "Statsr\u00e5d Per Sandberg gis avskjed i n\u00e5de. Society and media manager Harald Tom Nesvik utnevnes til statsr\u00e5d og overtar styret av fiskerisaker i N\u00e6rings- og fiskeridepartementet."
+                }
+            ]
+        },
+        {
+            "jump_index": 6,
+            "cer_change": -0.45122825892056656,
+            "context_segments": [
+                {
+                    "segment_idx": 4,
+                    "is_jump_point": false,
+                    "start_time": 216.62159375000002,
+                    "end_time": 236.62159375000002,
+                    "cer": 0.15605095541401273,
+                    "asr_text": "Stortingets m\u00f8te er lovlig satt. Det foreligger to permisjonss\u00f8knader. Fra Kristi Folkeparti Stortingsgruppe om permisjon for representanten Hans Fredrik R\u00f8van fredag 28. september for \u00e5 delta i det forente nasjonens 73. ordin\u00e6re generalforsamling i New York. Fra Kristi Folkeparti Stortingsgruppe om sykepermisjon",
+                    "human_text": "3. Referat Presidenten: Det foreligger to permisjonss\u00f8knader: \u2013 fra Kristelig Folkepartis stortingsgruppe om permisjon for representanten Hans Fredrik Gr\u00f8van fredag 28. september for \u00e5 delta i De forente nasjoners 73. ordin\u00e6re generalforsamling i New York \u2013 fra Kristelig Folkepartis stortingsgruppe om sykepermisjon"
+                },
+                {
+                    "segment_idx": 5,
+                    "is_jump_point": false,
+                    "start_time": 236.62159375000002,
+                    "end_time": 256.62159375,
+                    "cer": 0.5118343195266272,
+                    "asr_text": "for representanten Toril Brandstad fredag 28. september. Disse s\u00f8knadene foresl\u00e5s behandles straks og innbygget, og det anses vedtatt. Varerepresentantene P. Sverre Kvinleug og Tove Velle Haugland foresl\u00e5s innkalt for \u00e5 m\u00f8te i permisjonstiden. Det anses ogs\u00e5 vedtatt. P. Sverre Kvinleug og Tove Velle Haugland er til stede og vil ta sete.",
+                    "human_text": "for representanten Torhild Bransdal fredag 28. september Etter forslag fra presidenten ble enstemmig besluttet: \u2013 S\u00f8knadene behandles straks og innvilges. \u2013 F\u00f8lgende vararepresentanter innkalles for \u00e5 m\u00f8te i permisjonstiden: \u2013 Per Sverre Kvinlaug og Tove Welle Haugland Presidenten: Per Sverre"
+                },
+                {
+                    "segment_idx": 6,
+                    "is_jump_point": true,
+                    "start_time": 256.62159375,
+                    "end_time": 276.62159375,
+                    "cer": 0.06060606060606061,
+                    "asr_text": "Fra statsministerens kontor foreligger f\u00f8lgende to brev til Stortinget. Det f\u00f8rste brevet, datert 13. august 2018, lyder \u00abEndring i regjeringens sammensetning og endring blant statssekret\u00e6rene\u00bb. Statsr\u00e5det ble holdt p\u00e5 Oslo slott 13. august 2018 kl. 13. under ledelse av hans majestet kongen. Det ble truffet f\u00f8lgende vedkommende.",
+                    "human_text": "Fra Statsministerens kontor foreligger f\u00f8lgende to brev til Stortinget. Det f\u00f8rste brevet, datert 13. august 2018, lyder: \u00abEndring i regjeringens sammensetning og endring blant statssekret\u00e6rene Statsr\u00e5d ble holdt p\u00e5 Oslo slott 13. august 2018 kl. 1300 under ledelse av Hans Majestet Kongen. Det ble truffet f\u00f8lgende vedtak:"
+                },
+                {
+                    "segment_idx": 7,
+                    "is_jump_point": false,
+                    "start_time": 276.62159375,
+                    "end_time": 288.90565625,
+                    "cer": 0.040229885057471264,
+                    "asr_text": "Statsr\u00e5d Per Sandberg gis avsked i n\u00e5de. Society & Media Manager Harald Tom Nesvik utnevnes til statsr\u00e5d og overtar styret av fiskerisaker i n\u00e6rings- og fiskeridepartementet.",
+                    "human_text": "Statsr\u00e5d Per Sandberg gis avskjed i n\u00e5de. Society and media manager Harald Tom Nesvik utnevnes til statsr\u00e5d og overtar styret av fiskerisaker i N\u00e6rings- og fiskeridepartementet."
+                },
+                {
+                    "segment_idx": 8,
+                    "is_jump_point": false,
+                    "start_time": 288.90565625,
+                    "end_time": 302.49003125,
+                    "cer": 0.0611353711790393,
+                    "asr_text": "Statssekret\u00e6r Roy Angelvik gis avsked som statssekret\u00e6r i 50 prosent stilling for statsr\u00e5d P. Sandberg og utnevnes p\u00e5 nytt til statssekret\u00e6r i 50 prosent stilling for statsr\u00e5d Harald Tom Nesvik i n\u00e6rings- og fiskeridepartementet.",
+                    "human_text": "Statssekret\u00e6r Roy Angelvik gis avskjed som statssekret\u00e6r i 50 pst. stilling for statsr\u00e5d Per Sandberg og utnevnes p\u00e5 nytt til statssekret\u00e6r i 50 pst. stilling for statsr\u00e5d Harald Tom Nesvik i N\u00e6rings- og fiskeridepartementet."
+                }
+            ]
+        },
+        {
+            "jump_index": 20,
+            "cer_change": 0.42277365491651203,
+            "context_segments": [
+                {
+                    "segment_idx": 18,
+                    "is_jump_point": false,
+                    "start_time": 456.089875,
+                    "end_time": 476.089875,
+                    "cer": 0.29393939393939394,
+                    "asr_text": "Presidenten vil foresl\u00e5 at de refererte brevene vedlegges protokollen, og det anses vedtatt. F\u00f8rste varerrepresentant for henholdsvis Nordland og Telemark fylker Dagfinn Henrik Olsen og Stine Margrete Knudstatter Olsen har tatt sete som representanter for den tid representantene Kjell B\u00f8rge Freiberg og B\u00e5rd Hoxtru er medlemmene.",
+                    "human_text": "5572 28. sep. \u2013 Referat 2018 F\u00f8rste vararepresentant for henholdsvis Nordland og Telemark fylker, Dagfinn Henrik Olsen og Stine Margrethe Knutsdatter Olsen, har tatt sete som repre- sentanter for den tid representantene Kjell-B\u00f8rge Freiberg og B\u00e5rd Hoksrud er medlemmer"
+                },
+                {
+                    "segment_idx": 19,
+                    "is_jump_point": false,
+                    "start_time": 476.089875,
+                    "end_time": 488.52003125,
+                    "cer": 0.02040816326530612,
+                    "asr_text": "medlemmer av regjeringen. Statsr\u00e5d Kjell B\u00f8rge Freiberg vil overbringe 15 kongelige proposisjoner.",
+                    "human_text": "medlemmer av regjeringen. Statsr\u00e5d Kjell-B\u00f8rge Freiberg vil overbringe 18 kongelige proposisjoner."
+                },
+                {
+                    "segment_idx": 20,
+                    "is_jump_point": true,
+                    "start_time": 488.52003125,
+                    "end_time": 500.22284375000004,
+                    "cer": 0.4431818181818182,
+                    "asr_text": "Statsr\u00e5d Kjell B\u00f8rge-Fraberg. President, jeg har en glede \u00e5 overbrenge 18 proposisjoner.",
+                    "human_text": "Statsr\u00e5d Kjell-B\u00f8rge Freiberg vil overbringe 18 kongelige proposisjoner."
+                },
+                {
+                    "segment_idx": 21,
+                    "is_jump_point": false,
+                    "start_time": 500.22284375000004,
+                    "end_time": 520.22284375,
+                    "cer": 0.1407766990291262,
+                    "asr_text": "Proposisjon om samtykke til deltakelse i en beslutning i E\u00d8S-komiteen om innlemmelse i E\u00d8S-avtalen om nye tilpassninger til forordning nr. 1031-2010 om auksjonering av klimakvote og inng\u00e5else av to avtaler.",
+                    "human_text": "44. (482) Samtykke til deltakelse i en beslutning i E\u00d8Skomiteen om innlemmelse i E\u00d8S-avtalen av nye til pasninger til forordning (EU) nr. 1031/2010 om auksjonering av klimakvoter, og inng\u00e5else av to avtaler"
+                },
+                {
+                    "segment_idx": 22,
+                    "is_jump_point": false,
+                    "start_time": 520.22284375,
+                    "end_time": 538.11565625,
+                    "cer": 0.08108108108108109,
+                    "asr_text": "med kommisjonen om tilknytning til EUs avtale om felles tildeling av kontrakter for anskaffelse for felles auksjonsplattformer og auksjonsoverv\u00e5ker.",
+                    "human_text": "med Kommisjonen om tilknytning til EUs avtaler om felles tildeling av kontrakter for \u00e5 anskaffe felles auksjonsplattformer og auksjonsoverv\u00e5ker"
+                }
+            ]
+        },
+        {
+            "jump_index": 21,
+            "cer_change": -0.30240511915269197,
+            "context_segments": [
+                {
+                    "segment_idx": 19,
+                    "is_jump_point": false,
+                    "start_time": 476.089875,
+                    "end_time": 488.52003125,
+                    "cer": 0.02040816326530612,
+                    "asr_text": "medlemmer av regjeringen. Statsr\u00e5d Kjell B\u00f8rge Freiberg vil overbringe 15 kongelige proposisjoner.",
+                    "human_text": "medlemmer av regjeringen. Statsr\u00e5d Kjell-B\u00f8rge Freiberg vil overbringe 18 kongelige proposisjoner."
+                },
+                {
+                    "segment_idx": 20,
+                    "is_jump_point": false,
+                    "start_time": 488.52003125,
+                    "end_time": 500.22284375000004,
+                    "cer": 0.4431818181818182,
+                    "asr_text": "Statsr\u00e5d Kjell B\u00f8rge-Fraberg. President, jeg har en glede \u00e5 overbrenge 18 proposisjoner.",
+                    "human_text": "Statsr\u00e5d Kjell-B\u00f8rge Freiberg vil overbringe 18 kongelige proposisjoner."
+                },
+                {
+                    "segment_idx": 21,
+                    "is_jump_point": true,
+                    "start_time": 500.22284375000004,
+                    "end_time": 520.22284375,
+                    "cer": 0.1407766990291262,
+                    "asr_text": "Proposisjon om samtykke til deltakelse i en beslutning i E\u00d8S-komiteen om innlemmelse i E\u00d8S-avtalen om nye tilpassninger til forordning nr. 1031-2010 om auksjonering av klimakvote og inng\u00e5else av to avtaler.",
+                    "human_text": "44. (482) Samtykke til deltakelse i en beslutning i E\u00d8Skomiteen om innlemmelse i E\u00d8S-avtalen av nye til pasninger til forordning (EU) nr. 1031/2010 om auksjonering av klimakvoter, og inng\u00e5else av to avtaler"
+                },
+                {
+                    "segment_idx": 22,
+                    "is_jump_point": false,
+                    "start_time": 520.22284375,
+                    "end_time": 538.11565625,
+                    "cer": 0.08108108108108109,
+                    "asr_text": "med kommisjonen om tilknytning til EUs avtale om felles tildeling av kontrakter for anskaffelse for felles auksjonsplattformer og auksjonsoverv\u00e5ker.",
+                    "human_text": "med Kommisjonen om tilknytning til EUs avtaler om felles tildeling av kontrakter for \u00e5 anskaffe felles auksjonsplattformer og auksjonsoverv\u00e5ker"
+                },
+                {
+                    "segment_idx": 23,
+                    "is_jump_point": false,
+                    "start_time": 538.11565625,
+                    "end_time": 554.61940625,
+                    "cer": 0.7323943661971831,
+                    "asr_text": "Proposisjon om endring i skatteloven. Utleie av fart\u00f8y i redderi-skatteordningen. Proposisjon om lov om register over reelle rettighetshalere.",
+                    "human_text": "som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse"
+                }
+            ]
+        },
+        {
+            "jump_index": 23,
+            "cer_change": 0.6513132851161021,
+            "context_segments": [
+                {
+                    "segment_idx": 21,
+                    "is_jump_point": false,
+                    "start_time": 500.22284375000004,
+                    "end_time": 520.22284375,
+                    "cer": 0.1407766990291262,
+                    "asr_text": "Proposisjon om samtykke til deltakelse i en beslutning i E\u00d8S-komiteen om innlemmelse i E\u00d8S-avtalen om nye tilpassninger til forordning nr. 1031-2010 om auksjonering av klimakvote og inng\u00e5else av to avtaler.",
+                    "human_text": "44. (482) Samtykke til deltakelse i en beslutning i E\u00d8Skomiteen om innlemmelse i E\u00d8S-avtalen av nye til pasninger til forordning (EU) nr. 1031/2010 om auksjonering av klimakvoter, og inng\u00e5else av to avtaler"
+                },
+                {
+                    "segment_idx": 22,
+                    "is_jump_point": false,
+                    "start_time": 520.22284375,
+                    "end_time": 538.11565625,
+                    "cer": 0.08108108108108109,
+                    "asr_text": "med kommisjonen om tilknytning til EUs avtale om felles tildeling av kontrakter for anskaffelse for felles auksjonsplattformer og auksjonsoverv\u00e5ker.",
+                    "human_text": "med Kommisjonen om tilknytning til EUs avtaler om felles tildeling av kontrakter for \u00e5 anskaffe felles auksjonsplattformer og auksjonsoverv\u00e5ker"
+                },
+                {
+                    "segment_idx": 23,
+                    "is_jump_point": true,
+                    "start_time": 538.11565625,
+                    "end_time": 554.61940625,
+                    "cer": 0.7323943661971831,
+                    "asr_text": "Proposisjon om endring i skatteloven. Utleie av fart\u00f8y i redderi-skatteordningen. Proposisjon om lov om register over reelle rettighetshalere.",
+                    "human_text": "som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse"
+                },
+                {
+                    "segment_idx": 24,
+                    "is_jump_point": false,
+                    "start_time": 554.61940625,
+                    "end_time": 573.77253125,
+                    "cer": 0.36464088397790057,
+                    "asr_text": "Proposisjon om endringer i finansforetagsloven. Proposisjon om endringer i kj\u00f8lloven og samtykke til tiltredelse til den internasjonale Nairobi-kommisjonen om fjerning av rak, 2007.",
+                    "human_text": "10. (489) Endringer i sj\u00f8loven mv. (fjerning av vrak) og samtykke til tiltredelse til Den internasjonale Nairobi-konvensjonen om fjerning av vrak, 2007"
+                },
+                {
+                    "segment_idx": 25,
+                    "is_jump_point": false,
+                    "start_time": 573.77253125,
+                    "end_time": 593.77253125,
+                    "cer": 0.7395348837209302,
+                    "asr_text": "Proposisjon om lov om arv og d\u00f8dsboskifte. Proposisjon om endringer i statsbudsjettet 2018 under justis- og beredskapsdepartementet \u00abSlokking av skogbr\u00f8na\u00bb. Proposisjon om lov om mineralverksamhet p\u00e5 kontraktsplass.",
+                    "human_text": "unntatt B, som sendes justiskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling"
+                }
+            ]
+        },
+        {
+            "jump_index": 24,
+            "cer_change": -0.36775348221928256,
+            "context_segments": [
+                {
+                    "segment_idx": 22,
+                    "is_jump_point": false,
+                    "start_time": 520.22284375,
+                    "end_time": 538.11565625,
+                    "cer": 0.08108108108108109,
+                    "asr_text": "med kommisjonen om tilknytning til EUs avtale om felles tildeling av kontrakter for anskaffelse for felles auksjonsplattformer og auksjonsoverv\u00e5ker.",
+                    "human_text": "med Kommisjonen om tilknytning til EUs avtaler om felles tildeling av kontrakter for \u00e5 anskaffe felles auksjonsplattformer og auksjonsoverv\u00e5ker"
+                },
+                {
+                    "segment_idx": 23,
+                    "is_jump_point": false,
+                    "start_time": 538.11565625,
+                    "end_time": 554.61940625,
+                    "cer": 0.7323943661971831,
+                    "asr_text": "Proposisjon om endring i skatteloven. Utleie av fart\u00f8y i redderi-skatteordningen. Proposisjon om lov om register over reelle rettighetshalere.",
+                    "human_text": "som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse"
+                },
+                {
+                    "segment_idx": 24,
+                    "is_jump_point": true,
+                    "start_time": 554.61940625,
+                    "end_time": 573.77253125,
+                    "cer": 0.36464088397790057,
+                    "asr_text": "Proposisjon om endringer i finansforetagsloven. Proposisjon om endringer i kj\u00f8lloven og samtykke til tiltredelse til den internasjonale Nairobi-kommisjonen om fjerning av rak, 2007.",
+                    "human_text": "10. (489) Endringer i sj\u00f8loven mv. (fjerning av vrak) og samtykke til tiltredelse til Den internasjonale Nairobi-konvensjonen om fjerning av vrak, 2007"
+                },
+                {
+                    "segment_idx": 25,
+                    "is_jump_point": false,
+                    "start_time": 573.77253125,
+                    "end_time": 593.77253125,
+                    "cer": 0.7395348837209302,
+                    "asr_text": "Proposisjon om lov om arv og d\u00f8dsboskifte. Proposisjon om endringer i statsbudsjettet 2018 under justis- og beredskapsdepartementet \u00abSlokking av skogbr\u00f8na\u00bb. Proposisjon om lov om mineralverksamhet p\u00e5 kontraktsplass.",
+                    "human_text": "unntatt B, som sendes justiskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling"
+                },
+                {
+                    "segment_idx": 26,
+                    "is_jump_point": false,
+                    "start_time": 593.77253125,
+                    "end_time": 604.6537812500001,
+                    "cer": 0.7386363636363636,
+                    "asr_text": "\u00abProposisjon, utbygging og finansiering av RV 36 p\u00e5 strekning av B\u00f8 seljord i Telemark\u00bb.",
+                    "human_text": "sitt utkast til innstilling for utenriks- og forsvarskomiteen"
+                }
+            ]
+        },
+        {
+            "jump_index": 25,
+            "cer_change": 0.37489399974302967,
+            "context_segments": [
+                {
+                    "segment_idx": 23,
+                    "is_jump_point": false,
+                    "start_time": 538.11565625,
+                    "end_time": 554.61940625,
+                    "cer": 0.7323943661971831,
+                    "asr_text": "Proposisjon om endring i skatteloven. Utleie av fart\u00f8y i redderi-skatteordningen. Proposisjon om lov om register over reelle rettighetshalere.",
+                    "human_text": "som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse"
+                },
+                {
+                    "segment_idx": 24,
+                    "is_jump_point": false,
+                    "start_time": 554.61940625,
+                    "end_time": 573.77253125,
+                    "cer": 0.36464088397790057,
+                    "asr_text": "Proposisjon om endringer i finansforetagsloven. Proposisjon om endringer i kj\u00f8lloven og samtykke til tiltredelse til den internasjonale Nairobi-kommisjonen om fjerning av rak, 2007.",
+                    "human_text": "10. (489) Endringer i sj\u00f8loven mv. (fjerning av vrak) og samtykke til tiltredelse til Den internasjonale Nairobi-konvensjonen om fjerning av vrak, 2007"
+                },
+                {
+                    "segment_idx": 25,
+                    "is_jump_point": true,
+                    "start_time": 573.77253125,
+                    "end_time": 593.77253125,
+                    "cer": 0.7395348837209302,
+                    "asr_text": "Proposisjon om lov om arv og d\u00f8dsboskifte. Proposisjon om endringer i statsbudsjettet 2018 under justis- og beredskapsdepartementet \u00abSlokking av skogbr\u00f8na\u00bb. Proposisjon om lov om mineralverksamhet p\u00e5 kontraktsplass.",
+                    "human_text": "unntatt B, som sendes justiskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling"
+                },
+                {
+                    "segment_idx": 26,
+                    "is_jump_point": false,
+                    "start_time": 593.77253125,
+                    "end_time": 604.6537812500001,
+                    "cer": 0.7386363636363636,
+                    "asr_text": "\u00abProposisjon, utbygging og finansiering av RV 36 p\u00e5 strekning av B\u00f8 seljord i Telemark\u00bb.",
+                    "human_text": "sitt utkast til innstilling for utenriks- og forsvarskomiteen"
+                },
+                {
+                    "segment_idx": 27,
+                    "is_jump_point": false,
+                    "start_time": 604.6537812500001,
+                    "end_time": 619.0565937499999,
+                    "cer": 0.4074074074074074,
+                    "asr_text": "Proposisjon om endringer i statsborgerloven. Avvikling av prinsippet om ett statborgerskap. Proposisjon om endringer i stiftelsesloven.",
+                    "human_text": "17. (496) Endringer i statsborgerloven (avvikling av prinsippet om ett statsborgerskap) (Prop. 111 L (2017\u20132018)) Enst.: Nr."
+                }
+            ]
+        },
+        {
+            "jump_index": 27,
+            "cer_change": -0.33122895622895626,
+            "context_segments": [
+                {
+                    "segment_idx": 25,
+                    "is_jump_point": false,
+                    "start_time": 573.77253125,
+                    "end_time": 593.77253125,
+                    "cer": 0.7395348837209302,
+                    "asr_text": "Proposisjon om lov om arv og d\u00f8dsboskifte. Proposisjon om endringer i statsbudsjettet 2018 under justis- og beredskapsdepartementet \u00abSlokking av skogbr\u00f8na\u00bb. Proposisjon om lov om mineralverksamhet p\u00e5 kontraktsplass.",
+                    "human_text": "unntatt B, som sendes justiskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling"
+                },
+                {
+                    "segment_idx": 26,
+                    "is_jump_point": false,
+                    "start_time": 593.77253125,
+                    "end_time": 604.6537812500001,
+                    "cer": 0.7386363636363636,
+                    "asr_text": "\u00abProposisjon, utbygging og finansiering av RV 36 p\u00e5 strekning av B\u00f8 seljord i Telemark\u00bb.",
+                    "human_text": "sitt utkast til innstilling for utenriks- og forsvarskomiteen"
+                },
+                {
+                    "segment_idx": 27,
+                    "is_jump_point": true,
+                    "start_time": 604.6537812500001,
+                    "end_time": 619.0565937499999,
+                    "cer": 0.4074074074074074,
+                    "asr_text": "Proposisjon om endringer i statsborgerloven. Avvikling av prinsippet om ett statborgerskap. Proposisjon om endringer i stiftelsesloven.",
+                    "human_text": "17. (496) Endringer i statsborgerloven (avvikling av prinsippet om ett statsborgerskap) (Prop. 111 L (2017\u20132018)) Enst.: Nr."
+                },
+                {
+                    "segment_idx": 28,
+                    "is_jump_point": false,
+                    "start_time": 619.0565937499999,
+                    "end_time": 639.0565937499999,
+                    "cer": 0.717391304347826,
+                    "asr_text": "Proposisjon om samtykke til \u00e5 sette i kraft protokoll om endring av overenskomst av 23. september 1996 mellom de nordiske land til unng\u00e5else av dobbeltbeskattning og forebyggelse av skatteunddragelse med hensyn til skatteavdeling.",
+                    "human_text": "(Prop. 116 L (2017\u20132018)) Enst.: Sendes kommunal- og forvaltningskomiteen, som forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling"
+                },
+                {
+                    "segment_idx": 29,
+                    "is_jump_point": false,
+                    "start_time": 639.0565937499999,
+                    "end_time": 658.59784375,
+                    "cer": 0.6831683168316832,
+                    "asr_text": "Skatter av inntekt og formue, undertegnet i Helsingfors den 29. august 2018. Proposisjon om endringer i personopplysningsloven, bekjempelse av arbeidskriminalitet. Proposisjon om endringer i SAME-loven.",
+                    "human_text": "uttalelse f\u00f8r innstilling avgis. 19. (498) Endringer i utlendingsloven (tilbakeholdelse og innbringelse"
+                }
+            ]
+        },
+        {
+            "jump_index": 28,
+            "cer_change": 0.30998389694041867,
+            "context_segments": [
+                {
+                    "segment_idx": 26,
+                    "is_jump_point": false,
+                    "start_time": 593.77253125,
+                    "end_time": 604.6537812500001,
+                    "cer": 0.7386363636363636,
+                    "asr_text": "\u00abProposisjon, utbygging og finansiering av RV 36 p\u00e5 strekning av B\u00f8 seljord i Telemark\u00bb.",
+                    "human_text": "sitt utkast til innstilling for utenriks- og forsvarskomiteen"
+                },
+                {
+                    "segment_idx": 27,
+                    "is_jump_point": false,
+                    "start_time": 604.6537812500001,
+                    "end_time": 619.0565937499999,
+                    "cer": 0.4074074074074074,
+                    "asr_text": "Proposisjon om endringer i statsborgerloven. Avvikling av prinsippet om ett statborgerskap. Proposisjon om endringer i stiftelsesloven.",
+                    "human_text": "17. (496) Endringer i statsborgerloven (avvikling av prinsippet om ett statsborgerskap) (Prop. 111 L (2017\u20132018)) Enst.: Nr."
+                },
+                {
+                    "segment_idx": 28,
+                    "is_jump_point": true,
+                    "start_time": 619.0565937499999,
+                    "end_time": 639.0565937499999,
+                    "cer": 0.717391304347826,
+                    "asr_text": "Proposisjon om samtykke til \u00e5 sette i kraft protokoll om endring av overenskomst av 23. september 1996 mellom de nordiske land til unng\u00e5else av dobbeltbeskattning og forebyggelse av skatteunddragelse med hensyn til skatteavdeling.",
+                    "human_text": "(Prop. 116 L (2017\u20132018)) Enst.: Sendes kommunal- og forvaltningskomiteen, som forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling"
+                },
+                {
+                    "segment_idx": 29,
+                    "is_jump_point": false,
+                    "start_time": 639.0565937499999,
+                    "end_time": 658.59784375,
+                    "cer": 0.6831683168316832,
+                    "asr_text": "Skatter av inntekt og formue, undertegnet i Helsingfors den 29. august 2018. Proposisjon om endringer i personopplysningsloven, bekjempelse av arbeidskriminalitet. Proposisjon om endringer i SAME-loven.",
+                    "human_text": "uttalelse f\u00f8r innstilling avgis. 19. (498) Endringer i utlendingsloven (tilbakeholdelse og innbringelse"
+                },
+                {
+                    "segment_idx": 30,
+                    "is_jump_point": false,
+                    "start_time": 658.59784375,
+                    "end_time": 678.59784375,
+                    "cer": 0.5779816513761468,
+                    "asr_text": "Proposisjon om endringer i utlendingsloven tilbakeholdelse og innbringelse. Proposisjon om endringer i statsbudsjettet 2018 under n\u00e6rings- og feskeridepartementet Kongsberggruppen ASA, statens deltakelse i fortalelsen.",
+                    "human_text": "19. (498) Endringer i utlendingsloven (tilbakeholdelse og innbringelse m.m.) (Prop. 117 L (2017\u20132018)) 20. (499) Representantforslag fra stortingsrepresentantene"
+                }
+            ]
+        },
+        {
+            "jump_index": 32,
+            "cer_change": 0.3827352742044685,
+            "context_segments": [
+                {
+                    "segment_idx": 30,
+                    "is_jump_point": false,
+                    "start_time": 658.59784375,
+                    "end_time": 678.59784375,
+                    "cer": 0.5779816513761468,
+                    "asr_text": "Proposisjon om endringer i utlendingsloven tilbakeholdelse og innbringelse. Proposisjon om endringer i statsbudsjettet 2018 under n\u00e6rings- og feskeridepartementet Kongsberggruppen ASA, statens deltakelse i fortalelsen.",
+                    "human_text": "19. (498) Endringer i utlendingsloven (tilbakeholdelse og innbringelse m.m.) (Prop. 117 L (2017\u20132018)) 20. (499) Representantforslag fra stortingsrepresentantene"
+                },
+                {
+                    "segment_idx": 31,
+                    "is_jump_point": false,
+                    "start_time": 678.59784375,
+                    "end_time": 697.54690625,
+                    "cer": 0.3744075829383886,
+                    "asr_text": "\u2013 og trinsrettsemisjon. Proposisjon om endringer i statsbudsjettet 2018 under Landbruks- og matdepartementet. Tillegg til jordbruksoppgj\u00f8ret 2018 som f\u00f8lge av T\u00f8rken. Proposisjon om endringer i rettshjelpsloven.",
+                    "human_text": "118 S (2017\u20132018)) 24. (503) Endringer i statsbudsjettet 2018 under Landbruks- og matdepartementet (tillegg til Jordbruksoppgj\u00f8ret 2018 som f\u00f8lge av t\u00f8rken) (Prop. 119 S (2017\u20132018)) Enst.: Nr."
+                },
+                {
+                    "segment_idx": 32,
+                    "is_jump_point": true,
+                    "start_time": 707.73471875,
+                    "end_time": 726.66159375,
+                    "cer": 0.7571428571428571,
+                    "asr_text": "Proposisjonene vil bli behandlet p\u00e5 reglementsmessig m\u00e5te. Til behandling forelegger de saker som er oppf\u00f8rt p\u00e5 dags\u00f8den nummer 96. Sak 1. Valg av nytt varemedlem til valgkomiteen. Det skal velges nytt varemedlem til valgkomiteen, og presidenten ber om forslag. Hans-Andreas Limi.",
+                    "human_text": "og finansiering av rv 36 p\u00e5 strekninga B\u00f8 - Seljord i Telemark (Prop. 113 S (2017\u2013 2018)) Enst.: Sendes transport- og kommunikasjonskomiteen. 26. (505) Eksport av forsvarsmateriell fra Norge i"
+                },
+                {
+                    "segment_idx": 33,
+                    "is_jump_point": false,
+                    "start_time": 726.66159375,
+                    "end_time": 741.59440625,
+                    "cer": 0.12834224598930483,
+                    "asr_text": "Solveig Horne er foresl\u00e5tt som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres p\u00e5 vanlig m\u00e5te. De som stemmer imot, bes reise seg.",
+                    "human_text": "Solveig Horne er foresl\u00e5tt som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres p\u00e5 vanlig m\u00e5te. V o t e r i n g"
+                },
+                {
+                    "segment_idx": 34,
+                    "is_jump_point": false,
+                    "start_time": 741.59440625,
+                    "end_time": 752.1244062500001,
+                    "cer": 0.46405228758169936,
+                    "asr_text": "Ingen har reist deg. Og Solveig Horne er da enstemmig valgt som nytt varamedlem nr. 1 for Fremskrittspartiet til valgkomiteen etter B\u00e5rd H\u00e5kstrud. Sak 2.",
+                    "human_text": "t e r i n g : Solveig Horne ble enstemmig valgt som nytt varamedlem til valgkomiteen. Sak nr."
+                }
+            ]
+        },
+        {
+            "jump_index": 33,
+            "cer_change": -0.6288006111535522,
+            "context_segments": [
+                {
+                    "segment_idx": 31,
+                    "is_jump_point": false,
+                    "start_time": 678.59784375,
+                    "end_time": 697.54690625,
+                    "cer": 0.3744075829383886,
+                    "asr_text": "\u2013 og trinsrettsemisjon. Proposisjon om endringer i statsbudsjettet 2018 under Landbruks- og matdepartementet. Tillegg til jordbruksoppgj\u00f8ret 2018 som f\u00f8lge av T\u00f8rken. Proposisjon om endringer i rettshjelpsloven.",
+                    "human_text": "118 S (2017\u20132018)) 24. (503) Endringer i statsbudsjettet 2018 under Landbruks- og matdepartementet (tillegg til Jordbruksoppgj\u00f8ret 2018 som f\u00f8lge av t\u00f8rken) (Prop. 119 S (2017\u20132018)) Enst.: Nr."
+                },
+                {
+                    "segment_idx": 32,
+                    "is_jump_point": false,
+                    "start_time": 707.73471875,
+                    "end_time": 726.66159375,
+                    "cer": 0.7571428571428571,
+                    "asr_text": "Proposisjonene vil bli behandlet p\u00e5 reglementsmessig m\u00e5te. Til behandling forelegger de saker som er oppf\u00f8rt p\u00e5 dags\u00f8den nummer 96. Sak 1. Valg av nytt varemedlem til valgkomiteen. Det skal velges nytt varemedlem til valgkomiteen, og presidenten ber om forslag. Hans-Andreas Limi.",
+                    "human_text": "og finansiering av rv 36 p\u00e5 strekninga B\u00f8 - Seljord i Telemark (Prop. 113 S (2017\u2013 2018)) Enst.: Sendes transport- og kommunikasjonskomiteen. 26. (505) Eksport av forsvarsmateriell fra Norge i"
+                },
+                {
+                    "segment_idx": 33,
+                    "is_jump_point": true,
+                    "start_time": 726.66159375,
+                    "end_time": 741.59440625,
+                    "cer": 0.12834224598930483,
+                    "asr_text": "Solveig Horne er foresl\u00e5tt som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres p\u00e5 vanlig m\u00e5te. De som stemmer imot, bes reise seg.",
+                    "human_text": "Solveig Horne er foresl\u00e5tt som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres p\u00e5 vanlig m\u00e5te. V o t e r i n g"
+                },
+                {
+                    "segment_idx": 34,
+                    "is_jump_point": false,
+                    "start_time": 741.59440625,
+                    "end_time": 752.1244062500001,
+                    "cer": 0.46405228758169936,
+                    "asr_text": "Ingen har reist deg. Og Solveig Horne er da enstemmig valgt som nytt varamedlem nr. 1 for Fremskrittspartiet til valgkomiteen etter B\u00e5rd H\u00e5kstrud. Sak 2.",
+                    "human_text": "t e r i n g : Solveig Horne ble enstemmig valgt som nytt varamedlem til valgkomiteen. Sak nr."
+                },
+                {
+                    "segment_idx": 35,
+                    "is_jump_point": false,
+                    "start_time": 752.1244062500001,
+                    "end_time": 769.1344062500001,
+                    "cer": 0.1004566210045662,
+                    "asr_text": "Innstilling fra valgkomiteen om valget av nytt medlem og nytt varemedlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas-OSSES parlamentariske forsamling. Innstilling 412 S. 2017-2018.",
+                    "human_text": "Innstilling fra valgkomiteen om valg av nytt medlem og nytt varamedlem til Stortingets delegasjon til Organi- sasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling (Innst. 412 S (2017\u20132018))"
+                }
+            ]
+        },
+        {
+            "jump_index": 34,
+            "cer_change": 0.33571004159239454,
+            "context_segments": [
+                {
+                    "segment_idx": 32,
+                    "is_jump_point": false,
+                    "start_time": 707.73471875,
+                    "end_time": 726.66159375,
+                    "cer": 0.7571428571428571,
+                    "asr_text": "Proposisjonene vil bli behandlet p\u00e5 reglementsmessig m\u00e5te. Til behandling forelegger de saker som er oppf\u00f8rt p\u00e5 dags\u00f8den nummer 96. Sak 1. Valg av nytt varemedlem til valgkomiteen. Det skal velges nytt varemedlem til valgkomiteen, og presidenten ber om forslag. Hans-Andreas Limi.",
+                    "human_text": "og finansiering av rv 36 p\u00e5 strekninga B\u00f8 - Seljord i Telemark (Prop. 113 S (2017\u2013 2018)) Enst.: Sendes transport- og kommunikasjonskomiteen. 26. (505) Eksport av forsvarsmateriell fra Norge i"
+                },
+                {
+                    "segment_idx": 33,
+                    "is_jump_point": false,
+                    "start_time": 726.66159375,
+                    "end_time": 741.59440625,
+                    "cer": 0.12834224598930483,
+                    "asr_text": "Solveig Horne er foresl\u00e5tt som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres p\u00e5 vanlig m\u00e5te. De som stemmer imot, bes reise seg.",
+                    "human_text": "Solveig Horne er foresl\u00e5tt som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres p\u00e5 vanlig m\u00e5te. V o t e r i n g"
+                },
+                {
+                    "segment_idx": 34,
+                    "is_jump_point": true,
+                    "start_time": 741.59440625,
+                    "end_time": 752.1244062500001,
+                    "cer": 0.46405228758169936,
+                    "asr_text": "Ingen har reist deg. Og Solveig Horne er da enstemmig valgt som nytt varamedlem nr. 1 for Fremskrittspartiet til valgkomiteen etter B\u00e5rd H\u00e5kstrud. Sak 2.",
+                    "human_text": "t e r i n g : Solveig Horne ble enstemmig valgt som nytt varamedlem til valgkomiteen. Sak nr."
+                },
+                {
+                    "segment_idx": 35,
+                    "is_jump_point": false,
+                    "start_time": 752.1244062500001,
+                    "end_time": 769.1344062500001,
+                    "cer": 0.1004566210045662,
+                    "asr_text": "Innstilling fra valgkomiteen om valget av nytt medlem og nytt varemedlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas-OSSES parlamentariske forsamling. Innstilling 412 S. 2017-2018.",
+                    "human_text": "Innstilling fra valgkomiteen om valg av nytt medlem og nytt varamedlem til Stortingets delegasjon til Organi- sasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling (Innst. 412 S (2017\u20132018))"
+                },
+                {
+                    "segment_idx": 36,
+                    "is_jump_point": false,
+                    "start_time": 769.1344062500001,
+                    "end_time": 789.1344062500001,
+                    "cer": 0.19287833827893175,
+                    "asr_text": "Vi g\u00e5r til votering. Innstillingen refereres. Som nytt medlem til Stortingets delegasjon til Organisasjon for sikkerhet og samarbeid i Europas parlamentariske forsamling velges Sivert Bj\u00f8rnstad. Som nytt varemedlem til Stortingets delegasjon til Organisasjon for sikkerhet og samarbeid i Europas parlamentariske forsamling velges Harald.",
+                    "human_text": "\u00e5 gj\u00f8re f\u00f8lgende v e d t a k : Som nytt medlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Sivert Bj\u00f8rnstad. Som nytt varamedlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Hans"
+                }
+            ]
+        },
+        {
+            "jump_index": 35,
+            "cer_change": -0.36359566657713316,
+            "context_segments": [
+                {
+                    "segment_idx": 33,
+                    "is_jump_point": false,
+                    "start_time": 726.66159375,
+                    "end_time": 741.59440625,
+                    "cer": 0.12834224598930483,
+                    "asr_text": "Solveig Horne er foresl\u00e5tt som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres p\u00e5 vanlig m\u00e5te. De som stemmer imot, bes reise seg.",
+                    "human_text": "Solveig Horne er foresl\u00e5tt som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres p\u00e5 vanlig m\u00e5te. V o t e r i n g"
+                },
+                {
+                    "segment_idx": 34,
+                    "is_jump_point": false,
+                    "start_time": 741.59440625,
+                    "end_time": 752.1244062500001,
+                    "cer": 0.46405228758169936,
+                    "asr_text": "Ingen har reist deg. Og Solveig Horne er da enstemmig valgt som nytt varamedlem nr. 1 for Fremskrittspartiet til valgkomiteen etter B\u00e5rd H\u00e5kstrud. Sak 2.",
+                    "human_text": "t e r i n g : Solveig Horne ble enstemmig valgt som nytt varamedlem til valgkomiteen. Sak nr."
+                },
+                {
+                    "segment_idx": 35,
+                    "is_jump_point": true,
+                    "start_time": 752.1244062500001,
+                    "end_time": 769.1344062500001,
+                    "cer": 0.1004566210045662,
+                    "asr_text": "Innstilling fra valgkomiteen om valget av nytt medlem og nytt varemedlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas-OSSES parlamentariske forsamling. Innstilling 412 S. 2017-2018.",
+                    "human_text": "Innstilling fra valgkomiteen om valg av nytt medlem og nytt varamedlem til Stortingets delegasjon til Organi- sasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling (Innst. 412 S (2017\u20132018))"
+                },
+                {
+                    "segment_idx": 36,
+                    "is_jump_point": false,
+                    "start_time": 769.1344062500001,
+                    "end_time": 789.1344062500001,
+                    "cer": 0.19287833827893175,
+                    "asr_text": "Vi g\u00e5r til votering. Innstillingen refereres. Som nytt medlem til Stortingets delegasjon til Organisasjon for sikkerhet og samarbeid i Europas parlamentariske forsamling velges Sivert Bj\u00f8rnstad. Som nytt varemedlem til Stortingets delegasjon til Organisasjon for sikkerhet og samarbeid i Europas parlamentariske forsamling velges Harald.",
+                    "human_text": "\u00e5 gj\u00f8re f\u00f8lgende v e d t a k : Som nytt medlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Sivert Bj\u00f8rnstad. Som nytt varamedlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Hans"
+                },
+                {
+                    "segment_idx": 37,
+                    "is_jump_point": false,
+                    "start_time": 789.1344062500001,
+                    "end_time": 809.1344062500001,
+                    "cer": 0.7142857142857143,
+                    "asr_text": "Saks 3 er referat. Referatet er omdelt p\u00e5 representantenes plasser og publisert p\u00e5 salappen. Presidenten refererer bare sakernes nummer og forslag til vedtak. Saks 488.",
+                    "human_text": "Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Hans"
+                }
+            ]
+        },
+        {
+            "jump_index": 37,
+            "cer_change": 0.5214073760067826,
+            "context_segments": [
+                {
+                    "segment_idx": 35,
+                    "is_jump_point": false,
+                    "start_time": 752.1244062500001,
+                    "end_time": 769.1344062500001,
+                    "cer": 0.1004566210045662,
+                    "asr_text": "Innstilling fra valgkomiteen om valget av nytt medlem og nytt varemedlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas-OSSES parlamentariske forsamling. Innstilling 412 S. 2017-2018.",
+                    "human_text": "Innstilling fra valgkomiteen om valg av nytt medlem og nytt varamedlem til Stortingets delegasjon til Organi- sasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling (Innst. 412 S (2017\u20132018))"
+                },
+                {
+                    "segment_idx": 36,
+                    "is_jump_point": false,
+                    "start_time": 769.1344062500001,
+                    "end_time": 789.1344062500001,
+                    "cer": 0.19287833827893175,
+                    "asr_text": "Vi g\u00e5r til votering. Innstillingen refereres. Som nytt medlem til Stortingets delegasjon til Organisasjon for sikkerhet og samarbeid i Europas parlamentariske forsamling velges Sivert Bj\u00f8rnstad. Som nytt varemedlem til Stortingets delegasjon til Organisasjon for sikkerhet og samarbeid i Europas parlamentariske forsamling velges Harald.",
+                    "human_text": "\u00e5 gj\u00f8re f\u00f8lgende v e d t a k : Som nytt medlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Sivert Bj\u00f8rnstad. Som nytt varamedlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Hans"
+                },
+                {
+                    "segment_idx": 37,
+                    "is_jump_point": true,
+                    "start_time": 789.1344062500001,
+                    "end_time": 809.1344062500001,
+                    "cer": 0.7142857142857143,
+                    "asr_text": "Saks 3 er referat. Referatet er omdelt p\u00e5 representantenes plasser og publisert p\u00e5 salappen. Presidenten refererer bare sakernes nummer og forslag til vedtak. Saks 488.",
+                    "human_text": "Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Hans"
+                },
+                {
+                    "segment_idx": 38,
+                    "is_jump_point": false,
+                    "start_time": 809.1344062500001,
+                    "end_time": 820.99128125,
+                    "cer": 0.6989795918367347,
+                    "asr_text": "481. Foresl\u00e5s vedlagt protokollen. 482. Foresl\u00e5s sendt energi- og milj\u00f8komiteen som forelegger sitt utgast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling avgj\u00f8res.",
+                    "human_text": "i Europas (OSSEs) parlamentariske forsamling velges: Hans Andreas Limi. V o t e r i n g : Valgkomiteens innstilling ble"
+                },
+                {
+                    "segment_idx": 39,
+                    "is_jump_point": false,
+                    "start_time": 820.99128125,
+                    "end_time": 835.4953437500001,
+                    "cer": 0.7323232323232324,
+                    "asr_text": "483. Forsl\u00e5sendt Energi- og Milj\u00f8komiteen. 484. Forsl\u00e5sendt Familie- og Kulturkomiteen. Unntatt punkt 1 som foresl\u00e5sbehandlet etter forretningshorden paragraf 39, ankl. e. Tas ikke under behandling.",
+                    "human_text": "V o t e r i n g : Valgkomiteens innstilling ble enstemmig bifalt. Sak nr. 3 [13:10:06] Referat 1. (480) Statsministerens kontor melder at 1. lov om endringer"
+                }
+            ]
+        },
+        {
+            "jump_index": 40,
+            "cer_change": -0.40579262007833444,
+            "context_segments": [
+                {
+                    "segment_idx": 38,
+                    "is_jump_point": false,
+                    "start_time": 809.1344062500001,
+                    "end_time": 820.99128125,
+                    "cer": 0.6989795918367347,
+                    "asr_text": "481. Foresl\u00e5s vedlagt protokollen. 482. Foresl\u00e5s sendt energi- og milj\u00f8komiteen som forelegger sitt utgast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling avgj\u00f8res.",
+                    "human_text": "i Europas (OSSEs) parlamentariske forsamling velges: Hans Andreas Limi. V o t e r i n g : Valgkomiteens innstilling ble"
+                },
+                {
+                    "segment_idx": 39,
+                    "is_jump_point": false,
+                    "start_time": 820.99128125,
+                    "end_time": 835.4953437500001,
+                    "cer": 0.7323232323232324,
+                    "asr_text": "483. Forsl\u00e5sendt Energi- og Milj\u00f8komiteen. 484. Forsl\u00e5sendt Familie- og Kulturkomiteen. Unntatt punkt 1 som foresl\u00e5sbehandlet etter forretningshorden paragraf 39, ankl. e. Tas ikke under behandling.",
+                    "human_text": "V o t e r i n g : Valgkomiteens innstilling ble enstemmig bifalt. Sak nr. 3 [13:10:06] Referat 1. (480) Statsministerens kontor melder at 1. lov om endringer"
+                },
+                {
+                    "segment_idx": 40,
+                    "is_jump_point": true,
+                    "start_time": 835.4953437500001,
+                    "end_time": 853.2309687500001,
+                    "cer": 0.32653061224489793,
+                    "asr_text": "485, 486, 487 og 488 foresl\u00e5s sendt Finanskomiteen. 489 foresl\u00e5s sendt Justitskomiteen, unntatt B som foresl\u00e5s sendt Justitskomiteen som forelegger sitt utkast og innstilling for Utenriks- og Forsvarskomiteen til uttalelse f\u00f8r innstilling avgis.",
+                    "human_text": "105 LS (2017\u20132018)) Enst.: Sendes justiskomiteen, unntatt B, som sendes justiskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling avgis."
+                },
+                {
+                    "segment_idx": 41,
+                    "is_jump_point": false,
+                    "start_time": 853.2309687500001,
+                    "end_time": 873.2309687500001,
+                    "cer": 0.7132075471698113,
+                    "asr_text": "490, 491, 492 og 493 foresl\u00e5s sendt Justiskomiteen. 494, 495 og 496 foresl\u00e5s sendt Kommunal- og forvaltningskomiteen. 497 foresl\u00e5s sendt Kommunal- og forvaltningskomiteen, som foreligger sitt utgast til innstilling for presidentskapet til uttalelse f\u00f8r ildenskapet.",
+                    "human_text": "som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling avgis. 11. (490) Lov om arv og d\u00f8dsboskifte"
+                },
+                {
+                    "segment_idx": 42,
+                    "is_jump_point": false,
+                    "start_time": 873.2309687500001,
+                    "end_time": 893.2309687500001,
+                    "cer": 0.3840304182509506,
+                    "asr_text": "innstilling avgis. 498 og 499 foreslagstendt kommunal- og forvaltningskomiteen. 500 foreslagstendt kontroll- og konstitusjonskomiteen som foreligger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 501, 502, 503 foreslagstendte",
+                    "human_text": "sivilombudsmannen om endringer i sivilombudsmannsloven Enst.: Sendes kontroll- og konstitusjonskomiteen, som forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 22. (501) Endringar"
+                }
+            ]
+        },
+        {
+            "jump_index": 41,
+            "cer_change": 0.38667693492491334,
+            "context_segments": [
+                {
+                    "segment_idx": 39,
+                    "is_jump_point": false,
+                    "start_time": 820.99128125,
+                    "end_time": 835.4953437500001,
+                    "cer": 0.7323232323232324,
+                    "asr_text": "483. Forsl\u00e5sendt Energi- og Milj\u00f8komiteen. 484. Forsl\u00e5sendt Familie- og Kulturkomiteen. Unntatt punkt 1 som foresl\u00e5sbehandlet etter forretningshorden paragraf 39, ankl. e. Tas ikke under behandling.",
+                    "human_text": "V o t e r i n g : Valgkomiteens innstilling ble enstemmig bifalt. Sak nr. 3 [13:10:06] Referat 1. (480) Statsministerens kontor melder at 1. lov om endringer"
+                },
+                {
+                    "segment_idx": 40,
+                    "is_jump_point": false,
+                    "start_time": 835.4953437500001,
+                    "end_time": 853.2309687500001,
+                    "cer": 0.32653061224489793,
+                    "asr_text": "485, 486, 487 og 488 foresl\u00e5s sendt Finanskomiteen. 489 foresl\u00e5s sendt Justitskomiteen, unntatt B som foresl\u00e5s sendt Justitskomiteen som forelegger sitt utkast og innstilling for Utenriks- og Forsvarskomiteen til uttalelse f\u00f8r innstilling avgis.",
+                    "human_text": "105 LS (2017\u20132018)) Enst.: Sendes justiskomiteen, unntatt B, som sendes justiskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling avgis."
+                },
+                {
+                    "segment_idx": 41,
+                    "is_jump_point": true,
+                    "start_time": 853.2309687500001,
+                    "end_time": 873.2309687500001,
+                    "cer": 0.7132075471698113,
+                    "asr_text": "490, 491, 492 og 493 foresl\u00e5s sendt Justiskomiteen. 494, 495 og 496 foresl\u00e5s sendt Kommunal- og forvaltningskomiteen. 497 foresl\u00e5s sendt Kommunal- og forvaltningskomiteen, som foreligger sitt utgast til innstilling for presidentskapet til uttalelse f\u00f8r ildenskapet.",
+                    "human_text": "som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling avgis. 11. (490) Lov om arv og d\u00f8dsboskifte"
+                },
+                {
+                    "segment_idx": 42,
+                    "is_jump_point": false,
+                    "start_time": 873.2309687500001,
+                    "end_time": 893.2309687500001,
+                    "cer": 0.3840304182509506,
+                    "asr_text": "innstilling avgis. 498 og 499 foreslagstendt kommunal- og forvaltningskomiteen. 500 foreslagstendt kontroll- og konstitusjonskomiteen som foreligger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 501, 502, 503 foreslagstendte",
+                    "human_text": "sivilombudsmannen om endringer i sivilombudsmannsloven Enst.: Sendes kontroll- og konstitusjonskomiteen, som forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 22. (501) Endringar"
+                },
+                {
+                    "segment_idx": 43,
+                    "is_jump_point": false,
+                    "start_time": 893.2309687500001,
+                    "end_time": 906.0919062500001,
+                    "cer": 0.7358490566037735,
+                    "asr_text": "504 foresl\u00e5s sendt transport- og kommunikasjonskomiteen. 505 foresl\u00e5s sendt utenriks- og forsvarskomiteen.",
+                    "human_text": "forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling"
+                }
+            ]
+        },
+        {
+            "jump_index": 42,
+            "cer_change": -0.3291771289188607,
+            "context_segments": [
+                {
+                    "segment_idx": 40,
+                    "is_jump_point": false,
+                    "start_time": 835.4953437500001,
+                    "end_time": 853.2309687500001,
+                    "cer": 0.32653061224489793,
+                    "asr_text": "485, 486, 487 og 488 foresl\u00e5s sendt Finanskomiteen. 489 foresl\u00e5s sendt Justitskomiteen, unntatt B som foresl\u00e5s sendt Justitskomiteen som forelegger sitt utkast og innstilling for Utenriks- og Forsvarskomiteen til uttalelse f\u00f8r innstilling avgis.",
+                    "human_text": "105 LS (2017\u20132018)) Enst.: Sendes justiskomiteen, unntatt B, som sendes justiskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling avgis."
+                },
+                {
+                    "segment_idx": 41,
+                    "is_jump_point": false,
+                    "start_time": 853.2309687500001,
+                    "end_time": 873.2309687500001,
+                    "cer": 0.7132075471698113,
+                    "asr_text": "490, 491, 492 og 493 foresl\u00e5s sendt Justiskomiteen. 494, 495 og 496 foresl\u00e5s sendt Kommunal- og forvaltningskomiteen. 497 foresl\u00e5s sendt Kommunal- og forvaltningskomiteen, som foreligger sitt utgast til innstilling for presidentskapet til uttalelse f\u00f8r ildenskapet.",
+                    "human_text": "som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling avgis. 11. (490) Lov om arv og d\u00f8dsboskifte"
+                },
+                {
+                    "segment_idx": 42,
+                    "is_jump_point": true,
+                    "start_time": 873.2309687500001,
+                    "end_time": 893.2309687500001,
+                    "cer": 0.3840304182509506,
+                    "asr_text": "innstilling avgis. 498 og 499 foreslagstendt kommunal- og forvaltningskomiteen. 500 foreslagstendt kontroll- og konstitusjonskomiteen som foreligger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 501, 502, 503 foreslagstendte",
+                    "human_text": "sivilombudsmannen om endringer i sivilombudsmannsloven Enst.: Sendes kontroll- og konstitusjonskomiteen, som forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 22. (501) Endringar"
+                },
+                {
+                    "segment_idx": 43,
+                    "is_jump_point": false,
+                    "start_time": 893.2309687500001,
+                    "end_time": 906.0919062500001,
+                    "cer": 0.7358490566037735,
+                    "asr_text": "504 foresl\u00e5s sendt transport- og kommunikasjonskomiteen. 505 foresl\u00e5s sendt utenriks- og forsvarskomiteen.",
+                    "human_text": "forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling"
+                },
+                {
+                    "segment_idx": 44,
+                    "is_jump_point": false,
+                    "start_time": 906.0919062500001,
+                    "end_time": 924.7978437500001,
+                    "cer": 0.09569377990430622,
+                    "asr_text": "Det anses vedtatt. Da er vi kommet til avslutningen av det 162. Storting, det f\u00f8rste Storting i innev\u00e6rende valgperiode. Presidenten vil gjerne si noen ord om virksomheten i den sesjonen som n\u00e5 ligger bak oss.",
+                    "human_text": "Presidenten: Da er vi kommet til avslutningen av det 162. storting \u2013 det f\u00f8rste storting i innev\u00e6rende valgperiode. Presidenten vil gjerne si noen ord om virksomheten i den sesjonen som n\u00e5 ligger bak hos."
+                }
+            ]
+        },
+        {
+            "jump_index": 43,
+            "cer_change": 0.35181863835282295,
+            "context_segments": [
+                {
+                    "segment_idx": 41,
+                    "is_jump_point": false,
+                    "start_time": 853.2309687500001,
+                    "end_time": 873.2309687500001,
+                    "cer": 0.7132075471698113,
+                    "asr_text": "490, 491, 492 og 493 foresl\u00e5s sendt Justiskomiteen. 494, 495 og 496 foresl\u00e5s sendt Kommunal- og forvaltningskomiteen. 497 foresl\u00e5s sendt Kommunal- og forvaltningskomiteen, som foreligger sitt utgast til innstilling for presidentskapet til uttalelse f\u00f8r ildenskapet.",
+                    "human_text": "som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse f\u00f8r innstilling avgis. 11. (490) Lov om arv og d\u00f8dsboskifte"
+                },
+                {
+                    "segment_idx": 42,
+                    "is_jump_point": false,
+                    "start_time": 873.2309687500001,
+                    "end_time": 893.2309687500001,
+                    "cer": 0.3840304182509506,
+                    "asr_text": "innstilling avgis. 498 og 499 foreslagstendt kommunal- og forvaltningskomiteen. 500 foreslagstendt kontroll- og konstitusjonskomiteen som foreligger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 501, 502, 503 foreslagstendte",
+                    "human_text": "sivilombudsmannen om endringer i sivilombudsmannsloven Enst.: Sendes kontroll- og konstitusjonskomiteen, som forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 22. (501) Endringar"
+                },
+                {
+                    "segment_idx": 43,
+                    "is_jump_point": true,
+                    "start_time": 893.2309687500001,
+                    "end_time": 906.0919062500001,
+                    "cer": 0.7358490566037735,
+                    "asr_text": "504 foresl\u00e5s sendt transport- og kommunikasjonskomiteen. 505 foresl\u00e5s sendt utenriks- og forsvarskomiteen.",
+                    "human_text": "forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling"
+                },
+                {
+                    "segment_idx": 44,
+                    "is_jump_point": false,
+                    "start_time": 906.0919062500001,
+                    "end_time": 924.7978437500001,
+                    "cer": 0.09569377990430622,
+                    "asr_text": "Det anses vedtatt. Da er vi kommet til avslutningen av det 162. Storting, det f\u00f8rste Storting i innev\u00e6rende valgperiode. Presidenten vil gjerne si noen ord om virksomheten i den sesjonen som n\u00e5 ligger bak oss.",
+                    "human_text": "Presidenten: Da er vi kommet til avslutningen av det 162. storting \u2013 det f\u00f8rste storting i innev\u00e6rende valgperiode. Presidenten vil gjerne si noen ord om virksomheten i den sesjonen som n\u00e5 ligger bak hos."
+                },
+                {
+                    "segment_idx": 45,
+                    "is_jump_point": false,
+                    "start_time": 924.7978437500001,
+                    "end_time": 938.83784375,
+                    "cer": 0.00684931506849315,
+                    "asr_text": "Stortingsrepresentantene har fremmet 248 representantforslag. Det er rekord. Det er blitt levert inn 2370 skriftlige sp\u00f8rsm\u00e5l. Det er ogs\u00e5 rekord.",
+                    "human_text": "Stortingsrepresentantene har fremmet 248 representantforslag. Det er rekord. Det er blitt levert inn 2 370 skriftlige sp\u00f8rsm\u00e5l. Det er ogs\u00e5 rekord."
+                }
+            ]
+        },
+        {
+            "jump_index": 44,
+            "cer_change": -0.6401552766994674,
+            "context_segments": [
+                {
+                    "segment_idx": 42,
+                    "is_jump_point": false,
+                    "start_time": 873.2309687500001,
+                    "end_time": 893.2309687500001,
+                    "cer": 0.3840304182509506,
+                    "asr_text": "innstilling avgis. 498 og 499 foreslagstendt kommunal- og forvaltningskomiteen. 500 foreslagstendt kontroll- og konstitusjonskomiteen som foreligger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 501, 502, 503 foreslagstendte",
+                    "human_text": "sivilombudsmannen om endringer i sivilombudsmannsloven Enst.: Sendes kontroll- og konstitusjonskomiteen, som forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling avgis. 22. (501) Endringar"
+                },
+                {
+                    "segment_idx": 43,
+                    "is_jump_point": false,
+                    "start_time": 893.2309687500001,
+                    "end_time": 906.0919062500001,
+                    "cer": 0.7358490566037735,
+                    "asr_text": "504 foresl\u00e5s sendt transport- og kommunikasjonskomiteen. 505 foresl\u00e5s sendt utenriks- og forsvarskomiteen.",
+                    "human_text": "forelegger sitt utkast til innstilling for presidentskapet til uttalelse f\u00f8r innstilling"
+                },
+                {
+                    "segment_idx": 44,
+                    "is_jump_point": true,
+                    "start_time": 906.0919062500001,
+                    "end_time": 924.7978437500001,
+                    "cer": 0.09569377990430622,
+                    "asr_text": "Det anses vedtatt. Da er vi kommet til avslutningen av det 162. Storting, det f\u00f8rste Storting i innev\u00e6rende valgperiode. Presidenten vil gjerne si noen ord om virksomheten i den sesjonen som n\u00e5 ligger bak oss.",
+                    "human_text": "Presidenten: Da er vi kommet til avslutningen av det 162. storting \u2013 det f\u00f8rste storting i innev\u00e6rende valgperiode. Presidenten vil gjerne si noen ord om virksomheten i den sesjonen som n\u00e5 ligger bak hos."
+                },
+                {
+                    "segment_idx": 45,
+                    "is_jump_point": false,
+                    "start_time": 924.7978437500001,
+                    "end_time": 938.83784375,
+                    "cer": 0.00684931506849315,
+                    "asr_text": "Stortingsrepresentantene har fremmet 248 representantforslag. Det er rekord. Det er blitt levert inn 2370 skriftlige sp\u00f8rsm\u00e5l. Det er ogs\u00e5 rekord.",
+                    "human_text": "Stortingsrepresentantene har fremmet 248 representantforslag. Det er rekord. Det er blitt levert inn 2 370 skriftlige sp\u00f8rsm\u00e5l. Det er ogs\u00e5 rekord."
+                },
+                {
+                    "segment_idx": 46,
+                    "is_jump_point": false,
+                    "start_time": 938.83784375,
+                    "end_time": 958.83784375,
+                    "cer": 0.05928853754940711,
+                    "asr_text": "Stortinget har denne sesjonen vedtatt 429 anmodninger, og s\u00e5 det overg\u00e5r alle tidligere sesjoner. Jeg tror med det vi har dekning for \u00e5 si at det 162. Storting har v\u00e6rt et aktivt Storting. Et annet tall som vittner om det er de totalt 412 innstillingene",
+                    "human_text": "Stortinget har denne sesjonen vedtatt 429 anmodninger. Ogs\u00e5 det overg\u00e5r alle tidligere sesjoner. Jeg tror vi har dekning for \u00e5 si at det 162. storting har v\u00e6rt et aktivt storting. Et annet tall som vitner om det, er de totalt 412 innstillingene"
+                }
+            ]
+        },
+        {
+            "jump_index": 51,
+            "cer_change": 0.6846153846153846,
+            "context_segments": [
+                {
+                    "segment_idx": 49,
+                    "is_jump_point": false,
+                    "start_time": 995.58003125,
+                    "end_time": 1015.58003125,
+                    "cer": 0.0036363636363636364,
+                    "asr_text": "Regjeringen har fremmet 19 meldinger og holdt 16 redegj\u00f8relser for Stortinget. Presidenten vil til slutt gjerne takke for innsatsen til alle som har v\u00e6rt involvert i Stortingets virksomhet i \u00e5ret som gikk. Jeg erkl\u00e6rer herved forhandlingene i det 162. Storting for avsluttet.",
+                    "human_text": "Regjeringen har fremmet 19 meldinger og holdt 16 redegj\u00f8relser for Stortinget. Presidenten vil til slutt gjerne takke for innsatsen til alle som har v\u00e6rt involvert i Stortingets virksomhet i \u00e5ret som gikk. Jeg erkl\u00e6rer herved forhandlingene i det 162. storting for avsluttet."
+                },
+                {
+                    "segment_idx": 50,
+                    "is_jump_point": false,
+                    "start_time": 1015.58003125,
+                    "end_time": 1028.57065625,
+                    "cer": 0.11538461538461539,
+                    "asr_text": "Tidig ber presidenten og representantene undertegne den fremlagte protokollen.",
+                    "human_text": "Samtidig ber presidenten representantene undertegne den fremlagte protokoll."
+                },
+                {
+                    "segment_idx": 51,
+                    "is_jump_point": true,
+                    "start_time": 1028.57065625,
+                    "end_time": 1039.4220625,
+                    "cer": 0.8,
+                    "asr_text": "Thank you.",
+                    "human_text": "i det 162."
+                },
+                {
+                    "segment_idx": 52,
+                    "is_jump_point": false,
+                    "start_time": 1039.4220625,
+                    "end_time": 1053.55409375,
+                    "cer": 0.8,
+                    "asr_text": "Thank you.",
+                    "human_text": "\u00e5ret som"
+                },
+                {
+                    "segment_idx": 53,
+                    "is_jump_point": false,
+                    "start_time": 1053.55409375,
+                    "end_time": 1066.1006562500002,
+                    "cer": 0.7,
+                    "asr_text": "Very good.",
+                    "human_text": "som gikk."
+                }
+            ]
+        },
+        {
+            "jump_index": 55,
+            "cer_change": 0.3278688524590164,
+            "context_segments": [
+                {
+                    "segment_idx": 53,
+                    "is_jump_point": false,
+                    "start_time": 1053.55409375,
+                    "end_time": 1066.1006562500002,
+                    "cer": 0.7,
+                    "asr_text": "Very good.",
+                    "human_text": "som gikk."
+                },
+                {
+                    "segment_idx": 54,
+                    "is_jump_point": false,
+                    "start_time": 1066.1006562500002,
+                    "end_time": 1076.4112812500002,
+                    "cer": 0.6721311475409836,
+                    "asr_text": "Du skal lese gjennom det da. Da tar jeg det mot tilbake sist.",
+                    "human_text": "forhandlingene i det 162. storting for avsluttet."
+                },
+                {
+                    "segment_idx": 55,
+                    "is_jump_point": true,
+                    "start_time": 1076.4112812500002,
+                    "end_time": 1096.4112812500002,
+                    "cer": 1.0,
+                    "asr_text": ".",
+                    "human_text": ""
+                }
+            ]
+        }
+    ]
+}

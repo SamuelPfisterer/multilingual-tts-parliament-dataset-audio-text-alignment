@@ -1,0 +1,527 @@
+{
+  "audio_file": "data/audio/norway-10168-1.opus",
+  "segments": [
+    {
+      "start": 144.12659375,
+      "end": 145.52721875,
+      "asr_text": "Det är på det. Tack ska du ha.",
+      "human_text": "Stortinget Nr. 96 · 28.",
+      "cer": 0.7,
+      "start_idx": 5,
+      "end_idx": 10
+    },
+    {
+      "start": 145.52721875,
+      "end": 159.59753125,
+      "asr_text": "Thank you.",
+      "human_text": "den 28.",
+      "cer": 0.7,
+      "start_idx": 23,
+      "end_idx": 25
+    },
+    {
+      "start": 159.59753125,
+      "end": 172.40065625,
+      "asr_text": "Grazie.",
+      "human_text": "Grande.",
+      "cer": 0.2857142857142857,
+      "start_idx": 2535,
+      "end_idx": 2536
+    },
+    {
+      "start": 172.40065625,
+      "end": 191.30909375000002,
+      "asr_text": "Men.",
+      "human_text": "Jon",
+      "cer": 0.75,
+      "start_idx": 2527,
+      "end_idx": 2528
+    },
+    {
+      "start": 191.30909375000002,
+      "end": 206.30909375000002,
+      "asr_text": "Thank you.",
+      "human_text": "Grande.",
+      "cer": 0.7,
+      "start_idx": 2535,
+      "end_idx": 2536
+    },
+    {
+      "start": 216.62159375000002,
+      "end": 236.62159375000002,
+      "asr_text": "Stortingets møte er lovlig satt. Det foreligger to permisjonssøknader. Fra Kristi Folkeparti Stortingsgruppe om permisjon for representanten Hans Fredrik Røvan fredag 28. september for å delta i det forente nasjonens 73. ordinære generalforsamling i New York. Fra Kristi Folkeparti Stortingsgruppe om sykepermisjon",
+      "human_text": "3. Referat Presidenten: Det foreligger to permisjonssøknader: – fra Kristelig Folkepartis stortingsgruppe om permisjon for representanten Hans Fredrik Grøvan fredag 28. september for å delta i De forente nasjoners 73. ordinære generalforsamling i New York – fra Kristelig Folkepartis stortingsgruppe om sykepermisjon",
+      "cer": 0.15605095541401273,
+      "start_idx": 82,
+      "end_idx": 124
+    },
+    {
+      "start": 236.62159375000002,
+      "end": 256.62159375,
+      "asr_text": "for representanten Toril Brandstad fredag 28. september. Disse søknadene foreslås behandles straks og innbygget, og det anses vedtatt. Varerepresentantene P. Sverre Kvinleug og Tove Velle Haugland foreslås innkalt for å møte i permisjonstiden. Det anses også vedtatt. P. Sverre Kvinleug og Tove Velle Haugland er til stede og vil ta sete.",
+      "human_text": "for representanten Torhild Bransdal fredag 28. september Etter forslag fra presidenten ble enstemmig besluttet: – Søknadene behandles straks og innvilges. – Følgende vararepresentanter innkalles for å møte i permisjonstiden: – Per Sverre Kvinlaug og Tove Welle Haugland Presidenten: Per Sverre",
+      "cer": 0.5118343195266272,
+      "start_idx": 124,
+      "end_idx": 164
+    },
+    {
+      "start": 256.62159375,
+      "end": 276.62159375,
+      "asr_text": "Fra statsministerens kontor foreligger følgende to brev til Stortinget. Det første brevet, datert 13. august 2018, lyder «Endring i regjeringens sammensetning og endring blant statssekretærene». Statsrådet ble holdt på Oslo slott 13. august 2018 kl. 13. under ledelse av hans majestet kongen. Det ble truffet følgende vedkommende.",
+      "human_text": "Fra Statsministerens kontor foreligger følgende to brev til Stortinget. Det første brevet, datert 13. august 2018, lyder: «Endring i regjeringens sammensetning og endring blant statssekretærene Statsråd ble holdt på Oslo slott 13. august 2018 kl. 1300 under ledelse av Hans Majestet Kongen. Det ble truffet følgende vedtak:",
+      "cer": 0.06060606060606061,
+      "start_idx": 176,
+      "end_idx": 223
+    },
+    {
+      "start": 276.62159375,
+      "end": 288.90565625,
+      "asr_text": "Statsråd Per Sandberg gis avsked i nåde. Society & Media Manager Harald Tom Nesvik utnevnes til statsråd og overtar styret av fiskerisaker i nærings- og fiskeridepartementet.",
+      "human_text": "Statsråd Per Sandberg gis avskjed i nåde. Society and media manager Harald Tom Nesvik utnevnes til statsråd og overtar styret av fiskerisaker i Nærings- og fiskeridepartementet.",
+      "cer": 0.040229885057471264,
+      "start_idx": 223,
+      "end_idx": 249
+    },
+    {
+      "start": 288.90565625,
+      "end": 302.49003125,
+      "asr_text": "Statssekretær Roy Angelvik gis avsked som statssekretær i 50 prosent stilling for statsråd P. Sandberg og utnevnes på nytt til statssekretær i 50 prosent stilling for statsråd Harald Tom Nesvik i nærings- og fiskeridepartementet.",
+      "human_text": "Statssekretær Roy Angelvik gis avskjed som statssekretær i 50 pst. stilling for statsråd Per Sandberg og utnevnes på nytt til statssekretær i 50 pst. stilling for statsråd Harald Tom Nesvik i Nærings- og fiskeridepartementet.",
+      "cer": 0.0611353711790393,
+      "start_idx": 249,
+      "end_idx": 283
+    },
+    {
+      "start": 302.49003125,
+      "end": 322.49003125,
+      "asr_text": "Statssekretær Røy Angelvik fortsetter i 50 prosent stilling for statsråd Torbjørn Lø Isaksen i nærings- og fiskeridepartementet. Statssekretær Veronica Isabel Pedersen gis avsked som statssekretær for statsråd P. Sandberg og utnevnes på nytt til statssekretær for statsråd Harald Tom Nesvik i nærings- og fiskeridepartementet.",
+      "human_text": "Statssekretær Roy Angelvik fortsetter i 50 pst. stilling for statsråd Torbjørn Røe Isaksen i Nærings- og fiskeridepartementet Statssekretær Veronica Isabel Pedersen gis avskjed som statssekretær for statsråd Per Sandberg og utnevnes på nytt til statssekretær for statsråd Harald Tom Nesvik i Nærings- og fiskeridepartementet.",
+      "cer": 0.04294478527607362,
+      "start_idx": 283,
+      "end_idx": 327
+    },
+    {
+      "start": 322.49003125,
+      "end": 335.09253125000004,
+      "asr_text": "skjer med virkning fra 13. august 2018 klokken 15. Det andre brevet, datert 31. august 2018, lyder «Endring i regjeringens sammensetning og endring blant statssekretærene».",
+      "human_text": "skjer med virkning fra 13. august 2018 kl. 1500.» Det andre brevet, datert 31. august 2018, lyder: «Endring i regjeringens sammensetning og endring blant statssekretærene",
+      "cer": 0.06395348837209303,
+      "start_idx": 330,
+      "end_idx": 355
+    },
+    {
+      "start": 335.09253125000004,
+      "end": 355.09253125000004,
+      "asr_text": "Statsråd ble holdt på Oslo slott 31. august 2018 kl 11.00 under ledelse av Hans Majestet Kongen. Det ble truffet følgende vedtak. Statsråd Ketil Solvik Olsen gis avsked i nåde. Statsråd Terje Søviknes gis avsked i nåde. Statsråd Jon Georg Dahle overtar styret av samferdselsdepartementet.",
+      "human_text": "Statsråd ble holdt på Oslo slott 31. august 2018 kl. 1100 under ledelse av Hans Majestet Kongen. Det ble truffet følgende vedtak: Statsråd Ketil Solvik-Olsen gis avskjed i nåde. Statsråd Terje Søviknes gis avskjed i nåde. Statsråd Jon Georg Dale overtar styret av Samferdselsdepartementet.",
+      "cer": 0.027777777777777776,
+      "start_idx": 355,
+      "end_idx": 399
+    },
+    {
+      "start": 355.09253125000004,
+      "end": 369.15471875000003,
+      "asr_text": "Stortingsrepresentant Bård André Håksrud utnevnes til statsråd og overtar styret av Landbruks- og matdepartementet. Stortingsrepresentant Kjell Børge Freiberg utnevnes til statsråd og overtar styret av Olje- og energidepartementet.",
+      "human_text": "Stortingsrepresentant Bård André Hoksrud utnevnes til statsråd og overtar styret av Landbruks- og matdepartementet. Stortingsrepresentant Kjell-Børge Freiberg utnevnes til statsråd og overtar styret av Olje- og energidepartementet.",
+      "cer": 0.008658008658008658,
+      "start_idx": 399,
+      "end_idx": 426
+    },
+    {
+      "start": 369.15471875000003,
+      "end": 384.26628125,
+      "asr_text": "Statssekretærene Anders Bjørnsen-Verp, Tommy Skjervold og Brage Baklien gis avsked som statssekretærer for statsråd Ketil Solvik Olsen, og utnevnes på nytt til statssekretærer for statsråd Jon Georg Dahle i samferdselsdepartementet.",
+      "human_text": "Statssekretærene Anders Bjørnsen Werp, Tommy Skjervold og Brage Baklien gis avskjed som statssekretærer for statsråd Ketil Solvik-Olsen og utnevnes på nytt til statssekretærer for statsråd Jon Georg Dale i Samferdselsdepartementet.",
+      "cer": 0.03017241379310345,
+      "start_idx": 426,
+      "end_idx": 456
+    },
+    {
+      "start": 384.26628125,
+      "end": 396.82128125,
+      "asr_text": "Statssekretær Hanne Maren Blåfjelldal gis avskjed som statssekretær for statsråd Jon Georg Dahle, og utnevnes på nytt i statssekretær for statsråd Bård André Hoxrud i Landbruks- og matdepartementet.",
+      "human_text": "Statssekretær Hanne Maren Blåfjelldal gis avskjed som statssekretær for statsråd Jon Georg Dale og utnevnes på nytt til statssekretær for statsråd Bård André Hoksrud i Landbruks- og matdepartementet.",
+      "cer": 0.030303030303030304,
+      "start_idx": 456,
+      "end_idx": 484
+    },
+    {
+      "start": 396.82128125,
+      "end": 416.089875,
+      "asr_text": "Statssekretær Ingevild Smines Thybring-Jedde gis avsked som statssekretær for statsråd Terje Søviknes og utnevnes på nytt til statssekretær for statsråd Kjell Børge Freiberg i Olje- og energidepartementet. Statssekretær Toril Charlotte Ulleberg-Reinholds gis avsked som statssekretær...",
+      "human_text": "Statssekretær Ingvil Smines Tybring-Gjedde gis avskjed som statssekretær for statsråd Terje Søviknes og utnevnes på nytt til statssekretær for statsråd Kjell-Børge Freiberg i Olje- og energidepartementet. Statssekretær Toril Charlotte Ulleberg Reynolds gis avskjed som statssekretær",
+      "cer": 0.04895104895104895,
+      "start_idx": 484,
+      "end_idx": 519
+    },
+    {
+      "start": 416.089875,
+      "end": 436.089875,
+      "asr_text": "Statssekretær Røy Angelvik, gis avsked som statssekretær for statsråd Torbjørn Røy Isaksen og fortsetter som statssekretær i 100%-stilling for statsråd Harald Tom Nestvik i nærings- og fiskeridepartementet.",
+      "human_text": "Statssekretær Roy Angelvik gis avskjed som statssekretær for statsråd Torbjørn Røe Isaksen og fortsetter som statssekretær i 100 pst. stilling for statsråd Harald Tom Nesvik i Nærings- og fiskeridepartementet.",
+      "cer": 0.05825242718446602,
+      "start_idx": 538,
+      "end_idx": 567
+    },
+    {
+      "start": 436.089875,
+      "end": 456.089875,
+      "asr_text": "Statssekretær Veronica Isabel Pedersen gis avskjedd som statssekretær for statsråd Harald Tom Nesvik i nærings- og fiskeridepartementet. Gruppeleder Anne Bramå konstitueres som statssekretær for statsråd Åse Mikk-Harlsen i helse- og omsorgsdepartementet. Alle endringene å omføre skjer med virkning fra 31. august 2018 kl 15.",
+      "human_text": "Statssekretær Veronica Isabel Pedersen gis avskjed som statssekretær for statsråd Harald Tom Nesvik i Nærings- og fiskeridepartementet. Gruppeleder Anne Bramo konstitueres som statssekretær for statsråd Åse Michaelsen i Helse- og omsorgsdepartementet. Alle endringene ovenfor skjer med virkning fra 31. august 2018 kl.",
+      "cer": 0.055384615384615386,
+      "start_idx": 567,
+      "end_idx": 609
+    },
+    {
+      "start": 456.089875,
+      "end": 476.089875,
+      "asr_text": "Presidenten vil foreslå at de refererte brevene vedlegges protokollen, og det anses vedtatt. Første varerrepresentant for henholdsvis Nordland og Telemark fylker Dagfinn Henrik Olsen og Stine Margrete Knudstatter Olsen har tatt sete som representanter for den tid representantene Kjell Børge Freiberg og Bård Hoxtru er medlemmene.",
+      "human_text": "5572 28. sep. – Referat 2018 Første vararepresentant for henholdsvis Nordland og Telemark fylker, Dagfinn Henrik Olsen og Stine Margrethe Knutsdatter Olsen, har tatt sete som repre- sentanter for den tid representantene Kjell-Børge Freiberg og Bård Hoksrud er medlemmer",
+      "cer": 0.29393939393939394,
+      "start_idx": 624,
+      "end_idx": 663
+    },
+    {
+      "start": 476.089875,
+      "end": 494.01284375000006,
+      "asr_text": "Statsråd Kjell Børge Freiberg vil overbringe 18 kongelige proposisjoner. Statsråd Kjell Børge Freiberg.",
+      "human_text": "Statsråd Kjell-Børge Freiberg vil overbringe 18 kongelige proposisjoner. Statsråd Kjell-Børge Freiberg",
+      "cer": 0.02912621359223301,
+      "start_idx": 665,
+      "end_idx": 676
+    },
+    {
+      "start": 494.01284375000006,
+      "end": 514.01284375,
+      "asr_text": "President, jeg har den glede å overbrenge 18 proposisjoner. Proposisjon om samtykke til deltakelse i en beslutning i EØS-komiteen om innlemmelse i EØS-avtalen om nye tilpassninger til forordning nr. 1031.",
+      "human_text": "Freiberg vil overbringe 18 kongelige proposisjoner. Statsråd Kjell-Børge Freiberg overbrakte 18 kgl. proposisjoner (se under Referat). Sak nr. 1",
+      "cer": 0.6715686274509803,
+      "start_idx": 667,
+      "end_idx": 686
+    },
+    {
+      "start": 514.01284375,
+      "end": 534.01284375,
+      "asr_text": "om auksjonering av klimakvote og inngåelse av to avtaler med kommisjonen om tilknytning til EUs avtale om felles tildeling av kontrakter for anskaffelse for felles auksjonsplattformer og aksjonskontrakter.",
+      "human_text": "om auksjonering av klimakvoter, og inngåelse av to avtaler med Kommisjonen om tilknytning til EUs avtaler om felles tildeling av kontrakter for å anskaffe felles auksjonsplattformer og auksjonsovervåker",
+      "cer": 0.1024390243902439,
+      "start_idx": 1480,
+      "end_idx": 1508
+    },
+    {
+      "start": 534.01284375,
+      "end": 547.81034375,
+      "asr_text": "Auktionsovervåket av. Proposisjon om endring i skatteloven. Utleie av fartøy i redderi-skatteordningen.",
+      "human_text": "auksjonsovervåker (Prop. 101 S (2017–2018)) Enst.: Sendes energi- og miljøkomiteen,",
+      "cer": 0.6893203883495146,
+      "start_idx": 1507,
+      "end_idx": 1517
+    },
+    {
+      "start": 547.81034375,
+      "end": 559.9519062500001,
+      "asr_text": "Proposisjon om lov om register over reelle rettighetshaver. Proposisjon om endringer i Finansforetagsloven.",
+      "human_text": "4. (483) Lov om mineralvirksomhet på kontinentalsokkelen (havbunnsmineralloven)",
+      "cer": 0.7289719626168224,
+      "start_idx": 1532,
+      "end_idx": 1540
+    },
+    {
+      "start": 559.9519062500001,
+      "end": 573.77253125,
+      "asr_text": "Proposisjon «Endring i sjøloven og samtykke til tiltredelse til den internasjonale Nairobi-konvensjon om fjerning av rak» .",
+      "human_text": "mv. (fjerning av vrak) og samtykke til tiltredelse til Den internasjonale Nairobi-konvensjonen om fjerning av vrak,",
+      "cer": 0.2601626016260163,
+      "start_idx": 1695,
+      "end_idx": 1711
+    },
+    {
+      "start": 573.77253125,
+      "end": 593.77253125,
+      "asr_text": "Proposisjon om lov om arv og dødsboskifte. Proposisjon om endringer i statsbudsjettet 2018 under justis- og beredskapsdepartementet «Slokking av skogbrøna». Proposisjon om lov om mineralverksamhet på kontraktsplass.",
+      "human_text": "unntatt B, som sendes justiskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse før innstilling",
+      "cer": 0.7395348837209302,
+      "start_idx": 1719,
+      "end_idx": 1738
+    },
+    {
+      "start": 593.77253125,
+      "end": 604.6537812500001,
+      "asr_text": "«Proposisjon, utbygging og finansiering av RV 36 på strekning av Bø seljord i Telemark».",
+      "human_text": "sitt utkast til innstilling for utenriks- og forsvarskomiteen",
+      "cer": 0.7386363636363636,
+      "start_idx": 1726,
+      "end_idx": 1734
+    },
+    {
+      "start": 604.6537812500001,
+      "end": 619.0565937499999,
+      "asr_text": "Proposisjon om endringer i statsborgerloven. Avvikling av prinsippet om ett statborgerskap. Proposisjon om endringer i stiftelsesloven.",
+      "human_text": "17. (496) Endringer i statsborgerloven (avvikling av prinsippet om ett statsborgerskap) (Prop. 111 L (2017–2018)) Enst.: Nr.",
+      "cer": 0.4074074074074074,
+      "start_idx": 1828,
+      "end_idx": 1845
+    },
+    {
+      "start": 619.0565937499999,
+      "end": 639.0565937499999,
+      "asr_text": "Proposisjon om samtykke til å sette i kraft protokoll om endring av overenskomst av 23. september 1996 mellom de nordiske land til unngåelse av dobbeltbeskattning og forebyggelse av skatteunddragelse med hensyn til skatteavdeling.",
+      "human_text": "(Prop. 116 L (2017–2018)) Enst.: Sendes kommunal- og forvaltningskomiteen, som forelegger sitt utkast til innstilling for presidentskapet til uttalelse før innstilling",
+      "cer": 0.717391304347826,
+      "start_idx": 1857,
+      "end_idx": 1878
+    },
+    {
+      "start": 639.0565937499999,
+      "end": 658.59784375,
+      "asr_text": "Skatter av inntekt og formue, undertegnet i Helsingfors den 29. august 2018. Proposisjon om endringer i personopplysningsloven, bekjempelse av arbeidskriminalitet. Proposisjon om endringer i SAME-loven.",
+      "human_text": "uttalelse før innstilling avgis. 19. (498) Endringer i utlendingsloven (tilbakeholdelse og innbringelse",
+      "cer": 0.6831683168316832,
+      "start_idx": 1875,
+      "end_idx": 1887
+    },
+    {
+      "start": 658.59784375,
+      "end": 678.59784375,
+      "asr_text": "Proposisjon om endringer i utlendingsloven tilbakeholdelse og innbringelse. Proposisjon om endringer i statsbudsjettet 2018 under nærings- og feskeridepartementet Kongsberggruppen ASA, statens deltakelse i fortalelsen.",
+      "human_text": "19. (498) Endringer i utlendingsloven (tilbakeholdelse og innbringelse m.m.) (Prop. 117 L (2017–2018)) 20. (499) Representantforslag fra stortingsrepresentantene",
+      "cer": 0.5779816513761468,
+      "start_idx": 1879,
+      "end_idx": 1897
+    },
+    {
+      "start": 678.59784375,
+      "end": 697.54690625,
+      "asr_text": "– og trinsrettsemisjon. Proposisjon om endringer i statsbudsjettet 2018 under Landbruks- og matdepartementet. Tillegg til jordbruksoppgjøret 2018 som følge av Tørken. Proposisjon om endringer i rettshjelpsloven.",
+      "human_text": "118 S (2017–2018)) 24. (503) Endringer i statsbudsjettet 2018 under Landbruks- og matdepartementet (tillegg til Jordbruksoppgjøret 2018 som følge av tørken) (Prop. 119 S (2017–2018)) Enst.: Nr.",
+      "cer": 0.3744075829383886,
+      "start_idx": 1980,
+      "end_idx": 2007
+    },
+    {
+      "start": 707.73471875,
+      "end": 726.66159375,
+      "asr_text": "Proposisjonene vil bli behandlet på reglementsmessig måte. Til behandling forelegger de saker som er oppført på dagsøden nummer 96. Sak 1. Valg av nytt varemedlem til valgkomiteen. Det skal velges nytt varemedlem til valgkomiteen, og presidenten ber om forslag. Hans-Andreas Limi.",
+      "human_text": "og finansiering av rv 36 på strekninga Bø - Seljord i Telemark (Prop. 113 S (2017– 2018)) Enst.: Sendes transport- og kommunikasjonskomiteen. 26. (505) Eksport av forsvarsmateriell fra Norge i",
+      "cer": 0.7571428571428571,
+      "start_idx": 2013,
+      "end_idx": 2043
+    },
+    {
+      "start": 726.66159375,
+      "end": 741.59440625,
+      "asr_text": "Solveig Horne er foreslått som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres på vanlig måte. De som stemmer imot, bes reise seg.",
+      "human_text": "Solveig Horne er foreslått som nytt varamedlem til valgkomiteen. Andre forslag foreligger ikke, og presidenten antar at det kan voteres på vanlig måte. V o t e r i n g",
+      "cer": 0.12834224598930483,
+      "start_idx": 717,
+      "end_idx": 748
+    },
+    {
+      "start": 741.59440625,
+      "end": 752.1244062500001,
+      "asr_text": "Ingen har reist deg. Og Solveig Horne er da enstemmig valgt som nytt varamedlem nr. 1 for Fremskrittspartiet til valgkomiteen etter Bård Håkstrud. Sak 2.",
+      "human_text": "t e r i n g : Solveig Horne ble enstemmig valgt som nytt varamedlem til valgkomiteen. Sak nr.",
+      "cer": 0.46405228758169936,
+      "start_idx": 742,
+      "end_idx": 761
+    },
+    {
+      "start": 752.1244062500001,
+      "end": 769.1344062500001,
+      "asr_text": "Innstilling fra valgkomiteen om valget av nytt medlem og nytt varemedlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas-OSSES parlamentariske forsamling. Innstilling 412 S. 2017-2018.",
+      "human_text": "Innstilling fra valgkomiteen om valg av nytt medlem og nytt varamedlem til Stortingets delegasjon til Organi- sasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling (Innst. 412 S (2017–2018))",
+      "cer": 0.1004566210045662,
+      "start_idx": 763,
+      "end_idx": 793
+    },
+    {
+      "start": 769.1344062500001,
+      "end": 789.1344062500001,
+      "asr_text": "Vi går til votering. Innstillingen refereres. Som nytt medlem til Stortingets delegasjon til Organisasjon for sikkerhet og samarbeid i Europas parlamentariske forsamling velges Sivert Bjørnstad. Som nytt varemedlem til Stortingets delegasjon til Organisasjon for sikkerhet og samarbeid i Europas parlamentariske forsamling velges Harald.",
+      "human_text": "å gjøre følgende v e d t a k : Som nytt medlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Sivert Bjørnstad. Som nytt varamedlem til Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Hans",
+      "cer": 0.19287833827893175,
+      "start_idx": 804,
+      "end_idx": 853
+    },
+    {
+      "start": 789.1344062500001,
+      "end": 809.1344062500001,
+      "asr_text": "Saks 3 er referat. Referatet er omdelt på representantenes plasser og publisert på salappen. Presidenten refererer bare sakernes nummer og forslag til vedtak. Saks 488.",
+      "human_text": "Stortingets delegasjon til Organisasjonen for sikkerhet og samarbeid i Europas (OSSEs) parlamentariske forsamling velges: Hans",
+      "cer": 0.7142857142857143,
+      "start_idx": 838,
+      "end_idx": 853
+    },
+    {
+      "start": 809.1344062500001,
+      "end": 820.99128125,
+      "asr_text": "481. Foreslås vedlagt protokollen. 482. Foreslås sendt energi- og miljøkomiteen som forelegger sitt utgast til innstilling for utenriks- og forsvarskomiteen til uttalelse før innstilling avgjøres.",
+      "human_text": "i Europas (OSSEs) parlamentariske forsamling velges: Hans Andreas Limi. V o t e r i n g : Valgkomiteens innstilling ble",
+      "cer": 0.6989795918367347,
+      "start_idx": 846,
+      "end_idx": 867
+    },
+    {
+      "start": 820.99128125,
+      "end": 835.4953437500001,
+      "asr_text": "483. Forslåsendt Energi- og Miljøkomiteen. 484. Forslåsendt Familie- og Kulturkomiteen. Unntatt punkt 1 som foreslåsbehandlet etter forretningshorden paragraf 39, ankl. e. Tas ikke under behandling.",
+      "human_text": "V o t e r i n g : Valgkomiteens innstilling ble enstemmig bifalt. Sak nr. 3 [13:10:06] Referat 1. (480) Statsministerens kontor melder at 1. lov om endringer",
+      "cer": 0.7323232323232324,
+      "start_idx": 855,
+      "end_idx": 884
+    },
+    {
+      "start": 835.4953437500001,
+      "end": 853.2309687500001,
+      "asr_text": "485, 486, 487 og 488 foreslås sendt Finanskomiteen. 489 foreslås sendt Justitskomiteen, unntatt B som foreslås sendt Justitskomiteen som forelegger sitt utkast og innstilling for Utenriks- og Forsvarskomiteen til uttalelse før innstilling avgis.",
+      "human_text": "105 LS (2017–2018)) Enst.: Sendes justiskomiteen, unntatt B, som sendes justiskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse før innstilling avgis.",
+      "cer": 0.32653061224489793,
+      "start_idx": 1713,
+      "end_idx": 1739
+    },
+    {
+      "start": 853.2309687500001,
+      "end": 873.2309687500001,
+      "asr_text": "490, 491, 492 og 493 foreslås sendt Justiskomiteen. 494, 495 og 496 foreslås sendt Kommunal- og forvaltningskomiteen. 497 foreslås sendt Kommunal- og forvaltningskomiteen, som foreligger sitt utgast til innstilling for presidentskapet til uttalelse før ildenskapet.",
+      "human_text": "som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse før innstilling avgis. 11. (490) Lov om arv og dødsboskifte",
+      "cer": 0.7132075471698113,
+      "start_idx": 1724,
+      "end_idx": 1746
+    },
+    {
+      "start": 873.2309687500001,
+      "end": 893.2309687500001,
+      "asr_text": "innstilling avgis. 498 og 499 foreslagstendt kommunal- og forvaltningskomiteen. 500 foreslagstendt kontroll- og konstitusjonskomiteen som foreligger sitt utkast til innstilling for presidentskapet til uttalelse før innstilling avgis. 501, 502, 503 foreslagstendte",
+      "human_text": "sivilombudsmannen om endringer i sivilombudsmannsloven Enst.: Sendes kontroll- og konstitusjonskomiteen, som forelegger sitt utkast til innstilling for presidentskapet til uttalelse før innstilling avgis. 22. (501) Endringar",
+      "cer": 0.3840304182509506,
+      "start_idx": 1924,
+      "end_idx": 1950
+    },
+    {
+      "start": 893.2309687500001,
+      "end": 906.0919062500001,
+      "asr_text": "504 foreslås sendt transport- og kommunikasjonskomiteen. 505 foreslås sendt utenriks- og forsvarskomiteen.",
+      "human_text": "forelegger sitt utkast til innstilling for presidentskapet til uttalelse før innstilling",
+      "cer": 0.7358490566037735,
+      "start_idx": 1935,
+      "end_idx": 1946
+    },
+    {
+      "start": 906.0919062500001,
+      "end": 924.7978437500001,
+      "asr_text": "Det anses vedtatt. Da er vi kommet til avslutningen av det 162. Storting, det første Storting i inneværende valgperiode. Presidenten vil gjerne si noen ord om virksomheten i den sesjonen som nå ligger bak oss.",
+      "human_text": "Presidenten: Da er vi kommet til avslutningen av det 162. storting – det første storting i inneværende valgperiode. Presidenten vil gjerne si noen ord om virksomheten i den sesjonen som nå ligger bak hos.",
+      "cer": 0.09569377990430622,
+      "start_idx": 2057,
+      "end_idx": 2091
+    },
+    {
+      "start": 924.7978437500001,
+      "end": 938.83784375,
+      "asr_text": "Stortingsrepresentantene har fremmet 248 representantforslag. Det er rekord. Det er blitt levert inn 2370 skriftlige spørsmål. Det er også rekord.",
+      "human_text": "Stortingsrepresentantene har fremmet 248 representantforslag. Det er rekord. Det er blitt levert inn 2 370 skriftlige spørsmål. Det er også rekord.",
+      "cer": 0.00684931506849315,
+      "start_idx": 2091,
+      "end_idx": 2112
+    },
+    {
+      "start": 938.83784375,
+      "end": 958.83784375,
+      "asr_text": "Stortinget har denne sesjonen vedtatt 429 anmodninger, og så det overgår alle tidligere sesjoner. Jeg tror med det vi har dekning for å si at det 162. Storting har vært et aktivt Storting. Et annet tall som vittner om det er de totalt 412 innstillingene",
+      "human_text": "Stortinget har denne sesjonen vedtatt 429 anmodninger. Også det overgår alle tidligere sesjoner. Jeg tror vi har dekning for å si at det 162. storting har vært et aktivt storting. Et annet tall som vitner om det, er de totalt 412 innstillingene",
+      "cer": 0.05928853754940711,
+      "start_idx": 2112,
+      "end_idx": 2154
+    },
+    {
+      "start": 958.83784375,
+      "end": 978.83784375,
+      "asr_text": "som er avgitt i løpet av sesjonen. Det er et høyt antall for den første sesjonen i en valgperiode. Den 8. mai i år ble grunnloven endret, da Stortinget vedtok en ny formulering om kongens immunitet i paragraf 5. Det ble også vedtatt noen språklige justeringer i enkelte paragrafer.",
+      "human_text": "som er avgitt i løpet av sesjonen. Det er et høyt antall for en første sesjon i en valgperiode. Den 8. mai i år ble Grunnloven endret, da Stortinget vedtok en ny formulering om Kongens immunitet i § 5. Det ble også vedtatt noen språklige justeringer i enkelte paragrafer",
+      "cer": 0.0498220640569395,
+      "start_idx": 2154,
+      "end_idx": 2203
+    },
+    {
+      "start": 978.83784375,
+      "end": 995.58003125,
+      "asr_text": "i grunnloven på Nynorsk. Stortinget har behandlet 149 proposisjoner fra regjeringen denne sesjonen. Sentrale saker som kan nevnes er EUs tredje energimarkedspakke, ny sikkerhetslov og ny kommunelov.",
+      "human_text": "i Grunnloven på nynorsk. Stortinget har behandlet 149 proposisjoner fra regjeringen denne sesjonen. Sentrale saker som kan nevnes, er EUs tredje energimarkedspakke, ny sikkerhetslov og ny kommunelov.",
+      "cer": 0.015151515151515152,
+      "start_idx": 2203,
+      "end_idx": 2230
+    },
+    {
+      "start": 995.58003125,
+      "end": 1015.58003125,
+      "asr_text": "Regjeringen har fremmet 19 meldinger og holdt 16 redegjørelser for Stortinget. Presidenten vil til slutt gjerne takke for innsatsen til alle som har vært involvert i Stortingets virksomhet i året som gikk. Jeg erklærer herved forhandlingene i det 162. Storting for avsluttet.",
+      "human_text": "Regjeringen har fremmet 19 meldinger og holdt 16 redegjørelser for Stortinget. Presidenten vil til slutt gjerne takke for innsatsen til alle som har vært involvert i Stortingets virksomhet i året som gikk. Jeg erklærer herved forhandlingene i det 162. storting for avsluttet.",
+      "cer": 0.0036363636363636364,
+      "start_idx": 2230,
+      "end_idx": 2272
+    },
+    {
+      "start": 1015.58003125,
+      "end": 1022.47034375,
+      "asr_text": "Tidig ber presidenten og representantene undertegne den fremlagte protokollen.",
+      "human_text": "Samtidig ber presidenten representantene undertegne den fremlagte protokoll.",
+      "cer": 0.11538461538461539,
+      "start_idx": 2272,
+      "end_idx": 2280
+    },
+    {
+      "start": 1022.47034375,
+      "end": 1038.08815625,
+      "asr_text": "I",
+      "human_text": "",
+      "cer": 1.0,
+      "start_idx": 2265,
+      "end_idx": 2251
+    },
+    {
+      "start": 1038.08815625,
+      "end": 1053.55409375,
+      "asr_text": "Thank you.",
+      "human_text": "takke for",
+      "cer": 0.7,
+      "start_idx": 2246,
+      "end_idx": 2248
+    },
+    {
+      "start": 1053.55409375,
+      "end": 1071.28971875,
+      "asr_text": "Very good.",
+      "human_text": "og holdt",
+      "cer": 0.7,
+      "start_idx": 2235,
+      "end_idx": 2237
+    },
+    {
+      "start": 1071.28971875,
+      "end": 1073.3315937500001,
+      "asr_text": "Du skal lese gjennom det.",
+      "human_text": "vil til slutt gjerne",
+      "cer": 0.68,
+      "start_idx": 2242,
+      "end_idx": 2246
+    },
+    {
+      "start": 1073.3315937500001,
+      "end": 1076.80784375,
+      "asr_text": "¿Otra vez mostré el taxi?",
+      "human_text": "Presidenten vil til",
+      "cer": 0.72,
+      "start_idx": 2241,
+      "end_idx": 2244
+    },
+    {
+      "start": 1076.80784375,
+      "end": 1096.80784375,
+      "asr_text": ".",
+      "human_text": "",
+      "cer": 1.0,
+      "start_idx": 2229,
+      "end_idx": 2215
+    }
+  ]
+}
