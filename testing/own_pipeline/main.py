@@ -791,10 +791,10 @@ def main():
         directory.mkdir(parents=True, exist_ok=True)
     
     # Define file paths
-    file_name = "7501579_1920s"
+    file_name = "7501579_3840s"
     audio_path = audio_dir / f"{file_name}.opus"
     #transcript_path = transcript_dir / f"{file_name}.txt"
-    transcript_path = "7501579.txt"
+    transcript_path = "7501579_llm.txt"
     cache_path = cache_dir / f"{file_name}_transcribed.pkl"
     alignment_path = alignment_dir / f"{file_name}_aligned.json"
     

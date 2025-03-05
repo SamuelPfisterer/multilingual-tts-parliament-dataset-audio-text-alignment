@@ -1,89 +1,140 @@
 {
     "threshold": 0.3,
     "context_window": 2,
-    "total_jumps": 20,
+    "total_jumps": 22,
     "jumps": [
         {
-            "jump_index": 41,
-            "cer_change": 0.6314814814814815,
+            "jump_index": 14,
+            "cer_change": 0.4695674600250534,
             "context_segments": [
                 {
-                    "segment_idx": 39,
+                    "segment_idx": 12,
                     "is_jump_point": false,
-                    "start_time": 668.10378125,
-                    "end_time": 686.4890937499999,
-                    "cer": 0.10869565217391304,
-                    "asr_text": "das geht leider auch in Pandemiezeiten weiter. Lassen Sie uns daher weiter an L\u00f6sungen arbeiten, denen die Menschen und die Umwelt gleicherma\u00dfen zugutekommen. Lassen Sie uns das gemeinsam tun. Ich freue mich jetzt auf Ihre Fragen.",
-                    "human_text": "weiter, leider auch in Pandemiezeiten. Lassen Sie uns daher weiter an L\u00f6sungen arbeiten, die Menschen und Umwelt gleicherma\u00dfen zugutekommen. Lassen Sie uns das gemeinsam tun! Ich freue mich jetzt auf Ihre Fragen."
+                    "start_time": 191.95034375,
+                    "end_time": 208.19253125,
+                    "cer": 0.0182648401826484,
+                    "asr_text": "F\u00fcr die heutige 208. und die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen.",
+                    "human_text": "F\u00fcr die heutige 208., die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen."
                 },
                 {
-                    "segment_idx": 40,
+                    "segment_idx": 13,
                     "is_jump_point": false,
-                    "start_time": 686.4890937499999,
-                    "end_time": 690.47159375,
-                    "cer": 0.018518518518518517,
-                    "asr_text": "Die erste Frage stellt der Kollege Carsten Hilse, AfD.",
-                    "human_text": "Die erste Frage stellt der Kollege Karsten Hilse, AfD."
+                    "start_time": 208.19253125,
+                    "end_time": 227.49753125,
+                    "cer": 0.006042296072507553,
+                    "asr_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach \u00a7 21 Absatz 2 der Gesch\u00e4ftsordnung ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern.",
+                    "human_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach \u00a7 21 Absatz 3 der Gesch\u00e4ftsordnung ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern:"
                 },
                 {
-                    "segment_idx": 41,
+                    "segment_idx": 14,
                     "is_jump_point": true,
-                    "start_time": 690.47159375,
-                    "end_time": 696.49596875,
-                    "cer": 0.65,
-                    "asr_text": "Nur die eine Minute.",
-                    "human_text": "der Kollege Karsten"
+                    "start_time": 227.49753125,
+                    "end_time": 246.34690625000002,
+                    "cer": 0.47560975609756095,
+                    "asr_text": "Und der Frist f\u00fcr den Beginn der Beratungen soll so weiter f\u00f6rderlich abgewichen werden. Auf Verlangen der Fraktion B\u00fcndnis 90 Die Gr\u00fcnen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den j\u00fcngsten gewaltsamen, willk\u00fcrlichen und repressiven Entwicklungen in Russland statt.",
+                    "human_text": "in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern: ZP 1 Aktuelle Stunde auf Verlangen der Fraktion B\u00dcNDNIS 90/DIE GR\u00dcNEN Konsequenzen der Bundesregierung aus den ****j\u00fcngsten gewaltsamen, willk\u00fcrlichen und repressiven Entwicklungen in Russland ZP"
                 },
                 {
-                    "segment_idx": 42,
+                    "segment_idx": 15,
                     "is_jump_point": false,
-                    "start_time": 696.49596875,
-                    "end_time": 716.49596875,
-                    "cer": 0.1015625,
-                    "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021 schlagartig.",
-                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1. Januar 2021 schlagartig."
+                    "start_time": 246.34690625000002,
+                    "end_time": 265.93878125000003,
+                    "cer": 0.0,
+                    "asr_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag f\u00fcr einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
+                    "human_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag f\u00fcr einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden."
                 },
                 {
-                    "segment_idx": 43,
+                    "segment_idx": 16,
                     "is_jump_point": false,
-                    "start_time": 716.49596875,
-                    "end_time": 733.19065625,
-                    "cer": 0.03690036900369004,
-                    "asr_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch durch die R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den L\u00f6wenanteil verursacht die CO2-Steuer.",
-                    "human_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr, nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch der R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil; den L\u00f6wenanteil verursacht die CO2-Steuer."
+                    "start_time": 265.93878125000003,
+                    "end_time": 284.88940625000004,
+                    "cer": 0.0033222591362126247,
+                    "asr_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bek\u00e4mpfung der Geldw\u00e4sche auf der Drucksache 19-24180 abschlie\u00dfend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
+                    "human_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bek\u00e4mpfung der Geldw\u00e4sche auf der Drucksache 19/24180 abschlie\u00dfend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten."
+                }
+            ]
+        },
+        {
+            "jump_index": 15,
+            "cer_change": -0.47560975609756095,
+            "context_segments": [
+                {
+                    "segment_idx": 13,
+                    "is_jump_point": false,
+                    "start_time": 208.19253125,
+                    "end_time": 227.49753125,
+                    "cer": 0.006042296072507553,
+                    "asr_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach \u00a7 21 Absatz 2 der Gesch\u00e4ftsordnung ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern.",
+                    "human_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach \u00a7 21 Absatz 3 der Gesch\u00e4ftsordnung ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern:"
+                },
+                {
+                    "segment_idx": 14,
+                    "is_jump_point": false,
+                    "start_time": 227.49753125,
+                    "end_time": 246.34690625000002,
+                    "cer": 0.47560975609756095,
+                    "asr_text": "Und der Frist f\u00fcr den Beginn der Beratungen soll so weiter f\u00f6rderlich abgewichen werden. Auf Verlangen der Fraktion B\u00fcndnis 90 Die Gr\u00fcnen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den j\u00fcngsten gewaltsamen, willk\u00fcrlichen und repressiven Entwicklungen in Russland statt.",
+                    "human_text": "in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern: ZP 1 Aktuelle Stunde auf Verlangen der Fraktion B\u00dcNDNIS 90/DIE GR\u00dcNEN Konsequenzen der Bundesregierung aus den ****j\u00fcngsten gewaltsamen, willk\u00fcrlichen und repressiven Entwicklungen in Russland ZP"
+                },
+                {
+                    "segment_idx": 15,
+                    "is_jump_point": true,
+                    "start_time": 246.34690625000002,
+                    "end_time": 265.93878125000003,
+                    "cer": 0.0,
+                    "asr_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag f\u00fcr einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
+                    "human_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag f\u00fcr einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden."
+                },
+                {
+                    "segment_idx": 16,
+                    "is_jump_point": false,
+                    "start_time": 265.93878125000003,
+                    "end_time": 284.88940625000004,
+                    "cer": 0.0033222591362126247,
+                    "asr_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bek\u00e4mpfung der Geldw\u00e4sche auf der Drucksache 19-24180 abschlie\u00dfend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
+                    "human_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bek\u00e4mpfung der Geldw\u00e4sche auf der Drucksache 19/24180 abschlie\u00dfend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten."
+                },
+                {
+                    "segment_idx": 17,
+                    "is_jump_point": false,
+                    "start_time": 284.88940625000004,
+                    "end_time": 300.06846875,
+                    "cer": 0.03167420814479638,
+                    "asr_text": "Tagesordnungspunkt 17 wird am Freitag aufgerufen. Stattdessen soll eine Beschlussempfehlung zum Antrag Friedensbem\u00fchungen im Jemen intensivieren, humanit\u00e4re Lage verbessern, auf der Drucksache 19 26 220 aufgesetzt werden.",
+                    "human_text": "Tagesordnungspunkt 17 wird am Freitag aufgerufen. Stattdessen soll eine Beschlussempfehlung zum Antrag \u201eFriedensbem\u00fchungen im Jemen intensivieren \u2013 Humanit\u00e4re Lage verbessern\u201c auf der Drucksache 19/26220 aufgesetzt werden."
                 }
             ]
         },
         {
             "jump_index": 42,
-            "cer_change": -0.5484375,
+            "cer_change": 0.334375,
             "context_segments": [
                 {
                     "segment_idx": 40,
                     "is_jump_point": false,
                     "start_time": 686.4890937499999,
                     "end_time": 690.47159375,
-                    "cer": 0.018518518518518517,
+                    "cer": 0.2037037037037037,
                     "asr_text": "Die erste Frage stellt der Kollege Carsten Hilse, AfD.",
-                    "human_text": "Die erste Frage stellt der Kollege Karsten Hilse, AfD."
+                    "human_text": "Die n\u00e4chste Frage stellt der Kollege Carsten Tr\u00e4ger, SPD."
                 },
                 {
                     "segment_idx": 41,
                     "is_jump_point": false,
                     "start_time": 690.47159375,
                     "end_time": 696.49596875,
-                    "cer": 0.65,
+                    "cer": 0.4,
                     "asr_text": "Nur die eine Minute.",
-                    "human_text": "der Kollege Karsten"
+                    "human_text": "auf die eine oder"
                 },
                 {
                     "segment_idx": 42,
                     "is_jump_point": true,
                     "start_time": 696.49596875,
                     "end_time": 716.49596875,
-                    "cer": 0.1015625,
+                    "cer": 0.734375,
                     "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021 schlagartig.",
-                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1. Januar 2021 schlagartig."
+                    "human_text": "viele Tausend Menschen, die auf die eine oder andere Art und Weise f\u00fcr ihre politischen \u00dcberzeugungen bestraft werden, mit k\u00f6rperlicher Gewalt"
                 },
                 {
                     "segment_idx": 43,
@@ -99,28 +150,37 @@
                     "is_jump_point": false,
                     "start_time": 733.19065625,
                     "end_time": 753.19065625,
-                    "cer": 0.5339506172839507,
+                    "cer": 0.26851851851851855,
                     "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatz",
-                    "human_text": "(D) ------------------------------------------------------------------------ 26212 Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 Karsten Hilse (A) Jetzt meine Frage: Wie kommen Sie und Ihre Regie rung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatzverlust"
+                    "human_text": "Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 Karsten Hilse (A) Jetzt meine Frage: Wie kommen Sie und Ihre Regie rung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatzverlust"
                 }
             ]
         },
         {
-            "jump_index": 44,
-            "cer_change": 0.4970502482802606,
+            "jump_index": 43,
+            "cer_change": -0.69747463099631,
             "context_segments": [
+                {
+                    "segment_idx": 41,
+                    "is_jump_point": false,
+                    "start_time": 690.47159375,
+                    "end_time": 696.49596875,
+                    "cer": 0.4,
+                    "asr_text": "Nur die eine Minute.",
+                    "human_text": "auf die eine oder"
+                },
                 {
                     "segment_idx": 42,
                     "is_jump_point": false,
                     "start_time": 696.49596875,
                     "end_time": 716.49596875,
-                    "cer": 0.1015625,
+                    "cer": 0.734375,
                     "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021 schlagartig.",
-                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1. Januar 2021 schlagartig."
+                    "human_text": "viele Tausend Menschen, die auf die eine oder andere Art und Weise f\u00fcr ihre politischen \u00dcberzeugungen bestraft werden, mit k\u00f6rperlicher Gewalt"
                 },
                 {
                     "segment_idx": 43,
-                    "is_jump_point": false,
+                    "is_jump_point": true,
                     "start_time": 716.49596875,
                     "end_time": 733.19065625,
                     "cer": 0.03690036900369004,
@@ -129,36 +189,27 @@
                 },
                 {
                     "segment_idx": 44,
-                    "is_jump_point": true,
+                    "is_jump_point": false,
                     "start_time": 733.19065625,
                     "end_time": 753.19065625,
-                    "cer": 0.5339506172839507,
+                    "cer": 0.26851851851851855,
                     "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatz",
-                    "human_text": "(D) ------------------------------------------------------------------------ 26212 Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 Karsten Hilse (A) Jetzt meine Frage: Wie kommen Sie und Ihre Regie rung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatzverlust"
+                    "human_text": "Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 Karsten Hilse (A) Jetzt meine Frage: Wie kommen Sie und Ihre Regie rung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatzverlust"
                 },
                 {
                     "segment_idx": 45,
                     "is_jump_point": false,
                     "start_time": 772.2647197500002,
                     "end_time": 792.2647197500002,
-                    "cer": 0.14130434782608695,
+                    "cer": 0.6920289855072463,
                     "asr_text": "Das ist genau das Richtige, um eine Umsteuerung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir in gro\u00dfem Umfang CO2 emittiert haben. Diese Verantwortung werden wir auch in Zukunft haben.",
-                    "human_text": "Das ist genau das Richtige, um eben ein Umsteuern in Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir eben in gro\u00dfem Umfang CO2 emittiert haben. Dieser Verantwortung werden wir in dieser"
-                },
-                {
-                    "segment_idx": 46,
-                    "is_jump_point": false,
-                    "start_time": 792.2647197500002,
-                    "end_time": 806.47034375,
-                    "cer": 0.045871559633027525,
-                    "asr_text": "werden wir dieser Regierung auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier auch im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung f\u00fcr die Zukunft.",
-                    "human_text": "werden wir in dieser Regierung auch gerecht, dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung f\u00fcr die Zukunft."
+                    "human_text": "****Svenja Schulze, Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit: Ganz herzlichen Dank f\u00fcr die Frage. Wir haben einen CO2-Preis eingef\u00fchrt, weil CO2 eine Belastung f\u00fcr das Klima und f\u00fcr"
                 }
             ]
         },
         {
             "jump_index": 45,
-            "cer_change": -0.39264626945786374,
+            "cer_change": 0.4235104669887278,
             "context_segments": [
                 {
                     "segment_idx": 43,
@@ -174,42 +225,93 @@
                     "is_jump_point": false,
                     "start_time": 733.19065625,
                     "end_time": 753.19065625,
-                    "cer": 0.5339506172839507,
+                    "cer": 0.26851851851851855,
                     "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatz",
-                    "human_text": "(D) ------------------------------------------------------------------------ 26212 Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 Karsten Hilse (A) Jetzt meine Frage: Wie kommen Sie und Ihre Regie rung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatzverlust"
+                    "human_text": "Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 Karsten Hilse (A) Jetzt meine Frage: Wie kommen Sie und Ihre Regie rung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatzverlust"
                 },
                 {
                     "segment_idx": 45,
                     "is_jump_point": true,
                     "start_time": 772.2647197500002,
                     "end_time": 792.2647197500002,
-                    "cer": 0.14130434782608695,
+                    "cer": 0.6920289855072463,
                     "asr_text": "Das ist genau das Richtige, um eine Umsteuerung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir in gro\u00dfem Umfang CO2 emittiert haben. Diese Verantwortung werden wir auch in Zukunft haben.",
-                    "human_text": "Das ist genau das Richtige, um eben ein Umsteuern in Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir eben in gro\u00dfem Umfang CO2 emittiert haben. Dieser Verantwortung werden wir in dieser"
+                    "human_text": "****Svenja Schulze, Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit: Ganz herzlichen Dank f\u00fcr die Frage. Wir haben einen CO2-Preis eingef\u00fchrt, weil CO2 eine Belastung f\u00fcr das Klima und f\u00fcr"
                 },
                 {
                     "segment_idx": 46,
                     "is_jump_point": false,
                     "start_time": 792.2647197500002,
                     "end_time": 806.47034375,
-                    "cer": 0.045871559633027525,
+                    "cer": 0.6376146788990825,
                     "asr_text": "werden wir dieser Regierung auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier auch im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung f\u00fcr die Zukunft.",
-                    "human_text": "werden wir in dieser Regierung auch gerecht, dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung f\u00fcr die Zukunft."
+                    "human_text": "Januar. Das ist genau das Richtige, um eben ein Umsteuern in Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben"
                 },
                 {
                     "segment_idx": 47,
                     "is_jump_point": false,
                     "start_time": 806.47034375,
                     "end_time": 810.7565937500001,
-                    "cer": 0.25,
+                    "cer": 0.20833333333333334,
                     "asr_text": "Nachfrage, Herr Kollege?",
-                    "human_text": "Nachfrage, Herr Lenkert?"
+                    "human_text": "Nachfrage des Kollegen"
+                }
+            ]
+        },
+        {
+            "jump_index": 47,
+            "cer_change": -0.42928134556574915,
+            "context_segments": [
+                {
+                    "segment_idx": 45,
+                    "is_jump_point": false,
+                    "start_time": 772.2647197500002,
+                    "end_time": 792.2647197500002,
+                    "cer": 0.6920289855072463,
+                    "asr_text": "Das ist genau das Richtige, um eine Umsteuerung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir in gro\u00dfem Umfang CO2 emittiert haben. Diese Verantwortung werden wir auch in Zukunft haben.",
+                    "human_text": "****Svenja Schulze, Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit: Ganz herzlichen Dank f\u00fcr die Frage. Wir haben einen CO2-Preis eingef\u00fchrt, weil CO2 eine Belastung f\u00fcr das Klima und f\u00fcr"
+                },
+                {
+                    "segment_idx": 46,
+                    "is_jump_point": false,
+                    "start_time": 792.2647197500002,
+                    "end_time": 806.47034375,
+                    "cer": 0.6376146788990825,
+                    "asr_text": "werden wir dieser Regierung auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier auch im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung f\u00fcr die Zukunft.",
+                    "human_text": "Januar. Das ist genau das Richtige, um eben ein Umsteuern in Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben"
+                },
+                {
+                    "segment_idx": 47,
+                    "is_jump_point": true,
+                    "start_time": 806.47034375,
+                    "end_time": 810.7565937500001,
+                    "cer": 0.20833333333333334,
+                    "asr_text": "Nachfrage, Herr Kollege?",
+                    "human_text": "Nachfrage des Kollegen"
+                },
+                {
+                    "segment_idx": 48,
+                    "is_jump_point": false,
+                    "start_time": 810.7565937500001,
+                    "end_time": 826.90596875,
+                    "cer": 0.06666666666666667,
+                    "asr_text": "Ja, vielen Dank. Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk im Zusammenhang mit der Corona-Epidemie sagten Sie konkret, wir merken im Moment ja alle, dass wir eben nicht alles steuern k\u00f6nnen.",
+                    "human_text": "Ja, vielen Dank. \u2013 Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk im Zusammenhang mit der Coronaepidemie sagten Sie konkret: \u201eWir merken ja im Moment alle, dass wir eben nicht alles steuern k\u00f6nnen.\u201c"
+                },
+                {
+                    "segment_idx": 49,
+                    "is_jump_point": false,
+                    "start_time": 826.90596875,
+                    "end_time": 846.90596875,
+                    "cer": 0.06312292358803986,
+                    "asr_text": "Dem k\u00f6nnen wir nat\u00fcrlich zustimmen, nur zustimmen. W\u00fcrden Sie uns daher bitte in einfachen und verst\u00e4ndlichen Worten erkl\u00e4ren, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass mindestens so komplexe, wenn nicht sogar komplexere Klimasysteme der Erde sich von",
+                    "human_text": "Dem k\u00f6nnen wir nat\u00fcrlich zustimmen, nur zustimmen. W\u00fcrden Sie uns daher bitte in einfachen, verst\u00e4ndlichen Worten erkl\u00e4ren, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass sich das mindestens so komplexe, wenn nicht sogar komplexere Klimasystem der Erde von"
                 }
             ]
         },
         {
             "jump_index": 54,
-            "cer_change": 0.6011910215300046,
+            "cer_change": 0.6283096655978012,
             "context_segments": [
                 {
                     "segment_idx": 52,
@@ -225,9 +327,9 @@
                     "is_jump_point": false,
                     "start_time": 893.5178437500001,
                     "end_time": 908.73284375,
-                    "cer": 0.04745762711864407,
+                    "cer": 0.020338983050847456,
                     "asr_text": "Wir folgen hier der Wissenschaft, wir reduzieren CO2, wir sind in Deutschland in den letzten Jahren da wirklich schon vorangekommen und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung schuldig.",
-                    "human_text": "Wir folgen hier der Wissenschaft, wir reduzieren CO2. Wir sind in Deutschland in den letzten Jahren dabei wirklich schon vorangekommen, und wir werden (C) (D) bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung schuldig."
+                    "human_text": "Wir folgen hier der Wissenschaft, wir reduzieren CO2. Wir sind in Deutschland in den letzten Jahren dabei wirklich schon vorangekommen, und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung schuldig."
                 },
                 {
                     "segment_idx": 54,
@@ -267,9 +369,9 @@
                     "is_jump_point": false,
                     "start_time": 893.5178437500001,
                     "end_time": 908.73284375,
-                    "cer": 0.04745762711864407,
+                    "cer": 0.020338983050847456,
                     "asr_text": "Wir folgen hier der Wissenschaft, wir reduzieren CO2, wir sind in Deutschland in den letzten Jahren da wirklich schon vorangekommen und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung schuldig.",
-                    "human_text": "Wir folgen hier der Wissenschaft, wir reduzieren CO2. Wir sind in Deutschland in den letzten Jahren dabei wirklich schon vorangekommen, und wir werden (C) (D) bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung schuldig."
+                    "human_text": "Wir folgen hier der Wissenschaft, wir reduzieren CO2. Wir sind in Deutschland in den letzten Jahren dabei wirklich schon vorangekommen, und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung schuldig."
                 },
                 {
                     "segment_idx": 54,
@@ -310,104 +412,104 @@
             ]
         },
         {
-            "jump_index": 62,
-            "cer_change": 0.6073715154081861,
-            "context_segments": [
-                {
-                    "segment_idx": 60,
-                    "is_jump_point": false,
-                    "start_time": 1003.38471875,
-                    "end_time": 1023.38471875,
-                    "cer": 0.06646525679758308,
-                    "asr_text": "Frau Ministerin, danke, Herr Pr\u00e4sident. Frau Ministerin, bereits heute muss eine vierk\u00f6pfige Familie f\u00fcr ihre ganzen Klimama\u00dfnahmen 4 000 Euro im Jahr bezahlen. Und trotz dieser massiven Belastungen hat eben in den letzten zehn Jahren der CO2-Aussto\u00df Deutschlands so gut wie \u00fcberhaupt nicht abgenommen. Er hat sich nicht ver\u00e4ndert.",
-                    "human_text": "Bernhard (AfD): Danke, Herr Pr\u00e4sident. \u2013 Frau Ministerin, bereits heute muss eine vierk\u00f6pfige Familie f\u00fcr Ihre ganzen Klimama\u00dfnahmen 4 000 Euro im Jahr bezahlen. Und trotz dieser massiven Belastungen hat eben in den letzten zehn Jahren der CO2-Aussto\u00df Deutschlands so gut wie \u00fcberhaupt nicht abgenommen; er hat sich nicht ver\u00e4ndert."
-                },
-                {
-                    "segment_idx": 61,
-                    "is_jump_point": false,
-                    "start_time": 1023.38471875,
-                    "end_time": 1043.38471875,
-                    "cer": 0.05474452554744526,
-                    "asr_text": "Und jetzt kommen durch Ihre CO2-Steuer weitere bis 2026 weitere 2.600 Euro zus\u00e4tzliche Belastungen auf diese vierk\u00f6pfige Familie zu. Dann kommt noch der Green Deal dazu. Da sollen ja weitere 1.000 Milliarden Euro bis 2030 ausgegeben werden. Das sind noch mal mehr als 1.000.",
-                    "human_text": "Und jetzt kommen durch Ihre CO2-Steuer bis 2026 weitere 2 600 Euro zus\u00e4tzliche Belastungen auf diese vierk\u00f6pfige Familie zu. Dann kommt noch der Green Deal dazu; da sollen ja weitere 1 000 Milliarden Euro bis 2030 ausgegeben werden. Das sind noch mal mehr als 1 600"
-                },
-                {
-                    "segment_idx": 62,
-                    "is_jump_point": true,
-                    "start_time": 1043.38471875,
-                    "end_time": 1063.38471875,
-                    "cer": 0.6621160409556314,
-                    "asr_text": "Also in Summe weit \u00fcber 8000 Euro pro Jahr f\u00fcr vierk\u00f6pfige Familien. Und jetzt ist die Frage, wie sollen sich die Menschen in unserem Land diese ganzen Ausgaben eigentlich noch leisten k\u00f6nnen, insbesondere angesichts der gr\u00f6\u00dften Wirtschaftskrise, wie Bundeskanzlerin Merkel ja sagt, seit 1990.",
-                    "human_text": "also in Summe weit \u00fcber 8 000 Euro pro Jahr f\u00fcr vierk\u00f6pfige Familien. ------------------------------------------------------------------------ Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 26213 Marc Bernhard (A) Jetzt"
-                },
-                {
-                    "segment_idx": 63,
-                    "is_jump_point": false,
-                    "start_time": 1063.38471875,
-                    "end_time": 1066.8515937500001,
-                    "cer": 0.7142857142857143,
-                    "asr_text": "19. Juli 1929.",
-                    "human_text": "19. Wahlperiode"
-                },
-                {
-                    "segment_idx": 64,
-                    "is_jump_point": false,
-                    "start_time": 1066.8515937500001,
-                    "end_time": 1086.8515937500001,
-                    "cer": 0.11475409836065574,
-                    "asr_text": "Sehr geehrter Herr Abgeordneter, was wir wollen, ist, dass die klimafreundlichen Alternativen gew\u00e4hlt werden. Wir wollen als Staat gar nicht mehr Geld einnehmen \u00fcber den CO2-Preis zum Beispiel, sondern wir wollen, dass die klimafreundlichen Alternativen diejenigen sind, die g\u00fcnstiger sind. Und ich bezweifle erst einmal Ihre Zahlen, die Sie hier gerade genannt haben. Wir haben auch enorme Entlastungen, gerade in der Zukunft.",
-                    "human_text": "Sehr geehrter Herr Abgeordneter, was wir wollen, ist, dass die klimafreundlichen Alternativen gew\u00e4hlt werden. Wir wollen als Staat gar nicht mehr Geld einnehmen, zum Beispiel \u00fcber den CO2-Preis, sondern wir wollen, dass die klimafreundlichen Alternativen diejenigen sind, die g\u00fcnstiger sind. Ich bezweifle erst mal Ihre Zahlen, die Sie hier gerade genannt haben. Wir haben auch enorme Entlastungen gerade f\u00fcr Familien"
-                }
-            ]
-        },
-        {
             "jump_index": 64,
-            "cer_change": -0.5995316159250585,
+            "cer_change": 0.38290398126463704,
             "context_segments": [
                 {
                     "segment_idx": 62,
                     "is_jump_point": false,
                     "start_time": 1043.38471875,
                     "end_time": 1063.38471875,
-                    "cer": 0.6621160409556314,
+                    "cer": 0.27303754266211605,
                     "asr_text": "Also in Summe weit \u00fcber 8000 Euro pro Jahr f\u00fcr vierk\u00f6pfige Familien. Und jetzt ist die Frage, wie sollen sich die Menschen in unserem Land diese ganzen Ausgaben eigentlich noch leisten k\u00f6nnen, insbesondere angesichts der gr\u00f6\u00dften Wirtschaftskrise, wie Bundeskanzlerin Merkel ja sagt, seit 1990.",
-                    "human_text": "also in Summe weit \u00fcber 8 000 Euro pro Jahr f\u00fcr vierk\u00f6pfige Familien. ------------------------------------------------------------------------ Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 26213 Marc Bernhard (A) Jetzt"
+                    "human_text": "den 10. Februar 2021 26213 Marc Bernhard (A) Jetzt ist die Frage: Wie sollen sich die Menschen in unserem Land diese ganzen Ausgaben eigentlich noch leisten k\u00f6nnen, insbesondere angesichts der gr\u00f6\u00dften Wirtschaftskrise seit 1929, wie Bundeskanzlerin Merkel ja sagt? ****Svenja"
                 },
                 {
                     "segment_idx": 63,
                     "is_jump_point": false,
                     "start_time": 1063.38471875,
                     "end_time": 1066.8515937500001,
-                    "cer": 0.7142857142857143,
+                    "cer": 0.35714285714285715,
                     "asr_text": "19. Juli 1929.",
-                    "human_text": "19. Wahlperiode"
+                    "human_text": "1. Juli 2021"
                 },
                 {
                     "segment_idx": 64,
                     "is_jump_point": true,
                     "start_time": 1066.8515937500001,
                     "end_time": 1086.8515937500001,
-                    "cer": 0.11475409836065574,
+                    "cer": 0.7400468384074942,
                     "asr_text": "Sehr geehrter Herr Abgeordneter, was wir wollen, ist, dass die klimafreundlichen Alternativen gew\u00e4hlt werden. Wir wollen als Staat gar nicht mehr Geld einnehmen \u00fcber den CO2-Preis zum Beispiel, sondern wir wollen, dass die klimafreundlichen Alternativen diejenigen sind, die g\u00fcnstiger sind. Und ich bezweifle erst einmal Ihre Zahlen, die Sie hier gerade genannt haben. Wir haben auch enorme Entlastungen, gerade in der Zukunft.",
-                    "human_text": "Sehr geehrter Herr Abgeordneter, was wir wollen, ist, dass die klimafreundlichen Alternativen gew\u00e4hlt werden. Wir wollen als Staat gar nicht mehr Geld einnehmen, zum Beispiel \u00fcber den CO2-Preis, sondern wir wollen, dass die klimafreundlichen Alternativen diejenigen sind, die g\u00fcnstiger sind. Ich bezweifle erst mal Ihre Zahlen, die Sie hier gerade genannt haben. Wir haben auch enorme Entlastungen gerade f\u00fcr Familien"
+                    "human_text": "bereits durch das Bundesamt f\u00fcr Wirtschaft und Ausfuhrkontrolle, das BAFA. Ab dem 1. Juli 2021 f\u00fchrt auch die KfW die Bundesf\u00f6rderung f\u00fcr effiziente Geb\u00e4ude f\u00fcr die Wohn- und Nichtwohngeb\u00e4udef\u00f6rderung sowie die Kreditf\u00f6rderung f\u00fcr Einzelma\u00dfnahmen ein. In den entsprechenden F\u00f6rderrichtlinien wird nun explizit darauf hingewiesen, dass ein F\u00f6rderantrag"
                 },
                 {
                     "segment_idx": 65,
                     "is_jump_point": false,
                     "start_time": 1086.8515937500001,
                     "end_time": 1106.8515937500001,
-                    "cer": 0.1632047477744807,
+                    "cer": 0.7181008902077152,
                     "asr_text": "Wir haben ein Mobilit\u00e4tsgeld, also die Pendlerpauschale, ver\u00e4ndert. Wir helfen bei der Sanierung von Geb\u00e4uden. Es gibt ein Programm zum Austausch alter \u00d6lheizungen. Wir machen das Bahnfahren billiger. Wir haben den Strompreis gedeckelt. Wir haben eine ganze Menge Dinge auf den Weg gebracht, die die Bev\u00f6lkerung nicht mehr so gut finden.",
-                    "human_text": "Wir haben ein Mobilit\u00e4tsgeld eingef\u00fchrt, also die Pendlerpauschale ver\u00e4ndert. Wir helfen bei der Sanierung von Geb\u00e4uden. Es gibt ein Programm zum Austausch alter \u00d6lheizungen. Wir machen das Bahnfahren billiger. Wir haben den Strompreis gedeckelt. Wir haben also auch eine ganze Menge Dinge auf den Weg gebracht, die kostend\u00e4mpfend wirken."
+                    "human_text": "ist. Dies entspricht den Vorgaben der Bundeshaushaltsordnung. Insbesondere wird hiermit der Verwaltungsvorschrift Nummer 1.3 zu \u00a7 44 der Bundeshaushaltsordnung Gen\u00fcge getan. Diese allgemeinen haushaltsrechtlichen Vorgaben zum Vorhabenbeginn sollen die Anreizwirkung der F\u00f6rderung sicherstellen und dazu dienen,"
                 },
                 {
                     "segment_idx": 66,
                     "is_jump_point": false,
                     "start_time": 1106.8515937500001,
                     "end_time": 1124.5303437500002,
-                    "cer": 0.11524163568773234,
+                    "cer": 0.7137546468401487,
                     "asr_text": "kostend\u00e4mpfend wirken, aber was wir brauchen, und das ist die Umsteuerung, die auf uns alle zukommt, wir m\u00fcssen alle die klimafreundlichen Alternativen w\u00e4hlen. Das ist das, was k\u00fcnftig g\u00fcnstiger ist. Das ist das, was gut ist f\u00fcr die Menschen und f\u00fcr die Umwelt. Applaus",
-                    "human_text": "kostend\u00e4mpfend wirken. Aber was wir brauchen, ist die Umsteuerung, die auf uns alle zukommt: Wir alle m\u00fcssen die klimafreundlichen Alternativen w\u00e4hlen. Das ist das, was k\u00fcnftig g\u00fcnstiger ist. Das ist das, was gut ist \u2013 f\u00fcr die Menschen und f\u00fcr die Umwelt. (Beifall"
+                    "human_text": "Anreizwirkung der F\u00f6rderung sicherstellen und dazu dienen, dass der F\u00f6rderzweck dann auch erreicht werden kann. \u2013 So weit die Antwort. Vizepr\u00e4sident in Petra Pau: Sie haben das Wort zur ersten Nachfrage. Dr. Marcus"
+                }
+            ]
+        },
+        {
+            "jump_index": 68,
+            "cer_change": -0.6699372295691389,
+            "context_segments": [
+                {
+                    "segment_idx": 66,
+                    "is_jump_point": false,
+                    "start_time": 1106.8515937500001,
+                    "end_time": 1124.5303437500002,
+                    "cer": 0.7137546468401487,
+                    "asr_text": "kostend\u00e4mpfend wirken, aber was wir brauchen, und das ist die Umsteuerung, die auf uns alle zukommt, wir m\u00fcssen alle die klimafreundlichen Alternativen w\u00e4hlen. Das ist das, was k\u00fcnftig g\u00fcnstiger ist. Das ist das, was gut ist f\u00fcr die Menschen und f\u00fcr die Umwelt. Applaus",
+                    "human_text": "Anreizwirkung der F\u00f6rderung sicherstellen und dazu dienen, dass der F\u00f6rderzweck dann auch erreicht werden kann. \u2013 So weit die Antwort. Vizepr\u00e4sident in Petra Pau: Sie haben das Wort zur ersten Nachfrage. Dr. Marcus"
+                },
+                {
+                    "segment_idx": 67,
+                    "is_jump_point": false,
+                    "start_time": 1124.5303437500002,
+                    "end_time": 1137.6084687500002,
+                    "cer": 0.6885245901639344,
+                    "asr_text": "Danke sehr. Alois Kehrig, CDU, CSU, stellt die n\u00e4chste Frage.",
+                    "human_text": "Sie haben das Wort zur ersten Nachfrage."
+                },
+                {
+                    "segment_idx": 68,
+                    "is_jump_point": true,
+                    "start_time": 1137.6084687500002,
+                    "end_time": 1157.6084687500002,
+                    "cer": 0.01858736059479554,
+                    "asr_text": "Sehr geehrte Frau Bundesministerin, danke, dass ich fragen darf. Sie sind doch hoffentlich mit mir einer Meinung, dass wir unseren B\u00e4uerinnen und Bauern den R\u00fccken st\u00e4rken m\u00fcssen. Global gesehen nimmt der Hunger exorbitant zu. Bei uns schlie\u00dfen t\u00e4glich H\u00f6fe ihre T\u00fcren.",
+                    "human_text": "Sehr geehrte Frau Bundesministerin, danke, dass ich fragen darf. Sie sind doch hoffentlich mit mir einer Meinung, dass wir unseren B\u00e4uerinnen und Bauern den R\u00fccken st\u00e4rken m\u00fcssen? Global gesehen, nimmt der Hunger exorbitant zu. Bei uns schlie\u00dfen t\u00e4glich H\u00f6fe ihre Tore"
+                },
+                {
+                    "segment_idx": 69,
+                    "is_jump_point": false,
+                    "start_time": 1157.6084687500002,
+                    "end_time": 1177.6084687500002,
+                    "cer": 0.24774774774774774,
+                    "asr_text": "Tore f\u00fcr immer, und die Marktanteile f\u00fcr die Selbstversorgung sinken permanent. Deswegen meine Fragen. Wie wollen Sie im Insektenschutzgesetz verhindern, dass neue zus\u00e4tzliche B\u00fcrokratie aufgebaut wird und dieser nationale",
+                    "human_text": "Tore f\u00fcr immer, und die Marktanteile f\u00fcr die Selbstversorgung sinken permanent. Deswegen lauten meine Fragen: Erstens. Wie wollen Sie verhindern, dass mit dem Insektenschutzgesetz neue, zus\u00e4tzliche B\u00fcrokratie aufgebaut wird und dieser nationale"
+                },
+                {
+                    "segment_idx": 70,
+                    "is_jump_point": false,
+                    "start_time": 1177.6084687500002,
+                    "end_time": 1197.6084687500002,
+                    "cer": 0.05747126436781609,
+                    "asr_text": "der ordnungspolitische Alleingang die Arbeit unserer B\u00e4uerinnen und Bauern weiter verst\u00e4rkt? Und zweitens. Wie ist sichergestellt, dass die guten kooperativen Ans\u00e4tze, die wir beispielsweise in Baden-W\u00fcrttemberg und anderen Bundesl\u00e4ndern mit viel M\u00fche gemeinsam",
+                    "human_text": "ordnungspolitische Alleingang die Arbeit unserer B\u00e4uerinnen und Bauern weiter erschwert? Zweitens. Wie ist sichergestellt, dass die guten kooperativen Ans\u00e4tze, die wir beispielsweise in Baden-W\u00fcrttemberg und anderen Bundesl\u00e4ndern mit viel M\u00fche gemeinsam"
                 }
             ]
         },
@@ -464,7 +566,7 @@
         },
         {
             "jump_index": 82,
-            "cer_change": 0.49281061816394245,
+            "cer_change": 0.5054688460120438,
             "context_segments": [
                 {
                     "segment_idx": 80,
@@ -489,27 +591,78 @@
                     "is_jump_point": true,
                     "start_time": 1351.08034375,
                     "end_time": 1371.08034375,
-                    "cer": 0.5316455696202531,
+                    "cer": 0.5443037974683544,
                     "asr_text": "dann werden Sie sehen, dass wir kooperative Ma\u00dfnahmen unterst\u00fctzen und dass nat\u00fcrlich weiter Landwirtschaft m\u00f6glich ist. Das ist nur in einem kleinen Teil der FFH-Gebiete im Moment \u00fcberhaupt Landwirtschaft, die eben nicht nach biologischen Ma\u00dfnahmen funktioniert. Und f\u00fcr diesen kleinen Teil, also f\u00fcr den Weinanbau,",
-                    "human_text": "dann werden Sie sehen, dass wir kooperative Ma\u00dfnahmen unterst\u00fctzen und dass nat\u00fcrlich weiter Landwirtschaft m\u00f6glich ist. (C) (D) ------------------------------------------------------------------------ 26214 Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar"
+                    "human_text": "dann werden Sie sehen, dass wir kooperative Ma\u00dfnahmen unterst\u00fctzen und dass nat\u00fcrlich weiter Landwirtschaft m\u00f6glich ist. ------------------------------------------------------------------------ 26214 Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021"
                 },
                 {
                     "segment_idx": 83,
                     "is_jump_point": false,
                     "start_time": 1371.08034375,
                     "end_time": 1391.08034375,
-                    "cer": 0.48109965635738833,
+                    "cer": 0.11683848797250859,
                     "asr_text": "f\u00fcr den Obst, f\u00fcr Hopfen, f\u00fcr Obst, Hopfen, Gem\u00fcse, haben wir Ausnahmen gemacht, sodass dort weiterhin Landwirtschaft stattfindet. Das ist, glaube ich, selbstverst\u00e4ndlich, dass wir so etwas auf den Weg bringen. Wir haben einen Gro\u00dfteil jetzt gesch\u00fctzt, aber Landwirtschaft wird weiter in die",
-                    "human_text": "Gebiete im Moment Landwirtschaft, die nicht nach biologischen Ma\u00dfgaben betrieben wird. F\u00fcr diesen kleinen Teil, also f\u00fcr den Weinanbau, f\u00fcr den Obst-, Hopfen- und Gem\u00fcseanbau, haben wir Ausnahmen gemacht, sodass dort weiterhin Landwirtschaft stattfindet. Das ist, glaube ich, selbstverst\u00e4ndlich, dass wir so was auf den Weg bringen. Wir haben einen Gro\u00dfteil jetzt gesch\u00fctzt. Aber Landwirtschaft wird weiter in"
+                    "human_text": "f\u00fcr den Obst-, Hopfen- und Gem\u00fcseanbau, haben wir Ausnahmen gemacht, sodass dort weiterhin Landwirtschaft stattfindet. Das ist, glaube ich, selbstverst\u00e4ndlich, dass wir so was auf den Weg bringen. Wir haben einen Gro\u00dfteil jetzt gesch\u00fctzt. Aber Landwirtschaft wird weiter in diesen"
                 },
                 {
                     "segment_idx": 84,
                     "is_jump_point": false,
                     "start_time": 1391.08034375,
                     "end_time": 1394.6653437500001,
-                    "cer": 0.4090909090909091,
+                    "cer": 0.0,
                     "asr_text": "Gebieten m\u00f6glich sein.",
-                    "human_text": "Zukunft m\u00f6glich sein"
+                    "human_text": "Gebieten m\u00f6glich sein."
+                }
+            ]
+        },
+        {
+            "jump_index": 83,
+            "cer_change": -0.4274653094958458,
+            "context_segments": [
+                {
+                    "segment_idx": 81,
+                    "is_jump_point": false,
+                    "start_time": 1331.08034375,
+                    "end_time": 1351.08034375,
+                    "cer": 0.038834951456310676,
+                    "asr_text": "Sehr geehrter Herr Abgeordneter, wir haben mit dem Insektenschutzgesetz und der Pflanzenschutzanwendungsverordnung einen sehr guten Schutz der Insekten auf den Weg gebracht und gleichzeitig daf\u00fcr gesorgt, dass auch Landwirtinnen und Landwirte klare Perspektiven haben, klar wissen, woran sie sind und nat\u00fcrlich weiterhin Landwirtschaft betreiben k\u00f6nnen. Und wenn Sie sich das Gesetz und die Verordnung anschauen,",
+                    "human_text": "Sehr geehrter Herr Abgeordneter, wir haben mit dem Insektenschutzgesetz und der Pflanzenschutz-Anwendungsverordnung einen sehr guten Schutz der Insekten auf den Weg gebracht und gleichzeitig daf\u00fcr gesorgt, dass Landwirtinnen und Landwirte klare Perspektiven haben, klar wissen, woran sie sind, und nat\u00fcrlich weiterhin Landwirtschaft betreiben k\u00f6nnen. Wenn Sie sich das Gesetz und die Verordnung ansehen,"
+                },
+                {
+                    "segment_idx": 82,
+                    "is_jump_point": false,
+                    "start_time": 1351.08034375,
+                    "end_time": 1371.08034375,
+                    "cer": 0.5443037974683544,
+                    "asr_text": "dann werden Sie sehen, dass wir kooperative Ma\u00dfnahmen unterst\u00fctzen und dass nat\u00fcrlich weiter Landwirtschaft m\u00f6glich ist. Das ist nur in einem kleinen Teil der FFH-Gebiete im Moment \u00fcberhaupt Landwirtschaft, die eben nicht nach biologischen Ma\u00dfnahmen funktioniert. Und f\u00fcr diesen kleinen Teil, also f\u00fcr den Weinanbau,",
+                    "human_text": "dann werden Sie sehen, dass wir kooperative Ma\u00dfnahmen unterst\u00fctzen und dass nat\u00fcrlich weiter Landwirtschaft m\u00f6glich ist. ------------------------------------------------------------------------ 26214 Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021"
+                },
+                {
+                    "segment_idx": 83,
+                    "is_jump_point": true,
+                    "start_time": 1371.08034375,
+                    "end_time": 1391.08034375,
+                    "cer": 0.11683848797250859,
+                    "asr_text": "f\u00fcr den Obst, f\u00fcr Hopfen, f\u00fcr Obst, Hopfen, Gem\u00fcse, haben wir Ausnahmen gemacht, sodass dort weiterhin Landwirtschaft stattfindet. Das ist, glaube ich, selbstverst\u00e4ndlich, dass wir so etwas auf den Weg bringen. Wir haben einen Gro\u00dfteil jetzt gesch\u00fctzt, aber Landwirtschaft wird weiter in die",
+                    "human_text": "f\u00fcr den Obst-, Hopfen- und Gem\u00fcseanbau, haben wir Ausnahmen gemacht, sodass dort weiterhin Landwirtschaft stattfindet. Das ist, glaube ich, selbstverst\u00e4ndlich, dass wir so was auf den Weg bringen. Wir haben einen Gro\u00dfteil jetzt gesch\u00fctzt. Aber Landwirtschaft wird weiter in diesen"
+                },
+                {
+                    "segment_idx": 84,
+                    "is_jump_point": false,
+                    "start_time": 1391.08034375,
+                    "end_time": 1394.6653437500001,
+                    "cer": 0.0,
+                    "asr_text": "Gebieten m\u00f6glich sein.",
+                    "human_text": "Gebieten m\u00f6glich sein."
+                },
+                {
+                    "segment_idx": 85,
+                    "is_jump_point": false,
+                    "start_time": 1394.6653437500001,
+                    "end_time": 1399.4747187500002,
+                    "cer": 0.0,
+                    "asr_text": "Frau Kollegin.",
+                    "human_text": "Frau Kollegin."
                 }
             ]
         },
@@ -718,108 +871,6 @@
             ]
         },
         {
-            "jump_index": 100,
-            "cer_change": 0.48177982355197546,
-            "context_segments": [
-                {
-                    "segment_idx": 98,
-                    "is_jump_point": false,
-                    "start_time": 1590.45534375,
-                    "end_time": 1592.4065937500002,
-                    "cer": 0.25,
-                    "asr_text": "out.",
-                    "human_text": "gut."
-                },
-                {
-                    "segment_idx": 99,
-                    "is_jump_point": false,
-                    "start_time": 1592.4065937500002,
-                    "end_time": 1599.4772187500002,
-                    "cer": 0.21518987341772153,
-                    "asr_text": "Die n\u00e4chste Nachfrage stellt die Kollegin Renate K\u00fcnast, B\u00fcndnis 90 Die Gr\u00fcnen.",
-                    "human_text": "Die n\u00e4chste Frage stellt die Kollegin Lisa Badum, B\u00fcndnis 90/Die Gr\u00fcnen."
-                },
-                {
-                    "segment_idx": 100,
-                    "is_jump_point": true,
-                    "start_time": 1599.4772187500002,
-                    "end_time": 1619.4772187500002,
-                    "cer": 0.696969696969697,
-                    "asr_text": "Frau Ministerin, an einer Stelle bin ich ja mit Ihnen einer Meinung. Ich wundere mich auch, wie manche meinen, dass Boden- und Artenvielfaltschutz eine Anfeindung gegen\u00fcber den Landwirten w\u00e4re. F\u00fcr mich sind das die Betriebsgrundlagen der Landwirtschaft. Wenn Sie die nicht haben, wird es von Betriebskosten her immer teurer, wenn",
-                    "human_text": "Frau Ministerin, ich m\u00f6chte gern zu einem neuen Thema fragen, und zwar zu Nord Stream 2. Das scheint ja f\u00fcr die SPD das bei Weitem wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gr\u00fcndet eine neue"
-                },
-                {
-                    "segment_idx": 101,
-                    "is_jump_point": false,
-                    "start_time": 1619.4772187500002,
-                    "end_time": 1639.4772187500002,
-                    "cer": 0.7275541795665634,
-                    "asr_text": "wenn du andere Mittel einsetzen musst. Meine Frage konkret an Sie bezieht sich auf Glyphosat. Sie loben in diesem, das habe ich in den Medien auch gelesen, in diesen Vereinbarungen jetzt den Ausstieg aus dem Glyphosat Ende 2023. Wo da das Positive ist, verstehe ich nicht ganz, weil Glyphosat doch sowieso nur bis Ende 2023",
-                    "human_text": "wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gr\u00fcndet eine neue Stiftung; Herr Scholz l\u00e4sst sich von der amerikanischen Regierung erpressen und verspricht deutsche Steuergelder als L\u00f6segeld; der Bundespr\u00e4sident setzt sich ein. Wo sie sich rechtlich bewegt, scheint der SPD"
-                },
-                {
-                    "segment_idx": 102,
-                    "is_jump_point": false,
-                    "start_time": 1639.4772187500002,
-                    "end_time": 1659.4772187500002,
-                    "cer": 0.7066666666666667,
-                    "asr_text": "Ende 2023 in der Europ\u00e4ischen Union zugelassen ist und nur noch bis dahin \u00fcberhaupt eine Verl\u00e4ngerung hatte, war damals Herr Schmidt als Agrarminister gegen die Vereinbarung der Koalition aus CDU, CSU, SPD und Kabinettsentscheidung mit Ja gestimmt hatte in Br\u00fcssel. Wir wissen also, es wird Glyphosat",
-                    "human_text": "scheint der SPD mittlerweile egal zu sein. Aber Sie stehen ja hier nicht als Parteimitglied, sondern als Umweltministerin, als Klimaministerin. Von daher w\u00fcrde ich von Ihnen gern wissen, warum Sie das"
-                }
-            ]
-        },
-        {
-            "jump_index": 103,
-            "cer_change": -0.41296037296037297,
-            "context_segments": [
-                {
-                    "segment_idx": 101,
-                    "is_jump_point": false,
-                    "start_time": 1619.4772187500002,
-                    "end_time": 1639.4772187500002,
-                    "cer": 0.7275541795665634,
-                    "asr_text": "wenn du andere Mittel einsetzen musst. Meine Frage konkret an Sie bezieht sich auf Glyphosat. Sie loben in diesem, das habe ich in den Medien auch gelesen, in diesen Vereinbarungen jetzt den Ausstieg aus dem Glyphosat Ende 2023. Wo da das Positive ist, verstehe ich nicht ganz, weil Glyphosat doch sowieso nur bis Ende 2023",
-                    "human_text": "wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gr\u00fcndet eine neue Stiftung; Herr Scholz l\u00e4sst sich von der amerikanischen Regierung erpressen und verspricht deutsche Steuergelder als L\u00f6segeld; der Bundespr\u00e4sident setzt sich ein. Wo sie sich rechtlich bewegt, scheint der SPD"
-                },
-                {
-                    "segment_idx": 102,
-                    "is_jump_point": false,
-                    "start_time": 1639.4772187500002,
-                    "end_time": 1659.4772187500002,
-                    "cer": 0.7066666666666667,
-                    "asr_text": "Ende 2023 in der Europ\u00e4ischen Union zugelassen ist und nur noch bis dahin \u00fcberhaupt eine Verl\u00e4ngerung hatte, war damals Herr Schmidt als Agrarminister gegen die Vereinbarung der Koalition aus CDU, CSU, SPD und Kabinettsentscheidung mit Ja gestimmt hatte in Br\u00fcssel. Wir wissen also, es wird Glyphosat",
-                    "human_text": "scheint der SPD mittlerweile egal zu sein. Aber Sie stehen ja hier nicht als Parteimitglied, sondern als Umweltministerin, als Klimaministerin. Von daher w\u00fcrde ich von Ihnen gern wissen, warum Sie das"
-                },
-                {
-                    "segment_idx": 103,
-                    "is_jump_point": true,
-                    "start_time": 1659.4772187500002,
-                    "end_time": 1668.1753437500001,
-                    "cer": 0.2937062937062937,
-                    "asr_text": "wird in Br\u00fcssel keine Verl\u00e4ngerung mehr bekommen nach 2023. Also wo ist jetzt das Besondere Ihrer Entscheidung, dass es Ende 2023 zu Ende w\u00e4re?",
-                    "human_text": "Zeit nach 2023 keine Verl\u00e4ngerung mehr bekommen. Wo ist jetzt das Besondere Ihrer Entscheidung, dass der Einsatz Ende 2023 zu Ende geht?"
-                },
-                {
-                    "segment_idx": 104,
-                    "is_jump_point": false,
-                    "start_time": 1668.1753437500001,
-                    "end_time": 1669.6434687500002,
-                    "cer": 0.7727272727272727,
-                    "asr_text": "Il y a Boile d'Orri\u00e8s.",
-                    "human_text": "Wo ist jetzt das"
-                },
-                {
-                    "segment_idx": 105,
-                    "is_jump_point": false,
-                    "start_time": 1669.6434687500002,
-                    "end_time": 1689.6434687500002,
-                    "cer": 0.7082228116710876,
-                    "asr_text": "Frau Abgeordnete, Sie haben das genau richtig beschrieben, warum es Glyphosat \u00fcberhaupt europarechtlich im Moment noch gibt. Aber das ist nun mal das Europarecht. Wir k\u00f6nnen es nicht vorher komplett verbieten. Was wir aber machen, ist, vorher schon den Einsatz von Glyphosat deutlich zu reduzieren. Das, was wir zugesagt haben, n\u00e4mlich einen Plan zur Reduzierung von Glyphosat.",
-                    "human_text": "f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit: Frau Abgeordnete, Sie haben genau richtig beschrieben, warum es Glyphosateinsatz europarechtlich im Moment \u00fcberhaupt noch gibt. Das ist nun mal das Euro ------------------------------------------------------------------------ Deutscher Bundestag 19. Wahlperiode 208. Sitzung. Berlin, Mittwoch, den 10. Februar 2021 26215"
-                }
-            ]
-        },
-        {
             "jump_index": 104,
             "cer_change": 0.479020979020979,
             "context_segments": [
@@ -828,9 +879,9 @@
                     "is_jump_point": false,
                     "start_time": 1639.4772187500002,
                     "end_time": 1659.4772187500002,
-                    "cer": 0.7066666666666667,
+                    "cer": 0.3433333333333333,
                     "asr_text": "Ende 2023 in der Europ\u00e4ischen Union zugelassen ist und nur noch bis dahin \u00fcberhaupt eine Verl\u00e4ngerung hatte, war damals Herr Schmidt als Agrarminister gegen die Vereinbarung der Koalition aus CDU, CSU, SPD und Kabinettsentscheidung mit Ja gestimmt hatte in Br\u00fcssel. Wir wissen also, es wird Glyphosat",
-                    "human_text": "scheint der SPD mittlerweile egal zu sein. Aber Sie stehen ja hier nicht als Parteimitglied, sondern als Umweltministerin, als Klimaministerin. Von daher w\u00fcrde ich von Ihnen gern wissen, warum Sie das"
+                    "human_text": "Ende 2023 in der Europ\u00e4ischen Union zugelassen ist und die Zulassung \u00fcberhaupt nur noch bis dahin eine Verl\u00e4ngerung bekam, weil damals Herr Schmidt als Agrarminister gegen die Vereinbarung der Koalition aus CDU/CSU und SPD und die Entscheidungsabl\u00e4ufe im Kabinett in Br\u00fcssel mit Ja gestimmt"
                 },
                 {
                     "segment_idx": 103,
@@ -871,18 +922,9 @@
             ]
         },
         {
-            "jump_index": 108,
-            "cer_change": -0.6911764705882353,
+            "jump_index": 109,
+            "cer_change": 0.3209944751381215,
             "context_segments": [
-                {
-                    "segment_idx": 106,
-                    "is_jump_point": false,
-                    "start_time": 1689.6434687500002,
-                    "end_time": 1709.6434687500002,
-                    "cer": 0.7287581699346405,
-                    "asr_text": "haben wir heute auf den Weg gebracht. Ich stimme Ihnen absolut zu. Insekten, der Schutz des Bodens, das ist die Grundlage von Landwirtschaft. Wenn wir die Best\u00e4ubungsleistungen der Insekten selber als Menschen \u00fcbernehmen wollten, dann w\u00e4re das kaum m\u00f6glich. Dann g\u00e4be es in Deutschland kaum noch Obstanbau.",
-                    "human_text": "Berlin, Mittwoch, den 10. Februar 2021 26215 Bundesministerin Svenja Schulze (A) parecht; wir k\u00f6nnen es nicht vorher komplett verbieten. Was wir aber machen, ist, vorher schon den Einsatz von Glyphosat deutlich zu reduzieren."
-                },
                 {
                     "segment_idx": 107,
                     "is_jump_point": false,
@@ -894,21 +936,21 @@
                 },
                 {
                     "segment_idx": 108,
-                    "is_jump_point": true,
+                    "is_jump_point": false,
                     "start_time": 1718.47971875,
                     "end_time": 1724.9090937500002,
-                    "cer": 0.0,
+                    "cer": 0.4,
                     "asr_text": "Carsten Tr\u00e4ger, SPD, hat eine Nachfrage.",
-                    "human_text": "Carsten Tr\u00e4ger, SPD, hat eine Nachfrage."
+                    "human_text": "Dr. Hoffmann, FDP, hat eine Nachfrage."
                 },
                 {
                     "segment_idx": 109,
-                    "is_jump_point": false,
+                    "is_jump_point": true,
                     "start_time": 1724.9090937500002,
                     "end_time": 1744.9090937500002,
-                    "cer": 0.03867403314917127,
+                    "cer": 0.7209944751381215,
                     "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Liebe Frau Bundesministerin, herzlichen Dank f\u00fcr Ihren beharrlichen Einsatz f\u00fcr das Thema Insektenschutz, das wir ja schon im Koalitionsvertrag besprochen hatten. Aber nun sind wir auf einem sehr guten Weg, was die Umsetzung angeht. Und auch aus meiner Sicht ist das Verbot von Glyphosat ein ganz wesentlicher Baustein der Strategie.",
-                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Liebe Frau Bundesministerin, herzlichen Dank f\u00fcr Ihren beharrlichen Einsatz f\u00fcr das Thema Insektenschutz, den wir ja schon im Koalitionsvertrag abgesprochen hatten; aber nun sind wir auf einem sehr guten Weg, was die Umsetzung angeht. Auch aus meiner Sicht ist das Verbot von Glyphosat ein ganz wesentlicher Baustein der Strategie"
+                    "human_text": "dass man erkannt wird. Deswegen hatten wir fr\u00fcher auch mal ein Vermummungsverbot. (Heiterkeit) ****Till Mansmann: Vielen Dank, Herr Pr\u00e4sident. \u2013 Frau Ministerin, Sie haben es gerade angesprochen: Bei den CO2-Bepreisungen sind wir ja grunds\u00e4tzlich auf der gleichen Schiene. Sie"
                 },
                 {
                     "segment_idx": 110,
@@ -918,6 +960,66 @@
                     "cer": 0.05714285714285714,
                     "asr_text": "oder des jetzt anstehenden Handelns, ist aber ja nur eins von vielen Pflanzenschutzmitteln. Und deswegen w\u00e4re meine Frage, wie sind die Vereinbarungen, die im Kabinett getroffen wurden, hinsichtlich des Umgangs mit anderen Pflanzenschutzmitteln?",
                     "human_text": "oder des jetzt anstehenden Handelns. Es ist aber nur eins von vielen Pflanzenschutzmitteln. Deswegen w\u00e4re meine Frage: Wie sind die Vereinbarungen, die im Kabinett getroffen wurden, hinsichtlich des Umgangs mit anderen Pflanzenschutzmitteln?"
+                },
+                {
+                    "segment_idx": 111,
+                    "is_jump_point": false,
+                    "start_time": 1761.0047187500002,
+                    "end_time": 1781.0047187500002,
+                    "cer": 0.05851063829787234,
+                    "asr_text": "Herr Abgeordneter, vielen Dank f\u00fcr diese Frage. Ja, glyphosathaltige Pflanzenschutzmittel sind nur ein Teil des Problems. Deswegen haben wir vereinbart, dass wir aus Glyphosat aussteigen wollen, so schnell es geht, so schnell es europarechtlich m\u00f6glich ist. Und das ist nun mal leider erst Ende 2023. Und wir wollen aber auf dem Weg dahin die Pflanzenschutzmittel durchf\u00fchren.",
+                    "human_text": "Herr Abgeordneter, vielen Dank f\u00fcr diese Frage. \u2013 Ja, glyphosathaltige Pflanzenschutzmittel sind nur ein Teil des Problems. Deswegen haben wir vereinbart, dass wir aus Glyphosat aussteigen wollen, so schnell es geht, so schnell es europarechtlich m\u00f6glich ist. Das ist nun mal leider erst Ende 2023. Wir wollen aber auf dem Weg dahin die Pflanzenschutzmittel deutlich"
+                }
+            ]
+        },
+        {
+            "jump_index": 110,
+            "cer_change": -0.6638516179952644,
+            "context_segments": [
+                {
+                    "segment_idx": 108,
+                    "is_jump_point": false,
+                    "start_time": 1718.47971875,
+                    "end_time": 1724.9090937500002,
+                    "cer": 0.4,
+                    "asr_text": "Carsten Tr\u00e4ger, SPD, hat eine Nachfrage.",
+                    "human_text": "Dr. Hoffmann, FDP, hat eine Nachfrage."
+                },
+                {
+                    "segment_idx": 109,
+                    "is_jump_point": false,
+                    "start_time": 1724.9090937500002,
+                    "end_time": 1744.9090937500002,
+                    "cer": 0.7209944751381215,
+                    "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Liebe Frau Bundesministerin, herzlichen Dank f\u00fcr Ihren beharrlichen Einsatz f\u00fcr das Thema Insektenschutz, das wir ja schon im Koalitionsvertrag besprochen hatten. Aber nun sind wir auf einem sehr guten Weg, was die Umsetzung angeht. Und auch aus meiner Sicht ist das Verbot von Glyphosat ein ganz wesentlicher Baustein der Strategie.",
+                    "human_text": "dass man erkannt wird. Deswegen hatten wir fr\u00fcher auch mal ein Vermummungsverbot. (Heiterkeit) ****Till Mansmann: Vielen Dank, Herr Pr\u00e4sident. \u2013 Frau Ministerin, Sie haben es gerade angesprochen: Bei den CO2-Bepreisungen sind wir ja grunds\u00e4tzlich auf der gleichen Schiene. Sie"
+                },
+                {
+                    "segment_idx": 110,
+                    "is_jump_point": true,
+                    "start_time": 1744.9090937500002,
+                    "end_time": 1761.0047187500002,
+                    "cer": 0.05714285714285714,
+                    "asr_text": "oder des jetzt anstehenden Handelns, ist aber ja nur eins von vielen Pflanzenschutzmitteln. Und deswegen w\u00e4re meine Frage, wie sind die Vereinbarungen, die im Kabinett getroffen wurden, hinsichtlich des Umgangs mit anderen Pflanzenschutzmitteln?",
+                    "human_text": "oder des jetzt anstehenden Handelns. Es ist aber nur eins von vielen Pflanzenschutzmitteln. Deswegen w\u00e4re meine Frage: Wie sind die Vereinbarungen, die im Kabinett getroffen wurden, hinsichtlich des Umgangs mit anderen Pflanzenschutzmitteln?"
+                },
+                {
+                    "segment_idx": 111,
+                    "is_jump_point": false,
+                    "start_time": 1761.0047187500002,
+                    "end_time": 1781.0047187500002,
+                    "cer": 0.05851063829787234,
+                    "asr_text": "Herr Abgeordneter, vielen Dank f\u00fcr diese Frage. Ja, glyphosathaltige Pflanzenschutzmittel sind nur ein Teil des Problems. Deswegen haben wir vereinbart, dass wir aus Glyphosat aussteigen wollen, so schnell es geht, so schnell es europarechtlich m\u00f6glich ist. Und das ist nun mal leider erst Ende 2023. Und wir wollen aber auf dem Weg dahin die Pflanzenschutzmittel durchf\u00fchren.",
+                    "human_text": "Herr Abgeordneter, vielen Dank f\u00fcr diese Frage. \u2013 Ja, glyphosathaltige Pflanzenschutzmittel sind nur ein Teil des Problems. Deswegen haben wir vereinbart, dass wir aus Glyphosat aussteigen wollen, so schnell es geht, so schnell es europarechtlich m\u00f6glich ist. Das ist nun mal leider erst Ende 2023. Wir wollen aber auf dem Weg dahin die Pflanzenschutzmittel deutlich"
+                },
+                {
+                    "segment_idx": 112,
+                    "is_jump_point": false,
+                    "start_time": 1781.0047187500002,
+                    "end_time": 1801.0047187500002,
+                    "cer": 0.15060240963855423,
+                    "asr_text": "Wir werden sowohl Herbizide als auch Pflanzenschutzmittel deutlich reduzieren in den Schutzgebieten, aber eben auch auf den \u00c4ckern. Deswegen haben wir auch die freiwilligen L\u00f6sungen noch einmal ausdr\u00fccklich begr\u00fc\u00dft. Das ist eine deutliche Verbesserung, dass sich mit den ganzen Volksbegehren, Initiativen f\u00fcr den Artenschutz so viel",
+                    "human_text": "Wir werden sowohl Herbizide als auch Pflanzenschutzmittel in den Schutzgebieten, aber eben auch auf den \u00c4ckern deutlich reduzieren. Deswegen haben wir auch die freiwilligen L\u00f6sungen noch mal ausdr\u00fccklich begr\u00fc\u00dft. Es ist eine deutliche Verbesserung, dass sich mit den ganzen Volksbegehren und Initiativen f\u00fcr den Artenschutz so viele"
                 }
             ]
         },
