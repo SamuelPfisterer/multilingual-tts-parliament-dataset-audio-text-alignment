@@ -502,6 +502,8 @@ class TranscriptAligner:
         
          # Initialize debug info collection
         debug_info = [f"Finding best matching region for {asr_text}"]
+        if start_search_idx == 0:
+            debug_info.append(f"Start search index is 0, so we are at the beginning of the transcript")
 
         best_cer = float('inf')
         best_start_idx = None

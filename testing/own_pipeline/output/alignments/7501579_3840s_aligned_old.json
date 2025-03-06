@@ -1,0 +1,1931 @@
+{
+  "audio_file": "data/audio/7501579_3840s.opus",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.028781250000002,
+      "asr_text": ".",
+      "human_text": ".",
+      "cer": 0.0,
+      "start_idx": 5802,
+      "end_idx": 5803
+    },
+    {
+      "start": 14.028781250000002,
+      "end": 29.46096875,
+      "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen, bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
+      "human_text": "D—–Guten Tag, liebe Kolleginnen und Kollegen! Bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
+      "cer": 0.054945054945054944,
+      "start_idx": 5972,
+      "end_idx": 5986
+    },
+    {
+      "start": 29.46096875,
+      "end": 46.09128125,
+      "asr_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die besorgniserregenden Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
+      "human_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind besorgniserregende Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
+      "cer": 0.028089887640449437,
+      "start_idx": 5986,
+      "end_idx": 6008
+    },
+    {
+      "start": 46.09128125,
+      "end": 61.20284375,
+      "asr_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infektiöser ist als das bisher bekannte Virus.",
+      "human_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infektiöser ist als das bisher bekannte Virus.",
+      "cer": 0.0,
+      "start_idx": 6008,
+      "end_idx": 6029
+    },
+    {
+      "start": 61.20284375,
+      "end": 75.67315625,
+      "asr_text": "Die Verbreitung einer Virusmutation mit höherem Ansteckungspotenzial würde eine schwerwiegende Verschärfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen",
+      "human_text": "Die Verbreitung einer Virusmutation mit höherem Ansteckungspotenzial würde eine schwerwiegende Verschärfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen",
+      "cer": 0.0,
+      "start_idx": 6029,
+      "end_idx": 6052
+    },
+    {
+      "start": 75.67315625,
+      "end": 95.532375,
+      "asr_text": "die anerkanntermaßen eine höhere Schutzwirkung als sogenannte Alltagsmasken haben, eine besondere Bedeutung zu. Dementsprechend wurde die Verpflichtung zum Tragen medizinischer Gesichtsmasken für zahlreiche Situationen, in denen ein engerer oder längerer Kontakt zu anderen Personen, insbesondere in geschlossenen Räumen, unvermeidbar ist, eingeführt.",
+      "human_text": "die anerkanntermaßen eine höhere Schutzwirkung als sogenannte Alltagsmasken haben, eine besondere Bedeutung zu. Dementsprechend wurde die Verpflichtung zum Tragen medizinischer Gesichtsmasken für zahlreiche Situationen, in denen ein engerer oder längerer Kontakt zu anderen Personen, insbesondere in geschlossenen Räumen, unvermeidbar ist, eingeführt.",
+      "cer": 0.0,
+      "start_idx": 6053,
+      "end_idx": 6094
+    },
+    {
+      "start": 95.532375,
+      "end": 115.532375,
+      "asr_text": "Angesichts dieser Entwicklungen habe ich mich entschlossen, mit heute in Kraft getretener hausrechtlicher Allgemeinverfügung eine Pflicht zum Tragen medizinischer Gesichtsmasken in den Gebäuden des Bundestags anzuordnen. Zu den medizinischen Gesichtsmasken zählen die sogenannten OP- und die FFP2-Masken.",
+      "human_text": "Angesichts dieser Entwicklungen habe ich mich entschlossen, mit heute in Kraft getretener hausrechtlicher Allgemeinverfügung eine Pflicht zum Tragen medizinischer Gesichtsmasken in den Gebäuden des Bundestages anzuordnen. Zu den medizinischen Gesichtsmasken zählen die sogenannten OP- und die FFP2-Masken",
+      "cer": 0.006578947368421052,
+      "start_idx": 6094,
+      "end_idx": 6131
+    },
+    {
+      "start": 115.532375,
+      "end": 131.61378125,
+      "asr_text": "sowie Masken mit vergleichbaren Standards. Diese Pflicht zum Tragen medizinischer Gesichtsmasken tritt an die Stelle der bisherigen Verpflichtung zum Tragen einer Mund-Nasen-Bedeckung. Im Übrigen bleibt es bei den Regelungen zum Umfang der",
+      "human_text": "sowie Masken mit vergleichbaren Standards. Diese Pflicht zum Tragen medizinischer Gesichtsmasken tritt an die Stelle der bisherigen Verpflichtung zum Tragen einer MundNasen-Bedeckung. Im Übrigen bleibt es bei den Regelungen zum Umfang der",
+      "cer": 0.0041841004184100415,
+      "start_idx": 6131,
+      "end_idx": 6163
+    },
+    {
+      "start": 131.61378125,
+      "end": 143.94096875000002,
+      "asr_text": "wie Sie bereits aus der seit Oktober geltenden Allgemeinverfügung kennen. Bitte denken Sie also daran, wenn Sie hier durch den Saal oder zum Rednerpult gehen, eine medizinische Gesichtsmaske zu tragen.",
+      "human_text": "Sie sie bereits aus der seit Oktober geltenden Allgemeinverfügung kennen. Bitte denken Sie also daran, wenn Sie hier durch den Saal oder zum Rednerpult gehen, eine medizinische Gesichtsmaske zu tragen.",
+      "cer": 0.009950248756218905,
+      "start_idx": 6165,
+      "end_idx": 6195
+    },
+    {
+      "start": 143.94096875000002,
+      "end": 163.94096875000002,
+      "asr_text": "In der heutigen Präsidiumssitzung haben wir bekräftigt, dass Verstöße gegen diese hausrechtliche Anordnung hier im Plenarsaal zugleich auch einen Verstoß gegen unsere parlamentarische Ordnung darstellen. Eine gesundheitliche Gefährdung von Abgeordneten durch das Verhalten anderer Abgeordneter gefährdet die Erledigung der uns aufgetragenen",
+      "human_text": "In der heutigen Präsidiumssitzung haben wir bekräftigt, dass Verstöße gegen diese hausrechtliche Anordnung hier im Plenarsaal zugleich auch einen Verstoß gegen unsere parlamentarische Ordnung darstellen. Eine gesundheitliche Gefährdung von Abgeordneten durch das Verhalten anderer Abgeordneter gefährdet die Erledigung der uns aufgetragenen",
+      "cer": 0.0,
+      "start_idx": 6195,
+      "end_idx": 6236
+    },
+    {
+      "start": 163.94096875000002,
+      "end": 179.74971875,
+      "asr_text": "parlamentarischen Arbeit. Daher mache ich erneut darauf aufmerksam, dass Verstöße gegen die Maskenpflicht auch mit den Mitteln des parlamentarischen Ordnungsrechts geahndet werden können, sofern diese in unseren Sitzungen auftreten.",
+      "human_text": "parlamentarischen Arbeit. Daher mache ich erneut darauf aufmerksam, dass Verstöße gegen die Maskenpflicht auch mit den Mitteln des parlamentarischen Ordnungsrechts geahndet werden können, sofern diese in unseren Sitzungen auftreten.",
+      "cer": 0.0,
+      "start_idx": 6236,
+      "end_idx": 6265
+    },
+    {
+      "start": 179.74971875,
+      "end": 191.95034375,
+      "asr_text": "Dies schließt selbstverständlich die namentlichen Abstimmungen, Wahlen und das Hammelsprungverfahren ein. Ich bitte Sie nachdrücklich, sich an die neuen Vorgaben zu halten.",
+      "human_text": "Dies schließt selbstverständlich die namentlichen Abstimmungen, Wahlen und das Hammelsprungverfahren ein. Ich bitte Sie nachdrücklich, sich an die neuen Vorgaben zu halten.",
+      "cer": 0.0,
+      "start_idx": 6265,
+      "end_idx": 6287
+    },
+    {
+      "start": 191.95034375,
+      "end": 208.19253125,
+      "asr_text": "Für die heutige 208. und die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen.",
+      "human_text": "Für die heutige 208., die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen.",
+      "cer": 0.0182648401826484,
+      "start_idx": 6287,
+      "end_idx": 6319
+    },
+    {
+      "start": 208.19253125,
+      "end": 227.49753125,
+      "asr_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach § 21 Absatz 2 der Geschäftsordnung ist für die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschließende Tagesordnung um die in der Zusatzpunkteliste aufgeführten Punkte zu erweitern.",
+      "human_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach § 21 Absatz 3 der Geschäftsordnung ist für die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschließende Tagesordnung um die in der Zusatzpunkteliste aufgeführten Punkte zu erweitern:(A)",
+      "cer": 0.015105740181268883,
+      "start_idx": 6319,
+      "end_idx": 6362
+    },
+    {
+      "start": 227.49753125,
+      "end": 246.34690625000002,
+      "asr_text": "Und der Frist für den Beginn der Beratungen soll so weiter förderlich abgewichen werden. Auf Verlangen der Fraktion Bündnis 90 Die Grünen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den jüngsten gewaltsamen, willkürlichen und repressiven Entwicklungen in Russland statt.",
+      "human_text": "Tagesordnung um die in der Zusatzpunkteliste aufgeführten Punkte zu erweitern:(A) (B) (C) (D)(A) (B) (C) (D)Die Reform der Weltgesundheitsorganisation – Für mehr Transparenz in der globalen Gesundheitspolitik Re-Identifikationsrisiko im Digitale-Versor- gung-Gesetz",
+      "cer": 0.7317073170731707,
+      "start_idx": 6352,
+      "end_idx": 6383
+    },
+    {
+      "start": 246.34690625000002,
+      "end": 265.95565625,
+      "asr_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag für einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
+      "human_text": "– Kommunale MVZ stärken Dem Atomwaffenverbotsvertrag der Verein- ten Nationen beitreten Nukleare Teilhabe beenden – Atomwaffen aus Deutschland abziehen Damit kommen wir zur Feststellung der Tagesord- nungen der",
+      "cer": 0.6912751677852349,
+      "start_idx": 6395,
+      "end_idx": 6423
+    },
+    {
+      "start": 265.95565625,
+      "end": 284.88940625,
+      "asr_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bekämpfung der Geldwäsche auf der Drucksache 19-24186 abschließend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
+      "human_text": "stimmt dagegen? – Wer enthält sich? – Dann sind die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des übrigen Hauses so beschlossen.Ich rufe den Tagesordnungspunkt 1 auf: Befragung der Bundesregierung Die Bundesregierung hat",
+      "cer": 0.6910299003322259,
+      "start_idx": 6438,
+      "end_idx": 6473
+    },
+    {
+      "start": 284.88940625,
+      "end": 300.06003125,
+      "asr_text": "Tagesordnungspunkt 17 wird am Freitag aufgerufen. Stattdessen soll eine Beschlussempfehlung zum Antrag Friedensbemühungen im Jemen intensivieren, humanitäre Lage verbessern, auf der Drucksache 19 26 220 aufgesetzt werden.",
+      "human_text": "Tagesordnungspunkt 1 auf: Befragung der Bundesregierung Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare",
+      "cer": 0.665158371040724,
+      "start_idx": 6464,
+      "end_idx": 6483
+    },
+    {
+      "start": 300.06003125,
+      "end": 310.85159375,
+      "asr_text": "Als erster Punkt. Am Freitag soll der Entwurf eines Gesetzes zur Fortgeltung der die epidemische Lage von nationaler Tragweite betreffenden Regelungen aufgerufen werden.",
+      "human_text": "steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
+      "cer": 0.7041420118343196,
+      "start_idx": 6489,
+      "end_idx": 6502
+    },
+    {
+      "start": 310.85159375,
+      "end": 323.17878125000004,
+      "asr_text": "Tagesordnungspunkt 20 wird abgesetzt. An dieser Stelle soll in verbundener Beratung drei Vorlagen zur Familienpolitik in der Pandemie aufgesetzt werden. Tagesordnungspunkt 21 wird abgesetzt.",
+      "human_text": "Abgeordnete! Alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, darauf, wie es",
+      "cer": 0.7105263157894737,
+      "start_idx": 6509,
+      "end_idx": 6524
+    },
+    {
+      "start": 323.17878125000004,
+      "end": 336.72940625,
+      "asr_text": "An dieser Stelle soll mit einer Debattenzeit von 30 Minuten der Entwurf eines dritten Coronasteuerhilfegesetzes aufgesetzt werden. Daran anschließend soll mit einer Debattenzeit von ebenfalls 30 Minuten der Gesetzentwurf",
+      "human_text": "auf die Bund-Länder-Runde gerichtet, darauf, wie es weitergeht mit den Coronabeschränkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und",
+      "cer": 0.7045454545454546,
+      "start_idx": 6517,
+      "end_idx": 6539
+    },
+    {
+      "start": 336.72940625,
+      "end": 352.32190625000004,
+      "asr_text": "zur Regelung einer Einmalzahlung der Grundsicherungssysteme an Erwachsene, Leistungsberechtigte und zur Verlängerung des erleichterten Zugangs zu sozialer Sicherung und des Sozialdienstleister-Einsatzgesetzes aus Anlass der Covid-19-Pandemie aufgerufen werden.",
+      "human_text": "reden. Denn die Pandemie lehrt uns: Eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. – Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen",
+      "cer": 0.7038461538461539,
+      "start_idx": 6552,
+      "end_idx": 6580
+    },
+    {
+      "start": 352.32190625000004,
+      "end": 368.53878125,
+      "asr_text": "An der Stelle des Tagesordnungspunkt 22 soll der Tagesordnungspunkt 17 aufgerufen werden. Die Tagesordnungspunkte 16, 28, c, d und e sollen abgesetzt werden. Außerdem mache ich Sie auf die Überweisung im Anhang zur Zusatzpunkteliste aufmerksam.",
+      "human_text": "hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten. Das",
+      "cer": 0.7254098360655737,
+      "start_idx": 6570,
+      "end_idx": 6595
+    },
+    {
+      "start": 368.53878125,
+      "end": 379.432375,
+      "asr_text": "Damit kommen wir zur Feststellung der Tagesordnung der 208. und 209. Sitzung mit den genannten Änderungen und Ergänzungen. Wer stimmt dafür?",
+      "human_text": "das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltschädlicher Pestizide",
+      "cer": 0.7214285714285714,
+      "start_idx": 6597,
+      "end_idx": 6608
+    },
+    {
+      "start": 379.432375,
+      "end": 390.40034375000005,
+      "asr_text": "Wer stimmt dagegen? Wer enthält sich? Dann ist die Tagesordnung gegen die Stimme der AfD mit den Stimmen des übrigen Hauses so beschlossen.",
+      "human_text": "Wer stimmt dagegen? – Wer enthält sich? – Dann sind die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des übrigen Hauses so beschlossen.Ich",
+      "cer": 0.09352517985611511,
+      "start_idx": 6437,
+      "end_idx": 6462
+    },
+    {
+      "start": 390.40034375000005,
+      "end": 408.09534375000004,
+      "asr_text": "Ich rufe auf den Tagesordnungspunkt 1, Befragung der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verfügung steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
+      "human_text": "rufe den Tagesordnungspunkt 1 auf: Befragung der Bundesregierung Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verfügung steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
+      "cer": 0.04430379746835443,
+      "start_idx": 6462,
+      "end_idx": 6502
+    },
+    {
+      "start": 408.09534375000004,
+      "end": 428.09534375000004,
+      "asr_text": "Herr Präsident, sehr geehrte Damen und Herren Abgeordnete, alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, wie es weitergeht mit den Corona-Beschränkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen über Unabhängigkeit",
+      "human_text": "Herr Präsident! Sehr geehrte Damen und Herren Abgeordnete! Alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, darauf, wie es weitergeht mit den Coronabeschränkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen über Umweltpolitik",
+      "cer": 0.07738095238095238,
+      "start_idx": 6502,
+      "end_idx": 6552
+    },
+    {
+      "start": 428.09534375000004,
+      "end": 448.09534375000004,
+      "asr_text": "Denn die Pandemie lehrt uns eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten.",
+      "human_text": "Denn die Pandemie lehrt uns: Eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. – Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten.",
+      "cer": 0.01444043321299639,
+      "start_idx": 6553,
+      "end_idx": 6594
+    },
+    {
+      "start": 448.09534375000004,
+      "end": 468.09534375000004,
+      "asr_text": "Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltschädlicher Pestizide ganz erheblich eingeschränkt. Endlich, anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr deutlich,",
+      "human_text": "Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltschädlicher Pestizide ganz erheblich eingeschränkt. Endlich! Anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr deutlich",
+      "cer": 0.00967741935483871,
+      "start_idx": 6594,
+      "end_idx": 6635
+    },
+    {
+      "start": 468.09534375000004,
+      "end": 488.09534375000004,
+      "asr_text": "dass wir das ernst meinen. Äcker sollen wieder einladender werden für Insekten, mehr Klatschbohnen und Kornblume, weniger Ackergifte und ausgeräumte Agrarlandschaften. Und auch Städte sollen insektenfreundlicher werden durch weniger Lichtverschmutzungen, mehr Raum für Insekten auch außerhalb von der Stadt.",
+      "human_text": "dass wir das ernst meinen. Äcker sollen wieder einladender werden für Insekten: mehr Klatschmohn und Kornblume, weniger Ackergifte und ausgeräumte Agrarlandschaften. Auch Städte sollen insektenfreundlicher werden durch weniger Lichtverschmutzung und mehr Raum für Insekten, auch außerhalb von Parks",
+      "cer": 0.07166123778501629,
+      "start_idx": 6636,
+      "end_idx": 6674
+    },
+    {
+      "start": 488.09534375000004,
+      "end": 508.09534375000004,
+      "asr_text": "von Parks und Gärten. Was ändert sich jetzt konkret? Glyphosat wird endlich verboten. Es tötet wahllos Wildpflanzen ab und zerstört damit die Nahrungsgrundlage für Vögel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte Übergangszeit und dann eben ein Komplettverbot. Und bis dahin",
+      "human_text": "von Parks und Gärten. Was ändert sich jetzt konkret? Glyphosat wird endlich verboten. Es tötet wahllos Wildpflanzen ab und zerstört damit die Nahrungsgrundlage für Vögel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte Übergangszeit und dann eben ein Komplettverbot. Und bis dahin",
+      "cer": 0.0,
+      "start_idx": 6672,
+      "end_idx": 6716
+    },
+    {
+      "start": 508.09534375000004,
+      "end": 528.09534375,
+      "asr_text": "wird der Einsatz erheblich eingeschränkt werden. Flüsse, Bäche, Seen werden sauberer, da Pestizide nur noch in angemessenem Abstand eingesetzt werden dürfen. Das schützt Tiere und Pflanzen im Wasser und am Ufer. In Schutzgebieten sollen Insekten wieder echten Schutz finden, Mittel, die Insekten und Wildkräuter abtun.",
+      "human_text": "wird der Einsatz erheblich eingeschränkt werden. Flüsse, Bäche, Seen werden sauberer, da Pestizide nur noch in angemessenem Abstand eingesetzt werden dürfen. Das schützt Tiere und Pflanzen im Wasser und am Ufer. In Schutzgebieten sollen Insekten wieder echten Schutz finden. Mittel, die Insekten und Wildkräuter abtöten",
+      "cer": 0.015723270440251572,
+      "start_idx": 6716,
+      "end_idx": 6761
+    },
+    {
+      "start": 528.09534375,
+      "end": 548.09534375,
+      "asr_text": "und dabei die biologische Vielfalt schädigen, wären weitestgehend verbannt. Zusätzliche Flächen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll künftig der Insektenschutz stärker berücksichtigt werden, das erleichtert es zum Beispiel, Biotope zu einem Netzwerk geschützter Lebensräume zu verbinden.",
+      "human_text": "und dabei die biologische Vielfalt schädigen, werden weitestgehend verbannt. Zusätzliche Flächen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll künftig der Insektenschutz stärker berücksichtigt werden. Das erleichtert es zum Beispiel, Biotope zu einem Netzwerk geschützter Lebensräume zu verbinden.",
+      "cer": 0.011560693641618497,
+      "start_idx": 6761,
+      "end_idx": 6805
+    },
+    {
+      "start": 548.09534375,
+      "end": 568.09534375,
+      "asr_text": "Wir haben im Kabinett damit Lösungen gefunden, die der Landwirtschaft und den Insekten gleichermaßen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben, der Öffnung für Vertragsnaturschutz und gesellschaftlich gemeinsam erarbeiteten Lösungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema",
+      "human_text": "Wir haben im Kabinett damit Lösungen gefunden, die der Landwirtschaft und den Insekten gleichermaßen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben, der Öffnung für Vertragsnaturschutz und gesellschaftlich gemeinsam erarbeiteten Lösungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema",
+      "cer": 0.0,
+      "start_idx": 6805,
+      "end_idx": 6849
+    },
+    {
+      "start": 568.09534375,
+      "end": 588.09534375,
+      "asr_text": "erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich weiß, die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanständigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Deshalb setze ich mich dafür ein, dass das Umfeld",
+      "human_text": "erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich weiß: Die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanständigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Deshalb setze ich mich dafür ein, dass das Umsteuern",
+      "cer": 0.02476780185758514,
+      "start_idx": 6850,
+      "end_idx": 6894
+    },
+    {
+      "start": 588.09534375,
+      "end": 608.09534375,
+      "asr_text": "in der Landwirtschaft künftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarförderung in der sogenannten zweiten Säule, um vertragliche kooperative Vereinbarungen besser finanzieren zu können. Meine Damen und Herren Abgeordnete, Insekten, das sind kleine Nutztiere. Sie bestäuben, blüten, sie fressen,",
+      "human_text": "in der Landwirtschaft künftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarförderung in der sogenannten zweiten Säule, um vertragliche kooperative Vereinbarungen besser finanzieren können. Meine Damen und Herren Abgeordnete, Insekten, das sind kleine Nutztiere. Sie bestäuben Blüten, sie fressen",
+      "cer": 0.018633540372670808,
+      "start_idx": 6894,
+      "end_idx": 6936
+    },
+    {
+      "start": 608.09534375,
+      "end": 628.09534375,
+      "asr_text": "Schädlinge, sie bereiten gesunde Böden, sie ernähren Vögel und andere Tiere. Insektenschutz sichert nicht nur das Überleben von Hirschkäfern und Erdhummeln, es sichert auch die Zukunft unserer Landwirtschaft und nutzt damit uns allen. Gleiches gilt für viele Projekte der Umweltpolitik, zum Beispiel beim Klimaschutz.",
+      "human_text": "Schädlinge, sie bereiten gesunde Böden, sie ernähren Vögel und andere Tiere. Insektenschutz sichert nicht nur das Überleben von Hirschkäfern und Erdhummeln. Er sichert auch die Zukunft unserer Landwirtschaft und nutzt damit uns allen. Gleiches gilt für viele Projekte der Umweltpolitik, zum Beispiel beim Klimaschutz.",
+      "cer": 0.00946372239747634,
+      "start_idx": 6936,
+      "end_idx": 6980
+    },
+    {
+      "start": 628.09534375,
+      "end": 648.09534375,
+      "asr_text": "Letzte Woche hat das Bundeskabinett beschlossen, den Anteil erneuerbarer Energien im Verkehr ganz erheblich zu steigern. Weitere Schritte sind nötig, schon alleine aufgrund der Anhebung des EU-Klimazieles für 2030. Ein weiterer großer Erfolg der letzten Wochen und das Ergebnis wirklich harter Arbeit. Auch bei der Reziduzierung",
+      "human_text": "Letzte Woche hat das Bundeskabinett beschlossen, den Anteil erneuerbarer Energien im Verkehr ganz erheblich zu steigern. Weitere Schritte sind nötig, schon allein aufgrund der Anhebung des EU-Klimazieles für 2030 – ein weiterer großer Erfolg der letzten Wochen und das Ergebnis wirklich harter Arbeit. Auch bei der Reduzierung",
+      "cer": 0.018292682926829267,
+      "start_idx": 6980,
+      "end_idx": 7027
+    },
+    {
+      "start": 648.09534375,
+      "end": 668.09534375,
+      "asr_text": "Von Plastikmüll geht es voran. Wer sich Essen oder Kaffee zum Mitnehmen kauft, soll künftig die Wahl haben zwischen Mehrweg- und Einwegbehältern. Das hat das Kabinett Ende Januar vereinbart und heute erst Regelungen zur Kennzeichnung von Einwegprodukten. Also die Klimakrise, die Plastikflut, der Insektenverschwund, der Verlust von Lebensräumen, all",
+      "human_text": "von Plastikmüll geht es voran. Wer sich Essen oder Kaffee zum Mitnehmen kauft, soll künftig die Wahl haben zwischen Mehrweg- und Einwegbehältern. Das hat das Kabinett Ende Januar vereinbart und heute erst Regelungen zur Kennzeichnung von Einwegprodukten. Also, die Klimakrise, die Plastikflut, der Insektenschwund, der Verlust von Lebensräumen, all",
+      "cer": 0.014285714285714285,
+      "start_idx": 7027,
+      "end_idx": 7076
+    },
+    {
+      "start": 668.09534375,
+      "end": 684.12659375,
+      "asr_text": "das geht leider auch in Pandemiezeiten weiter. Lassen Sie uns daher weiter an Lösungen arbeiten, denen die Menschen und die Umwelt gleichermaßen zugutekommen. Lassen Sie uns das gemeinsam tun. Ich freue mich jetzt auf Ihre Fragen.",
+      "human_text": "weiter, leider auch in Pandemiezeiten. Lassen Sie uns daher weiter an Lösungen arbeiten, die Menschen und Umwelt gleichermaßen zugutekommen. Lassen Sie uns das gemeinsam tun! Ich freue mich jetzt auf Ihre Fragen.",
+      "cer": 0.10869565217391304,
+      "start_idx": 7078,
+      "end_idx": 7110
+    },
+    {
+      "start": 684.12659375,
+      "end": 695.31128125,
+      "asr_text": "Die erste Frage stellt der Kollege Carsten Hilse, AfD.",
+      "human_text": "Die erste Frage stellt der Kollege Karsten Hilse, AfD.",
+      "cer": 0.018518518518518517,
+      "start_idx": 7110,
+      "end_idx": 7119
+    },
+    {
+      "start": 695.31128125,
+      "end": 715.31128125,
+      "asr_text": "Vielen Dank, Herr Präsident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingeführt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021.",
+      "human_text": "Vielen Dank, Herr Präsident. – Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingeführt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1.",
+      "cer": 0.10655737704918032,
+      "start_idx": 7119,
+      "end_idx": 7154
+    },
+    {
+      "start": 715.31128125,
+      "end": 733.30878125,
+      "asr_text": "schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur für den Januar. Das ist zum geringen Teil natürlich auch durch die Rücknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den Löwenanteil verursacht die CO2-Steuer.",
+      "human_text": "schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr, nur für den Januar. Das ist zum geringen Teil natürlich auch der Rücknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil; den Löwenanteil verursacht die CO2-Steuer.",
+      "cer": 0.035211267605633804,
+      "start_idx": 7156,
+      "end_idx": 7194
+    },
+    {
+      "start": 733.30878125,
+      "end": 753.30878125,
+      "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatz",
+      "human_text": "bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien.Jetzt meine Frage: Wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatzverlust",
+      "cer": 0.05246913580246913,
+      "start_idx": 7196,
+      "end_idx": 7240
+    },
+    {
+      "start": 753.30878125,
+      "end": 773.30878125,
+      "asr_text": "in die Armut getrieben werden. Frau Bundesministerin. Ganz herzlichen Dank für die Frage. Wir haben einen CO2-Preis eingeführt, weil CO2 eine Belastung für das Klima, für die Umwelt ist und deswegen CO2 reduziert werden muss. Der CO2-Preis wirkt ab 1. Januar",
+      "human_text": "in die Armut getrieben werden? Frau Bundesministerin. Ganz herzlichen Dank für die Frage. Wir haben einen CO2-Preis eingeführt, weil CO2 eine Belastung für das Klima und für die Umwelt ist und deswegen der CO2Ausstoß reduziert werden muss. Der CO2-Preis wirkt ab 1. Januar.",
+      "cer": 0.06589147286821706,
+      "start_idx": 7240,
+      "end_idx": 7283
+    },
+    {
+      "start": 773.30878125,
+      "end": 793.30878125,
+      "asr_text": "Das ist genau das Richtige, um eine Umsteuerung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir in großem Umfang CO2 emittiert haben. Diese Verantwortung werden wir in dieser Regierung",
+      "human_text": "Das ist genau das Richtige, um eben ein Umsteuern in Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir eben in großem Umfang CO2 emittiert haben. Dieser Verantwortung werden wir in dieser Regierung",
+      "cer": 0.07692307692307693,
+      "start_idx": 7283,
+      "end_idx": 7327
+    },
+    {
+      "start": 793.30878125,
+      "end": 809.5669062500001,
+      "asr_text": "auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier auch im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung für die Zukunft. Nachfrage, Herr Kollege.",
+      "human_text": "auch gerecht, dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung für die Zukunft. Nachfrage, Herr Kollege?",
+      "cer": 0.037209302325581395,
+      "start_idx": 7327,
+      "end_idx": 7358
+    },
+    {
+      "start": 809.5669062500001,
+      "end": 826.90596875,
+      "asr_text": "Vielen Dank. Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk im Zusammenhang mit der Corona-Epidemie sagten Sie konkret, wir merken im Moment ja alle, dass wir eben nicht alles steuern können.",
+      "human_text": "vielen Dank. – Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk im Zusammenhang mit der Coronaepidemie sagten Sie konkret: „Wir merken ja im Moment alle, dass wir eben nicht alles steuern können.“",
+      "cer": 0.07281553398058252,
+      "start_idx": 7359,
+      "end_idx": 7391
+    },
+    {
+      "start": 826.90596875,
+      "end": 846.90596875,
+      "asr_text": "Dem können wir natürlich zustimmen, nur zustimmen. Würden Sie uns daher bitte in einfachen und verständlichen Worten erklären, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass mindestens so komplexe, wenn nicht sogar komplexere Klimasysteme der Erde sich von",
+      "human_text": "Dem können wir natürlich zustimmen, nur zustimmen. Würden Sie uns daher bitte in einfachen, verständlichen Worten erklären, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass sich das mindestens so komplexe, wenn nicht sogar komplexere Klimasystem der Erde von",
+      "cer": 0.06312292358803986,
+      "start_idx": 7391,
+      "end_idx": 7434
+    },
+    {
+      "start": 846.90596875,
+      "end": 866.90596875,
+      "asr_text": "oder von Ihrer Regierung beeinflussen lässt? Herr Abgeordneter, ja, mit dem Klima, mit der Natur, mit der Umwelt können Sie nicht verhandeln. Es gibt keine Verhandlungslösung. Das Klima wartet nicht, bis wir so weit sind, sondern wir müssen Maßnahmen ergreifen. Und wir",
+      "human_text": "oder von Ihrer Regierung beeinflussen lässt? Herr Abgeordneter, ja, mit dem Klima, mit der Natur, mit der Umwelt können Sie nicht verhandeln. Es gibt keine Verhandlungslösung. Das Klima wartet nicht, bis wir so weit sind, sondern wir müssen Maßnahmen ergreifen. Wir",
+      "cer": 0.01858736059479554,
+      "start_idx": 7435,
+      "end_idx": 7476
+    },
+    {
+      "start": 866.90596875,
+      "end": 886.90596875,
+      "asr_text": "Wir müssen Vorsorge leisten. Wir müssen CO2 emittieren. 99,8 Prozent aller Wissenschaftlerinnen und Wissenschaftler auf der Welt sind sich einig, dass wir etwas gegen diese Klimaveränderungen tun sollen. Schauen Sie in den IPC.",
+      "human_text": "Wir müssen Vorsorge leisten. Wir müssen CO2-Emissionen reduzieren; denn 99,8 Prozent aller Wissenschaftlerinnen und Wissenschaftler auf der Welt sind sich einig, dass wir etwas gegen diese Klimaveränderungen tun sollen. Schauen Sie ins IPCC,",
+      "cer": 0.11894273127753303,
+      "start_idx": 7482,
+      "end_idx": 7515
+    },
+    {
+      "start": 886.90596875,
+      "end": 906.90596875,
+      "asr_text": "in das internationale Klimapanel, da sehen Sie, dass es eine große Einigkeit in der Wissenschaft gibt. Wir folgen hier der Wissenschaft, wir reduzieren CO2, wir sind in Deutschland in den letzten Jahren da wirklich schon vorangekommen und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung.",
+      "human_text": "in das Internationale Klima-Panel! Da sehen Sie, dass es eine große Einigkeit in der Wissenschaft gibt. Wir folgen hier der Wissenschaft, wir reduzieren CO2. Wir sind in Deutschland in den letzten Jahren dabei wirklich schon vorangekommen, und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung",
+      "cer": 0.030848329048843187,
+      "start_idx": 7515,
+      "end_idx": 7572
+    },
+    {
+      "start": 906.90596875,
+      "end": 925.81815625,
+      "asr_text": "der Verwaltung schuldig. Herr Kollege Dr. Hoffmann, FDP, hat eine Nachfrage. Mit dem Mund- und Nasenschutz ist man zwar geschützt, aber auch davor, dass man erkannt wird. Vielen Dank, Herr Präsident. Deswegen hatten wir früher auch mal ein Vermutungsverbot.",
+      "human_text": "Verantwortung schuldig. Der Kollege Dr. Hoffmann, FDP, hat eine Nachfrage. – Entschuldigung. Mit dem Mund-und-Nasen-Schutz ist man zwar geschützt, aber auch davor, dass man erkannt wird. Deswegen hatten wir früher auch mal ein Vermummungsverbot.",
+      "cer": 0.24124513618677043,
+      "start_idx": 7571,
+      "end_idx": 7605
+    },
+    {
+      "start": 925.81815625,
+      "end": 945.81815625,
+      "asr_text": "Vielen Dank, Herr Präsident. Frau Ministerin, Sie haben es gerade angesprochen, die CO2-Bepreisung. Grundsätzlich sind wir da ja auf der gleichen Schiene. Sie haben aber in diesem Jahr auch gleichzeitig die Kfz-Steuer angehoben. Das ist jetzt nur eine Steuer, die geringe Einkommen belastet und besonders teuer dann ist, wenn man das Fahrzeug wenig benutzt.",
+      "human_text": "Vielen Dank, Herr Präsident. – Frau Ministerin, Sie haben es gerade angesprochen: Bei den CO2-Bepreisungen sind wir ja grundsätzlich auf der gleichen Schiene. Sie haben aber in diesem Jahr auch gleichzeitig die KfzSteuer angehoben. Das ist jetzt nur eine Steuer, die geringe Einkommen belastet und besonders teuer dann ist, wenn man das Fahrzeug wenig benutzt.",
+      "cer": 0.09803921568627451,
+      "start_idx": 7605,
+      "end_idx": 7660
+    },
+    {
+      "start": 945.81815625,
+      "end": 956.356125,
+      "asr_text": "Ist diese systemwidrige Art, genau das andere zu tun, ausgerechnet bei der Mobilität der Bundesregierung im Sinne ihres Ressorts?",
+      "human_text": "Ist diese systemwidrige Art, genau das andere zu tun, ausgerechnet bei der Mobilität, im Sinne der Bundesregierung, im Sinne Ihres Ressorts?",
+      "cer": 0.09302325581395349,
+      "start_idx": 7660,
+      "end_idx": 7681
+    },
+    {
+      "start": 956.356125,
+      "end": 976.356125,
+      "asr_text": "Herr Abgeordneter, ja, wir haben auch die Kfz-Steuer angehoben. Das ist genau der richtige Anreiz, eben auf sparsame, auf kleinere Fahrzeuge zu setzen und der Anreiz, stärker die E-Mobilität voranzubringen. Wir haben es geschafft, mit all den Förderprogrammen, die wir auf den Weg gebracht haben, so viele neue Anreize,",
+      "human_text": "Herr Abgeordneter, ja, wir haben auch die Kfz-Steuer angehoben. Das ist genau der richtige Anreiz, eben auf sparsame, auf kleinere Fahrzeuge zu setzen, und der Anreiz, die E-Mobilität stärker voranzubringen. Wir haben es mit all den Förderprogrammen geschafft, die wir auf den Weg gebracht haben, so viele Neuanmeldungen",
+      "cer": 0.1536050156739812,
+      "start_idx": 7681,
+      "end_idx": 7729
+    },
+    {
+      "start": 976.356125,
+      "end": 991.5553437500001,
+      "asr_text": "Anmeldungen bei den E-Fahrzeugen zu haben wie noch niemals zuvor. Das ist genau der richtige Weg, den wir da weitergehen wollen. Die Kfz-Steuer ist ein Baustein in dem gesamten Maßnahmenprogramm, was da einen Beitrag liefert.",
+      "human_text": "Neuanmeldungen bei den E-Fahrzeugen zu haben wie noch niemals zuvor. Und das ist genau der richtige Weg, den wir da weitergehen wollen. Die Kfz-Steuer ist ein Baustein in dem gesamten Maßnahmenprogramm, was dazu einen Beitrag liefert.",
+      "cer": 0.04888888888888889,
+      "start_idx": 7728,
+      "end_idx": 7764
+    },
+    {
+      "start": 991.5553437500001,
+      "end": 1002.47846875,
+      "asr_text": "Ich lasse jetzt noch eine Nachfrage des Kollegen Marc Bernhard, AfD, zu. Und dann komme ich zu der Frage des Kollegen Alois Gehrig.",
+      "human_text": "Ich lasse jetzt noch eine Nachfrage des Kollegen Marc Bernhard, AfD, zu. Dann komme ich zu der Frage des Kollegen Alois Gerig.",
+      "cer": 0.04580152671755725,
+      "start_idx": 7767,
+      "end_idx": 7789
+    },
+    {
+      "start": 1002.47846875,
+      "end": 1022.47846875,
+      "asr_text": "Frau Ministerin, danke, Herr Präsident. Frau Ministerin, bereits heute muss eine vierköpfige Familie für ihre ganzen Klimamaßnahmen 4 000 Euro im Jahr bezahlen. Und trotz dieser massiven Belastungen hat eben in den letzten zehn Jahren der CO2-Ausstoß Deutschlands so gut wie überhaupt nicht abgenommen.",
+      "human_text": "Alois Gerig. Danke, Herr Präsident. – Frau Ministerin, bereits heute muss eine vierköpfige Familie für Ihre ganzen Klimamaßnahmen 4 000 Euro im Jahr bezahlen. Und trotz dieser massiven Belastungen hat eben in den letzten zehn Jahren der CO2-Ausstoß Deutschlands so gut wie überhaupt nicht abgenommen;",
+      "cer": 0.056291390728476824,
+      "start_idx": 7787,
+      "end_idx": 7832
+    },
+    {
+      "start": 1022.47846875,
+      "end": 1042.47846875,
+      "asr_text": "sich nicht verändert. Jetzt kommen durch Ihre CO2-Steuer bis 2026 weitere 2 600 Euro zusätzliche Belastungen auf diese vierköpfige Familie zu. Dann kommt noch der Green Deal dazu. Da sollen ja weitere 1 000 Milliarden Euro bis 2030 ausgegeben werden. Das sind noch mal",
+      "human_text": "sich nicht verändert. Und jetzt kommen durch Ihre CO2-Steuer bis 2026 weitere 2 600 Euro zusätzliche Belastungen auf diese vierköpfige Familie zu. Dann kommt noch der Green Deal dazu; da sollen ja weitere 1 000 Milliarden Euro bis 2030 ausgegeben werden. Das sind noch mal",
+      "cer": 0.026119402985074626,
+      "start_idx": 7834,
+      "end_idx": 7879
+    },
+    {
+      "start": 1042.47846875,
+      "end": 1062.47846875,
+      "asr_text": "mehr als 1.600 Euro pro vierköpfige Familie pro Jahr. Also in Summe weit über 8.000 Euro pro Jahr für vierköpfige Familien. Und jetzt ist die Frage, wie sollen sich die Menschen in unserem Land diese ganzen Ausgaben eigentlich noch leisten können, insbesondere angesichts der größten Wirtschaftskrise, wie Bundeskanzlerin Merkel ja",
+      "human_text": "mehr als 1 600 Euro pro vierköpfige Familie pro Jahr, also in Summe weit über 8 000 Euro pro Jahr für vierköpfige Familien.Jetzt ist die Frage: Wie sollen sich die Menschen in unserem Land diese ganzen Ausgaben eigentlich noch leisten können, insbesondere angesichts der größten Wirtschaftskrise seit 1929, wie Bundeskanzlerin Merkel ja",
+      "cer": 0.06646525679758308,
+      "start_idx": 7879,
+      "end_idx": 7931
+    },
+    {
+      "start": 1062.47846875,
+      "end": 1082.47846875,
+      "asr_text": "Herr Dr. Dr. Dr. Dr.",
+      "human_text": "Herr Abgeordneter,",
+      "cer": 0.65,
+      "start_idx": 7934,
+      "end_idx": 7936
+    },
+    {
+      "start": 1082.47846875,
+      "end": 1102.47846875,
+      "asr_text": "Wir haben auch gerade enorme Entlastungen für Familien auf den Weg gebracht. Wir haben ein Mobilitätsgeld, also die Pendlerpauschale, verändert. Wir helfen bei der Sanierung von Gebäuden. Es gibt ein Programm zum Austausch alter Ölheizungen. Wir machen das Bahnfahren billiger. Wir haben den Strompreis erhöht.",
+      "human_text": "Wir haben auch enorme Entlastungen gerade für Familien auf den Weg gebracht: Wir haben ein Mobilitätsgeld eingeführt, also die Pendlerpauschale verändert. Wir helfen bei der Sanierung von Gebäuden. Es gibt ein Programm zum Austausch alter Ölheizungen. Wir machen das Bahnfahren billiger. Wir haben den Strompreis gedeckelt.",
+      "cer": 0.10967741935483871,
+      "start_idx": 7984,
+      "end_idx": 8030
+    },
+    {
+      "start": 1102.47846875,
+      "end": 1122.47846875,
+      "asr_text": "Wir haben eine ganze Menge Dinge auf den Weg gebracht, die kostendämpfend wirken. Aber was wir brauchen, und das ist die Umsteuerung, die auf uns alle zukommt, wir müssen alle die klimafreundlichen Alternativen wählen. Das ist das, was künftig günstiger ist. Das ist das, was gut ist für die Menschen und für die Umwelt.",
+      "human_text": "also auch eine ganze Menge Dinge auf den Weg gebracht, die kostendämpfend wirken. Aber was wir brauchen, ist die Umsteuerung, die auf uns alle zukommt: Wir alle müssen die klimafreundlichen Alternativen wählen. Das ist das, was künftig günstiger ist. Das ist das, was gut ist – für die Menschen und für die Umwelt.",
+      "cer": 0.09375,
+      "start_idx": 8032,
+      "end_idx": 8085
+    },
+    {
+      "start": 1122.47846875,
+      "end": 1135.04346875,
+      "asr_text": "Danke sehr. Alois Kehrig, CDU, CSU, stellt die nächste Frage.",
+      "human_text": "Bundesministerin, danke, dass ich fragen",
+      "cer": 0.6557377049180327,
+      "start_idx": 8088,
+      "end_idx": 8093
+    },
+    {
+      "start": 1135.04346875,
+      "end": 1155.04346875,
+      "asr_text": "Sehr geehrte Frau Bundesministerin, danke, dass ich fragen darf. Sie sind doch hoffentlich mit mir einer Meinung, dass wir unseren Bäuerinnen und Bauern den Rücken stärken müssen. Global gesehen nimmt der Hunger exorbitant zu. Bei uns in der",
+      "human_text": "Sehr geehrte Frau Bundesministerin, danke, dass ich fragen darf. Sie sind doch hoffentlich mit mir einer Meinung, dass wir unseren Bäuerinnen und Bauern den Rücken stärken müssen? Global gesehen, nimmt der Hunger exorbitant zu. Bei uns",
+      "cer": 0.03734439834024896,
+      "start_idx": 8085,
+      "end_idx": 8121
+    },
+    {
+      "start": 1155.04346875,
+      "end": 1175.04346875,
+      "asr_text": "schließen täglich Höfe ihre Tore für immer, und die Marktanteile für die Selbstversorgung sinken permanent. Deswegen meine Fragen. Wie wollen Sie im Insektenschutzgesetz verhindern, dass neue zusätzliche Bürokratie aufgebaut wird?",
+      "human_text": "schließen täglich Höfe ihre Tore für immer, und die Marktanteile für die Selbstversorgung sinken permanent. Deswegen lauten meine Fragen: Erstens. Wie wollen Sie verhindern, dass mit dem Insektenschutzgesetz neue, zusätzliche Bürokratie aufgebaut wird",
+      "cer": 0.24347826086956523,
+      "start_idx": 8121,
+      "end_idx": 8154
+    },
+    {
+      "start": 1175.04346875,
+      "end": 1195.04346875,
+      "asr_text": "und diesem nationalen ordnungspolitischen Alleingang die Arbeit unserer Bäuerinnen und Bauern weiter verstärkt? Und zweitens. Wie ist sichergestellt, dass die guten kooperativen Ansätze, die wir beispielsweise in Baden-Württemberg und",
+      "human_text": "und dieser nationale ordnungspolitische Alleingang die Arbeit unserer Bäuerinnen und Bauern weiter erschwert? Zweitens. Wie ist sichergestellt, dass die guten kooperativen Ansätze, die wir beispielsweise in Baden-Württemberg und",
+      "cer": 0.05982905982905983,
+      "start_idx": 8154,
+      "end_idx": 8182
+    },
+    {
+      "start": 1195.04346875,
+      "end": 1205.78346875,
+      "asr_text": "anderen Bundesländern mit viel Mühe gemeinsam mit Politik, NGOs und der Landwirtschaft umgesetzt haben, nicht gefährdet werden.",
+      "human_text": "anderen Bundesländern mit viel Mühe gemeinsam – Politik, NGOs und Landwirtschaft – umgesetzt haben, nicht gefährdet werden?",
+      "cer": 0.07874015748031496,
+      "start_idx": 8182,
+      "end_idx": 8199
+    },
+    {
+      "start": 1205.78346875,
+      "end": 1225.78346875,
+      "asr_text": "Sehr geehrter Herr Abgeordneter, ich glaube, uns liegt allen die Zukunft der Landwirtschaft am Herzen. Wir wollen, dass in Deutschland gute Lebensmittel hergestellt werden. Und deswegen haben wir das Gesetz, was wir auf den Weg gebracht haben, und übrigens auch die Verordnung, die ja bei meiner Kollegin Klöckner liegt, sehr ausgewogen gestaltet.",
+      "human_text": "Verehrter Herr Abgeordneter, ich glaube, uns allen liegt die Zukunft der Landwirtschaft am Herzen. Wir wollen, dass in Deutschland gute Lebensmittel hergestellt werden. Deswegen haben wir das Gesetz, das wir auf den Weg gebracht haben, und übrigens auch die Verordnung, für die die Verantwortung bei meiner Kollegin Klöckner liegt, sehr ausgewogen gestaltet.",
+      "cer": 0.11239193083573487,
+      "start_idx": 8199,
+      "end_idx": 8251
+    },
+    {
+      "start": 1225.78346875,
+      "end": 1245.78346875,
+      "asr_text": "Wir werden mit einem Gesetzentwurf die Landschaftsplanung stärken. Wir werden den gesetzlichen Biotopschutz nach vorne bringen, den Biozideinsatz in Schutzgebieten jetzt endlich einschränken. Wir werden temporäre Naturschutzmaßnahmen ermöglichen, etwas, was aus der Landwirtschaft heraus sehr gefordert wurde. Wir werden Beleuchtungsanlagen verändern.",
+      "human_text": "Wir werden mit meinem Gesetzentwurf die Landschaftsplanung stärken. Wir werden den gesetzlichen Biotopschutz nach vorne bringen, den Biozideinsatz in Schutzgebieten jetzt endlich einschränken. Wir werden temporäre Naturschutzmaßnahmen ermöglichen, etwas, was aus der Landwirtschaft heraus sehr gefordert wurde. Wir werden Beleuchtungsanlagen verändern.",
+      "cer": 0.002849002849002849,
+      "start_idx": 8251,
+      "end_idx": 8292
+    },
+    {
+      "start": 1245.78346875,
+      "end": 1265.78346875,
+      "asr_text": "Das sind alles wichtige Punkte zum Insektenschutz. Das ist nicht mehr Bürokratie für die Landwirtschaft. Wir haben in der Pflanzenschutz-Anwendungsverordnung bei meiner Kollegin Klöckner sehr gut den kooperativen Ansatz unterstützt. Solche Modelle, wie wir sie aus Niedersachsen, aus Brandenburg kennen, wo alle sich an einen Tisch setzen,",
+      "human_text": "Das sind alles wichtige Punkte zum Insektenschutz. Es ist nicht mehr Bürokratie für die Landwirtschaft. Wir haben in der Pflanzenschutz-Anwendungsverordnung im Ressort meiner Kollegin Klöckner sehr gut den kooperativen Ansatz unterstützt. Modelle, wie wir sie aus Niedersachsen, aus Brandenburg kennen, wo alle sich an einen Tisch setzen,",
+      "cer": 0.05309734513274336,
+      "start_idx": 8292,
+      "end_idx": 8339
+    },
+    {
+      "start": 1265.78346875,
+      "end": 1282.3453437500002,
+      "asr_text": "gemeinsam Maßnahmen nach vorne bringen. Solche Modelle werden jetzt ausdrücklich unterstützt, gefördert und für ganz Deutschland auf den Weg gebracht. Danke, dann hat der Kollege Dr. Hoffmann jetzt eine Nachfrage.",
+      "human_text": "gemeinsam Maßnahmen nach vorne bringen, solche Modelle werden jetzt ausdrücklich unterstützt, gefördert und für ganz Deutschland auf den Weg gebracht. Vielen Dank, Herr Präsident, für die Möglichkeit zur Nachfrage.",
+      "cer": 0.2112676056338028,
+      "start_idx": 8339,
+      "end_idx": 8368
+    },
+    {
+      "start": 1282.3453437500002,
+      "end": 1300.1315937500003,
+      "asr_text": "Vielen Dank, Herr Präsident. Für die Nachfrage, Frau Ministerin. Ich will noch mal ein bisschen die Frage von Herrn Gehrig aufgreifen und konkreter machen. Wir haben in Baden-Württemberg einen guten Kompromiss gehabt. Aber jetzt kommen Sie mit einem neuen Insektenschutzgesetz und stülpen den so drüber und machen die Situation nicht besser.",
+      "human_text": "Vielen Dank, Herr Präsident, für die Möglichkeit zur Nachfrage. – Frau Ministerin, ich will die Frage von Herrn Gerig noch mal aufgreifen und konkreter machen. Wir haben ja in Baden-Württemberg einen guten Kompromiss gehabt. Aber jetzt kommen Sie mit einem neuen Insektenschutzgesetz, stülpen es so drüber und machen die Situation nicht besser.",
+      "cer": 0.187683284457478,
+      "start_idx": 8359,
+      "end_idx": 8411
+    },
+    {
+      "start": 1300.1315937500003,
+      "end": 1319.7656562500001,
+      "asr_text": "Ich will es noch mal konkreter machen. Wollen Sie tatsächlich immer noch, dass in FFH-Gebieten überhaupt keine Pflanzenschutzmittel mehr ausgebracht werden? Wir sprechen nicht über Naturschutzgebiete, sondern FFH-Gebiete. Das bedeutet in Lörrach zum Beispiel in meinem Landkreis 266 Hektar Acker, 50 Hektar Wein und 37 Hektar Obstanbau.",
+      "human_text": "Ich will es konkreter machen: Wollen Sie tatsächlich immer noch, dass in FFH-Gebieten überhaupt keine Pflanzenschutzmittel mehr ausgebracht werden dürfen? Wir sprechen also nicht über Naturschutzgebiete, sondern über FFH-Gebiete. Das bedeutet zum Beispiel für Lörrach in meinem Wahlkreis: 266 Hektar Acker, 50 Hektar Wein- und 37 Hektar Obstanbau",
+      "cer": 0.1636904761904762,
+      "start_idx": 8411,
+      "end_idx": 8459
+    },
+    {
+      "start": 1319.7656562500001,
+      "end": 1330.4230000000002,
+      "asr_text": "Die Flächen können dann im Grunde auch nicht mehr bewirtschaftet werden. Werden Sie die Flächen ankaufen oder wollen Sie die kalte Enteignung so durchgehen lassen?",
+      "human_text": "Diese Flächen können dann im Grunde nicht mehr bewirtschaftet werden. Werden Sie die Flächen ankaufen, oder wollen Sie die kalte Enteignung so durchgehen lassen?",
+      "cer": 0.049079754601226995,
+      "start_idx": 8461,
+      "end_idx": 8485
+    },
+    {
+      "start": 1330.4230000000002,
+      "end": 1350.4230000000002,
+      "asr_text": "Sehr geehrter Herr Abgeordneter, wir haben mit dem Insektenschutzgesetz und der Pflanzenschutzanwendungsverordnung einen sehr guten Schutz der Insekten auf den Weg gebracht und gleichzeitig dafür gesorgt, dass auch Landwirtinnen und Landwirte klare Perspektiven haben, klar wissen, woran sie sind und natürlich weiterhin Landwirtschaft betreiben können. Und wenn Sie sich das Gesetz und die",
+      "human_text": "Sehr geehrter Herr Abgeordneter, wir haben mit dem Insektenschutzgesetz und der Pflanzenschutz-Anwendungsverordnung einen sehr guten Schutz der Insekten auf den Weg gebracht und gleichzeitig dafür gesorgt, dass Landwirtinnen und Landwirte klare Perspektiven haben, klar wissen, woran sie sind, und natürlich weiterhin Landwirtschaft betreiben können. Wenn Sie sich das Gesetz und die",
+      "cer": 0.03333333333333333,
+      "start_idx": 8485,
+      "end_idx": 8536
+    },
+    {
+      "start": 1350.4230000000002,
+      "end": 1370.4230000000002,
+      "asr_text": "Verordnung ansehen, dann werden Sie sehen, dass wir kooperative Maßnahmen unterstützen und dass natürlich weiter Landwirtschaft möglich ist. Es ist nur in einem kleinen Teil der FFH-Gebiete im Moment überhaupt Landwirtschaft, die eben nicht nach biologischen Maßnahmen funktioniert. Und für diesen kleinen Teil, also für den",
+      "human_text": "Verordnung ansehen, dann werden Sie sehen, dass wir kooperative Maßnahmen unterstützen und dass natürlich weiter Landwirtschaft möglich ist.Es gibt überhaupt nur in einem kleinen Teil der FFH Gebiete im Moment Landwirtschaft, die nicht nach biologischen Maßgaben betrieben wird. Für diesen kleinen Teil, also für den",
+      "cer": 0.14506172839506173,
+      "start_idx": 8536,
+      "end_idx": 8581
+    },
+    {
+      "start": 1370.4230000000002,
+      "end": 1390.4230000000002,
+      "asr_text": "für den Weinanbau, für den Obst, für Hopfen, für Obst, Hopfen, Gemüse, haben wir Ausnahmen gemacht, sodass dort weiterhin Landwirtschaft stattfindet. Das ist, glaube ich, selbstverständlich, dass wir so etwas auf den Weg bringen. Wir haben einen Großteil jetzt geschützt, aber Landwirtschaft wird weiterentwickelt.",
+      "human_text": "für den Weinanbau, für den Obst-, Hopfen- und Gemüseanbau, haben wir Ausnahmen gemacht, sodass dort weiterhin Landwirtschaft stattfindet. Das ist, glaube ich, selbstverständlich, dass wir so was auf den Weg bringen. Wir haben einen Großteil jetzt geschützt. Aber Landwirtschaft wird weiter in diesen",
+      "cer": 0.12738853503184713,
+      "start_idx": 8579,
+      "end_idx": 8622
+    },
+    {
+      "start": 1390.4230000000002,
+      "end": 1410.4230000000002,
+      "asr_text": "weiter in diesen Gebieten möglich sein. Frau Kollegin. Das Wort. Sehr geehrte Frau Ministerin, haben Sie an dem gestrigen Tag zum Beispiel mit den Landwirten Kontakt aufgenommen und ihnen gesprochen? Ich habe diese langen Kolonnen von",
+      "human_text": "weiter in diesen Gebieten möglich sein. Frau Kollegin. Vielen Dank für das Wort. – Sehr geehrte Frau Ministerin, haben Sie zum Beispiel an dem gestrigen Tag mit den Landwirten Kontakt aufgenommen und mit ihnen gesprochen? Ich habe diese langen Kolonnen von",
+      "cer": 0.20085470085470086,
+      "start_idx": 8619,
+      "end_idx": 8660
+    },
+    {
+      "start": 1410.4230000000002,
+      "end": 1430.4230000000002,
+      "asr_text": "den Traktoren gestern gesehen in der Stadt, unter den Linden und auf der Leipziger Straße. Die Bauern sind verzweifelt. Und wenn Sie sagen, Sie ermöglichen weiterhin Landwirtschaft, dann ist das für mich etwas sehr schwach. Denn ich muss sagen, Landwirtschaft ist unsere Lebensquelle. Und wenn man die Landwirtschaft nur noch eindämmt und zügig",
+      "human_text": "von Traktoren gestern in der Stadt gesehen, Unter den Linden und auf der Leipziger Straße. Die Bauern sind verzweifelt. Wenn Sie sagen, Sie ermöglichen weiterhin Landwirtschaft, dann ist das für mich sehr schwach. Denn ich muss sagen: Landwirtschaft ist unsere Lebensquelle. Wenn man die Landwirtschaft nur noch eindämmt und zügelt",
+      "cer": 0.11337209302325581,
+      "start_idx": 8659,
+      "end_idx": 8709
+    },
+    {
+      "start": 1430.4230000000002,
+      "end": 1444.5225312500002,
+      "asr_text": "und Vorschriften vorwirft, wir werden alle verhungern. Oder glauben Sie, wir können durch Lieferketten überleben? Das hat man ja gesehen, wie fabelhaft das jetzt funktioniert in der Pandemie. Danke.",
+      "human_text": "Vorschriften macht, werden wir alle verhungern. Oder glauben Sie, wir können durch Lieferketten überleben? Das hat man ja gesehen, wie fabelhaft das jetzt in der Pandemie",
+      "cer": 0.20202020202020202,
+      "start_idx": 8712,
+      "end_idx": 8738
+    },
+    {
+      "start": 1444.5225312500002,
+      "end": 1464.5225312500002,
+      "asr_text": "Frau Abgeordnete, nicht nur ich. Wir sind insgesamt in der Regierung sehr oft mit Landwirtinnen und Landwirten im Gespräch. Es gibt sogar eine eigene Kommission, die Zukunftskommission Landwirtschaft, bei der Bundeskanzlerin. Es gibt intensive Gespräche genau zu diesem Thema. Und Landwirtinnen und Landwirte stehen mit dem Rücken zu Sand, weil",
+      "human_text": "Frau Abgeordnete, nicht nur ich, wir in der Regierung sind insgesamt sehr oft mit Landwirtinnen und Landwirten im Gespräch. Es gibt sogar eine eigene Kommission, die Zukunftskommission Landwirtschaft, bei der Bundeskanzlerin. Es gibt intensive Gespräche genau zu diesem Thema. Landwirtinnen und Landwirte stehen mit dem Rücken zur Wand, weil",
+      "cer": 0.09302325581395349,
+      "start_idx": 8741,
+      "end_idx": 8790
+    },
+    {
+      "start": 1464.5225312500002,
+      "end": 1484.5225312500002,
+      "asr_text": "Es gibt eine Preispolitik, die die Preise für Lebensmittel immer weiter runterdrückt. Davon kann selbst mit den Zuschüssen, die über die gemeinsame Agrarpolitik gezahlt werden können, immer weniger Landwirtinnen und Landwirte leben. Deswegen muss das endlich verändert werden. Milch, die Produkte, die hier hergestellt werden, müssen",
+      "human_text": "es eine Preispolitik gibt, die die Preise für Lebensmittel immer weiter runterdrückt. Damit können selbst mit den Zuschüssen, die über die Gemeinsame Agrarpolitik gezahlt werden können, einfach immer weniger Landwirtinnen und Landwirte leben. Deswegen muss das endlich verändert werden. Die Herstellung von",
+      "cer": 0.2072072072072072,
+      "start_idx": 8790,
+      "end_idx": 8832
+    },
+    {
+      "start": 1484.5225312500002,
+      "end": 1504.1930000000002,
+      "asr_text": "müssen auch dazu führen, dass Landwirtinnen und Landwirte davon leben können, diese unselige Preisspirale, alles immer, immer billiger zu machen, das muss endlich gestoppt werden. Landwirtinnen und Landwirte leisten wichtige Arbeit. Und diese Arbeit spiegelt sich in ihren Produkten wider, die auf hohem Qualitätsniveau sind. Und die haben auch einen angemessenen Preis.",
+      "human_text": "muss auch dazu führen, dass Landwirtinnen und Landwirte davon leben können. Diese unselige Preisspirale, alles immer, immer billiger zu machen, muss endlich gestoppt werden. Landwirtinnen und Landwirte leisten wichtige Arbeit. Diese Arbeit spiegelt sich in ihren Produkten wider, die auf hohem Qualitätsniveau sind, und die haben auch einen angemessenen Preis.",
+      "cer": 0.043243243243243246,
+      "start_idx": 8837,
+      "end_idx": 8887
+    },
+    {
+      "start": 1504.1930000000002,
+      "end": 1514.5716718750002,
+      "asr_text": "Die nächste Frage stellt der Kollege Andreas Beck, AfD.",
+      "human_text": "Die nächste Frage stellt der Kollege Andreas Bleck, AfD.",
+      "cer": 0.01818181818181818,
+      "start_idx": 8887,
+      "end_idx": 8896
+    },
+    {
+      "start": 1514.5716718750002,
+      "end": 1534.5716718750002,
+      "asr_text": "Frau Ministerin, artenreiches Grünland und Streuobstwiesen sollen in den Biotopschutz überführt werden. Das drohende Verbot von Pflanzenschutzmitteln auch dort könnte dazu führen, dass einige Bauern, die ja freiwillig dort Umweltschutz betrieben haben, jetzt diese Streuobstwiesen",
+      "human_text": "Frau Ministerin, artenreiches Grünland und Streuobstwiesen sollen in den Biotopschutz überführt werden. Das drohende Verbot von Pflanzenschutzmitteln auch dort könnte dazu führen, dass einige Bauern, die ja dort auch freiwillig Umweltschutz betrieben haben, jetzt diese Streuobstwiesen,",
+      "cer": 0.05714285714285714,
+      "start_idx": 8898,
+      "end_idx": 8934
+    },
+    {
+      "start": 1534.5716718750002,
+      "end": 1549.7550312500002,
+      "asr_text": "dieses Grünland umbrechen werden und zwar in Ackerfläche. Wie erklären Sie den Bürgern eigentlich, dass durch ihr Insektenschutzpaket der Umweltschutz jetzt sogar zum Teil konterkariert wird? Das würde mich wirklich interessieren.",
+      "human_text": "dieses Grünland umbrechen werden, und zwar in Ackerfläche. Wie erklären Sie den Bürgern eigentlich, dass durch Ihr Insektenschutzpaket der Umweltschutz jetzt sogar zum Teil konterkariert wird? Das würde mich wirklich interessieren.",
+      "cer": 0.008695652173913044,
+      "start_idx": 8934,
+      "end_idx": 8965
+    },
+    {
+      "start": 1549.7550312500002,
+      "end": 1569.7550312500002,
+      "asr_text": "Herr Abgeordneter, ich weiß nicht, wie Sie darauf kommen, dass Landwirtinnen und Landwirte ein Interesse daran haben, Streuobstwiesen sozusagen umzubrechen und sie nicht mehr zu fördern. Das ist etwas, was bei vielen Landwirtinnen und Landwirten ein hohes Ansehen hat. Diese Streuobstwiesen sind übrigens in vielen Bundesländern heute schon geschützt.",
+      "human_text": "Herr Abgeordneter, ich weiß nicht, wie Sie darauf kommen, dass Landwirtinnen und Landwirte ein Interesse daran haben, Streuobstwiesen sozusagen umzubrechen und sie nicht mehr zu fördern. Das ist etwas, was bei vielen Landwirtinnen und Landwirten ein hohes Ansehen hat. Diese Streuobstwiesen sind übrigens in vielen Bundesländern heute schon geschützt.",
+      "cer": 0.0,
+      "start_idx": 8965,
+      "end_idx": 9014
+    },
+    {
+      "start": 1569.7550312500002,
+      "end": 1589.7550312500002,
+      "asr_text": "machen, ist ein bundeseinheitlicher Schutz dieser wichtigen Biotope. Sie sind wichtig für den Insektenschutz. Das sind wichtige Gelände. Ich bin sehr froh, dass es uns jetzt gelungen ist, mehr Flächen unter Naturschutz zu stellen. Gerade diese Streuobstwiesen sind für den Insektenschutz ein",
+      "human_text": "machen, ist ein bundeseinheitlicher Schutz dieser wichtigen Biotope. Sie sind wichtig für den Insektenschutz; es handelt sich um wichtige Gelände. Ich bin sehr froh, dass es uns jetzt gelungen ist, mehr Flächen unter Naturschutz zu stellen. Gerade diese Streuobstwiesen sind für den Insektenschutz ein",
+      "cer": 0.05154639175257732,
+      "start_idx": 9017,
+      "end_idx": 9061
+    },
+    {
+      "start": 1589.7550312500002,
+      "end": 1609.7550312500002,
+      "asr_text": "ganz wichtiger Ort. Die nächste Nachfrage stellt die Kollegin Bernhardie Künast, Bündnis 90 Die Grünen. Frau Ministerin, an einer Stelle bin ich ja mit Ihnen einer Meinung. Ich wundere mich auch, wie manche meinen, dass Boden- und Artenvielfalt schützen Anfeindungen gegenüber den",
+      "human_text": "ganz wichtiger Ort. Die nächste Nachfrage stellt die Kollegin Renate Künast, Bündnis 90/Die Grünen. Danke sehr. – Frau Ministerin, an einer Stelle bin ich ja mit Ihnen einer Meinung: Ich wundere mich auch, wie manche meinen können, dass Boden- und Artenvielfaltsschutz eine Anfeindung gegenüber den",
+      "cer": 0.12857142857142856,
+      "start_idx": 9061,
+      "end_idx": 9106
+    },
+    {
+      "start": 1609.7550312500002,
+      "end": 1629.7550312500002,
+      "asr_text": "Für mich sind das die Betriebsgrundlagen der Landwirtschaft. Wenn Sie die nicht haben, wird es von Betriebskosten her immer teurer, wenn du andere Mittel einsetzen musst. Meine Frage konkret an Sie bezieht sich auf Glyphosat. Sie loben in diesem, das habe ich in den Medien auch gelesen, in diesen Vereinbarungen jetzt,",
+      "human_text": "Für mich sind das die Betriebsgrundlagen der Landwirtschaft. Wenn sie die nicht haben, wird es von den Betriebskosten her immer teurer, weil man andere Mittel einsetzen muss. Meine Frage an Sie bezieht sich konkret auf Glyphosat. Sie loben in diesen – das habe ich in den Medien auch gelesen – Vereinbarungen jetzt",
+      "cer": 0.12852664576802508,
+      "start_idx": 9108,
+      "end_idx": 9160
+    },
+    {
+      "start": 1629.7550312500002,
+      "end": 1649.7550312500002,
+      "asr_text": "den Ausstieg aus dem Glyphosat Ende 2023. Wo da das Positive ist, verstehe ich nicht ganz, weil Glyphosat doch sowieso nur bis Ende 2023 in der Europäischen Union zugelassen ist und nur noch bis dahin überhaupt eine Verlängerung hatte, war damals Herr Schmidt als Agrarminister gegen",
+      "human_text": "den Ausstieg aus Glyphosat Ende 2023. Wo da das Positive ist, verstehe ich nicht ganz, weil Glyphosat doch sowieso nur bis Ende 2023 in der Europäischen Union zugelassen ist und die Zulassung überhaupt nur noch bis dahin eine Verlängerung bekam, weil damals Herr Schmidt als Agrarminister gegen",
+      "cer": 0.1625441696113074,
+      "start_idx": 9160,
+      "end_idx": 9207
+    },
+    {
+      "start": 1649.7550312500002,
+      "end": 1668.0319062500002,
+      "asr_text": "die Vereinbarung der Koalition aus CDU, CSU, SPD und Kabinettsentscheidung mit Ja gestimmt hatte in Brüssel. Wir wissen also, Glyphosat wird in Brüssel keine Verlängerung mehr bekommen nach 2023. Also wo ist jetzt das Besondere Ihrer Entscheidung, dass es Ende 2023 zu Ende wäre?",
+      "human_text": "die Vereinbarung der Koalition aus CDU/CSU und SPD und die Entscheidungsabläufe im Kabinett in Brüssel mit Ja gestimmt hatte. Wir wissen also: Glyphosat wird in Brüssel für die Zeit nach 2023 keine Verlängerung mehr bekommen. Wo ist jetzt das Besondere Ihrer Entscheidung, dass der Einsatz Ende 2023 zu Ende geht?",
+      "cer": 0.3835125448028674,
+      "start_idx": 9207,
+      "end_idx": 9257
+    },
+    {
+      "start": 1668.0319062500002,
+      "end": 1688.0319062500002,
+      "asr_text": "Frau Abgeordnete, Sie haben genau richtig beschrieben, warum es Glyphosat überhaupt europarechtlich im Moment noch gibt. Aber das ist nun mal das Europarecht. Wir können es nicht vorher komplett verbieten. Was wir aber machen, ist, vorher schon den Einsatz von Glyphosat deutlich zu reduzieren. Das, was wir zugesagt haben, nämlich einen",
+      "human_text": "Frau Abgeordnete, Sie haben genau richtig beschrieben, warum es Glyphosateinsatz europarechtlich im Moment überhaupt noch gibt. Das ist nun mal das Europarecht; wir können es nicht vorher komplett verbieten. Was wir aber machen, ist, vorher schon den Einsatz von Glyphosat deutlich zu reduzieren. Das, was wir zugesagt haben, nämlich einen",
+      "cer": 0.08011869436201781,
+      "start_idx": 9257,
+      "end_idx": 9307
+    },
+    {
+      "start": 1688.0319062500002,
+      "end": 1708.0319062500002,
+      "asr_text": "Plan zur Reduzierung von Glyphosat haben wir jetzt heute auf den Weg gebracht. Und ich stimme Ihnen absolut zu. Insekten, der Schutz des Bodens, das ist die Grundlage von Landwirtschaft. Wenn wir die Bestäubungsleistungen der Insekten selber übernehmen wollten als Menschen, dann wäre das kaum möglich. Dann gäbe es in Deutschland",
+      "human_text": "Plan zur Reduzierung von Glyphosat, haben wir heute auf den Weg gebracht. Ich stimme Ihnen absolut zu: Insekten und der Schutz des Bodens sind die Grundlage von Landwirtschaft. Wenn wir die Bestäubungsleistungen der Insekten als Menschen selber übernehmen wollten, dann wäre das kaum möglich, dann gäbe es in Deutschland",
+      "cer": 0.15454545454545454,
+      "start_idx": 9307,
+      "end_idx": 9356
+    },
+    {
+      "start": 1708.0319062500002,
+      "end": 1723.3819062500002,
+      "asr_text": "kaum noch Obstanbau, dann wäre die Landwirtschaft enorm gefährdet. Deswegen ist es uns so wichtig, die Insekten, vor allen Dingen die Bestäuber, zu schützen. Carsten Träger, SPD, hat eine Nachfrage.",
+      "human_text": "kaum noch Obstanbau, dann wäre die Landwirtschaft enorm gefährdet. Deswegen ist es uns so wichtig, die Insekten, vor allen Dingen die Bestäuber, zu schützen. Carsten Träger, SPD, hat eine Nachfrage.",
+      "cer": 0.0,
+      "start_idx": 9356,
+      "end_idx": 9386
+    },
+    {
+      "start": 1723.3819062500002,
+      "end": 1743.3819062500002,
+      "asr_text": "Vielen Dank, Herr Präsident. Liebe Frau Bundesministerin, herzlichen Dank für Ihren beharrlichen Einsatz für das Thema Insektenschutz, das wir ja schon im Koalitionsvertrag besprochen hatten. Aber nun sind wir auf einem sehr guten Weg, was die Umsetzung angeht. Und auch aus meiner Sicht ist das Verbot von Glyphosat ein ganz wesentlicher Baustein,",
+      "human_text": "Vielen Dank, Herr Präsident. – Liebe Frau Bundesministerin, herzlichen Dank für Ihren beharrlichen Einsatz für das Thema Insektenschutz, den wir ja schon im Koalitionsvertrag abgesprochen hatten; aber nun sind wir auf einem sehr guten Weg, was die Umsetzung angeht. Auch aus meiner Sicht ist das Verbot von Glyphosat ein ganz wesentlicher Baustein",
+      "cer": 0.040229885057471264,
+      "start_idx": 9386,
+      "end_idx": 9438
+    },
+    {
+      "start": 1743.3819062500002,
+      "end": 1760.3128437500002,
+      "asr_text": "der Strategie oder des jetzt anstehenden Handelns, ist aber ja nur eines von vielen Pflanzenschutzmitteln. Deswegen wäre meine Frage, wie die Vereinbarungen, die im Kabinett getroffen wurden, hinsichtlich des Umgangs mit anderen Pflanzenschutzmitteln sind.",
+      "human_text": "der Strategie oder des jetzt anstehenden Handelns. Es ist aber nur eins von vielen Pflanzenschutzmitteln. Deswegen wäre meine Frage: Wie sind die Vereinbarungen, die im Kabinett getroffen wurden, hinsichtlich des Umgangs mit anderen Pflanzenschutzmitteln?",
+      "cer": 0.08203125,
+      "start_idx": 9438,
+      "end_idx": 9472
+    },
+    {
+      "start": 1760.3128437500002,
+      "end": 1780.3128437500002,
+      "asr_text": "Herr Abgeordneter, vielen Dank für diese Frage. Ja, glyphosathaltige Pflanzenschutzmittel sind nur ein Teil des Problems. Deswegen haben wir vereinbart, dass wir aus Glyphosat aussteigen wollen, so schnell es geht, so schnell es europarechtlich möglich ist. Und das ist nun mal leider erst Ende 2023. Und wir wollen aber auf dem Weg dahin die Pflanzenschutzmittel,",
+      "human_text": "Herr Abgeordneter, vielen Dank für diese Frage. – Ja, glyphosathaltige Pflanzenschutzmittel sind nur ein Teil des Problems. Deswegen haben wir vereinbart, dass wir aus Glyphosat aussteigen wollen, so schnell es geht, so schnell es europarechtlich möglich ist. Das ist nun mal leider erst Ende 2023. Wir wollen aber auf dem Weg dahin die Pflanzenschutzmittel",
+      "cer": 0.03571428571428571,
+      "start_idx": 9472,
+      "end_idx": 9526
+    },
+    {
+      "start": 1780.3128437500002,
+      "end": 1800.3128437500002,
+      "asr_text": "deutlich reduzieren. Wir werden sowohl Herbizide als auch Pflanzenschutzmittel deutlich reduzieren in den Schutzgebieten, aber eben auch auf den Äckern. Deswegen haben wir auch die freiwilligen Lösungen noch einmal ausdrücklich begrüßt. Das ist eine deutliche Verbesserung, dass mit den ganzen Volksbegehren, Initiativen für den Artenschutz,",
+      "human_text": "deutlich reduzieren. Wir werden sowohl Herbizide als auch Pflanzenschutzmittel in den Schutzgebieten, aber eben auch auf den Äckern deutlich reduzieren. Deswegen haben wir auch die freiwilligen Lösungen noch mal ausdrücklich begrüßt. Es ist eine deutliche Verbesserung, dass sich mit den ganzen Volksbegehren und Initiativen für den Artenschutz",
+      "cer": 0.16129032258064516,
+      "start_idx": 9526,
+      "end_idx": 9573
+    },
+    {
+      "start": 1800.3128437500002,
+      "end": 1813.4606562500003,
+      "asr_text": "sich so viele Länder schon auf den Weg gemacht haben, kooperative Lösungen vor Ort zu finden. Das wollen wir jetzt für ganz Deutschland ermöglichen und damit eben den Einsatz von Pflanzenschutzmitteln deutlich reduzieren.",
+      "human_text": "so viele Länder schon auf den Weg gemacht haben, kooperative Lösungen vor Ort zu finden. Das wollen wir jetzt für ganz Deutschland ermöglichen und damit den Einsatz von Pflanzenschutzmitteln deutlich reduzieren.",
+      "cer": 0.04524886877828054,
+      "start_idx": 9573,
+      "end_idx": 9604
+    },
+    {
+      "start": 1813.4606562500003,
+      "end": 1830.89253125,
+      "asr_text": "Angesichts der Vielzahl von Nachfragen wollte ich Ihnen gerne sagen, dass ich maximal zwei Nachfragen aus jeder Fraktion zulasse. Herr Kollege Kraft, das trifft Sie immer. Es tut mir leid. Aber die Kollegin Nicole Bauer, die",
+      "human_text": "Angesichts der Vielzahl von Nachfragen wollte ich Ihnen gerne sagen, dass ich maximal zwei Nachfragen aus jeder Fraktion zulasse. Herr Kollege Kraft, das trifft Sie immer; es tut mir leid. Ich weiß! Die Kolleginnen Nicole Bauer,",
+      "cer": 0.08035714285714286,
+      "start_idx": 9604,
+      "end_idx": 9640
+    },
+    {
+      "start": 1830.89253125,
+      "end": 1843.1951875,
+      "asr_text": "FDP hat noch eine Nachfrage, dann noch Steffi Lemke. Und dann kommen wir zu der Frage des Kollegen Dr. Clemens Hocker.",
+      "human_text": "können noch eine Nachfrage stellen. Dann kommen wir zur Frage des Kollegen Dr. Gero Clemens Hocker.",
+      "cer": 0.3389830508474576,
+      "start_idx": 9644,
+      "end_idx": 9660
+    },
+    {
+      "start": 1843.1951875,
+      "end": 1863.1951875,
+      "asr_text": "Vielen Dank, dass Sie meine Frage zulassen. Ich habe tatsächlich drei Fragen. Einerseits sagen Sie in Ihrem Bereich des Pflanzenschutzmittels, der Anwendeverordnung, dass Sie sich ja für die Zukunft der Landwirtschaft einsetzen und für die",
+      "human_text": "Vielen Dank, dass Sie meine Frage zulassen. – Ich habe tatsächlich drei Fragen. Einerseits sagen Sie im Hinblick auf die Änderung der Pflanzenschutz-Anwendungsverordnung, dass Sie sich für die Zukunft der Landwirtschaft und für",
+      "cer": 0.2510460251046025,
+      "start_idx": 9660,
+      "end_idx": 9693
+    },
+    {
+      "start": 1863.1951875,
+      "end": 1883.1951875,
+      "asr_text": "Bekleidungssicherheit. Zugleich steht da drin, dass diese Verordnung sich bis 2024 erstreckt und danach gibt es keinerlei Regelungen mehr. Mich würde es interessieren, wie ist Ihre Haltung dazu? Zugleich haben Sie gesagt, die Landwirtschaft liegt im Herzen, die bäuerlichen Betriebe in Bayern, in Baden-Württemberg, überall gehen die Landwirte auf der Straße hier in Berlin auf. Zugleich wirbt",
+      "human_text": "einsetzen. Zugleich steht im Entwurf, dass sich die neue Verordnung bis 2024 erstreckt, und danach gilt keinerlei Regelung mehr. Mich würde interessieren: Wie ist Ihre Haltung dazu? Andererseits haben Sie gesagt, die Landwirtschaft, die bäuerlichen Betriebe liegen Ihnen am Herzen. In Bayern, in Baden-Württemberg, überall gehen die Landwirte auf die Straße, auch hier in Berlin. Zugleich wirbt",
+      "cer": 0.27735368956743,
+      "start_idx": 9694,
+      "end_idx": 9751
+    },
+    {
+      "start": 1883.1951875,
+      "end": 1903.1951875,
+      "asr_text": "die SPD in zahlreichen Wahlkämpfen aktuell keine Pestizide in die Gemeindeflächen einzusetzen. Wie passt das zusammen, wenn Sie sich doch für die regionale Landwirtschaft stark machen? Meine dritte Frage geht in die Richtung, Sie sagen Artenvielfalt, Biodiversität ist Ihnen wichtig. Warum setzen Sie sich dann nicht im Rahmen der GAP dafür ein, dass der",
+      "human_text": "die SPD in zahlreichen Wahlkämpfen aktuell dafür, keine Pestizide auf Gemeindeflächen einzusetzen. Wie passt das zusammen, wenn Sie sich doch für die regionale Landwirtschaft starkmachen? Meine dritte Frage geht in die folgende Richtung: Sie sagen, Artenvielfalt, Biodiversität sind Ihnen wichtig. Warum setzen Sie sich dann nicht im Rahmen der GAP dafür ein, dass das",
+      "cer": 0.0847457627118644,
+      "start_idx": 9751,
+      "end_idx": 9805
+    },
+    {
+      "start": 1903.1951875,
+      "end": 1923.1951875,
+      "asr_text": "dass das Grünlandumbruchsgebot angepasst wird und nicht zahlreiche Ackerflächen alle fünf Jahre erneut umgebrochen werden und damit einerseits Biodiversität vernichtet wird und andererseits den Menschen tatsächlich die Struktur zum Nahrungsmittelerstellung genommen wird. Das würde mich mal interessieren, weil das ist die unsinnige Frage.",
+      "human_text": "dass das Grünlandumbruchsgebot angepasst wird und nicht zahlreiche Ackerflächen alle fünf Jahre erneut umgebrochen werden? Damit wird nämlich einerseits Biodiversität vernichtet und andererseits den Menschen die Struktur zur Nahrungsmittelherstellung genommen. Das würde mich interessieren; denn das ist die unsinnigste",
+      "cer": 0.1592920353982301,
+      "start_idx": 9803,
+      "end_idx": 9842
+    },
+    {
+      "start": 1923.1951875,
+      "end": 1943.1951875,
+      "asr_text": "Das ist die europäische Verordnung, und das fällt auch in Ihr Gebiet. Frau Abgeordnete, ich beantworte natürlich auch gerne die Fragen aus dem benachbarten Landwirtschaftsministerium. Frau Klöckner kann das aber auch gut selber. Aber noch einmal, um es ganz klar zu sagen, wir wollen Pflanzenschutzmittel deutlich reduzieren. Wir werden das Glyphosat,",
+      "human_text": "unsinnigste europäische Verordnung, und das fällt auch in Ihr Gebiet. Frau Abgeordnete, ich beantworte natürlich gerne auch die Fragen an das benachbarte Landwirtschaftsministerium; Frau Klöckner kann das aber auch gut selber. Noch mal, um es ganz klar zu sagen: Wir wollen Pflanzenschutzmittel deutlich reduzieren. Und auch",
+      "cer": 0.1623931623931624,
+      "start_idx": 9841,
+      "end_idx": 9887
+    },
+    {
+      "start": 1943.1951875,
+      "end": 1963.1951875,
+      "asr_text": "mit der Pflanzenschutzanwendungsverordnung von Frau Klöckner jetzt auf den Gemeindeflächen, auf Spielplätzen, überall dort, wo es im Moment noch eingesetzt wird, verbieten. Wir werden es übrigens auch für die Anwendung zu Hause verbieten. Das ist wichtig. Das ist ein ganz wichtiger Schritt, um Pflanzenschutzmittel zu reduzieren. Und auch in der gemeinsamen Argumentation",
+      "human_text": "mit der neuen Pflanzenschutz-Anwendungsverordnung von Frau Klöckner den Einsatz von Glyphosat jetzt auf den Gemeindeflächen, auf Spielplätzen, überall dort, wo es im Moment noch eingesetzt wird, verbieten. Wir werden übrigens auch die Anwendung zu Hause verbieten. Das ist ein ganz wichtiger Schritt, um den Einsatz von Pflanzenschutzmitteln zu reduzieren. Auch im Rahmen der Gemeinsamen Agrarpolitik",
+      "cer": 0.260752688172043,
+      "start_idx": 9892,
+      "end_idx": 9947
+    },
+    {
+      "start": 1963.1951875,
+      "end": 1983.1951875,
+      "asr_text": "habe ich sehr deutlich gemacht, dass ich mehr Schutz möchte, dass ich mehr Biodiversitätsschutz möchte. Wir sind auf der europäischen Ebene noch nicht so weit gekommen, wie ich mir das gewünscht habe. Und es wird jetzt sehr stark darauf ankommen, wie wir das hier national umsetzen. Dazu habe ich erst im letzten Monat einen großen Agrarkongress gemacht,",
+      "human_text": "habe ich sehr deutlich gemacht, dass ich mehr Schutz möchte, dass ich mehr Biodiversitätsschutz möchte. Wir sind auf der europäischen Ebene noch nicht so weit gekommen, wie ich mir das gewünscht habe, und es wird jetzt sehr stark darauf ankommen, wie wir das national umsetzen. Dazu habe ich erst im letzten Monat einen großen Agrarkongress",
+      "cer": 0.04519774011299435,
+      "start_idx": 9947,
+      "end_idx": 10002
+    },
+    {
+      "start": 1983.1951875,
+      "end": 2003.1951875,
+      "asr_text": "Ich habe eine ganze Reihe von detaillierten Vorschlägen vorgelegt, wie man das ganz konkret machen kann, wie man Landwirtschaft und Biodiversitätsschutz wieder in den Schutz von Artenvielfalt zusammenbringen kann. Das ist möglich. Das zeigen uns jeden Tag die Biolandwirte, die das in exzellenter Art und Weise machen. Das ist aber auch in anderen",
+      "human_text": "ich eine ganze Reihe von detaillierten Vorschlägen vorgelegt habe, wie man das ganz konkret machen kann, wie man Landwirtschaft und Biodiversitätsschutz, den Schutz von Artenvielfalt zusammenbringen kann. Das ist möglich. Das zeigen uns jeden Tag die Biolandwirte, die das in exzellenter Art und Weise machen. Das ist aber auch in anderen",
+      "cer": 0.06051873198847262,
+      "start_idx": 10004,
+      "end_idx": 10055
+    },
+    {
+      "start": 2003.1951875,
+      "end": 2016.18846875,
+      "asr_text": "Betriebsformen möglich. Wir müssen es nur endlich voranbringen. Die Nachfrage dafür bei den Verbraucherinnen und Verbrauchern ist da.",
+      "human_text": "Betriebsformen möglich; wir müssen es nur endlich voranbringen. Die Nachfrage danach bei den Verbraucherinnen und Verbrauchern ist",
+      "cer": 0.07518796992481203,
+      "start_idx": 10055,
+      "end_idx": 10072
+    },
+    {
+      "start": 2016.18846875,
+      "end": 2026.36909375,
+      "asr_text": "Eigentlich sind bei Nachfragen und Antworten immer nur 30 Sekunden vorgesehen. Ich bin da ganz großzügig. Ich wollte nur sagen, die Minute würde ich aber ungern überschreiten lassen.",
+      "human_text": "Eigentlich sind bei Nachfragen und Antworten immer nur 30 Sekunden vorgesehen. Ich bin da ganz großzügig; aber ich wollte es bloß sagen. Die Minute würde ich aber ungern überschreiten lassen.",
+      "cer": 0.08791208791208792,
+      "start_idx": 10073,
+      "end_idx": 10103
+    },
+    {
+      "start": 2026.36909375,
+      "end": 2046.36909375,
+      "asr_text": "Danke, dass Sie das noch mal kurz erwähnen, Herr Präsident. Frau Ministerin, bisher kamen die Nachfragen ja primär aus dem Bereich der Landwirtschaft. Ich würde gerne noch mal zum Ausgangspunkt dieses Gesetzes zurückkommen, dem gravierenden Artensterben, das wir weltweit und vor allem aber eben auch in Deutschland haben, wo uns sämtliche wissenschaftlichen Studien inzwischen bestätigen,",
+      "human_text": "Danke, dass Sie das noch mal kurz erwähnen, Herr Präsident. – Frau Ministerin, bisher kamen die Nachfragen ja primär aus dem Bereich der Landwirtschaft. Ich würde gerne noch mal zum Ausgangspunkt dieses Gesetzes zurückkommen, zu dem gravierenden Artensterben, das wir weltweit, vor allem aber auch in Deutschland sehen und wo uns sämtliche wissenschaftlichen Studien inzwischen bestätigen,",
+      "cer": 0.05398457583547558,
+      "start_idx": 10109,
+      "end_idx": 10165
+    },
+    {
+      "start": 2046.36909375,
+      "end": 2066.36909375,
+      "asr_text": "dass Landnutzungsänderungen und die industrialisierte Intensivlandwirtschaft die Hauptverursacher in Deutschland sind. Nicht die alleinigen, auch Lichtverschmutzung, aber der Hauptverursacher, die Intensivlandwirtschaft ist. Und ich bin deshalb ein bisschen erstaunt, dass Sie das, was von Ihrem ursprünglichen Ansatz übrig geblieben ist, jetzt hier so umschlägt.",
+      "human_text": "dass Landnutzungsänderungen und die industrialisierte Intensivlandwirtschaft die Hauptverursacher in Deutschland sind. Es sind nicht die alleinigen Verursacher – auch Lichtverschmutzung ist ein Problem –, aber der Hauptverursacher ist die Intensivlandwirtschaft. Ich bin deshalb ein bisschen erstaunt, dass Sie das, was von Ihrem ursprünglichen Ansatz übrig geblieben ist, jetzt hier so uneingeschränkt",
+      "cer": 0.1763085399449036,
+      "start_idx": 10165,
+      "end_idx": 10216
+    },
+    {
+      "start": 2066.36909375,
+      "end": 2086.36909375,
+      "asr_text": "Ich will es an zwei konkreten Beispielen festmachen. Der Refugialflächenansatz ist nach meiner Kenntnis komplett aus dem Gesetz verschwunden. Vielleicht können Sie mich eines Besseren belehren, dann würde ich das positiv finden. Aber er stand im Aktionsprogramm Insektenschutz drin als ein ganz, ganz wichtiger Faktor für den Insektenschutz.",
+      "human_text": "Ich will das an zwei konkreten Beispielen festmachen: Erstens. Der Refugialflächenansatz ist nach meiner Kenntnis komplett aus dem Gesetzentwurf verschwunden. Vielleicht können Sie mich eines Besseren belehren, dann würde ich das positiv finden. Aber er stand im Aktionsprogramm Insektenschutz als ein ganz wichtiger Faktor für den Insektenschutz",
+      "cer": 0.08797653958944282,
+      "start_idx": 10217,
+      "end_idx": 10264
+    },
+    {
+      "start": 2086.36909375,
+      "end": 2106.36909375,
+      "asr_text": "Das hatte Frau Klöckner bereits im Kabinett unterschrieben. Wie kann es sein, dass das ersatzlos verschwindet? Zweite Frage. Pestizidverbot in Naturschutzgebieten. Ausnahmeregelungen sollen in Zukunft möglich sein. Pestizidverbot in Naturschutzgebieten und nicht mehr von der unteren Naturschutzbehörde genehmigt,",
+      "human_text": "das hatte Frau Klöckner im Kabinett bereits unterschrieben. Wie kann es sein, dass das ersatzlos verschwindet? Zweitens. Pestizidverbot in Naturschutzgebieten. Frau Lemke. Ausnahmeregelungen sollen in Zukunft möglich sein und nicht mehr von der unteren Naturschutzbehörde genehmigt",
+      "cer": 0.23961661341853036,
+      "start_idx": 10266,
+      "end_idx": 10302
+    },
+    {
+      "start": 2106.36909375,
+      "end": 2116.7887812500003,
+      "asr_text": "sondern von jemand anderem. Das sind zwei gravierende Fehler. Die Ermahnung hat nicht sehr gefruchtet.",
+      "human_text": "sondern von einer anderen Stelle. Das sind zwei gravierende Fehler. Die Ermahnung hat nicht sehr gefruchtet.",
+      "cer": 0.12745098039215685,
+      "start_idx": 10303,
+      "end_idx": 10319
+    },
+    {
+      "start": 2116.7887812500003,
+      "end": 2136.7887812500003,
+      "asr_text": "Frau Abgeordnete, ich stimme Ihnen in der Analyse absolut zu. Wir haben ein Riesenproblem. Wir verlieren Insekten, und zwar überall. Wir verlieren sie dadurch, dass wir Lebensräume verlieren. Und natürlich, die Hälfte Deutschlands ist landwirtschaftlich genutzte Flächen. Ist das auch ein Riesenproblem in den Agrarlandschaften? Ich glaube, darüber haben wir uns sehr oft ausgetauscht, dass wir da einer Meinung",
+      "human_text": "Frau Abgeordnete, ich stimme Ihnen in der Analyse absolut zu: Wir haben ein Riesenproblem. Wir verlieren Insekten, und zwar überall. Wir verlieren sie dadurch, dass wir Lebensräume verlieren. Und natürlich – die Hälfte der Fläche Deutschlands sind landwirtschaftlich genutzte Flächen – ist das auch ein Riesenproblem in den Agrarlandschaften. Ich glaube, wir haben uns sehr oft darüber ausgetauscht und sind da einer Meinung.",
+      "cer": 0.11678832116788321,
+      "start_idx": 10319,
+      "end_idx": 10382
+    },
+    {
+      "start": 2136.7887812500003,
+      "end": 2156.7887812500003,
+      "asr_text": "Wie ist das mit dem Pestizidverbot? Wenn Sie in einem Naturschutzgebiet einen Schadensfall haben, dann ist es auch heute so, also wenn der Borkenkäfer, wenn der Kiefernspinner im Wald einfällt, dass Sie Maßnahmen ergreifen können. Das wird auch in Zukunft so bleiben. Wenn es auf Grünflächen im Grünland große Probleme gibt, dann",
+      "human_text": "Wie ist das mit dem Pestizidverbot? Wenn Sie in einem Naturschutzgebiet einen Schadensfall haben, wenn also der Borkenkäfer, der Kiefernspinner im Wald einfällt, dann ist es auch heute so, dass Sie Maßnahmen ergreifen können. Das wird auch in Zukunft so bleiben. Wenn es auf Grünflächen, im Grünland große Probleme gibt, dann",
+      "cer": 0.1884498480243161,
+      "start_idx": 10382,
+      "end_idx": 10433
+    },
+    {
+      "start": 2156.7887812500003,
+      "end": 2176.7887812500003,
+      "asr_text": "kann man Ausnahmen machen, um Schädlingen zu Leibe zu rücken. Das ist heute der Fall, und das wird auch in Zukunft so bleiben. Der Refugialflächenansatz ist etwas, was wir in der Franzenschutzzulassung regeln müssen. Das ist etwas, was wir noch vor uns haben. Deswegen finden Sie es jetzt",
+      "human_text": "kann man Ausnahmen machen, um Schädlingen sozusagen zu Leibe zu rücken. Das ist heute der Fall, und das wird auch in Zukunft so bleiben. Zum Refugialflächenansatz. Das ist etwas, was wir im Bereich der Pflanzenschutzmittelzulassung regeln müssen; das ist also etwas, was wir noch vor uns haben. Deswegen finden Sie diesen",
+      "cer": 0.1736111111111111,
+      "start_idx": 10433,
+      "end_idx": 10484
+    },
+    {
+      "start": 2176.7887812500003,
+      "end": 2191.11471875,
+      "asr_text": "nicht in dem Insektenschutzgesetz und nicht in der Pflanzenschutzanwendungsverordnung, weil es da um die Zulassung geht. Dr. Gero Hocker, FDP, stellt die nächste Frage.",
+      "human_text": "nicht im Insektenschutzgesetz und nicht in der Pflanzenschutz-Anwendungsverordnung, weil es dabei nicht um die Zulassung geht. Dr. Gero Hocker, FDP, stellt die nächste Frage.",
+      "cer": 0.08928571428571429,
+      "start_idx": 10486,
+      "end_idx": 10510
+    },
+    {
+      "start": 2191.11471875,
+      "end": 2211.11471875,
+      "asr_text": "Vielen Dank, verehrter Herr Präsident. Verehrte Frau Ministerin, Sie haben heute Vormittag mit der Bundeslandwirtschaftsministerin eine gemeinsame Pressekonferenz abgehalten, um zum Ausdruck zu bringen, dass es sich um ein gemeinsames Papier und um ein gemeinsames Projekt zwischen Umwelt- und Landwirtschaftsministerium handelt.",
+      "human_text": "Vielen Dank, verehrter Herr Präsident. – Verehrte Frau Ministerin, Sie haben heute Vormittag ja mit der Bundeslandwirtschaftsministerin eine gemeinsame Pressekonferenz abgehalten, auch um zum Ausdruck zu bringen, dass es sich um ein gemeinsames Papier, um ein gemeinsames Projekt zwischen Umwelt- und Landwirtschaftsministerium handelt.",
+      "cer": 0.0425531914893617,
+      "start_idx": 10510,
+      "end_idx": 10553
+    },
+    {
+      "start": 2211.11471875,
+      "end": 2225.3034687500003,
+      "asr_text": "Vor diesem Hintergrund möchte ich von Ihnen gerne hören, welche konkreten Inhalte, die Eingang in dieses gemeinsame Projekt aus beiden Häusern gefunden haben, Ihnen besonders wichtig gewesen sind.",
+      "human_text": "Vor diesem Hintergrund möchte ich von Ihnen gerne hören, welche konkreten Inhalte, die Eingang in dieses Projekt, in dieses gemeinsame Projekt beider Häuser, gefunden haben, Ihnen besonders wichtig gewesen sind.",
+      "cer": 0.12755102040816327,
+      "start_idx": 10553,
+      "end_idx": 10583
+    },
+    {
+      "start": 2225.3034687500003,
+      "end": 2245.3034687500003,
+      "asr_text": "Oh Herr Abgeordneter, das möchten Sie jetzt auch in dieser einen knappen Minute haben. Ich würde dazu deutlich mehr Zeit brauchen. Aber dass wir jetzt ein klares Verbot von Glyphosat haben, dass wir Pflanzenschutzmittel reduzieren, dass wir die Schutzgebiete ausweisen, dass wir gleichzeitig Lösungen, wie wir sie in Niedersachsen in Brandenburg gefunden haben, nämlich die gemeinschaftlich funktionieren, unterstützen.",
+      "human_text": "Herr Abgeordneter, Sie möchten das jetzt auch in dieser einen knappen Minute beantwortet haben? Ich würde dazu deutlich mehr Zeit brauchen. Aber ich würde sagen: dass wir jetzt ein klares Verbot von Glyphosat haben, dass wir den Einsatz von Pflanzenschutzmitteln reduzieren, dass wir die Schutzgebiete ausweisen, dass wir gleichzeitig gemeinschaftlich funktionierende Lösungen, wieich sie in Niedersachsen, in Brandenburg gefunden haben, unterstützen und vorantreiben.",
+      "cer": 0.3269689737470167,
+      "start_idx": 10583,
+      "end_idx": 10646
+    },
+    {
+      "start": 2245.3034687500003,
+      "end": 2261.81253125,
+      "asr_text": "und vorantreiben. Das sind alles wichtige Punkte, die Sie in der Verordnung und in dem Gesetz finden. Und ich glaube, dass wir da eine sehr gute gemeinsame Lösung gefunden haben. Danke sehr. Nachfrage, Herr Kollege Ocker?",
+      "human_text": "und vorantreiben. – Das sind alles wichtige Punkte, die Sie in der Verordnung und in dem Gesetz finden. Ich glaube, dass wir da eine sehr gute gemeinsame Lösung gefunden haben. Danke sehr. – Nachfrage, Herr Kollege Hocker?",
+      "cer": 0.049773755656108594,
+      "start_idx": 10644,
+      "end_idx": 10681
+    },
+    {
+      "start": 2261.81253125,
+      "end": 2281.81253125,
+      "asr_text": "In der Pressekonferenz heute Vormittag ist ja auch in Aussicht gestellt worden, dass insgesamt 140 Millionen Euro bereitgestellt werden sollen für die Nutzungserschwernisse, die jetzt auf Landwirte zukommen, für die kalte Enteignung, wie es einige nennen. Und viele Landwirte haben da durchaus Vorwürfe.",
+      "human_text": "In der Pressekonferenz heute Vormittag ist ja auch in Aussicht gestellt worden, dass insgesamt 140 Millionen Euro für den Ausgleich der Nutzungserschwernisse bereitgestellt werden sollen, die jetzt auf Landwirte zukommen – für die kalte Enteignung, wie es einige nennen. Viele Landwirte haben durchaus Vorbehalte,",
+      "cer": 0.22772277227722773,
+      "start_idx": 10687,
+      "end_idx": 10731
+    },
+    {
+      "start": 2281.81253125,
+      "end": 2301.81253125,
+      "asr_text": "dass erstens diese Summe ausreicht, weil Sie glauben, dass die Erschwernisse, die auf Sie zukommen, sehr viel größer sind. Und zweitens haben Sie, nachdem schon diese Bauernmilliarde von vor einigen Monaten ja nicht wirklich tatsächlich bei den Höfen auf den Betrieben angekommen ist, große Vorbehalte, dass Sie wiederum durch staatliche Unterstützungsmaßnahmen diese Nutzerzahlen",
+      "human_text": "dass diese Summe ausreicht, weil sie glauben, dass die Erschwernisse, die auf sie zukommen, sehr viel größer sind. Und zweitens haben sie, nachdem schon diese Bauernmilliarde von vor einigen Monaten ja nicht wirklich bei den Höfen, bei den Betrieben angekommen ist, große Vorbehalte, dass hier wiederum durch staatliche Unterstützungsmaßnahmen diese Nutzungserschwernisse",
+      "cer": 0.10789473684210527,
+      "start_idx": 10732,
+      "end_idx": 10783
+    },
+    {
+      "start": 2301.81253125,
+      "end": 2321.5083125,
+      "asr_text": "Auslösungserschwernisse ausgeglichen werden. Haben Sie Verständnis für die Landwirte, die Vorbehalte haben, weil sie wissen, dass solche Gelder nur zu erhalten sind, wenn umfangreiche bürokratische Auflagen erfüllt werden und es für sie sehr viel Administration bedeutet. Was sagen Sie den Bauern, die deswegen davor zurückschrecken, solche Anträge überhaupt erst zu stellen?",
+      "human_text": "Nutzungserschwernisse ausgeglichen werden. Haben Sie Verständnis für die Landwirte, die Vorbehalte haben, weil sie wissen, dass solche Gelder nur zu erhalten sind, wenn umfangreiche bürokratische Auflagen – es bedeutet für sie sehr viel administrativen Aufwand – erfüllt werden? Was sagen Sie den Bauern, die deswegen davor zurückschrecken, solche Anträge überhaupt erst zu stellen?",
+      "cer": 0.11733333333333333,
+      "start_idx": 10782,
+      "end_idx": 10835
+    },
+    {
+      "start": 2321.5083125,
+      "end": 2341.5083125,
+      "asr_text": "Ich bin erst einmal froh, dass wir so viele Mittel für Landwirtinnen und Landwirte zur Verfügung stellen können, dass wir mit der gemeinsamen Agrarpolitik auf der europäischen Ebene jedes Jahr wieder so viel Geld zusätzlich für die Landwirtschaft bekommen. Und ja, Sie haben recht, sowohl in der gemeinsamen Agrarpolitik,",
+      "human_text": "Ich bin erst mal froh, dass wir so viele Mittel für Landwirtinnen und Landwirte zur Verfügung stellen können, dass wir mit der Gemeinsamen Agrarpolitik auf der europäischen Ebene jedes Jahr wieder so viel Geld zusätzlich für die Landwirtschaft bekommen. Und ja, Sie haben recht: Im Rahmen der Gemeinschaftsaufgabe",
+      "cer": 0.09657320872274143,
+      "start_idx": 10835,
+      "end_idx": 10883
+    },
+    {
+      "start": 2341.5083125,
+      "end": 2361.5083125,
+      "asr_text": "Gemeinsamer Agrar- und Küstenschutz. Dort ist ein eigenes Fenster für den Insektenschutz vorgesehen. Wir haben Biodiversitätsförderung in meinem Haus. Wir fördern die Forschung. Wir haben in der neuen GAP, die wir jetzt auf den Weg bringen, noch mal neue Möglichkeiten, um Ausgleiche für Landwirtinnen und Landwirte zu schaffen.",
+      "human_text": "Agrarstruktur und Küstenschutz ist ein eigenes Fenster für den Insektenschutz vorgesehen. Wir machen Biodiversitätsförderung in meinem Haus; wir fördern die Forschung. Wir haben gerade im Rahmen der neuen GAP-Periode, die wir jetzt auf den Weg bringen, noch mal neue Möglichkeiten, um Ausgleiche für Landwirtinnen und Landwirte zu schaffen.",
+      "cer": 0.14634146341463414,
+      "start_idx": 10883,
+      "end_idx": 10931
+    },
+    {
+      "start": 2361.5083125,
+      "end": 2381.5083125,
+      "asr_text": "Das ist alles sinnvoll, weil das alles das Ziel unterstützt, mehr für den Insektenschutz zu tun. Ich erlebe es übrigens so, dass sehr viele Landwirtinnen und Landwirte das aktiv unterstützen, dass sie sich für die Umwelt einsetzen. Frau Künast hat eben gesagt, das sei ihre Grundlage. Deswegen wollen sie,",
+      "human_text": "Das ist alles sinnvoll, weil es nämlich das Ziel unterstützt, mehr für den Insektenschutz zu tun. Ich erlebe es übrigens so, dass sehr viele Landwirtinnen und Landwirte das aktiv unterstützen, dass sie sich für die Umwelt einsetzen. Frau Künast hat eben gesagt: Das ist ihre Grundlage. – Deswegen wollen sie,",
+      "cer": 0.04918032786885246,
+      "start_idx": 10931,
+      "end_idx": 10981
+    },
+    {
+      "start": 2381.5083125,
+      "end": 2393.8087812500003,
+      "asr_text": "dass auch noch ihre Kinder, ihre Enkel Landwirtschaft betreiben können. Und das wird ohne Insekten nicht möglich sein. Und deswegen ist das genau der richtige Weg, den wir jetzt hier einschlagen.",
+      "human_text": "dass auch noch ihre Kinder, ihre Enkel Landwirtschaft betreiben können, und das wird ohne Insekten nicht möglich sein. Deswegen ist das genau der richtige Weg, den wir hier einschlagen.",
+      "cer": 0.06666666666666667,
+      "start_idx": 10981,
+      "end_idx": 11010
+    },
+    {
+      "start": 2393.8087812500003,
+      "end": 2405.1158125,
+      "asr_text": "Die nächste Frage stellt der Kollege Carsten Träger, SPD. Oder wollen Sie nicht mehr? Bitte?",
+      "human_text": "Die nächste Frage stellt der Kollege Carsten Träger, SPD. – Oder wollen Sie nicht mehr? –",
+      "cer": 0.08695652173913043,
+      "start_idx": 11010,
+      "end_idx": 11026
+    },
+    {
+      "start": 2405.1158125,
+      "end": 2421.57659375,
+      "asr_text": "Herr Spiering, Ihre Meldungen sind ein bisschen verwirrend, Herr Schneider. Bevor die Frage gestellt ist, können Sie noch nicht eine Zusatzfrage melden.",
+      "human_text": "Herr Spiering. Ihre Meldungen sind ein bisschen verwirrend, Herr Schneider. Herr Spiering, bitte. – Bevor die Frage gestellt ist, können Sie sich noch nicht zu einer Zusatzfrage melden.",
+      "cer": 0.2236842105263158,
+      "start_idx": 11026,
+      "end_idx": 11054
+    },
+    {
+      "start": 2421.57659375,
+      "end": 2441.57659375,
+      "asr_text": "Herr Präsident, Herr Schneider verwirrt nie jemanden, das ist aber völlig klar. Sehr geehrte Frau Ministerin, die Debatte heute und Ihre Antworten geben mir Anlass zu der Bitte, namentlich auch der Kollegin Bauer, etwas Nachhilfe zu geben bei der Frage, was ist ein Gesetz und was ist eine Verordnung?",
+      "human_text": "Herr Präsident, der Herr Schneider verwirrt nie jemanden. Das ist doch wohl völlig klar. – Sehr geehrte Frau Ministerin, die heutige Debatte und Ihre Antworten geben mir Anlass zu der Bitte, namentlich auch der Kollegin Bauer etwas Nachhilfe zu geben bei der Frage: Was ist ein Gesetz, und was ist eine Verordnung?",
+      "cer": 0.09966777408637874,
+      "start_idx": 11054,
+      "end_idx": 11106
+    },
+    {
+      "start": 2441.57659375,
+      "end": 2461.57659375,
+      "asr_text": "Wir werden das Insektenschutzgesetz hier im Hause verhandeln und deswegen sind uns da die Spielflächen ja jetzt auch noch frei. Aber ich wäre sehr dankbar, wenn Sie jetzt definieren würden, was im Bereich Agrar durch die Pflanzenschutzverordnung in ihrer gemeinsamen Verlautbarung jetzt die Ministerin Klöckner an Möglichkeiten hat,",
+      "human_text": "Wir werden das Insektenschutzgesetz hier im Hause verhandeln. Deswegen sind die Spielflächen da auch noch frei. Aber ich wäre sehr dankbar, wenn Sie definieren würden, welche Möglichkeiten zum Agieren die Ministerin Klöckner im Bereich Agrar",
+      "cer": 0.3614457831325301,
+      "start_idx": 11106,
+      "end_idx": 11141
+    },
+    {
+      "start": 2461.57659375,
+      "end": 2475.5344062500003,
+      "asr_text": "zu agieren, damit NABU, BUND, namentlich der Bauernverband und vielleicht der ein oder andere Kollege hier im Haus auch weiß, in wen er sich in Zukunft vertrauensvoll wenden kann, wenn es um spezielle Fragen des Agrarbereiches geht.",
+      "human_text": "hat, damit NABU, BUND, namentlich der Bauernverband und vielleicht der ein oder andere Kollege hier im Haus auch weiß, an wen er sich in Zukunft vertrauensvoll wenden kann, wenn es um spezielle Fragen des Agrarbereiches geht.",
+      "cer": 0.04310344827586207,
+      "start_idx": 11149,
+      "end_idx": 11185
+    },
+    {
+      "start": 2475.5344062500003,
+      "end": 2495.5344062500003,
+      "asr_text": "Erstmal, Herr Abgeordneter, darf ich Ihnen absolut zustimmen. Ich habe Herrn Schneider auch als jemanden kennengelernt, der sehr klar kommuniziert. Vielleicht das zum Ersten. Das Zweite... Kritisieren Sie niemals den Präsidenten? Nein, das würde ich... Ich habe den Abgeordneten unterstützt, sozusagen. Ich würde den Präsidenten niemals kritisieren. Also, da darf ich Sie unterstützen, Herr Abgeordneter.",
+      "human_text": "Erst mal, Herr Abgeordneter, darf ich Ihnen absolut zustimmen: Ich habe Herrn Schneider auch als jemanden kennengelernt, der sehr klar kommuniziert. Das zum Ersten. Kritisieren Sie niemals den Präsidenten. Nein, das würde ich niemals. Ich habe den Abgeordneten unterstützt. Ich würde den Präsidenten niemals kritisieren. Also, da darf ich Sie unterstützen, Herr Abgeordneter.Was",
+      "cer": 0.12623762376237624,
+      "start_idx": 11185,
+      "end_idx": 11238
+    },
+    {
+      "start": 2495.5344062500003,
+      "end": 2515.5344062500003,
+      "asr_text": "Was ist jetzt konkret im Insektenschutzgesetz und was ist in der Verordnung geregelt? Das Insektenschutzgesetz regelt die Stärkung der Landschaftsplanung, das regelt den gesetzlichen Biotopschutz, das regelt den Biozideinsatz, also Biozide, so was wie Holzschutzmittel in Schutzgebieten, das regelt die Stärkung der Naturschutzmaßnahmen,",
+      "human_text": "ist jetzt konkret im Insektenschutzgesetz, und was ist in der Verordnung geregelt? Das Insektenschutzgesetz regelt die Stärkung der Landschaftsplanung. Das regelt den gesetzlichen Biotopschutz und den Biozideinsatz – Biozide sind etwa Holzschutzmittel – in Schutzgebieten. Das regelt die Stärkung der Naturschutzmaßnahmen,",
+      "cer": 0.10682492581602374,
+      "start_idx": 11238,
+      "end_idx": 11279
+    },
+    {
+      "start": 2515.5344062500003,
+      "end": 2535.5344062500003,
+      "asr_text": "Das regelt Beleuchtungsanlagen. Alles andere, was wir heute diskutieren, also der Einsatz von Glyphosat, die Verwendung und Anwendung von Herbiziden, das Mindestabstandsgebot zu Gewässern, das werden Sie alles in der Pflanzenschutz-Anwendungsverordnung finden. Also der eine Teil im Gesetz, der andere Teil im Gesetz.",
+      "human_text": "das regelt Beleuchtungsanlagen. Alles andere, was wir heute diskutieren – also der Einsatz von Glyphosat, die Verwendung und Anwendung von Herbiziden, das Mindestabstandsgebot zu Gewässern –, werden Sie in der Pflanzenschutz-Anwendungsverordnung finden – also den einen Teil im Gesetz, den anderen Teil in der",
+      "cer": 0.08517350157728706,
+      "start_idx": 11280,
+      "end_idx": 11324
+    },
+    {
+      "start": 2535.5344062500003,
+      "end": 2551.94440625,
+      "asr_text": "Teil in der Verordnung. Beides ist aber Bestandteil des Aktionsprogramms Insektenschutz und damit gehört es eben auch zusammen. Kollege Harald Ebner, Bündnis 90 Die Grünen, hat eine Nachfrage.",
+      "human_text": "Teil in der Verordnung. Beides ist aber Bestandteil des Aktionsprogramms Insektenschutz, und damit gehört das eben auch zusammen. Danke sehr. – Der Kollege Harald Ebner, Bündnis 90/ Die Grünen, hat eine Nachfrage.",
+      "cer": 0.11458333333333333,
+      "start_idx": 11321,
+      "end_idx": 11353
+    },
+    {
+      "start": 2551.94440625,
+      "end": 2571.94440625,
+      "asr_text": "Danke, Herr Präsident. Frau Ministerin, es kam ja schon zur Sprache, Sie haben sich gegen die Beschränkungen des Pestizideinsatzes in FFH-Gebieten entschieden. Anders als es im Aktionsprogramm Insektenschutz vorgesehen war. Stattdessen sollen jetzt auf Norddeutschland",
+      "human_text": "Danke, Herr Präsident. – Frau Ministerin, es kam ja schon zu Sprache: Sie haben sich gegen die Beschränkungen des Pestizideinsatzes in FFH-Gebieten entschieden, anders als es im Aktionsprogramm Insektenschutz vorgesehen war. Stattdessen sollen jetzt auf 90 Prozent",
+      "cer": 0.07462686567164178,
+      "start_idx": 11353,
+      "end_idx": 11390
+    },
+    {
+      "start": 2571.94440625,
+      "end": 2591.94440625,
+      "asr_text": "90 Prozent der betroffenen Flächen freiwillige Maßnahmen zur Pestizidreduktion erreicht werden. Die Freiwilligkeit ist eine sehr gute Sache, aber sie muss ja finanziert sein. Und jetzt sind schon angesprochen worden die 140 Millionen in der GAK. Frau Glöckner hat vorhin in der...",
+      "human_text": "90 Prozent der betroffenen Flächen freiwillige Maßnahmen zur Pestizidreduktion zum Einsatz kommen. Die Freiwilligkeit ist eine sehr gute Sache; aber sie muss finanziert sein. Die 140 Millionen Euro in der GAK sind schon angesprochen worden. Frau Klöckner hat vorhin in der",
+      "cer": 0.2714285714285714,
+      "start_idx": 11388,
+      "end_idx": 11429
+    },
+    {
+      "start": 2591.94440625,
+      "end": 2611.94440625,
+      "asr_text": "in der Pressekonferenz noch von weiteren 50 Millionen gesprochen. Und jetzt bin ich nicht ganz schlau draus geworden aus Ihrer Antwort auf den Kollegen Hocker. Haben Sie diese Millionen schon im Haushalt oder brauchen Sie noch einen Nachtragshaushalt oder widmen Sie die jetzt um? Da hätte ich jetzt gerne ganz konkrete Antwort. Sind",
+      "human_text": "in der Pressekonferenz von weiteren 50 Millionen Euro gesprochen. Jetzt bin ich aus Ihrer Antwort auf die Frage des Kollegen Hocker nicht ganz schlau geworden. Haben Sie diese Millionen schon im Haushalt, oder brauchen Sie noch einen Nachtragshaushalt, oder widmen Sie die jetzt um? Darauf hätte ich jetzt gerne eine ganz konkrete Antwort. Sind",
+      "cer": 0.26126126126126126,
+      "start_idx": 11427,
+      "end_idx": 11481
+    },
+    {
+      "start": 2611.94440625,
+      "end": 2631.94440625,
+      "asr_text": "Gibt es da tatsächlich 190 Millionen übrig bisher? Herr Abgeordneter, ich kenne mich in meinem Haushalt sehr gut aus, aber in dem Haushalt von Frau Klöckner kenne ich mich nicht ganz so gut aus. Deswegen wäre das, glaube ich, eine Frage, die wir mit der Kollegin noch einmal ganz genau klären müssten. Ich würde aber Ihre Vorausbedingungen noch einmal ein wenig sozusagen",
+      "human_text": "Sind da tatsächlich 190 Millionen Euro übrig? Herr Abgeordneter, ich kenne mich in meinem Haushalt sehr gut aus. Aber in dem Haushalt von Frau Klöckner kenne ich mich nicht ganz so gut aus. Deswegen wäre das, glaube ich, eine Frage, die wir mit der Kollegin noch mal ganz genau klären müssten. Ich würde aber Ihre Vorausbedingung noch mal ein wenig erläutern",
+      "cer": 0.09164420485175202,
+      "start_idx": 11480,
+      "end_idx": 11541
+    },
+    {
+      "start": 2631.94440625,
+      "end": 2651.94440625,
+      "asr_text": "weil FFH-Gebiete nicht grundsätzlich ausgenommen sind, sondern die Gebiete, die reine FFH-Gebiete sind und keinen weiteren Schutzfaktor haben. Bei diesen Gebieten haben wir gesagt, dass wir dort auf kooperative Lösungen gehen können. Das sind 4,9 Prozent der landwirtschaftlichen",
+      "human_text": "denn FFH-Gebiete sind nicht grundsätzlich ausgenommen. Vielmehr haben wir bei den Gebieten, die reine FFH-Gebiete sind und keinen weiteren Schutzfaktor haben, gesagt, dass wir dort auf kooperative Lösungen gehen können. Das sind 4,9 Prozent der landwirtschaftlich",
+      "cer": 0.22580645161290322,
+      "start_idx": 11542,
+      "end_idx": 11578
+    },
+    {
+      "start": 2651.94440625,
+      "end": 2671.94440625,
+      "asr_text": "genutzten Flächen in Deutschland. Wir stellen jetzt sehr viel unter Sturz. Ein ganz kleiner Teil davon sind landwirtschaftlich genutzte Flächen. Das sind in erster Linie Grünlandflächen. Im Grünland werden traditionellerweise heute schon deutlich weniger Pflanzenschutzmittel eingesetzt. Für diese Flächen werden",
+      "human_text": "genutzten Flächen in Deutschland. Wir stellen jetzt sehr viel unter Schutz, und ein ganz kleiner Teil davon sind landwirtschaftlich genutzte Flächen. Das sind in erster Linie Grünlandflächen. Im Grün land werden traditionellerweise heute schon deutlich weniger Pflanzenschutzmittel eingesetzt. Für diese Flächen werden",
+      "cer": 0.03205128205128205,
+      "start_idx": 11578,
+      "end_idx": 11620
+    },
+    {
+      "start": 2671.94440625,
+      "end": 2691.94440625,
+      "asr_text": "werden jetzt eben auch kooperative Lösungen gefunden. Und ja, es wird auch zusätzliches Geld, es werden zusätzliche Mittel zur Verfügung gestellt. Gemeinsame Agrarpolitik auf der europäischen Ebene ermöglicht jetzt zum Beispiel den FFH-Deckel, der bisher drin war. Also der Ausgleich für FFH-Flächen, dieser Deckel wird angehoben. Auch darüber wird es also nochmal neue Forderungen",
+      "human_text": "werden jetzt eben auch kooperative Lösungen gefunden. Und ja, es werden zusätzliche Mittel zur Verfügung gestellt. Die Gemeinsame Agrarpolitik auf der europäischen Ebene ermöglicht jetzt zum Beispiel, dass der FFH-Deckel, also der Ausgleich für FFH-Flächen, angehoben wird. Auch darüber wird es noch mal neue",
+      "cer": 0.27034120734908135,
+      "start_idx": 11619,
+      "end_idx": 11663
+    },
+    {
+      "start": 2691.94440625,
+      "end": 2702.5064375,
+      "asr_text": "Finanzierungsmöglichkeiten geben.",
+      "human_text": "Finanzierungsmöglichkeiten geben.",
+      "cer": 0.0,
+      "start_idx": 11663,
+      "end_idx": 11665
+    },
+    {
+      "start": 2702.5064375,
+      "end": 2722.5064375,
+      "asr_text": "Vielen Dank, Herr Präsident. Verehrte Frau Ministerin, ich bin dem Kollegen Spiering ja sehr dankbar für die Belehrung, was das Gesetzgebungs- und das Verordnungsverfahren anbelangt. Das ändert aber nichts an der Tatsache, dass beides keine Aussage darüber trifft, ob es Ihnen als Ziel eigentlich darum geht, die Insektenbiomasse zu",
+      "human_text": "Vielen Dank, Herr Präsident. – Verehrte Frau Ministerin, ich bin dem Kollegen Spiering ja sehr dankbar für die Belehrung zum Gesetzgebungs- und Verordnungsverfahren. Das ändert aber nichts an der Tatsache, dass beides keine Aussage darüber trifft, ob es Ihnen im Ziel eigentlich darum geht, die Insektenbiomasse",
+      "cer": 0.09036144578313253,
+      "start_idx": 11672,
+      "end_idx": 11718
+    },
+    {
+      "start": 2722.5064375,
+      "end": 2742.5064375,
+      "asr_text": "oder die Insektenbiodiversität in besonderer Weise zu befördern. Und wie Sie hoffentlich wissen, steht ja beides in einem negativen Spannungsverhältnis zueinander. Und deswegen möchte ich von Ihnen gerne wissen, wie Sie, wenn diese Frage noch nicht einmal geklärt ist, Sie überhaupt evaluieren wollen, bewerten wollen, ob Sie mit Ihren Maßnahmen, mit Ihrem Gesetz, mit Ihrer Verordnung überhaupt irgendeine",
+      "human_text": "oder die Insektenbiodiversität in besonderer Weise zu befördern. Wie Sie hoffentlich wissen, steht beides in einem negativen Spannungsverhältnis zueinander. Deswegen möchte ich von Ihnen gerne wissen, wie Sie, wenn diese Frage noch nicht einmal geklärt ist, überhaupt evaluieren, bewerten wollen, ob Sie mit Ihren Maßnahmen, mit Ihrem Gesetz, mit Ihrer Verordnung überhaupt irgendeinen",
+      "cer": 0.06157635467980296,
+      "start_idx": 11718,
+      "end_idx": 11771
+    },
+    {
+      "start": 2742.5064375,
+      "end": 2762.5064375,
+      "asr_text": "einen Effekt erreichen können. Sehr geehrter Herr Abgeordneter, danke für die Frage. Wir wollen sowohl die Menge an Insekten wieder erhöhen, also die Masse, von der wir sehr viel verloren haben, teilweise bis zu 80 Prozent, als auch die Vielfalt der Insekten. Wenn Sie das heute sehen, dass die Hälfte",
+      "human_text": "irgendeinen Effekt erreichen können. Sehr geehrter Herr Abgeordneter, danke für die Frage. – Wir wollen sowohl die Menge an Insekten wieder erhöhen – also die Masse, von der wir sehr viel verloren haben, teilweise bis zu 80 Prozent – als auch die Vielfalt der Insekten. Da inzwischen schon die Hälfte",
+      "cer": 0.10963455149501661,
+      "start_idx": 11770,
+      "end_idx": 11820
+    },
+    {
+      "start": 2762.5064375,
+      "end": 2782.5064375,
+      "asr_text": "der Bienenarten, rund 560 davon, die Hälfte inzwischen schon auf der roten Liste ist und damit vom Aussterben bedroht, ist es ganz entscheidend wichtig, dass wir wieder mehr Lebensraum für Insekten zur Verfügung stellen. Wir haben gleichzeitig auch die Forschung ausgeweitet. Es wird ein Biodiversitätsmonitoring-Zentrum geben, was gerade",
+      "human_text": "Hälfte unserer rund 560 Bienenarten auf der Roten Liste steht und damit vom Aussterben bedroht ist, ist es ganz entscheidend wichtig, dass wir wieder mehr Lebensraum für Insekten zur Verfügung stellen. Wir haben gleichzeitig die Forschung ausgeweitet. Gerade wird ein Biodiversitäts-Monitoring-Zentrum aufgebaut.",
+      "cer": 0.22781065088757396,
+      "start_idx": 11819,
+      "end_idx": 11861
+    },
+    {
+      "start": 2782.5064375,
+      "end": 2802.5064375,
+      "asr_text": "Es gibt deutlich mehr Geld für diese Forschung. Denn ja, wir müssen beim Monitoren besser werden. Das ist in den vergangenen Jahrzehnten vernachlässigt worden. Das ist jetzt aufgegriffen von uns. Dafür gibt es zusätzliches Geld. Und mit diesem Biodiversitätsmonitoringzentrum werden wir auch neue Zahlen neu machen.",
+      "human_text": "Es gibt deutlich mehr Geld für diese Forschung. Denn: Ja, wir müssen beim Monitoring besser werden; das ist in den vergangenen Jahrzehnten vernachlässigt worden. Das wird von uns jetzt aufgegriffen, dafür gibt es zusätzliches Geld. Mit diesem Biodiversitäts-Monitoring-Zentrum werden wir neue Möglichkeiten",
+      "cer": 0.1746031746031746,
+      "start_idx": 11861,
+      "end_idx": 11903
+    },
+    {
+      "start": 2802.5064375,
+      "end": 2813.5930781250004,
+      "asr_text": "neue Möglichkeiten haben, das genauer zu verfolgen. Danke sehr. Frau Kotting-Uhl, Bündnis 90 Grün, hat die nächste Nachfrage. Und dann hat noch der Kollege Dr. Kraft eine Nachfrage, aber dann kommt...",
+      "human_text": "neue Möglichkeiten haben, das genauer zu verfolgen. Danke sehr. – Frau Kotting-Uhl, Bündnis 90/Die Grünen, hat die nächste Nachfrage, und dann hat noch der Kollege Dr. Kraft eine Nachfrage.Vielen Dank.",
+      "cer": 0.125,
+      "start_idx": 11901,
+      "end_idx": 11931
+    },
+    {
+      "start": 2813.5930781250004,
+      "end": 2826.58503125,
+      "asr_text": "Frau Ministerin, Sie haben auf eine der ersten Fragen geantwortet, dass besonders die bestäubenden Insekten zu schützen sind. Gleichwohl stand in Ihrem",
+      "human_text": "Frau Ministerin, Sie haben auf eine der ersten Fragen geantwortet, dass besonders die bestäubenden Insekten zu schützen sind. Gleichwohl stand in Ihrem",
+      "cer": 0.0,
+      "start_idx": 11932,
+      "end_idx": 11954
+    },
+    {
+      "start": 2826.58503125,
+      "end": 2846.58503125,
+      "asr_text": "vor zwei Jahren verabschiedeten Aktionsprogramm Insektenschutz, das Verbot von biodiversitätsschädigen Insektiziden in unter anderem FFH-Gebieten. Und wir sind uns ja wahrscheinlich völlig einig, dass es in der Bedrohung der Arten nicht nur darum geht, dass wir Bestäuber potenziell verlieren könnten, was dann zu Situationen wie in China, Russland,",
+      "human_text": "vor zwei Jahren verabschiedeten Aktionsprogramm Insektenschutz das Verbot von biodiversitätsschädigenden Insektiziden unter anderem in FFH-Gebieten. Wir sind uns ja wahrscheinlich völlig einig, dass es in der Bedrohung der Arten nicht nur darum geht, dass wir potenziell Bestäuber verlieren könnten, was dann zu Situationen führt, die",
+      "cer": 0.1518624641833811,
+      "start_idx": 11954,
+      "end_idx": 11999
+    },
+    {
+      "start": 2846.58503125,
+      "end": 2866.58503125,
+      "asr_text": "heute schon erlebbar führt, sondern dass es in der Tat auch um diese große Aussterbekrise geht. Wie Sie eben sagten, Vielfalt und Masse der Insekten muss geschützt werden. Deshalb möchte ich Sie gern zur Veränderung eines relevanten Adjektives fragen, weil diese biodiversitätsschädigenden Insektiziden, die noch im Aktionsprogramm",
+      "human_text": "heute schon in China erlebbar sind, sondern dass es in der Tat auch um diese große Krise mit Blick auf das Aussterben geht. Wie Sie eben sagten: Vielfalt und Masse der Insekten müssen geschützt werden. Deshalb möchte ich Sie gerne zur Veränderung eines relevanten Adjektives fragen. Denn diese „biodiversitätsschädigenden Insektizide“, die im Aktionsprogramm",
+      "cer": 0.1782477341389728,
+      "start_idx": 11999,
+      "end_idx": 12052
+    },
+    {
+      "start": 2866.58503125,
+      "end": 2886.58503125,
+      "asr_text": "Insektenschutz vorkamen, sich jetzt verwandelt haben in bestäuberfeindliche Mittel. Das schränkt den Kreis, was da nun nicht mehr angewendet werden soll, in unter anderem FFH-Gebieten deutlich ein. Ich möchte Sie fragen, wie diese Veränderung zustande kam. Wir wissen ja, dass die Einigung zwischen den",
+      "human_text": "Insektenschutz noch vorkamen, haben sich jetzt in „bestäuberfeindliche Mittel“ verwandelt. Das schränkt den Kreis der Mittel, die nun unter anderem in FFH-Gebieten nicht mehr angewendet werden sollen, deutlich ein. Ich möchte Sie fragen, wie diese Veränderung zustande kam. Frau Kollegin. Wir wissen ja, dass die Einigung zwischen den",
+      "cer": 0.39072847682119205,
+      "start_idx": 12052,
+      "end_idx": 12100
+    },
+    {
+      "start": 2886.58503125,
+      "end": 2906.58503125,
+      "asr_text": "beiden Häusern nicht so ganz einfach war. Liegt es daran? Sehr geehrte Frau Abgeordnete, wir haben uns bemüht, das, was wir im Aktionsprogramm Insektenschutz als biodiversitätsschädigend bezeichnet haben, umzusetzen in die Sprache, die in der Pflanzenschutzanwendungsverordnung üblicherweise verwendet wird. Da sind es",
+      "human_text": "beiden Häusern nicht so ganz einfach war. Liegt es daran? Sehr geehrte Frau Abgeordnete, wir haben uns bemüht, das, was wir im Aktionsprogramm Insektenschutz als „biodiversitätsschädigend“ bezeichnet haben, in die Sprache zu übersetzen, die in der Pflanzenschutz-Anwendungsverordnung üblicherweise verwendet wird. Dort sind es",
+      "cer": 0.09748427672955975,
+      "start_idx": 12100,
+      "end_idx": 12143
+    },
+    {
+      "start": 2906.58503125,
+      "end": 2926.58503125,
+      "asr_text": "einfach andere Kategorien. Das heißt, die Biodiversität ist jetzt definiert in Bienen- und bestäuberfeindlich. Das ist aber im Kern das Gleiche. Es ist nur eine andere Formulierung dafür gefunden worden. Das, was wir wollen, nämlich dass die Biodiversität geschützt wird, dass eben",
+      "human_text": "einfach andere Kategorien. Das heißt, die Biodiversität ist jetzt definiert in „bienen- und bestäuberfeindlich“. Das ist aber im Kern das Gleiche. Es ist nur eine andere Formulierung dafür gefunden worden. Das, was wir wollen, nämlich dass die Biodiversität geschützt wird, dass",
+      "cer": 0.028469750889679714,
+      "start_idx": 12143,
+      "end_idx": 12184
+    },
+    {
+      "start": 2926.58503125,
+      "end": 2945.8490937500005,
+      "asr_text": "Bestäuber geschützt werden, das ist mit Bienen und bestäuberfeindlich ganz genau so bezeichnet. Danke sehr. Der Kollege Dr. Kraft, AfD, hat die letzte Nachfrage zu dieser Frage. Ja, danke. Da wir zum Themenkomplex zurückgekehrt sind, kann ich Sie auch stellen. Frau Ministerin.",
+      "human_text": "Bestäuber geschützt werden, ist mit „bienen- und bestäuberfeindlich“ ganz genauso bezeichnet. Danke sehr. – Der Kollege Dr. Kraft, AfD, hat die letzte Nachfrage zu dieser Frage. Ja, danke. Da wir jetzt zu diesem Themenkomplex zurückgekehrt sind, kann ich sie auch stellen. – Frau Ministerin,",
+      "cer": 0.09747292418772563,
+      "start_idx": 12184,
+      "end_idx": 12228
+    },
+    {
+      "start": 2945.8490937500005,
+      "end": 2965.8490937500005,
+      "asr_text": "Ich bin überrascht. Sie erwecken den Eindruck, als ob die Landwirte in Deutschland nichts Besseres zu tun haben, als ihr Geld für Pflanzenschutzmittel auszugeben, die sie auf die Felder kloppen, obwohl es nicht nötig ist. Die Bauern können in der Regel sehr gut und sehr hart kalkulieren, weil sie auch mit ihrem eigenen Geld arbeiten. Diese Ausgaben sind ein Investment dafür, dass der Landwirt sich davon einen Mehrwert verspricht.",
+      "human_text": "ich bin etwas überrascht. Sie erwecken den Eindruck, als ob die Landwirte in Deutschland nichts Besseres zu tun haben, als ihr Geld für Pflanzenschutzmittel auszugeben, die sie auf die Felder kloppen, obwohl es nicht notwendig ist. Die Bauern können in der Regel sehr gut und sehr hart kalkulieren, weil sie mit ihrem eigenen Geld arbeiten. Diese Ausgaben sind ein Investment; der Landwirt verspricht sich davon einen Mehrwert. Wenn Sie",
+      "cer": 0.10854503464203233,
+      "start_idx": 12228,
+      "end_idx": 12297
+    },
+    {
+      "start": 2965.8490937500005,
+      "end": 2985.8490937500005,
+      "asr_text": "die dazu führen, dass weniger in diesen Bereich investiert wird für den Pflanzenschutz der Feldfrüchte auf dem Land. Welche Minderungen werden die Landwirte dadurch in ihren Erträgen erhalten? Oder wollen Sie suggerieren, dass weiterhin die Landwirte aus Spaß und Freude hier oder komplett unnütz Geld für Pflanzenschutzmittel ausgegeben haben und sie zum Vergiften durchgeführt haben?",
+      "human_text": "die dazu führen, dass weniger in den Schutz der Feldfrüchte auf dem Acker investiert wird: Welchen Ausgleich für Ertragsminderungen werden die Landwirte erhalten? Sie suggerieren hier, dass die Landwirte aus Spaß an der Freude und komplett unnütz ihr Geld für Pflanzenschutzmittel ausgegeben haben und sie zum Vergiften der Umwelt",
+      "cer": 0.4025974025974026,
+      "start_idx": 12300,
+      "end_idx": 12349
+    },
+    {
+      "start": 2985.8490937500005,
+      "end": 3001.81503125,
+      "asr_text": "Umwelt auf den Feldern verteilt haben, obwohl es nicht notwendig gewesen wäre. Herr Abgeordneter, diesen Eindruck muss ich erst einmal deutlich zurückweisen. Das ist von niemandem in der Bundesregierung jemals nur in Betracht gezogen worden, dass Landwirtinnen und Landwirte so agieren könnten.",
+      "human_text": "Umwelt auf den Feldern verteilt haben, obwohl es nicht notwendig gewesen wäre. Herr Abgeordneter, diesen Eindruck muss ich erst einmal deutlich zurückweisen. Es ist von niemandem in der Bundesregierung jemals nur in Betracht gezogen worden, dass Landwirtinnen und Landwirte so agieren könnten.",
+      "cer": 0.006802721088435374,
+      "start_idx": 12348,
+      "end_idx": 12390
+    },
+    {
+      "start": 3001.81503125,
+      "end": 3021.81503125,
+      "asr_text": "Landwirtinnen und Landwirte gehen sehr verantwortlich mit der Landwirtschaft um. Was wir jetzt aber wollen, ist, dass der Einsatz von Pflanzenschutzmitteln reduziert wird. Und dafür wird es auch Ausgleiche geben. Das ist doch selbstverständlich. Und daran haben wir alle als Gesellschaft ein Interesse. Weil wenn es keine Besteuerung gibt,",
+      "human_text": "Landwirtinnen und Landwirte gehen sehr verantwortlich mit der Landwirtschaft um. Was wir jetzt aber wollen, ist, dass der Einsatz von Pflanzenschutzmitteln reduziert wird. Dafür wird es auch Ausgleiche geben; das ist doch selbstverständlich. Und daran haben wir alle als Gesellschaft ein Interesse; denn wenn es keine Bestäuber mehr gibt,",
+      "cer": 0.05309734513274336,
+      "start_idx": 12390,
+      "end_idx": 12439
+    },
+    {
+      "start": 3021.81503125,
+      "end": 3041.81503125,
+      "asr_text": "dann wird es auch keine Landwirtschaft in Deutschland mehr geben. Wir wollen, dass nicht nur diese Generation, sondern auch die nächsten Generationen hier in Deutschland noch hochwertige Lebensmittel produzieren können. Und wir arbeiten vorsorglich. Unser Vorsorgeprinzip ist genau das, was Sie jetzt in dem Gesetz, in der Pflanzenschutzanwendungsverordnung widersprechen.",
+      "human_text": "dann wird es auch keine Landwirtschaft in Deutschland mehr geben. Wir wollen, dass nicht nur diese Generation, sondern dass auch die nächsten Generationen hier in Deutschland noch hochwertige Lebensmittel produzieren können. Wir arbeiten vorsorglich. Unser Vorsorgeprinzip kommt in der Pflanzenschutz-Anwendungsverordnung zum Ausdruck.",
+      "cer": 0.17204301075268819,
+      "start_idx": 12439,
+      "end_idx": 12481
+    },
+    {
+      "start": 3041.81503125,
+      "end": 3058.94534375,
+      "asr_text": "finden. Das ist die Politik, die die Menschen von uns erwarten. Es soll hier auch in Zukunft noch möglich sein, gute Lebensmittel herzustellen. Und dafür schaffen wir heute die Bedingungen.",
+      "human_text": "Ausdruck. Das ist die Politik, die die Menschen von uns erwarten. Es soll hier auch in Zukunft noch möglich sein, gute Lebensmittel herzustellen, und dafür schaffen wir heute die Bedingungen.",
+      "cer": 0.047619047619047616,
+      "start_idx": 12480,
+      "end_idx": 12510
+    },
+    {
+      "start": 3058.94534375,
+      "end": 3078.94534375,
+      "asr_text": "Frau Ministerin, die Notwendigkeit von Insektenschutz ist richtig und die Notwendigkeit der Eigenversorgung mit Lebensmitteln ebenfalls. Ich stelle Ihnen hier die Frage, wie wollen Sie Landwirtinnen und Landwirten ermöglichen, insektenfreundlich zu wirtschaften bei den Dumpingpreisen der Agrarversorgung?",
+      "human_text": "Frau Ministerin, die Notwendigkeit von Insektenschutz ist richtig und die Notwendigkeit der Eigenversorgung mit Lebensmitteln ebenfalls. Ich stelle Ihnen hier die Frage: Wie wollen Sie Landwirtinnen und Landwirten ermöglichen, insektenfreundlich zu wirtschaften, bei den Dumpingpreisen der Agrarindustrie,",
+      "cer": 0.04262295081967213,
+      "start_idx": 12514,
+      "end_idx": 12551
+    },
+    {
+      "start": 3078.94534375,
+      "end": 3096.2306562500003,
+      "asr_text": "der Agrarindustrie, bei den Dumpingpreisen der Einzelhandels- und Großhandelsketten? Wie wollen Sie sicherstellen, dass Landwirtinnen und Landwirte vernünftige Fruchtfolgen einführen können, wenn die Rahmenbedingungen dazu nicht gestellt werden? Das heißt, und wie stellen Sie sicher, dass...",
+      "human_text": "der Agrarindustrie, bei den Dumpingpreisen der Einzelhandels- und der Großhandelsketten?Wie wollen Sie sicherstellen, dass Landwirtinnen und Landwirte vernünftige Fruchtfolgen einführen können, wenn die Rahmenbedingungen dafür nicht geschaffen werden? Wie stellen Sie sicher, dass",
+      "cer": 0.11643835616438356,
+      "start_idx": 12549,
+      "end_idx": 12582
+    },
+    {
+      "start": 3096.2306562500003,
+      "end": 3108.33846875,
+      "asr_text": "Landwirten im Biolandbau, die bisher über Kulap-Maßnahmen gefördert sind, zukünftig diese Einnahmen nicht verlieren, weil nämlich dann die gesetzlichen Rahmenbedingungen da sind und damit die Zusatzförderung wegfällt.",
+      "human_text": "Landwirte im Biolandbau, die bisher über KULAP-Maßnahmen gefördert werden, diese Einnahmen zukünftig nicht verlieren, weil durch die gesetzlichen Rahmenbedingungen die Zusatzförderung wegfällt?",
+      "cer": 0.2626728110599078,
+      "start_idx": 12584,
+      "end_idx": 12606
+    },
+    {
+      "start": 3108.33846875,
+      "end": 3128.33846875,
+      "asr_text": "Herr Abgeordneter, erst einmal freue ich mich sehr darüber, dass ich so viele Fragen aus dem landwirtschaftlichen Bereich gestellt bekomme. Ich will nur noch einmal kurz darauf hinweisen, dass das zwei Ministerien sind. Meins heißt Umwelt, Naturschutz und nukleare Sicherheit. Dann gibt es auch ein Ministerium für die Landwirtschaft. Trotzdem beantworte ich Ihre Frage natürlich gerne. Ja.",
+      "human_text": "Herr Abgeordneter, erst mal freue ich mich sehr darüber, dass ich so viele Fragen aus dem landwirtschaftlichen Bereich gestellt bekomme. Ich will nur noch einmal kurz darauf hinweisen, dass das zwei Ministerien sind; also meins heißt Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit, und dann gibt es das Ministerium für Landwirtschaft. Trotzdem beantworte ich Ihre Frage natürlich gerne. Ja,",
+      "cer": 0.13076923076923078,
+      "start_idx": 12606,
+      "end_idx": 12665
+    },
+    {
+      "start": 3128.33846875,
+      "end": 3148.33846875,
+      "asr_text": "Wir brauchen vielfältige Fruchtfolgen. Wir müssen eine andere Ackerbaustrategie verfolgen, um die Böden und den Humusaufbau weiter zu fördern. Das hat Frau Klöckner bereits angekündigt, dass diese Ackerbaustrategie von ihr erarbeitet ist und dass sie jetzt diskutiert werden soll.",
+      "human_text": "wir brauchen vielfältige Fruchtfolgen. Wir müssen eine andere Ackerbaustrategie verfolgen, um auch den Humusaufbau in den Böden weiter zu fördern. Frau Klöckner hat ja bereits angekündigt, dass diese Ackerbaustrategie von ihr erarbeitet ist und jetzt diskutiert werden soll.",
+      "cer": 0.17857142857142858,
+      "start_idx": 12665,
+      "end_idx": 12703
+    },
+    {
+      "start": 3148.33846875,
+      "end": 3168.33846875,
+      "asr_text": "Ich teile aber Ihre Ansicht, dass die Dumpingpreise ein riesiges Problem sind und dass das unanständig ist, was der Handel da inzwischen macht. Da müssen wir stärker gegen vorgehen. Es muss für das, was Landwirtinnen und Landwirte leisten, auch angemessene Preise geben. Das ist das, was ich jedenfalls immer wieder",
+      "human_text": "Ich teile Ihre Ansicht, dass die Dumpingpreise ein riesiges Problem sind und dass es unanständig ist, was der Handel inzwischen macht. Dagegen müssen wir stärker vorgehen. Es muss für das, was Landwirtinnen und Landwirte leisten, auch angemessene Preise geben. Ich jedenfalls fordere das immer wieder.",
+      "cer": 0.14285714285714285,
+      "start_idx": 12703,
+      "end_idx": 12748
+    },
+    {
+      "start": 3168.33846875,
+      "end": 3188.33846875,
+      "asr_text": "wieder einfordern. Nachfrage, Herr Leugert. Entschuldigung, Herr Präsident, Herr Lenkert. Frau Ministerin, Sie haben nach wie vor in der Bundesregierung keine Maßnahmen zur Sicherstellung für eine insektenfreundliche Landwirtschaft getroffen, das stelle ich jetzt fest. Ich frage Sie dann zu Ihrem Haus.",
+      "human_text": "jedenfalls fordere das immer wieder. Nachfrage, Herr Lenkert? Frau Ministerin, Sie haben also in der Bundesregierung nach wie vor keine Maßnahmen zur Sicherstellung einer insektenfreundlichen Landwirtschaft getroffen; das stelle ich jetzt fest. Ich frage Sie zu Ihrem Haus.",
+      "cer": 0.297029702970297,
+      "start_idx": 12743,
+      "end_idx": 12781
+    },
+    {
+      "start": 3188.33846875,
+      "end": 3198.9825312500006,
+      "asr_text": "In Ihrem Haus gibt es das Förderprogramm für Straßenbeleuchtung. Haben Sie vor, die Förderbedingungen dahingehend zu ergänzen, dass zukünftig eine Förderung der Umstellung auf",
+      "human_text": "In Ihrem Haus gibt es ein Förderprogramm für die Sanierung von Außen- und Straßenbeleuchtung. Haben Sie vor, die Förderbedingungen dahin gehend zu ergänzen, zukünftig eine Förderung der Umstellung auf",
+      "cer": 0.21714285714285714,
+      "start_idx": 12781,
+      "end_idx": 12810
+    },
+    {
+      "start": 3198.9825312500006,
+      "end": 3209.6398750000003,
+      "asr_text": "bessere Lampen, Leuchtmittel, ich sage bewusst nicht LED, weil es andere Alternativen gibt, an das Kriterium Insektenfreundlichkeit zu koppeln und wie lange wird dies dauern?",
+      "human_text": "bessere Lampen, Leuchtmittel – ich sage bewusst nicht LED, weil es andere Alternativen gibt – an das Kriterium Insektenfreundlichkeit zu koppeln, und wie lange wird dies dauern?",
+      "cer": 0.028735632183908046,
+      "start_idx": 12810,
+      "end_idx": 12837
+    },
+    {
+      "start": 3209.6398750000003,
+      "end": 3229.6398750000003,
+      "asr_text": "Herr Abgeordneter, wir haben auch jetzt schon Maßnahmen auf den Weg gebracht. Ich hatte das zu Beginn gesagt, dass wir in der Gemeinsamen Agrar- und Küstenschutz schon ein Fenster für den Insektenschutz haben, dass wir das Biodiversitätsmonitoringzentrum auf den Weg gebracht haben, dass wir in meinem Haus ein extra Programm haben für den Biodiversitätsschutz.",
+      "human_text": "Herr Abgeordneter, wir haben auch jetzt schon Maßnahmen auf den Weg gebracht. Ich hatte zu Beginn gesagt, dass wir in der Gemeinschaftsaufgabe Agrarstruktur und Küstenschutz schon ein Fenster für den Insekten schutz vorgesehen haben. Wir haben das Zentrum für Biodiversitätsmonitoring auf den Weg gebracht; in meinem Haus gibt es zusätzlich ein Programm für den Biodiversitätsschutz,",
+      "cer": 0.2853185595567867,
+      "start_idx": 12837,
+      "end_idx": 12892
+    },
+    {
+      "start": 3229.6398750000003,
+      "end": 3249.6398750000003,
+      "asr_text": "woraus man Mittel bekommen kann. Wir haben schon große Teile des Aktionsprogramms Insektenschutz umgesetzt. Wird es bei den Beleuchtungen Regelungen geben? Ja, das ist ein Teil dessen, was Sie jetzt auch in dem Insektenschutzgesetz finden wollen. Ich will in Schutzgebieten vor allen Dingen da, wo sehr viele",
+      "human_text": "woraus man Mittel bekommen kann. Wir haben schon große Teile des Aktionsprogramms Insektenschutz umgesetzt. Wird es bei den Beleuchtungen Regelungen geben? Ja, das ist ein Teil dessen, was Sie jetzt auch in dem Insektenschutzgesetz finden werden. Ich will in Schutzgebieten, vor allen Dingen dort, wo sehr viele",
+      "cer": 0.022727272727272728,
+      "start_idx": 12892,
+      "end_idx": 12939
+    },
+    {
+      "start": 3249.6398750000003,
+      "end": 3269.6398750000003,
+      "asr_text": "Nachtaktive Insekten sind, die von künstlichen Lichtquellen angelockt werden könnten, die Neuerrichtung solcher Anlagen auf jeden Fall verhindern. Und es ist in dem Gesetz auch vorgesehen, eine Ermächtigungsgrundlage für den Erlass von Rechtsverordnungen, weil auch weitere Lichtverschmutzung, zum Beispiel von Werkzeugen,",
+      "human_text": "nachtaktive Insekten sind, die von künstlichen Lichtquellen angelockt werden könnten, die Neuerrichtung solcher Anlagen auf jeden Fall verhindern. Und in dem Gesetz ist auch eine Ermächtigungsgrundlage für den Erlass von Rechtsverordnungen vorgesehen, weil auch weitere Lichtverschmutzung, zum Beispiel von Werbetafeln",
+      "cer": 0.12422360248447205,
+      "start_idx": 12939,
+      "end_idx": 12979
+    },
+    {
+      "start": 3269.6398750000003,
+      "end": 3281.5603437500004,
+      "asr_text": "und so weiter eingeschränkt werden muss. Das andere auch ja. Danke schön. Die Kollegin Steffi Lemke hat eine Nachfrage dazu. 30 Sekunden.",
+      "human_text": "usw., eingeschränkt werden muss. Und das andere auch, ja. Danke schön. – Die Kollegin Steffi Lemke hat eine Nachfrage dazu – 30 Sekunden!",
+      "cer": 0.15328467153284672,
+      "start_idx": 12979,
+      "end_idx": 13002
+    },
+    {
+      "start": 3281.5603437500004,
+      "end": 3301.5603437500004,
+      "asr_text": "Frau Ministerin, der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu den Schwebfliegen vorgelegt. Die Schwebfliegen sind bekanntermaßen keine Bestäuber, aber Nützlinge, weil sie Blattläuse vertilgen. Können Sie mir vor diesem Hintergrund eventuell noch einmal erläutern, warum Sie so",
+      "human_text": "Frau Ministerin. Der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu weiteren Insekten vorgelegt. Denn es gibt auch andere Insekten, die bekanntermaßen keine Bestäuber, aber Nützlinge sind, weil sie zum Beispiel Blattläuse vertilgen. Können Sie mir vor diesem Hintergrund eventuell noch mal erläutern, warum in",
+      "cer": 0.22435897435897437,
+      "start_idx": 13010,
+      "end_idx": 13056
+    },
+    {
+      "start": 3301.5603437500004,
+      "end": 3312.8634687500003,
+      "asr_text": "warum aus biodiversitätsschädlich bestäuberschädlich in Ihrem Insektenschutzgesetz geworden ist und ob Sie jetzt unterscheiden zwischen guten und schlechten Insekten.",
+      "human_text": "aus „biodiversitätsschädlich“ „bestäuberschädlich“ geworden ist und ob Sie jetzt zwischen guten und schlechten Insekten",
+      "cer": 0.3253012048192771,
+      "start_idx": 13058,
+      "end_idx": 13072
+    },
+    {
+      "start": 3312.8634687500003,
+      "end": 3332.8634687500003,
+      "asr_text": "Nein, wir unterscheiden nicht zwischen guten und schlechten Insekten, sondern wir haben einfach die Kategorien, die bisher im Pflanzenschutzrecht üblich waren, jetzt wieder aufgegriffen. Bienen und bestäuber-schädlich, die Mittel, die das sozusagen sind, die sind auch schädlich für Schwebfliegen und Natürlichkeiten.",
+      "human_text": "Nein, wir unterscheiden nicht zwischen guten und schlechten Insekten, sondern wir haben einfach die Kategorien, die bisher im Pflanzenschutzrecht üblich waren, jetzt wieder aufgegriffen. Die Mittel, die für Bienen und andere Bestäuber schädlich sind, sind auch schädlich für Schwebfliegen. Und natürlich werden",
+      "cer": 0.20189274447949526,
+      "start_idx": 13073,
+      "end_idx": 13115
+    },
+    {
+      "start": 3332.8634687500003,
+      "end": 3352.8634687500003,
+      "asr_text": "Natürlich werden damit dann auch Schwebfliegen geschützt. Wir haben ein Vokabular verwendet, was eins zu eins genau das, was wir in dem Aktionsprogramm Insektenschutz hatten, beschreibt in der Sprache, die für den Rechtskreis sozusagen jetzt angemessen ist. Es gibt da keinen Unterschied. Es entsteht keine Schutzschutzschutz.",
+      "human_text": "gar keinen Sinn, das zu ändern! Wir haben ein Vokabular verwendet, das eins zu eins beschreibt, was im Aktionsprogramm Insektenschutz steht, und zwar in einer Sprache, die für den Das stimmt nicht! Da stand was anderes drin! Das ist falsch! Rechtskreis sozusagen angemessen ist. Es gibt da keinen Unterschied; es entsteht keine Schutzlücke.",
+      "cer": 0.48466257668711654,
+      "start_idx": 13124,
+      "end_idx": 13177
+    },
+    {
+      "start": 3352.8634687500003,
+      "end": 3364.73721875,
+      "asr_text": "Danke sehr. Die nächste Frage stellt die Kollegin Lisa Barth von Bündnis 90 Die Grünen.",
+      "human_text": "Ort. Die nächste Nachfrage stellt die Kollegin Renate Künast, Bündnis 90/Die Grünen.",
+      "cer": 0.3333333333333333,
+      "start_idx": 9063,
+      "end_idx": 9075
+    },
+    {
+      "start": 3364.73721875,
+      "end": 3384.73721875,
+      "asr_text": "Sehr geehrte Frau Ministerin, ich möchte gerne zu einem neuen Thema hier fragen, und zwar zu Nord Stream 2. Es scheint ja für die SPD das bei Weitem wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gründet eine neue Stiftung. Herr Scholz lässt sich von der amerikanischen Regierung erpressen und verspricht deutsche Steuergelder als Lösegeld.",
+      "human_text": "Sehr geehrte Frau Ministerin, ich möchte gern zu einem neuen Thema fragen, und zwar zu Nord Stream 2. Das scheint ja für die SPD das bei Weitem wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gründet eine neue Stiftung; Herr Scholz lässt sich von der amerikanischen Regierung erpressen und verspricht deutsche Steuergelder als Lösegeld;",
+      "cer": 0.028328611898016998,
+      "start_idx": 13199,
+      "end_idx": 13253
+    },
+    {
+      "start": 3384.73721875,
+      "end": 3404.73721875,
+      "asr_text": "Der Bundespräsident setzt sich ein, wo sie sich rechtlich bewegt, scheint der SPD mittlerweile egal zu sein. Aber Sie stehen ja hier nicht als Parteimitglied, sondern als Umweltministerin, als Klimaministerin. Und von daher würde ich von Ihnen gerne wissen, warum Sie das Projekt Nord Stream 2 und den Dirty Deal von Herrn Scholz weiter unterstützen, obwohl das ganz klar ist,",
+      "human_text": "der Bundespräsident setzt sich ein. Wo sie sich rechtlich bewegt, scheint der SPD mittlerweile egal zu sein. Aber Sie stehen ja hier nicht als Parteimitglied, sondern als Umweltministerin, als Klimaministerin. Von daher würde ich von Ihnen gern wissen, warum Sie das Projekt Nord Stream 2 und den „dirty deal“ von Herrn Scholz weiter unterstützen, obwohl das ganz klar",
+      "cer": 0.047872340425531915,
+      "start_idx": 13253,
+      "end_idx": 13311
+    },
+    {
+      "start": 3404.73721875,
+      "end": 3421.11659375,
+      "asr_text": "gegen die EU-Klimaziele verstößt, obwohl die EU ganz klar keine fossilen Infrastrukturen mehr fördern will. Warum unterstützen Sie dieses Projekt? Erst mal Frau Abgeordnete, weise ich hier deutlich zurück, dass es irgendwelche schmutzigen Deals da gibt. Das ist nicht der Fall.",
+      "human_text": "gegen die EU-Klimaziele verstößt, obwohl die EU ganz klar keine fossilen Infrastrukturen mehr fördern will. Warum unterstützen Sie dieses Projekt? Erst mal, Frau Abgeordnete, weise ich hier deutlich zurück, dass es da irgendwelche schmutzigen Deals gibt. Das ist nicht der Fall.",
+      "cer": 0.02527075812274368,
+      "start_idx": 13311,
+      "end_idx": 13352
+    },
+    {
+      "start": 3421.11659375,
+      "end": 3441.11659375,
+      "asr_text": "Dann sind wir uns doch einig, wir wollen aus der Kohleverstromung aussteigen und wir wollen aus der Nutzung von Atomstrom aussteigen. Wir werden die Atomkraftwerke abschalten. Das heißt aber, wir brauchen für den Übergang Gas. Es wird gar nicht anders möglich sein.",
+      "human_text": "dann sind wir uns doch einig: Wir wollen aus der Kohleverstromung aussteigen, und wir wollen aus der Nutzung von Atomstrom aussteigen. Wir werden die Atomkraftwerke abschalten. Das heißt aber: Wir brauchen für den Übergang Gas; es wird gar nicht anders möglich sein.",
+      "cer": 0.03018867924528302,
+      "start_idx": 13353,
+      "end_idx": 13395
+    },
+    {
+      "start": 3441.11659375,
+      "end": 3461.11659375,
+      "asr_text": "Ich kann Agoraz empfehlen, die das noch einmal sehr gut nachgewiesen haben, dass wir gerade für den Umbau der Stahlindustrie im Übergang auf Gas angewiesen sein werden, solange bis wir genug erneuerbare Energien zur Verfügung haben, um daraus zum Beispiel Wasserstoff herzustellen.",
+      "human_text": "die von Agora empfehlen –, die sehr klar nachgewiesen haben, dass wir gerade während des Umbaus der Stahlindustrie auf Gas angewiesen sein werden, so lange, bis wir genug erneuerbare Energien zur Verfügung haben, um dann daraus zum Beispiel Wasserstoff herzustellen",
+      "cer": 0.199288256227758,
+      "start_idx": 13405,
+      "end_idx": 13445
+    },
+    {
+      "start": 3461.11659375,
+      "end": 3481.11659375,
+      "asr_text": "Daraus Kerosin herzustellen. Und deswegen ist Gas ein wichtiger Faktor für den Übergang. Das ist nicht lange der Fall. Die Forschung sagt uns, dass das wahrscheinlich bis rund 2040 der Fall sein wird. Aber so lange brauchen wir Gas. Und dann möglichst viele Quellen zu haben, damit es für die Verbraucherinnen und Verbraucher möglich ist,",
+      "human_text": "oder Kerosin herzustellen. Deswegen ist Gas ein wichtiger Faktor für den Übergang. Das ist nicht lange der Fall. Die Forschung sagt uns, dass das wahrscheinlich bis rund 2040 der Fall sein wird; aber so lange brauchen wir Gas. Dafür dann möglichst viele Quellen zu haben, damit das für die Verbraucherinnen und Verbraucher möglichst",
+      "cer": 0.06804733727810651,
+      "start_idx": 13445,
+      "end_idx": 13498
+    },
+    {
+      "start": 3481.11659375,
+      "end": 3498.64878125,
+      "asr_text": "möglichst günstig ist und damit man auch einen Einfluss auf die Preisgestaltung hat. Ich finde, das ist genau der richtige Weg und kann das nur unterstützen, dass wir Gas als Zwischenlösung nutzen. Die Alternativen, Atom aus Frankreich oder Kohle aus Polen, nicht.",
+      "human_text": "möglichst günstig ist und damit man auch einen Einfluss auf die Preisgestaltung hat, ist, wie ich finde, genau der richtige Weg. Ich kann nur unterstützen, dass wir Gas als Zwischenlösung nutzen; die Alternativen, Atomstrom aus Frankreich oder Kohlestrom aus Polen,",
+      "cer": 0.16666666666666666,
+      "start_idx": 13497,
+      "end_idx": 13537
+    },
+    {
+      "start": 3498.64878125,
+      "end": 3518.64878125,
+      "asr_text": "Nachfrage, Frau Badum. Vielen Dank. Frau Ministerin, dass der schmutzige Deal nicht zustande kam, lag nicht an der Bundesregierung, sondern weil Herr Trump diesen Deal nicht eingewilligt hat. Es ist so, dass die Bundesnetzagentur in Sinken den Bedarf von Gas für Deutschland vorhersagt und dass die Pipelines, die jetzt zu uns führen, überhaupt nicht ausgelastet sind. Deswegen",
+      "human_text": "Nachfrage, Frau Badum? Vielen Dank. – Frau Ministerin, dass der schmutzige Deal nicht zustande kam, lag nicht an der Bundesregierung, sondern daran, dass Herr Trump in diesen Deal nicht eingewilligt hat. Die Bundesnetzagentur hat einen sinkenden Bedarf an Gas für Deutschland vorhersagt und dargelegt, dass die Pipelines, die jetzt zu uns führen, überhaupt nicht ausgelastet sind. Deswegen",
+      "cer": 0.14854111405835543,
+      "start_idx": 13540,
+      "end_idx": 13597
+    },
+    {
+      "start": 3518.64878125,
+      "end": 3531.6731562500004,
+      "asr_text": "frage ich Sie noch mal, warum unterstützen Sie als oberste Klimaschützerin dieser Bundesregierung einen Mehrausstoß von 100 Millionen Tonnen CO2 und wollen noch eine Milliarde Euro dafür zahlen? Das würde ich gerne von Ihnen wissen.",
+      "human_text": "frage ich Sie noch mal: Warum unterstützen Sie als oberste Klimaschützerin dieser Bundesregierung einen Mehrausstoß von 100 Millionen Tonnen CO2 und wollen noch 1 Milliarde Euro dafür zahlen? Das würde ich gerne von Ihnen wissen.",
+      "cer": 0.02586206896551724,
+      "start_idx": 13597,
+      "end_idx": 13632
+    },
+    {
+      "start": 3531.6731562500004,
+      "end": 3551.6731562500004,
+      "asr_text": "Frau Abgeordnete, erst einmal noch einmal. Ich weise es deutlich zurück. Es gibt keinen schmutzigen Deal, auch wenn Sie es immer wieder behaupten. Es ist ja nicht üblich, ich darf Ihnen keine Gegenfrage stellen. Aber ich stelle mir dann selber die Frage, was es für einen Sinn machen soll, ein genehmigtes Projekt zu stoppen, dafür mitzumachen,",
+      "human_text": "Frau Abgeordnete, noch mal: Ich weise es deutlich zurück. Es gibt keinen schmutzigen Deal, auch wenn Sie es immer wieder behaupten. Ich darf Ihnen keine Gegenfrage stellen; das ist nicht üblich. Dann stelle ich mir selber die Frage, was es für einen Sinn machen soll, ein genehmigtes Projekt zu stoppen, dafür Milliarden",
+      "cer": 0.22965116279069767,
+      "start_idx": 13632,
+      "end_idx": 13684
+    },
+    {
+      "start": 3551.6731562500004,
+      "end": 3571.6731562500004,
+      "asr_text": "Milliarden zu zahlen, nur damit eine Pipeline nicht fertiggestellt wird. Entscheidend ist doch, wie viel Gas wir am Ende verwenden. Und das ist das, was wir versuchen, möglichst zu reduzieren. Wir wollen aus allen fossilen Energien aussteigen. Wir tun es bei der Kohle. Wir werden die Atomkraftwerke abschalten. Aber wir brauchen Gas,",
+      "human_text": "Milliarden zu zahlen, nur damit eine Pipeline nicht fertiggestellt wird. Entscheidend ist doch, wie viel Gas wir am Ende verwenden. Wir versuchen, den Verbrauch möglichst zu reduzieren. Wir wollen aus allen fossilen Energien aussteigen. Wir tun es bei der Kohle; wir werden die Atomkraftwerke abschalten. Aber wir brauchen Gas",
+      "cer": 0.08383233532934131,
+      "start_idx": 13683,
+      "end_idx": 13732
+    },
+    {
+      "start": 3571.6731562500004,
+      "end": 3584.80409375,
+      "asr_text": "im Übergang. Und wenn Sie dafür eine Alternative haben, sehr schön, lassen Sie uns das diskutieren. Die Forschung sagt uns eindeutig, wir brauchen im Übergang Gas.",
+      "human_text": "im Übergang. Und wenn Sie dafür eine Alternative haben, sehr schön, lassen Sie uns das diskutieren. Die Forschung sagt uns eindeutig: Wir brauchen im Übergang Gas.",
+      "cer": 0.012269938650306749,
+      "start_idx": 13732,
+      "end_idx": 13758
+    },
+    {
+      "start": 3584.80409375,
+      "end": 3604.80409375,
+      "asr_text": "AfD, stellt die nächste Nachfrage. Danke. Vielen Dank, Frau Ministerin. Ich möchte bestätigen, was Sie gesagt haben. Es ist tatsächlich richtig, dass auch die Papiere des Bundeswirtschaftsministeriums sagen, dass es einen verstärkten Wechsel auf Gas geben wird. Selbstverständlich ist es nicht so, wie die Kollegin Insunid",
+      "human_text": "AfD, stellt die nächste Nachfrage. Vielen Dank. – Frau Ministerin, ich möchte bestätigen, was Sie hier gesagt haben. Es ist tatsächlich richtig, dass es – auch die Papiere des Bundeswirtschaftsministeriums sagen das – einen verstärkten Wechsel auf Gas geben wird. Und selbstverständlich ist es nicht so, wie die Kollegin insinuiert,",
+      "cer": 0.11801242236024845,
+      "start_idx": 13761,
+      "end_idx": 13811
+    },
+    {
+      "start": 3604.80409375,
+      "end": 3624.80409375,
+      "asr_text": "insinuiert, dass nur ein Angebot von Gas zu einem Mehrverbrauch führt. Das ist ja gemäß der Erneuerbare-Energie-Gesetze gar nicht möglich. Allerdings, und das muss ich widersprechen, es ist nicht nur so, dass das Abschalten von Kohle und Kernkraftwerken bei uns zu einem erhöhten Gaskonsum führen wird durch die Gaskraftwerke. Es ist tatsächlich auch so, dass wir in einer verstärkten Abhängigkeit von ausländischen Kernkraftwerken",
+      "human_text": "insinuiert, dass nur ein Angebot von Gas zu einem Mehrverbrauch führt. Das ist ja gemäß dem ErneuerbareEnergien-Gesetz gar nicht möglich. Allerdings – und jetzt muss ich widersprechen – ist es nicht nur so, dass das Abschalten von Kohle- und Kernkraftwerken bei uns zu einem erhöhten Gaskonsum von heimischen Gaskraftwerken führen wird; es ist tatsächlich auch so, dass wir in eine verstärkte Abhängigkeit von ausländischen Kernkraftwerken",
+      "cer": 0.12064965197215777,
+      "start_idx": 13810,
+      "end_idx": 13875
+    },
+    {
+      "start": 3624.80409375,
+      "end": 3644.80409375,
+      "asr_text": "Das kann man an den Nettoimportströmen sehen, die aus Frankreich importiert werden müssen und die im Jahr 2019 die Größe von über 14 Terawattstunden überschritten hat, was zwei kompletten französischen Kraftwerksblöcken entspricht, die auf dem Papier zu 100 Prozent für den Export nach Deutschland arbeiten. Das ist ein Ergebnis Ihrer Energiepolitik, und das ist auch ein Ergebnis der",
+      "human_text": "Das kann man am Nettoimportstrom aus Frankreich sehen, der im Jahr 2019 die Größe von 14 Terawattstunden überschritten hat. Das entspricht zwei kompletten französischen Kraftwerksblöcken, die auf dem Papier zu 100 Prozent für den Export nach Deutschland arbeiten. Das ist einDr. Rainer Kraft: Ergebnis Ihrer Energiepolitik, und das ist auch ein Ergebnis des",
+      "cer": 0.2421875,
+      "start_idx": 13876,
+      "end_idx": 13929
+    },
+    {
+      "start": 3644.80409375,
+      "end": 3661.6022187500002,
+      "asr_text": "des Verzichtes auf die Souveränität, auf die deutsche Stromerzeugungsautarkie. Geben Sie mir recht, dass es so kommen muss, dass, wenn ich bei uns Stromerzeuge abschalten muss, dass ich mich in die Abhängigkeit von ausländischen Stromerzeugungen gebe, in diesem Fall von französischen Kernkraftwerken.",
+      "human_text": "des Verzichtes auf Souveränität, auf die deutsche Stromerzeugungsautarkie. Geben Sie mir recht, dass es so kommen muss, dass ich mich, wenn ich bei uns Stromerzeuger abschalte, dann in die Abhängigkeit von ausländischen Stromerzeugenden begebe, in diesem Fall von französischen Kernkraftwerken?",
+      "cer": 0.11960132890365449,
+      "start_idx": 13928,
+      "end_idx": 13968
+    },
+    {
+      "start": 3661.6022187500002,
+      "end": 3681.6022187500002,
+      "asr_text": "Nein, Herr Abgeordneter, ich kann Ihnen da leider überhaupt nicht zustimmen. Das Gegenteil ist der Fall. Deutschland produziert immer noch deutlich mehr Energie, als wir selber verbrauchen und exportieren Energie in die Nachbarländer. Dass wir einen europäischen Energiemarkt anstreben, das halte ich allerdings für sinnvoll.",
+      "human_text": "Nein, Herr Abgeordneter, ich kann Ihnen da leider überhaupt nicht zustimmen; das Gegenteil ist der Fall. Deutschland produziert immer noch deutlich mehr Energie, als wir selber verbrauchen. Wir exportieren eher Energie in die Nachbarländer. Dass wir einen europäischen Energiemarkt anstreben, halte ich allerdings für sinnvoll.",
+      "cer": 0.046153846153846156,
+      "start_idx": 13977,
+      "end_idx": 14022
+    },
+    {
+      "start": 3681.6022187500002,
+      "end": 3701.6022187500002,
+      "asr_text": "Es ist absolut sinnvoll, größere Räume zusammenzuschließen, das, was wir europäisch jetzt gemeinsam tun, und uns gegenseitig zu unterstützen und zu stützen. Das ist gerade jetzt in der Frage des Umbaus wichtig, weil ja auch unsere Nachbarländer jetzt sehen, dass sie aus Kohle aussteigen müssen, weil ja auch...",
+      "human_text": "Es ist absolut sinnvoll, hier größere Räume zusammenzuschließen, was wir jetzt eben auch europäisch gemeinsam tun. Uns gegenseitig zu unterstützen und zu stützen, ist gerade jetzt in der Phase des Umbaus wichtig. Auch unsere Nachbarländer sehen, dass sie aus Kohle aussteigen müssen, und",
+      "cer": 0.2379421221864952,
+      "start_idx": 14022,
+      "end_idx": 14065
+    },
+    {
+      "start": 3701.6022187500002,
+      "end": 3719.8425312500003,
+      "asr_text": "auch wir Transitland sind, zum Beispiel für Gas und durch Deutschland hindurch, Gas eben auch zu anderen Leitenden. Und das dann eben auch gemeinsam zu planen und ein gemeinsames Netz zu haben, das halte ich für absolut sinnvoll. Die nächste Nachfrage stellt die Kollegin Verlinden.",
+      "human_text": "wir sind Transitland, zum Beispiel für Gas; wir leiten Gas durch Deutschland hindurch eben auch zu anderen. Das dann eben auch gemeinsam zu planen und ein gemeinsames Netz zu haben, das halte ich für absolut sinnvoll. Vizepräsident in Petra Pau: Die nächste Nachfrage stellt die Kollegin Verlinden.",
+      "cer": 0.2624113475177305,
+      "start_idx": 14065,
+      "end_idx": 14112
+    },
+    {
+      "start": 3719.8425312500003,
+      "end": 3739.8425312500003,
+      "asr_text": "Vielen Dank, Frau Präsidentin. Frau Ministerin, wussten Sie davon, dass diese Gespräche geführt werden von Ihrem Kabinettskollegen mit den Amerikanern bezüglich dieser Erpressungsversuche und des Lösegeldes, was da im Gespräch war?",
+      "human_text": "Vielen Dank, Frau Präsidentin. – Frau Ministerin, wussten Sie davon, dass diese Gespräche bezüglich dieser Erpressungsversuche und des Lösegeldes, das da im Gespräch war,",
+      "cer": 0.29004329004329005,
+      "start_idx": 14118,
+      "end_idx": 14142
+    },
+    {
+      "start": 3739.8425312500003,
+      "end": 3759.8425312500003,
+      "asr_text": "Außerdem möchte ich darauf hinweisen, Sie sagen, es sei zwar eine genehmigte Leitung, aber sie ist doch ganz klar in einem riesen Konflikt mit dem Europarecht und all unseren europäischen Partnern. Und dann möchte ich darauf hinweisen und Sie fragen, Ihr eigener Staatssekretär, und Sie haben das eben noch mal ähnlich formuliert, Herr Flassbart sagt, natürlich werden wir...",
+      "human_text": "Außerdem möchte ich noch einmal darauf hinweisen: Sie sagen zwar, es sei eine genehmigte Leitung; aber sie steht doch ganz klar in einem Riesenkonflikt mit dem Europarecht und all unseren europäischen Partnern. Und dann möchte ich darauf hinweisen und Sie fragen: Ihr eigener Staatssekretär Herr Flasbarth – und Sie haben das eben noch mal ähnlich formuliert – sagt: Natürlich werden wir",
+      "cer": 0.184,
+      "start_idx": 14150,
+      "end_idx": 14211
+    },
+    {
+      "start": 3759.8425312500003,
+      "end": 3779.8425312500003,
+      "asr_text": "aus dem fossilen Erdgas ausgestiegen sein. Dann erklären Sie mir doch mal, warum Sie jetzt zusätzlich zu 100 Millionen Tonnen CO2, die jährlich durch eine zusätzliche Pipeline nach Europa gebracht werden soll, offenbar noch nicht genug ist, sondern Herr Scholz ist für offenbar notwendig,",
+      "human_text": "aus dem fossilen Erdgas ausgestiegen sein. – So. Dann erklären Sie mir doch mal, warum jetzt die 100 Millionen Tonnen CO2, die jährlich durch eine zusätzliche Pipeline nach Europa gebracht werden sollen, offenbar noch nicht genug sind und Herr Scholz es offenbar für notwendig",
+      "cer": 0.1527777777777778,
+      "start_idx": 14214,
+      "end_idx": 14258
+    },
+    {
+      "start": 3779.8425312500003,
+      "end": 3799.8425312500003,
+      "asr_text": "hält, zusätzlich noch zig Millionen Tonnen CO2 jedes Jahr über LNG-Terminals anzuliefern, die europaweit überhaupt nicht ausgelastet sind, die es schon gibt. Also insofern die Frage Amortisation von riesigen Infrastrukturprojekten und die Frage solcher überdimensionierten Projekte, die tatsächlich in ein finanzielles",
+      "human_text": "hält, zusätzlich noch zig Millionen Tonnen CO2 jedes Jahr über LNG-Terminals anzuliefern zu lassen, obwohl die, die es schon gibt, europaweit überhaupt nicht ausgelastet sind. Insofern stellt sich also die Frage der Amortisation von riesigen Infrastrukturprojekten – Vizepräsident in Petra Pau: Achten Sie bitte",
+      "cer": 0.41509433962264153,
+      "start_idx": 14258,
+      "end_idx": 14302
+    },
+    {
+      "start": 3799.8425312500003,
+      "end": 3810.9089375000003,
+      "asr_text": "Desaster führen für all die Investoren. Wo passt das zusammen Steuergelder auszugeben auf der einen Seite, aber auf der anderen Seite davon zu sprechen, es sei ein privatwirtschaftliches Projekt?",
+      "human_text": "Desaster führen für all die Investoren: Wo passt das zusammen, Steuergelder auszugeben auf der einen Seite, – Vizepräsident in Petra Pau: Kollegin Verlinden, Sie",
+      "cer": 0.358974358974359,
+      "start_idx": 14325,
+      "end_idx": 14349
+    },
+    {
+      "start": 3810.9089375000003,
+      "end": 3830.9089375000003,
+      "asr_text": "Frau Abgeordnete, noch mal, ich weise diese Unterstellungen ganz deutlich zurück, auch wenn sie hier mehrfach wiederholt werden. Die Entscheidungen von Investoren werde ich hier nicht kommentieren. Das sind deren Entscheidungen. Was klar ist, ist, wir werden nicht mehr lange Gas brauchen. Das wird wahrscheinlich in den frühen",
+      "human_text": "anderen Seite davon zu sprechen, es sei ein privatwirtschaftliches Projekt? Svenja Schulze, Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit: Frau Abgeordnete, noch mal: Ich weise diese Unterstellungen ganz deutlich zurück, auch wenn sie hier mehrfach wiederholt werden. Die Entscheidungen von Investoren werde ich hier nicht kommentieren. Das sind deren Entscheidungen. Was klar ist, ist: Wir werden nicht mehr lange Gas brauchen. Es wird",
+      "cer": 0.5902140672782875,
+      "start_idx": 14364,
+      "end_idx": 14427
+    },
+    {
+      "start": 3830.9089375000003,
+      "end": 3850.9089375000003,
+      "asr_text": "40er Jahren der Fall sein, dass wir kein Gas mehr hier in Deutschland beziehen werden. Wenn Sie LNG-Terminals ansprechen, dann",
+      "human_text": "40er-Jahren der Fall sein, dass wir hier in Deutschland kein Gas mehr beziehen werden. Sie hatten auch LNG-Terminals angesprochen. Da",
+      "cer": 0.373015873015873,
+      "start_idx": 14431,
+      "end_idx": 14451
+    }
+  ]
+}
