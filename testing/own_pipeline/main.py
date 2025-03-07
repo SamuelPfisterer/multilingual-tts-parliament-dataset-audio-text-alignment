@@ -451,24 +451,25 @@ class TranscriptAligner:
             start_search_idx, 
             coarse_window_size = len(asr_segment.text.split())
         )
-        
-        if region_start_idx is None:
-            # No good matching region found, so we try to find a region at the beginning of the transcript
-            region_start_idx = self._find_match_region(
-                asr_segment.text,
-                transcript_tokens,
-                0,
-                coarse_window_size = len(asr_segment.text.split()),
-            )
-            if region_start_idx is None:
-                return self._create_fallback_alignment(asr_segment, transcript_tokens, start_search_idx)
-        
-        # Phase 2: Fine-tune the match within the identified region
-        return self._fine_tune_match(
-            asr_segment,
+        best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
+        if best_match.cer <= self.region_cer_threshold:
+            return best_match
+
+        # No good matching region found, so we try to find a region at the beginning of the transcript
+        region_start_idx = self._find_match_region(
+            asr_segment.text,
             transcript_tokens,
-            region_start_idx
+            0,
+            coarse_window_size = len(asr_segment.text.split()),
         )
+        best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
+        if best_match.cer <= self.region_cer_threshold * 1.5:
+            return best_match
+
+        # No good matching region found, so we create a fallback alignment
+        return self._create_fallback_alignment(asr_segment, transcript_tokens, start_search_idx)
+        
+        
 
     def _find_match_region(self,
                           asr_text: str,
@@ -592,7 +593,7 @@ class TranscriptAligner:
                 debug_file.write("\n")
             debug_file.write("\n".join(debug_info) + "\n")
 
-        return best_start_idx if best_cer <= region_cer_threshold * 1.5 else None
+        return best_start_idx
 
     def _fine_tune_match(self,
                         asr_segment: TranscribedSegment,
