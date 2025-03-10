@@ -7,17 +7,17 @@
       "asr_text": "Vielen Dank.",
       "human_text": "vielen Dank",
       "cer": 0.16666666666666666,
-      "start_idx": 4310,
-      "end_idx": 4312
+      "start_idx": 3733,
+      "end_idx": 3735
     },
     {
       "start": 17.20971875,
       "end": 29.45253125,
       "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen. Bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
-      "human_text": "die Bürgerinnen und Bürger dazu auffordern, sich für den",
-      "cer": 0.7032967032967034,
-      "start_idx": 4297,
-      "end_idx": 4306
+      "human_text": "D—–Guten Tag, liebe Kolleginnen und Kollegen! Bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
+      "cer": 0.04395604395604396,
+      "start_idx": 5972,
+      "end_idx": 5986
     },
     {
       "start": 29.45253125,
@@ -905,19 +905,19 @@
       "start": 1592.4065937500002,
       "end": 1599.4772187500002,
       "asr_text": "Die nächste Nachfrage stellt die Kollegin Renate Künast, Bündnis 90 Die Grünen.",
-      "human_text": "Die nächste Nachfrage stellt der Abgeordnete Kraft. Vielen Dank.",
-      "cer": 0.43037974683544306,
-      "start_idx": 18709,
-      "end_idx": 18718
+      "human_text": "Die nächste Frage stellt die Kollegin Lisa Badum, Bündnis 90/Die Grünen.",
+      "cer": 0.21518987341772153,
+      "start_idx": 13183,
+      "end_idx": 13194
     },
     {
       "start": 1599.4772187500002,
       "end": 1619.4772187500002,
       "asr_text": "Frau Ministerin, an einer Stelle bin ich ja mit Ihnen einer Meinung. Ich wundere mich auch, wie manche meinen, dass Boden- und Artenvielfaltschutz eine Anfeindung gegenüber den Landwirten wäre. Für mich sind das die Betriebsgrundlagen der Landwirtschaft. Wenn Sie die nicht haben, wird es von Betriebskosten her immer teurer, wenn",
-      "human_text": "mehr anstrebt und dass man die Stromversorgung innerhalb des europäischen Verbundes zu 100 Prozent gewährleisten möchte; meine Fraktion lehnt das ab, ich auch, aber sei’s drum. Müssten Sie dann aber nicht einen Zubau von Kraftwerkskapazität in Polen aus den",
-      "cer": 0.7212121212121212,
-      "start_idx": 18728,
-      "end_idx": 18767
+      "human_text": "Frau Ministerin, an einer Stelle bin ich ja mit Ihnen einer Meinung: Ich wundere mich auch, wie manche meinen können, dass Boden- und Artenvielfaltsschutz eine Anfeindung gegenüber den Landwirten sei. Für mich sind das die Betriebsgrundlagen der Landwirtschaft. Wenn sie die nicht haben, wird es von den Betriebskosten her immer teurer, weil",
+      "cer": 0.06060606060606061,
+      "start_idx": 9078,
+      "end_idx": 9130
     },
     {
       "start": 1619.4772187500002,
@@ -1436,10 +1436,10 @@
       "start": 2546.01284375,
       "end": 2553.01596875,
       "asr_text": "Kollege Harald Ebner, Bündnis 90 Die Grünen, hat eine Nachfrage.",
-      "human_text": "Kotting-Uhl, Bündnis 90/Die Grünen, hat die nächste",
-      "cer": 0.421875,
-      "start_idx": 11912,
-      "end_idx": 11919
+      "human_text": "Kollege Harald Ebner, Bündnis 90/ Die Grünen, hat eine Nachfrage.",
+      "cer": 0.015625,
+      "start_idx": 11343,
+      "end_idx": 11353
     },
     {
       "start": 2553.01596875,
@@ -1481,9 +1481,9 @@
       "start": 2617.2253437500003,
       "end": 2637.2253437500003,
       "asr_text": "Herr Abgeordneter, ich kenne mich in meinem Haushalt sehr gut aus, aber in dem Haushalt von Frau Klöckner kenne ich mich nicht ganz so gut aus. Deswegen wäre das, glaube ich, eine Frage, die wir mit der Kollegin noch mal ganz genau klären müssten. Ich würde aber Ihre Vorausbedingungen noch mal ein wenig sozusagen erläutern wollen, weil FFH-Gebiete sind nicht grundsätzlich ausgenommen, sondern die Gebiete...",
-      "human_text": "kenne mich in meinem Haushalt sehr gut aus. Aber in dem Haushalt von Frau Klöckner kenne ich mich nicht ganz so gut aus. Deswegen wäre das, glaube ich, eine Frage, die wir mit der Kollegin noch mal ganz genau klären müssten. Ich würde aber Ihre Vorausbedingung noch mal ein wenig erläutern wollen; denn FFH-Gebiete sind nicht grundsätzlich ausgenommen. Vielmehr haben",
-      "cer": 0.14634146341463414,
-      "start_idx": 11490,
+      "human_text": "Herr Abgeordneter, ich kenne mich in meinem Haushalt sehr gut aus. Aber in dem Haushalt von Frau Klöckner kenne ich mich nicht ganz so gut aus. Deswegen wäre das, glaube ich, eine Frage, die wir mit der Kollegin noch mal ganz genau klären müssten. Ich würde aber Ihre Vorausbedingung noch mal ein wenig erläutern wollen; denn FFH-Gebiete sind nicht grundsätzlich ausgenommen. Vielmehr haben",
+      "cer": 0.09024390243902439,
+      "start_idx": 11487,
       "end_idx": 11550
     },
     {
@@ -1796,10 +1796,10 @@
       "start": 3169.5909687500002,
       "end": 3173.3915937500005,
       "asr_text": "Nachfrage, Herr Leugert?",
-      "human_text": "Nachfrage; gerne gehe",
-      "cer": 0.375,
-      "start_idx": 16322,
-      "end_idx": 16325
+      "human_text": "Nachfrage, Herr Lenkert?",
+      "cer": 0.08333333333333333,
+      "start_idx": 12748,
+      "end_idx": 12751
     },
     {
       "start": 3173.3915937500005,
@@ -1868,9 +1868,9 @@
       "start": 3282.2859687500004,
       "end": 3302.2859687500004,
       "asr_text": "Frau Ministerin, der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu den Schwebfliegen vorgelegt. Die Schwebfliegen sind bekanntermaßen keine Bestäuber, aber Nützlinge, weil sie Blattläuse vertilgen. Können Sie mir vor diesem Hintergrund eventuell noch einmal erläutern, warum aus",
-      "human_text": "sich vermutlich an die „Krefelder Studie“, Frau Ministerin. Der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu weiteren Insekten vorgelegt. Denn es gibt auch andere Insekten, die bekanntermaßen keine Bestäuber, aber Nützlinge sind, weil sie zum Beispiel Blattläuse vertilgen. Können Sie mir vor diesem Hintergrund eventuell noch mal erläutern, warum in",
-      "cer": 0.3592233009708738,
-      "start_idx": 13004,
+      "human_text": "Frau Ministerin. Der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu weiteren Insekten vorgelegt. Denn es gibt auch andere Insekten, die bekanntermaßen keine Bestäuber, aber Nützlinge sind, weil sie zum Beispiel Blattläuse vertilgen. Können Sie mir vor diesem Hintergrund eventuell noch mal erläutern, warum in",
+      "cer": 0.22006472491909385,
+      "start_idx": 13010,
       "end_idx": 13056
     },
     {
@@ -1913,19 +1913,19 @@
       "start": 3360.97409375,
       "end": 3365.61471875,
       "asr_text": "Okay.",
-      "human_text": "Akar.",
+      "human_text": "kam.",
       "cer": 0.4,
-      "start_idx": 49335,
-      "end_idx": 49336
+      "start_idx": 12089,
+      "end_idx": 12090
     },
     {
       "start": 3365.61471875,
       "end": 3385.61471875,
       "asr_text": "Sehr geehrte Frau Ministerin, ich möchte gerne zum neuen Thema hier fragen, und zwar zu Nord Stream 2. Es scheint ja für die SPD das bei Weitem wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gründet eine neue Stiftung. Herr Scholz lässt sich von der amerikanischen Regierung erpressen und verspricht deutsche Steuergelder als Lösegeld.",
-      "human_text": "und Verteidigungspolitik, die Bedeutung der Kohäsion des NATO-Bündnisses sowie die Lage in Afghanistan, wo die Türkei neben Deutschland, Italien und den USA eine von vier Rahmennationen bei der Mission Resolute Support ist. Dazu zählt auch die Lage im Irak und",
-      "cer": 0.7241379310344828,
-      "start_idx": 49349,
-      "end_idx": 49389
+      "human_text": "Sehr geehrte Frau Ministerin, ich möchte gern zu einem neuen Thema fragen, und zwar zu Nord Stream 2. Das scheint ja für die SPD das bei Weitem wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gründet eine neue Stiftung; Herr Scholz lässt sich von der amerikanischen Regierung erpressen und verspricht deutsche Steuergelder als Lösegeld;",
+      "cer": 0.04310344827586207,
+      "start_idx": 13199,
+      "end_idx": 13253
     },
     {
       "start": 3385.61471875,
@@ -2039,10 +2039,10 @@
       "start": 3587.68971875,
       "end": 3593.30909375,
       "asr_text": "AfD, stellt die nächste Nachfrage. Danke.",
-      "human_text": "FDP, stellt die nächste Frage. Vielen",
-      "cer": 0.3170731707317073,
-      "start_idx": 10505,
-      "end_idx": 10511
+      "human_text": "AfD, stellt die nächste Nachfrage. Vielen",
+      "cer": 0.12195121951219512,
+      "start_idx": 13761,
+      "end_idx": 13767
     },
     {
       "start": 3593.30909375,
@@ -2111,10 +2111,10 @@
       "start": 3715.4503437500007,
       "end": 3723.8203437500006,
       "asr_text": "Die nächste Nachfrage stellt die Kollegin Verlinden.",
-      "human_text": "Die nächste Nachfrage stellt der Abgeordnete",
-      "cer": 0.3269230769230769,
-      "start_idx": 18119,
-      "end_idx": 18125
+      "human_text": "Die nächste Nachfrage stellt die Kollegin Verlinden.",
+      "cer": 0.0,
+      "start_idx": 14105,
+      "end_idx": 14112
     },
     {
       "start": 3723.8203437500006,

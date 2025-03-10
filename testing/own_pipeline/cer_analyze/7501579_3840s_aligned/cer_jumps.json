@@ -1,101 +1,8 @@
 {
     "threshold": 0.3,
     "context_window": 2,
-    "total_jumps": 37,
+    "total_jumps": 32,
     "jumps": [
-        {
-            "jump_index": 1,
-            "cer_change": 0.5366300366300367,
-            "context_segments": [
-                {
-                    "segment_idx": 0,
-                    "is_jump_point": false,
-                    "start_time": 6.24096875,
-                    "end_time": 17.20971875,
-                    "cer": 0.16666666666666666,
-                    "asr_text": "Vielen Dank.",
-                    "human_text": "vielen Dank"
-                },
-                {
-                    "segment_idx": 1,
-                    "is_jump_point": true,
-                    "start_time": 17.20971875,
-                    "end_time": 29.45253125,
-                    "cer": 0.7032967032967034,
-                    "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen. Bitte nehmen Sie Platz. Ich er\u00f6ffne die Sitzung.",
-                    "human_text": "die B\u00fcrgerinnen und B\u00fcrger dazu auffordern, sich f\u00fcr den"
-                },
-                {
-                    "segment_idx": 2,
-                    "is_jump_point": false,
-                    "start_time": 29.45253125,
-                    "end_time": 46.10815625,
-                    "cer": 0.028089887640449437,
-                    "asr_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die besorgniserregenden Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
-                    "human_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind besorgniserregende Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden."
-                },
-                {
-                    "segment_idx": 3,
-                    "is_jump_point": false,
-                    "start_time": 46.10815625,
-                    "end_time": 61.19440625,
-                    "cer": 0.0,
-                    "asr_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infekti\u00f6ser ist als das bisher bekannte Virus.",
-                    "human_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infekti\u00f6ser ist als das bisher bekannte Virus."
-                }
-            ]
-        },
-        {
-            "jump_index": 2,
-            "cer_change": -0.675206815656254,
-            "context_segments": [
-                {
-                    "segment_idx": 0,
-                    "is_jump_point": false,
-                    "start_time": 6.24096875,
-                    "end_time": 17.20971875,
-                    "cer": 0.16666666666666666,
-                    "asr_text": "Vielen Dank.",
-                    "human_text": "vielen Dank"
-                },
-                {
-                    "segment_idx": 1,
-                    "is_jump_point": false,
-                    "start_time": 17.20971875,
-                    "end_time": 29.45253125,
-                    "cer": 0.7032967032967034,
-                    "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen. Bitte nehmen Sie Platz. Ich er\u00f6ffne die Sitzung.",
-                    "human_text": "die B\u00fcrgerinnen und B\u00fcrger dazu auffordern, sich f\u00fcr den"
-                },
-                {
-                    "segment_idx": 2,
-                    "is_jump_point": true,
-                    "start_time": 29.45253125,
-                    "end_time": 46.10815625,
-                    "cer": 0.028089887640449437,
-                    "asr_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die besorgniserregenden Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
-                    "human_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind besorgniserregende Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden."
-                },
-                {
-                    "segment_idx": 3,
-                    "is_jump_point": false,
-                    "start_time": 46.10815625,
-                    "end_time": 61.19440625,
-                    "cer": 0.0,
-                    "asr_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infekti\u00f6ser ist als das bisher bekannte Virus.",
-                    "human_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infekti\u00f6ser ist als das bisher bekannte Virus."
-                },
-                {
-                    "segment_idx": 4,
-                    "is_jump_point": false,
-                    "start_time": 61.19440625,
-                    "end_time": 75.63096875,
-                    "cer": 0.0,
-                    "asr_text": "Die Verbreitung einer Virusmutation mit h\u00f6herem Ansteckungspotenzial w\u00fcrde eine schwerwiegende Versch\u00e4rfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen",
-                    "human_text": "Die Verbreitung einer Virusmutation mit h\u00f6herem Ansteckungspotenzial w\u00fcrde eine schwerwiegende Versch\u00e4rfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen"
-                }
-            ]
-        },
         {
             "jump_index": 14,
             "cer_change": 0.7166015768919018,
@@ -654,57 +561,6 @@
                     "cer": 0.015706806282722512,
                     "asr_text": "Herr Abgeordneter, ich wei\u00df nicht, wie Sie darauf kommen, dass Landwirtinnen und Landwirte ein Interesse daran haben, Streuobstwiesen sozusagen umzubrechen und sie nicht mehr zu f\u00f6rdern. Das ist etwas, was bei vielen Landwirtinnen und Landwirten ein hohes Ansehen hat. Diese Streuobstwiesen sind \u00fcbrigens in vielen Bundesl\u00e4ndern heute schon gesch\u00fctzt. Und was wir jetzt machen, ist,",
                     "human_text": "Herr Abgeordneter, ich wei\u00df nicht, wie Sie darauf kommen, dass Landwirtinnen und Landwirte ein Interesse daran haben, Streuobstwiesen sozusagen umzubrechen und sie nicht mehr zu f\u00f6rdern. Das ist etwas, was bei vielen Landwirtinnen und Landwirten ein hohes Ansehen hat. Diese Streuobstwiesen sind \u00fcbrigens in vielen Bundesl\u00e4ndern heute schon gesch\u00fctzt. Was wir jetzt machen, ist"
-                }
-            ]
-        },
-        {
-            "jump_index": 102,
-            "cer_change": -0.6004690871563936,
-            "context_segments": [
-                {
-                    "segment_idx": 100,
-                    "is_jump_point": false,
-                    "start_time": 1592.4065937500002,
-                    "end_time": 1599.4772187500002,
-                    "cer": 0.43037974683544306,
-                    "asr_text": "Die n\u00e4chste Nachfrage stellt die Kollegin Renate K\u00fcnast, B\u00fcndnis 90 Die Gr\u00fcnen.",
-                    "human_text": "Die n\u00e4chste Nachfrage stellt der Abgeordnete Kraft. Vielen Dank."
-                },
-                {
-                    "segment_idx": 101,
-                    "is_jump_point": false,
-                    "start_time": 1599.4772187500002,
-                    "end_time": 1619.4772187500002,
-                    "cer": 0.7212121212121212,
-                    "asr_text": "Frau Ministerin, an einer Stelle bin ich ja mit Ihnen einer Meinung. Ich wundere mich auch, wie manche meinen, dass Boden- und Artenvielfaltschutz eine Anfeindung gegen\u00fcber den Landwirten w\u00e4re. F\u00fcr mich sind das die Betriebsgrundlagen der Landwirtschaft. Wenn Sie die nicht haben, wird es von Betriebskosten her immer teurer, wenn",
-                    "human_text": "mehr anstrebt und dass man die Stromversorgung innerhalb des europ\u00e4ischen Verbundes zu 100 Prozent gew\u00e4hrleisten m\u00f6chte; meine Fraktion lehnt das ab, ich auch, aber sei\u2019s drum. M\u00fcssten Sie dann aber nicht einen Zubau von Kraftwerkskapazit\u00e4t in Polen aus den"
-                },
-                {
-                    "segment_idx": 102,
-                    "is_jump_point": true,
-                    "start_time": 1619.4772187500002,
-                    "end_time": 1639.4772187500002,
-                    "cer": 0.12074303405572756,
-                    "asr_text": "wenn du andere Mittel einsetzen musst. Meine Frage konkret an Sie bezieht sich auf Glyphosat. Sie loben in diesem, das habe ich in den Medien auch gelesen, in diesen Vereinbarungen jetzt den Ausstieg aus dem Glyphosat Ende 2023. Wo da das Positive ist, verstehe ich nicht ganz, weil Glyphosat doch sowieso nur bis Ende 2023",
-                    "human_text": "weil man andere Mittel einsetzen muss. Meine Frage an Sie bezieht sich konkret auf Glyphosat. Sie loben in diesen \u2013 das habe ich in den Medien auch gelesen \u2013 Vereinbarungen jetzt den Ausstieg aus Glyphosat Ende 2023. Wo da das Positive ist, verstehe ich nicht ganz, weil Glyphosat doch sowieso nur bis Ende 2023"
-                },
-                {
-                    "segment_idx": 103,
-                    "is_jump_point": false,
-                    "start_time": 1639.4772187500002,
-                    "end_time": 1659.4772187500002,
-                    "cer": 0.3433333333333333,
-                    "asr_text": "Ende 2023 in der Europ\u00e4ischen Union zugelassen ist und nur noch bis dahin \u00fcberhaupt eine Verl\u00e4ngerung hatte, war damals Herr Schmidt als Agrarminister gegen die Vereinbarung der Koalition aus CDU, CSU, SPD und Kabinettsentscheidung mit Ja gestimmt hatte in Br\u00fcssel. Wir wissen also, es wird Glyphosat",
-                    "human_text": "Ende 2023 in der Europ\u00e4ischen Union zugelassen ist und die Zulassung \u00fcberhaupt nur noch bis dahin eine Verl\u00e4ngerung bekam, weil damals Herr Schmidt als Agrarminister gegen die Vereinbarung der Koalition aus CDU/CSU und SPD und die Entscheidungsabl\u00e4ufe im Kabinett in Br\u00fcssel mit Ja gestimmt"
-                },
-                {
-                    "segment_idx": 104,
-                    "is_jump_point": false,
-                    "start_time": 1659.4772187500002,
-                    "end_time": 1668.1753437500001,
-                    "cer": 0.2937062937062937,
-                    "asr_text": "wird in Br\u00fcssel keine Verl\u00e4ngerung mehr bekommen nach 2023. Also wo ist jetzt das Besondere Ihrer Entscheidung, dass es Ende 2023 zu Ende w\u00e4re?",
-                    "human_text": "Zeit nach 2023 keine Verl\u00e4ngerung mehr bekommen. Wo ist jetzt das Besondere Ihrer Entscheidung, dass der Einsatz Ende 2023 zu Ende geht?"
                 }
             ]
         },
@@ -1270,96 +1126,9 @@
             ]
         },
         {
-            "jump_index": 159,
-            "cer_change": 0.405614837398374,
+            "jump_index": 164,
+            "cer_change": -0.35420054200542006,
             "context_segments": [
-                {
-                    "segment_idx": 157,
-                    "is_jump_point": false,
-                    "start_time": 2516.11659375,
-                    "end_time": 2536.11659375,
-                    "cer": 0.08517350157728706,
-                    "asr_text": "Das regelt Beleuchtungsanlagen. Alles andere, was wir heute diskutieren, also der Einsatz von Glyphosat, die Verwendung und Anwendung von Herbiziden, das Mindestabstandsgebot zu Gew\u00e4ssern, das werden Sie alles in der Pflanzenschutz-Anwendungsverordnung finden. Also der eine Teil im Gesetz, der andere Teil im Gesetz.",
-                    "human_text": "das regelt Beleuchtungsanlagen. Alles andere, was wir heute diskutieren \u2013 also der Einsatz von Glyphosat, die Verwendung und Anwendung von Herbiziden, das Mindestabstandsgebot zu Gew\u00e4ssern \u2013, werden Sie in der Pflanzenschutz-Anwendungsverordnung finden \u2013 also den einen Teil im Gesetz, den anderen Teil in der"
-                },
-                {
-                    "segment_idx": 158,
-                    "is_jump_point": false,
-                    "start_time": 2536.11659375,
-                    "end_time": 2546.01284375,
-                    "cer": 0.016260162601626018,
-                    "asr_text": "in der Verordnung. Beides ist aber Bestandteil des Aktionsprogramms Insektenschutz, und damit geh\u00f6rt es eben auch zusammen.",
-                    "human_text": "in der Verordnung. Beides ist aber Bestandteil des Aktionsprogramms Insektenschutz, und damit geh\u00f6rt das eben auch zusammen."
-                },
-                {
-                    "segment_idx": 159,
-                    "is_jump_point": true,
-                    "start_time": 2546.01284375,
-                    "end_time": 2553.01596875,
-                    "cer": 0.421875,
-                    "asr_text": "Kollege Harald Ebner, B\u00fcndnis 90 Die Gr\u00fcnen, hat eine Nachfrage.",
-                    "human_text": "Kotting-Uhl, B\u00fcndnis 90/Die Gr\u00fcnen, hat die n\u00e4chste"
-                },
-                {
-                    "segment_idx": 160,
-                    "is_jump_point": false,
-                    "start_time": 2553.01596875,
-                    "end_time": 2573.01596875,
-                    "cer": 0.0299625468164794,
-                    "asr_text": "Danke, Herr Pr\u00e4sident. Frau Ministerin, es kam ja schon zur Sprache, Sie haben sich gegen die Beschr\u00e4nkungen des Pestizideinsatzes in FFH-Gebieten entschieden. Anders als es im Aktionsprogramm Insektenschutz vorgesehen war. Stattdessen sollen jetzt auf 90 Prozent die",
-                    "human_text": "Danke, Herr Pr\u00e4sident. \u2013 Frau Ministerin, es kam ja schon zu Sprache: Sie haben sich gegen die Beschr\u00e4nkungen des Pestizideinsatzes in FFH-Gebieten entschieden, anders als es im Aktionsprogramm Insektenschutz vorgesehen war. Stattdessen sollen jetzt auf 90 Prozent der"
-                },
-                {
-                    "segment_idx": 161,
-                    "is_jump_point": false,
-                    "start_time": 2573.01596875,
-                    "end_time": 2593.01596875,
-                    "cer": 0.24363636363636362,
-                    "asr_text": "der betroffenen Fl\u00e4chen freiwillige Ma\u00dfnahmen zur Pestizidreduktion erreicht werden. Die Freiwilligkeit ist eine sehr gute Sache, aber sie muss finanziert sein. Jetzt sind schon angesprochen worden die 140 Millionen in der GAK. Frau Kl\u00f6ckner hat vorhin in der Pressekonferenz",
-                    "human_text": "der betroffenen Fl\u00e4chen freiwillige Ma\u00dfnahmen zur Pestizidreduktion zum Einsatz kommen. Die Freiwilligkeit ist eine sehr gute Sache; aber sie muss finanziert sein. Die 140 Millionen Euro in der GAK sind schon angesprochen worden. Frau Kl\u00f6ckner hat vorhin in der Pressekonferenz"
-                }
-            ]
-        },
-        {
-            "jump_index": 160,
-            "cer_change": -0.3919124531835206,
-            "context_segments": [
-                {
-                    "segment_idx": 158,
-                    "is_jump_point": false,
-                    "start_time": 2536.11659375,
-                    "end_time": 2546.01284375,
-                    "cer": 0.016260162601626018,
-                    "asr_text": "in der Verordnung. Beides ist aber Bestandteil des Aktionsprogramms Insektenschutz, und damit geh\u00f6rt es eben auch zusammen.",
-                    "human_text": "in der Verordnung. Beides ist aber Bestandteil des Aktionsprogramms Insektenschutz, und damit geh\u00f6rt das eben auch zusammen."
-                },
-                {
-                    "segment_idx": 159,
-                    "is_jump_point": false,
-                    "start_time": 2546.01284375,
-                    "end_time": 2553.01596875,
-                    "cer": 0.421875,
-                    "asr_text": "Kollege Harald Ebner, B\u00fcndnis 90 Die Gr\u00fcnen, hat eine Nachfrage.",
-                    "human_text": "Kotting-Uhl, B\u00fcndnis 90/Die Gr\u00fcnen, hat die n\u00e4chste"
-                },
-                {
-                    "segment_idx": 160,
-                    "is_jump_point": true,
-                    "start_time": 2553.01596875,
-                    "end_time": 2573.01596875,
-                    "cer": 0.0299625468164794,
-                    "asr_text": "Danke, Herr Pr\u00e4sident. Frau Ministerin, es kam ja schon zur Sprache, Sie haben sich gegen die Beschr\u00e4nkungen des Pestizideinsatzes in FFH-Gebieten entschieden. Anders als es im Aktionsprogramm Insektenschutz vorgesehen war. Stattdessen sollen jetzt auf 90 Prozent die",
-                    "human_text": "Danke, Herr Pr\u00e4sident. \u2013 Frau Ministerin, es kam ja schon zu Sprache: Sie haben sich gegen die Beschr\u00e4nkungen des Pestizideinsatzes in FFH-Gebieten entschieden, anders als es im Aktionsprogramm Insektenschutz vorgesehen war. Stattdessen sollen jetzt auf 90 Prozent der"
-                },
-                {
-                    "segment_idx": 161,
-                    "is_jump_point": false,
-                    "start_time": 2573.01596875,
-                    "end_time": 2593.01596875,
-                    "cer": 0.24363636363636362,
-                    "asr_text": "der betroffenen Fl\u00e4chen freiwillige Ma\u00dfnahmen zur Pestizidreduktion erreicht werden. Die Freiwilligkeit ist eine sehr gute Sache, aber sie muss finanziert sein. Jetzt sind schon angesprochen worden die 140 Millionen in der GAK. Frau Kl\u00f6ckner hat vorhin in der Pressekonferenz",
-                    "human_text": "der betroffenen Fl\u00e4chen freiwillige Ma\u00dfnahmen zur Pestizidreduktion zum Einsatz kommen. Die Freiwilligkeit ist eine sehr gute Sache; aber sie muss finanziert sein. Die 140 Millionen Euro in der GAK sind schon angesprochen worden. Frau Kl\u00f6ckner hat vorhin in der Pressekonferenz"
-                },
                 {
                     "segment_idx": 162,
                     "is_jump_point": false,
@@ -1368,6 +1137,42 @@
                     "cer": 0.2822822822822823,
                     "asr_text": "noch von weiteren 50 Millionen gesprochen. Und jetzt bin ich nicht ganz schlau draus geworden aus Ihrer Antwort auf den Kollegen Hocker. Haben Sie diese Millionen schon im Haushalt oder brauchen Sie noch einen Nachtragshaushalt oder widmen Sie die jetzt um? Da h\u00e4tte ich jetzt gerne ganz konkrete Antwort. Sind da tats\u00e4chlich Hocker?",
                     "human_text": "von weiteren 50 Millionen Euro gesprochen. Jetzt bin ich aus Ihrer Antwort auf die Frage des Kollegen Hocker nicht ganz schlau geworden. Haben Sie diese Millionen schon im Haushalt, oder brauchen Sie noch einen Nachtragshaushalt, oder widmen Sie die jetzt um? Darauf h\u00e4tte ich jetzt gerne eine ganz konkrete Antwort. Sind da tats\u00e4chlich 190"
+                },
+                {
+                    "segment_idx": 163,
+                    "is_jump_point": false,
+                    "start_time": 2613.01596875,
+                    "end_time": 2617.2253437500003,
+                    "cer": 0.4444444444444444,
+                    "asr_text": "190 Millionen \u00fcbrig bisher.",
+                    "human_text": "200 Millionen Euro zur"
+                },
+                {
+                    "segment_idx": 164,
+                    "is_jump_point": true,
+                    "start_time": 2617.2253437500003,
+                    "end_time": 2637.2253437500003,
+                    "cer": 0.09024390243902439,
+                    "asr_text": "Herr Abgeordneter, ich kenne mich in meinem Haushalt sehr gut aus, aber in dem Haushalt von Frau Kl\u00f6ckner kenne ich mich nicht ganz so gut aus. Deswegen w\u00e4re das, glaube ich, eine Frage, die wir mit der Kollegin noch mal ganz genau kl\u00e4ren m\u00fcssten. Ich w\u00fcrde aber Ihre Vorausbedingungen noch mal ein wenig sozusagen erl\u00e4utern wollen, weil FFH-Gebiete sind nicht grunds\u00e4tzlich ausgenommen, sondern die Gebiete...",
+                    "human_text": "Herr Abgeordneter, ich kenne mich in meinem Haushalt sehr gut aus. Aber in dem Haushalt von Frau Kl\u00f6ckner kenne ich mich nicht ganz so gut aus. Deswegen w\u00e4re das, glaube ich, eine Frage, die wir mit der Kollegin noch mal ganz genau kl\u00e4ren m\u00fcssten. Ich w\u00fcrde aber Ihre Vorausbedingung noch mal ein wenig erl\u00e4utern wollen; denn FFH-Gebiete sind nicht grunds\u00e4tzlich ausgenommen. Vielmehr haben"
+                },
+                {
+                    "segment_idx": 165,
+                    "is_jump_point": false,
+                    "start_time": 2637.2253437500003,
+                    "end_time": 2657.2253437500003,
+                    "cer": 0.14675767918088736,
+                    "asr_text": "die reine FFH-Gebiete sind und keinen weiteren Schutzfaktor haben. Bei diesen Gebieten haben wir gesagt, dass wir dort auf kooperative L\u00f6sungen gehen k\u00f6nnen. Das sind 4,9 Prozent der landwirtschaftlich genutzten Fl\u00e4chen in Deutschland. Also wir stellen jetzt sehr viel unterst\u00fctzt und ein ganz",
+                    "human_text": "die reine FFH-Gebiete sind und keinen weiteren Schutzfaktor haben, gesagt, dass wir dort auf kooperative L\u00f6sungen gehen k\u00f6nnen. Das sind 4,9 Prozent der landwirtschaftlich genutzten Fl\u00e4chen in Deutschland. Wir stellen jetzt sehr viel unter Schutz, und ein ganz"
+                },
+                {
+                    "segment_idx": 166,
+                    "is_jump_point": false,
+                    "start_time": 2657.2253437500003,
+                    "end_time": 2677.2253437500003,
+                    "cer": 0.07961783439490445,
+                    "asr_text": "Ein ganz kleiner Teil davon sind landwirtschaftlich genutzte Fl\u00e4chen. Das sind in erster Linie Gr\u00fcnlandfl\u00e4chen. Im Gr\u00fcnland werden traditionellerweise heute schon deutlich weniger Pflanzenschutzmittel eingesetzt. F\u00fcr diese Fl\u00e4chen werden jetzt kooperative L\u00f6sungen gefunden. Und ja, es wird auch zus\u00e4tzliches Geld.",
+                    "human_text": "ein ganz kleiner Teil davon sind landwirtschaftlich genutzte Fl\u00e4chen. Das sind in erster Linie Gr\u00fcnlandfl\u00e4chen. Im Gr\u00fcn land werden traditionellerweise heute schon deutlich weniger Pflanzenschutzmittel eingesetzt. F\u00fcr diese Fl\u00e4chen werden jetzt eben auch kooperative L\u00f6sungen gefunden. Und ja, es werden zus\u00e4tzliche"
                 }
             ]
         },
@@ -1611,9 +1416,9 @@
                     "is_jump_point": false,
                     "start_time": 3282.2859687500004,
                     "end_time": 3302.2859687500004,
-                    "cer": 0.3592233009708738,
+                    "cer": 0.22006472491909385,
                     "asr_text": "Frau Ministerin, der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu den Schwebfliegen vorgelegt. Die Schwebfliegen sind bekannterma\u00dfen keine Best\u00e4uber, aber N\u00fctzlinge, weil sie Blattl\u00e4use vertilgen. K\u00f6nnen Sie mir vor diesem Hintergrund eventuell noch einmal erl\u00e4utern, warum aus",
-                    "human_text": "sich vermutlich an die \u201eKrefelder Studie\u201c, Frau Ministerin. Der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu weiteren Insekten vorgelegt. Denn es gibt auch andere Insekten, die bekannterma\u00dfen keine Best\u00e4uber, aber N\u00fctzlinge sind, weil sie zum Beispiel Blattl\u00e4use vertilgen. K\u00f6nnen Sie mir vor diesem Hintergrund eventuell noch mal erl\u00e4utern, warum in"
+                    "human_text": "Frau Ministerin. Der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu weiteren Insekten vorgelegt. Denn es gibt auch andere Insekten, die bekannterma\u00dfen keine Best\u00e4uber, aber N\u00fctzlinge sind, weil sie zum Beispiel Blattl\u00e4use vertilgen. K\u00f6nnen Sie mir vor diesem Hintergrund eventuell noch mal erl\u00e4utern, warum in"
                 },
                 {
                     "segment_idx": 208,
@@ -1628,7 +1433,7 @@
         },
         {
             "jump_index": 207,
-            "cer_change": -0.34077669902912616,
+            "cer_change": -0.4799352750809061,
             "context_segments": [
                 {
                     "segment_idx": 205,
@@ -1653,9 +1458,9 @@
                     "is_jump_point": true,
                     "start_time": 3282.2859687500004,
                     "end_time": 3302.2859687500004,
-                    "cer": 0.3592233009708738,
+                    "cer": 0.22006472491909385,
                     "asr_text": "Frau Ministerin, der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu den Schwebfliegen vorgelegt. Die Schwebfliegen sind bekannterma\u00dfen keine Best\u00e4uber, aber N\u00fctzlinge, weil sie Blattl\u00e4use vertilgen. K\u00f6nnen Sie mir vor diesem Hintergrund eventuell noch einmal erl\u00e4utern, warum aus",
-                    "human_text": "sich vermutlich an die \u201eKrefelder Studie\u201c, Frau Ministerin. Der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu weiteren Insekten vorgelegt. Denn es gibt auch andere Insekten, die bekannterma\u00dfen keine Best\u00e4uber, aber N\u00fctzlinge sind, weil sie zum Beispiel Blattl\u00e4use vertilgen. K\u00f6nnen Sie mir vor diesem Hintergrund eventuell noch mal erl\u00e4utern, warum in"
+                    "human_text": "Frau Ministerin. Der gleiche Forscherkreis hat gerade ganz alarmierende neue Studienergebnisse zu weiteren Insekten vorgelegt. Denn es gibt auch andere Insekten, die bekannterma\u00dfen keine Best\u00e4uber, aber N\u00fctzlinge sind, weil sie zum Beispiel Blattl\u00e4use vertilgen. K\u00f6nnen Sie mir vor diesem Hintergrund eventuell noch mal erl\u00e4utern, warum in"
                 },
                 {
                     "segment_idx": 208,
@@ -1679,7 +1484,7 @@
         },
         {
             "jump_index": 213,
-            "cer_change": 0.32413793103448274,
+            "cer_change": -0.3568965517241379,
             "context_segments": [
                 {
                     "segment_idx": 211,
@@ -1697,16 +1502,16 @@
                     "end_time": 3365.61471875,
                     "cer": 0.4,
                     "asr_text": "Okay.",
-                    "human_text": "Akar."
+                    "human_text": "kam."
                 },
                 {
                     "segment_idx": 213,
                     "is_jump_point": true,
                     "start_time": 3365.61471875,
                     "end_time": 3385.61471875,
-                    "cer": 0.7241379310344828,
+                    "cer": 0.04310344827586207,
                     "asr_text": "Sehr geehrte Frau Ministerin, ich m\u00f6chte gerne zum neuen Thema hier fragen, und zwar zu Nord Stream 2. Es scheint ja f\u00fcr die SPD das bei Weitem wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gr\u00fcndet eine neue Stiftung. Herr Scholz l\u00e4sst sich von der amerikanischen Regierung erpressen und verspricht deutsche Steuergelder als L\u00f6segeld.",
-                    "human_text": "und Verteidigungspolitik, die Bedeutung der Koh\u00e4sion des NATO-B\u00fcndnisses sowie die Lage in Afghanistan, wo die T\u00fcrkei neben Deutschland, Italien und den USA eine von vier Rahmennationen bei der Mission Resolute Support ist. Dazu z\u00e4hlt auch die Lage im Irak und"
+                    "human_text": "Sehr geehrte Frau Ministerin, ich m\u00f6chte gern zu einem neuen Thema fragen, und zwar zu Nord Stream 2. Das scheint ja f\u00fcr die SPD das bei Weitem wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gr\u00fcndet eine neue Stiftung; Herr Scholz l\u00e4sst sich von der amerikanischen Regierung erpressen und verspricht deutsche Steuergelder als L\u00f6segeld;"
                 },
                 {
                     "segment_idx": 214,
@@ -1729,104 +1534,53 @@
             ]
         },
         {
-            "jump_index": 214,
-            "cer_change": -0.664085711713334,
+            "jump_index": 235,
+            "cer_change": 0.4069400630914827,
             "context_segments": [
                 {
-                    "segment_idx": 212,
+                    "segment_idx": 233,
                     "is_jump_point": false,
-                    "start_time": 3360.97409375,
-                    "end_time": 3365.61471875,
-                    "cer": 0.4,
-                    "asr_text": "Okay.",
-                    "human_text": "Akar."
+                    "start_time": 3702.12534375,
+                    "end_time": 3715.4503437500007,
+                    "cer": 0.18468468468468469,
+                    "asr_text": "Wir Transitland sind zum Beispiel f\u00fcr Gas und durch Deutschland hindurch Gas eben auch zu anderen Leitenden. Und das dann eben auch gemeinsam zu planen und ein gemeinsames Netz zu haben, das halte ich f\u00fcr absolut sinnvoll.",
+                    "human_text": "sind Transitland, zum Beispiel f\u00fcr Gas; wir leiten Gas durch Deutschland hindurch eben auch zu anderen. Das dann eben auch gemeinsam zu planen und ein gemeinsames Netz zu haben, das halte ich f\u00fcr absolut sinnvoll."
                 },
                 {
-                    "segment_idx": 213,
+                    "segment_idx": 234,
                     "is_jump_point": false,
-                    "start_time": 3365.61471875,
-                    "end_time": 3385.61471875,
-                    "cer": 0.7241379310344828,
-                    "asr_text": "Sehr geehrte Frau Ministerin, ich m\u00f6chte gerne zum neuen Thema hier fragen, und zwar zu Nord Stream 2. Es scheint ja f\u00fcr die SPD das bei Weitem wichtigste Projekt dieser Legislatur zu sein. Frau Schwesig gr\u00fcndet eine neue Stiftung. Herr Scholz l\u00e4sst sich von der amerikanischen Regierung erpressen und verspricht deutsche Steuergelder als L\u00f6segeld.",
-                    "human_text": "und Verteidigungspolitik, die Bedeutung der Koh\u00e4sion des NATO-B\u00fcndnisses sowie die Lage in Afghanistan, wo die T\u00fcrkei neben Deutschland, Italien und den USA eine von vier Rahmennationen bei der Mission Resolute Support ist. Dazu z\u00e4hlt auch die Lage im Irak und"
+                    "start_time": 3715.4503437500007,
+                    "end_time": 3723.8203437500006,
+                    "cer": 0.0,
+                    "asr_text": "Die n\u00e4chste Nachfrage stellt die Kollegin Verlinden.",
+                    "human_text": "Die n\u00e4chste Nachfrage stellt die Kollegin Verlinden."
                 },
                 {
-                    "segment_idx": 214,
+                    "segment_idx": 235,
                     "is_jump_point": true,
-                    "start_time": 3385.61471875,
-                    "end_time": 3405.61471875,
-                    "cer": 0.06005221932114883,
-                    "asr_text": "setzt sich ein, wo sie sich rechtlich bewegt, scheint der SPD mittlerweile egal zu sein. Aber Sie stehen ja hier nicht als Parteimitglied, sondern als Umweltministerin, als Klimaministerin. Und von daher w\u00fcrde ich von Ihnen gerne wissen, warum Sie das Projekt Nord Stream 2 und den Dirty Deal von Herrn Scholz weiter unterst\u00fctzen, obwohl das ganz klar gegen die EU-Klimaschutzpolitik",
-                    "human_text": "setzt sich ein. Wo sie sich rechtlich bewegt, scheint der SPD mittlerweile egal zu sein. Aber Sie stehen ja hier nicht als Parteimitglied, sondern als Umweltministerin, als Klimaministerin. Von daher w\u00fcrde ich von Ihnen gern wissen, warum Sie das Projekt Nord Stream 2 und den \u201edirty deal\u201c von Herrn Scholz weiter unterst\u00fctzen, obwohl das ganz klar gegen die EU-Klimaziele"
+                    "start_time": 3723.8203437500006,
+                    "end_time": 3743.8203437500006,
+                    "cer": 0.4069400630914827,
+                    "asr_text": "Vielen Dank, Frau Pr\u00e4sidentin. Frau Ministerin, wussten Sie davon, dass diese Gespr\u00e4che gef\u00fchrt werden von Ihrem Kabinettskollegen mit den Amerikanern bez\u00fcglich dieser Erpressungsversuche und des L\u00f6segeldes, was da im Gespr\u00e4ch war? Au\u00dferdem m\u00f6chte ich noch mal darauf hinweisen, Sie sagen, es sei zwar eine genehmigte",
+                    "human_text": "Vielen Dank, Frau Pr\u00e4sidentin. \u2013 Frau Ministerin, wussten Sie davon, dass diese Gespr\u00e4che bez\u00fcglich dieser Erpressungsversuche und des L\u00f6segeldes, das da im Gespr\u00e4ch war, von Ihrem Kabinettskollegen mit den Amerikanern gef\u00fchrt"
                 },
                 {
-                    "segment_idx": 215,
+                    "segment_idx": 236,
                     "is_jump_point": false,
-                    "start_time": 3405.61471875,
-                    "end_time": 3413.9784687500005,
-                    "cer": 0.06716417910447761,
-                    "asr_text": "immer Ziele verst\u00f6\u00dft, obwohl die EU ganz klar keine fossilen Infrastrukturen mehr f\u00f6rdern will. Warum unterst\u00fctzen Sie dieses Projekt?",
-                    "human_text": "EU-Klimaziele verst\u00f6\u00dft, obwohl die EU ganz klar keine fossilen Infrastrukturen mehr f\u00f6rdern will. Warum unterst\u00fctzen Sie dieses Projekt?"
+                    "start_time": 3743.8203437500006,
+                    "end_time": 3760.0847187500003,
+                    "cer": 0.1360544217687075,
+                    "asr_text": "Leitung, aber sie ist doch ganz klar in einem Riesenkonflikt mit dem Europarecht und all unseren europ\u00e4ischen Partnern. Und dann m\u00f6chte ich darauf hinweisen und Sie fragen, Ihr eigener Staatssekret\u00e4r, und Sie haben das eben noch mal \u00e4hnlich formuliert, Herr Flassbart sagt, nat\u00fcrlich werden wir",
+                    "human_text": "Leitung; aber sie steht doch ganz klar in einem Riesenkonflikt mit dem Europarecht und all unseren europ\u00e4ischen Partnern. Und dann m\u00f6chte ich darauf hinweisen und Sie fragen: Ihr eigener Staatssekret\u00e4r Herr Flasbarth \u2013 und Sie haben das eben noch mal \u00e4hnlich formuliert \u2013 sagt: Nat\u00fcrlich werden wir"
                 },
                 {
-                    "segment_idx": 216,
+                    "segment_idx": 237,
                     "is_jump_point": false,
-                    "start_time": 3413.9784687500005,
-                    "end_time": 3433.9784687500005,
-                    "cer": 0.05387205387205387,
-                    "asr_text": "Frau Abgeordnete, ich weise hier deutlich zur\u00fcck, dass es da irgendwelche schmutzigen Deals gibt. Das ist nicht der Fall. Dann sind wir uns doch einig, wir wollen aus der Kohleverstromung aussteigen und wir wollen aus der Nutzung von Atomstrom aussteigen. Wir werden die Atomkraftwerke abschalten.",
-                    "human_text": "Frau Abgeordnete, weise ich hier deutlich zur\u00fcck, dass es da irgendwelche schmutzigen Deals gibt. Das ist nicht der Fall. Und dann sind wir uns doch einig: Wir wollen aus der Kohleverstromung aussteigen, und wir wollen aus der Nutzung von Atomstrom aussteigen. Wir werden die Atomkraftwerke abschalten."
-                }
-            ]
-        },
-        {
-            "jump_index": 226,
-            "cer_change": 0.303739837398374,
-            "context_segments": [
-                {
-                    "segment_idx": 224,
-                    "is_jump_point": false,
-                    "start_time": 3552.6434687500005,
-                    "end_time": 3572.6434687500005,
-                    "cer": 0.08059701492537313,
-                    "asr_text": "zu zahlen, nur damit eine Pipeline nicht fertiggestellt wird. Entscheidend ist doch, wie viel Gas wir am Ende verwenden. Und das ist das, was wir versuchen, m\u00f6glichst zu reduzieren. Wir wollen aus allen fossilen Energien aussteigen. Wir tun es bei der Kohle. Wir werden die Atomkraftwerke abschalten. Aber wir brauchen Gas im \u00dcbergang.",
-                    "human_text": "zu zahlen, nur damit eine Pipeline nicht fertiggestellt wird. Entscheidend ist doch, wie viel Gas wir am Ende verwenden. Wir versuchen, den Verbrauch m\u00f6glichst zu reduzieren. Wir wollen aus allen fossilen Energien aussteigen. Wir tun es bei der Kohle; wir werden die Atomkraftwerke abschalten. Aber wir brauchen Gas im \u00dcbergang."
-                },
-                {
-                    "segment_idx": 225,
-                    "is_jump_point": false,
-                    "start_time": 3572.6434687500005,
-                    "end_time": 3587.68971875,
-                    "cer": 0.013333333333333334,
-                    "asr_text": "Und wenn Sie daf\u00fcr eine Alternative haben, sehr sch\u00f6n, lassen Sie uns das diskutieren. Die Forschung sagt uns eindeutig, wir brauchen im \u00dcbergang Gas.",
-                    "human_text": "Und wenn Sie daf\u00fcr eine Alternative haben, sehr sch\u00f6n, lassen Sie uns das diskutieren. Die Forschung sagt uns eindeutig: Wir brauchen im \u00dcbergang Gas."
-                },
-                {
-                    "segment_idx": 226,
-                    "is_jump_point": true,
-                    "start_time": 3587.68971875,
-                    "end_time": 3593.30909375,
-                    "cer": 0.3170731707317073,
-                    "asr_text": "AfD, stellt die n\u00e4chste Nachfrage. Danke.",
-                    "human_text": "FDP, stellt die n\u00e4chste Frage. Vielen"
-                },
-                {
-                    "segment_idx": 227,
-                    "is_jump_point": false,
-                    "start_time": 3593.30909375,
-                    "end_time": 3612.8434687500003,
-                    "cer": 0.08628318584070796,
-                    "asr_text": "Vielen Dank, Frau Ministerin. Ich m\u00f6chte best\u00e4tigen, was Sie gesagt haben. Es ist tats\u00e4chlich richtig, dass auch die Papiere des Bundeswirtschaftsministeriums sagen, dass es einen verst\u00e4rkten Wechsel auf Gas geben wird. Selbstverst\u00e4ndlich ist es nicht so, wie die Kollegin insinuiert, dass nur ein Angebot von Gas zu einem Mehrverbrauch f\u00fchrt. Das ist gem\u00e4\u00df der Erneuerbare-Energie-Gesetze gar nicht m\u00f6glich. Allerdings, und das muss ich widersprechen,",
-                    "human_text": "Vielen Dank. \u2013 Frau Ministerin, ich m\u00f6chte best\u00e4tigen, was Sie hier gesagt haben. Es ist tats\u00e4chlich richtig, dass es \u2013 auch die Papiere des Bundeswirtschaftsministeriums sagen das \u2013 einen verst\u00e4rkten Wechsel auf Gas geben wird. Und selbstverst\u00e4ndlich ist es nicht so, wie die Kollegin insinuiert, dass nur ein Angebot von Gas zu einem Mehrverbrauch f\u00fchrt. Das ist ja gem\u00e4\u00df dem ErneuerbareEnergien-Gesetz gar nicht m\u00f6glich. Allerdings \u2013 und jetzt muss ich widersprechen"
-                },
-                {
-                    "segment_idx": 228,
-                    "is_jump_point": false,
-                    "start_time": 3612.8434687500003,
-                    "end_time": 3632.8434687500003,
-                    "cer": 0.24438902743142144,
-                    "asr_text": "Es ist nicht nur so, dass das Abschaffen von Kohle und Kernkraftwerken bei uns zu einem erh\u00f6hten Gaskonsum f\u00fchren wird durch die Gaskraftwerke. Es ist tats\u00e4chlich auch so, dass wir in eine verst\u00e4rkte Abh\u00e4ngigkeit von ausl\u00e4ndischen Kernkraftwerken wandern. Das kann man sehen an den Netto-Importstr\u00f6men, die aus Frankreich importiert werden m\u00fcssen und im Jahr 2019 die Gr\u00f6\u00dfe von \u00fcber 14 Terawattstr\u00f6men",
-                    "human_text": "ist es nicht nur so, dass das Abschalten von Kohle- und Kernkraftwerken bei uns zu einem erh\u00f6hten Gaskonsum von heimischen Gaskraftwerken f\u00fchren wird; es ist tats\u00e4chlich auch so, dass wir in eine verst\u00e4rkte Abh\u00e4ngigkeit von ausl\u00e4ndischen Kernkraftwerken geraten. Das kann man am Nettoimportstrom aus Frankreich sehen, der im Jahr 2019 die Gr\u00f6\u00dfe von 14 Terawattstunden"
+                    "start_time": 3760.0847187500003,
+                    "end_time": 3780.0847187500003,
+                    "cer": 0.16451612903225807,
+                    "asr_text": "aus dem fossilen Erdgas ausgestiegen sein. So, und dann erkl\u00e4ren Sie mir doch mal, warum Sie jetzt zus\u00e4tzlich zu 100 Millionen Tonnen CO2, die j\u00e4hrlich durch eine zus\u00e4tzliche Pipeline nach Europa gebracht werden soll, warum das offenbar noch nicht genug ist, sondern Herr Scholz es f\u00fcr offenbar notwendig h\u00e4lt,",
+                    "human_text": "aus dem fossilen Erdgas ausgestiegen sein. \u2013 So. Dann erkl\u00e4ren Sie mir doch mal, warum jetzt die 100 Millionen Tonnen CO2, die j\u00e4hrlich durch eine zus\u00e4tzliche Pipeline nach Europa gebracht werden sollen, offenbar noch nicht genug sind und Herr Scholz es offenbar f\u00fcr notwendig h\u00e4lt,"
                 }
             ]
         },

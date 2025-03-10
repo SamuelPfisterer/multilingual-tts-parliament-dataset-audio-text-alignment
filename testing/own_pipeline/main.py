@@ -445,16 +445,20 @@ class TranscriptAligner:
             AlignedTranscript containing the best match
         """
         # Phase 1: Find the best matching region
+        print(f"Finding best matching region for {asr_segment.text}")
         region_start_idx = self._find_match_region(
             asr_segment.text,
             transcript_tokens,
             start_search_idx, 
             coarse_window_size = len(asr_segment.text.split())
         )
+        print(f"Best matching region start index: {region_start_idx}")
         best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
+        print(f"Best match: {best_match}")
         if best_match.cer <= self.region_cer_threshold:
+            print(f"Best match CER: {best_match.cer}")
             return best_match
-
+        print(f"No good matching region found, so we try to find a region at the beginning of the transcript")
         # No good matching region found, so we try to find a region at the beginning of the transcript
         region_start_idx = self._find_match_region(
             asr_segment.text,
@@ -478,7 +482,8 @@ class TranscriptAligner:
                           coarse_window_size: int = 50,
                           region_cer_threshold: float = 0.3,
                           max_backward_search: int = 250,  # Maximum tokens to search backward
-                          forward_priority: int = 5  # Check this many forward windows before one backward
+                          forward_priority: int = 5,  # Check this many forward windows before one backward
+                          step_size: float = 0.5  # Step size, how many windows to move forward and backward each step
                           ) -> Optional[int]:
         """Find the most promising region for matching.
         
@@ -518,13 +523,17 @@ class TranscriptAligner:
         forward_pos = start_search_idx
         backward_pos = start_search_idx
         forward_steps = 0  # Counter for forward steps taken
+        reached_forward_limit = False
         
         while True:
             # Check forward positions with priority
-            while forward_steps < forward_priority and forward_pos < forward_limit:
+            #print(f"forward limit reached: {reached_forward_limit}")
+            while forward_steps < forward_priority and forward_pos < forward_limit and (not reached_forward_limit):
                 if forward_pos + coarse_window_size > forward_limit:
                     # if we are close to the end of the trancript, we want to still have a last full window to check
                     forward_pos = forward_limit - coarse_window_size
+                    #print(f"Reached forward limit, so we set forward_pos to {forward_pos}")
+                    reached_forward_limit = True
                 candidate_end = min(forward_pos + coarse_window_size, forward_limit)
                 candidate_text = " ".join(transcript_tokens[forward_pos:candidate_end])
                 cer = self.compute_cer(asr_text, candidate_text)
@@ -544,8 +553,9 @@ class TranscriptAligner:
                                 debug_file.write("\n")
                             debug_file.write("\n".join(debug_info) + "\n")
                         return forward_pos
+                #print(f"Current forward position: {forward_pos}")
+                forward_pos += max(int(coarse_window_size*step_size), 1)#int(coarse_window_size * step_size) # move forward by step_size * coarse_window_size, truncate to integer
                 
-                forward_pos += coarse_window_size
                 forward_steps += 1
             
             # Reset forward steps counter
@@ -553,7 +563,8 @@ class TranscriptAligner:
             
             # Try one backward position if within bounds
             if backward_pos > backward_limit:
-                backward_pos = max(backward_pos - coarse_window_size, backward_limit)
+                backwards_step = max(int(coarse_window_size*step_size), 1)
+                backward_pos = max(backward_pos - backwards_step, backward_limit) #max(backward_pos - int(coarse_window_size * step_size), backward_limit) # move backward by step_size * coarse_window_size, truncate to integer
                 candidate_end = min(backward_pos + coarse_window_size, forward_limit)
                 candidate_text = " ".join(transcript_tokens[backward_pos:candidate_end])
                 cer = self.compute_cer(asr_text, candidate_text)
@@ -575,7 +586,7 @@ class TranscriptAligner:
                         return backward_pos
             
             # Stop if we've searched the entire valid range
-            if forward_pos >= forward_limit and backward_pos <= backward_limit:
+            if (forward_pos >= forward_limit or reached_forward_limit) and backward_pos <= backward_limit:
                 break
         
         # If we've searched everything and found no good match,
