@@ -2,508 +2,589 @@
   "audio_file": "data/audio/7501579_960s.opus",
   "segments": [
     {
-      "start": 0.0,
-      "end": 14.028781250000002,
-      "asr_text": ".",
-      "human_text": "",
-      "cer": 1.0,
-      "start_idx": 0,
-      "end_idx": 0
+      "start": 7.72596875,
+      "end": 17.20971875,
+      "asr_text": "Merci.",
+      "human_text": "gerne",
+      "cer": 0.6666666666666666,
+      "start_idx": 2,
+      "end_idx": 3
     },
     {
-      "start": 14.028781250000002,
-      "end": 29.46096875,
-      "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen, bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
-      "human_text": "Guten Tag, Liebe Kolleginnen und Kollegen, bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
-      "cer": 0.01098901098901099,
-      "start_idx": 0,
-      "end_idx": 14
+      "start": 17.20971875,
+      "end": 31.27503125,
+      "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen. Bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
+      "human_text": "D—–Guten Tag, liebe Kolleginnen und Kollegen! Bitte nehmen Sie Platz. Ich eröffne die Sitzung.",
+      "cer": 0.04395604395604396,
+      "start_idx": 5972,
+      "end_idx": 5986
     },
     {
-      "start": 29.46096875,
-      "end": 46.09128125,
+      "start": 31.27503125,
+      "end": 46.08284375,
       "asr_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die besorgniserregenden Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
-      "human_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die Besorgnis erregenden Varianten des SARS-Covid-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
+      "human_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind besorgniserregende Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
       "cer": 0.028089887640449437,
-      "start_idx": 14,
-      "end_idx": 38
+      "start_idx": 5986,
+      "end_idx": 6008
     },
     {
-      "start": 46.09128125,
-      "end": 61.20284375,
+      "start": 46.08284375,
+      "end": 61.17753125,
       "asr_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infektiöser ist als das bisher bekannte Virus.",
       "human_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infektiöser ist als das bisher bekannte Virus.",
       "cer": 0.0,
-      "start_idx": 38,
-      "end_idx": 59
+      "start_idx": 6008,
+      "end_idx": 6029
     },
     {
-      "start": 61.20284375,
-      "end": 75.67315625,
-      "asr_text": "Die Verbreitung einer Virusmutation mit höherem Ansteckungspotenzial würde eine schwerwiegende Verschärfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen",
-      "human_text": "Die Verbreitung einer Virusmutation mit höherem Ansteckungspotenzial würde eine schwerwiegende Verschärfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen",
+      "start": 61.17753125,
+      "end": 75.53815625000001,
+      "asr_text": "Die Verbreitung einer Virusmutation mit höherem Ansteckungspotenzial würde eine schwerwiegende Verschärfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen Gesichtsmasken",
+      "human_text": "Die Verbreitung einer Virusmutation mit höherem Ansteckungspotenzial würde eine schwerwiegende Verschärfung der pandemischen Lage bedeuten. Vor diesem Hintergrund kommt dem Tragen von medizinischen Gesichtsmasken,",
+      "cer": 0.0047169811320754715,
+      "start_idx": 6029,
+      "end_idx": 6053
+    },
+    {
+      "start": 75.53815625000001,
+      "end": 87.06378125,
+      "asr_text": "die anerkanntermaßen eine höhere Schutzwirkung als sogenannte Alltagsmasken haben, eine besondere Bedeutung zu. Dementsprechend wurde die Verpflichtung zum Tragen medizinischer",
+      "human_text": "die anerkanntermaßen eine höhere Schutzwirkung als sogenannte Alltagsmasken haben, eine besondere Bedeutung zu. Dementsprechend wurde die Verpflichtung zum Tragen medizinischer",
       "cer": 0.0,
-      "start_idx": 59,
-      "end_idx": 82
+      "start_idx": 6053,
+      "end_idx": 6073
     },
     {
-      "start": 75.67315625,
-      "end": 95.532375,
-      "asr_text": "die anerkanntermaßen eine höhere Schutzwirkung als sogenannte Alltagsmasken haben, eine besondere Bedeutung zu. Dementsprechend wurde die Verpflichtung zum Tragen medizinischer Gesichtsmasken für zahlreiche Situationen, in denen ein engerer oder längerer Kontakt zu anderen Personen, insbesondere in geschlossenen Räumen, unvermeidbar ist, eingeführt.",
-      "human_text": "die anerkanntermaßen eine höhere Schutzwirkung als sogenannte Alltagsmasken haben, eine besondere Bedeutung zu. Dementsprechend wurde die Verpflichtung zum Tragen medizinische Gesichtsmasken für zahlreiche Situationen, in denen ein engerer oder längerer Kontakt zu anderen Personen, insbesondere in geschlossenen Räumen, unvermeidbar ist, eingeführt.",
-      "cer": 0.002849002849002849,
-      "start_idx": 83,
-      "end_idx": 124
-    },
-    {
-      "start": 95.532375,
-      "end": 115.532375,
-      "asr_text": "Angesichts dieser Entwicklungen habe ich mich entschlossen, mit heute in Kraft getretener hausrechtlicher Allgemeinverfügung eine Pflicht zum Tragen medizinischer Gesichtsmasken in den Gebäuden des Bundestags anzuordnen. Zu den medizinischen Gesichtsmasken zählen die sogenannten OP- und die FFP2-Masken.",
-      "human_text": "Angesichts dieser Entwicklungen habe ich mich entschlossen, mit heute in Kraft getretener hausrechtlicher Allgemeinverfügung eine Pflicht zum Tragen medizinischer Gesichtsmasken in den Gebäuden des Bundestags anzuordnen. Zu den medizinischen Gesichtsmasken zählen die sogenannten OP- und die FFP2-Masken",
-      "cer": 0.003289473684210526,
-      "start_idx": 124,
-      "end_idx": 161
-    },
-    {
-      "start": 115.532375,
-      "end": 131.61378125,
-      "asr_text": "sowie Masken mit vergleichbaren Standards. Diese Pflicht zum Tragen medizinischer Gesichtsmasken tritt an die Stelle der bisherigen Verpflichtung zum Tragen einer Mund-Nasen-Bedeckung. Im Übrigen bleibt es bei den Regelungen zum Umfang der",
-      "human_text": "sowie Masken mit vergleichbaren Standards. Diese Pflicht zum Tragen medizinischer Gesichtsmasken tritt an die Stelle der bisherigen Verpflichtung zum Tragen einer Mund-Nasen-Bedeckung. Im Übrigen bleibt es bei den Regelungen zum Umfang der",
+      "start": 87.06378125,
+      "end": 99.19690625000001,
+      "asr_text": "für zahlreiche Situationen, in denen ein engerer oder längerer Kontakt zu anderen Personen, insbesondere in geschlossenen Räumen, unvermeidbar ist, eingeführt. Angesichts dieser Entwicklungen habe ich mich entschlossen,",
+      "human_text": "für zahlreiche Situationen, in denen ein engerer oder längerer Kontakt zu anderen Personen, insbesondere in geschlossenen Räumen, unvermeidbar ist, eingeführt. Angesichts dieser Entwicklungen habe ich mich entschlossen,",
       "cer": 0.0,
-      "start_idx": 161,
-      "end_idx": 193
+      "start_idx": 6074,
+      "end_idx": 6101
     },
     {
-      "start": 131.61378125,
-      "end": 143.94096875000002,
-      "asr_text": "wie Sie bereits aus der seit Oktober geltenden Allgemeinverfügung kennen. Bitte denken Sie also daran, wenn Sie hier durch den Saal oder zum Rednerpult gehen, eine medizinische Gesichtsmaske zu tragen.",
-      "human_text": "Sie sie bereits aus der seit Oktober geltenden Allgemeinverfügung kennen. Bitte denken Sie daran, wenn Sie hier durch den Saal oder zum Rednerpult gehen, eine medizinische Gesichtsmaske zu tragen.",
-      "cer": 0.03482587064676617,
-      "start_idx": 195,
-      "end_idx": 224
+      "start": 99.19690625000001,
+      "end": 109.92096875000001,
+      "asr_text": "mit heute in Kraft getretener hausrechtlicher Allgemeinverfügung eine Pflicht zum Tragen medizinischer Gesichtsmasken in den Gebäuden des Bundestags anzuordnen.",
+      "human_text": "mit heute in Kraft getretener hausrechtlicher Allgemeinverfügung eine Pflicht zum Tragen medizinischer Gesichtsmasken in den Gebäuden des Bundestages anzuordnen.",
+      "cer": 0.00625,
+      "start_idx": 6101,
+      "end_idx": 6120
     },
     {
-      "start": 143.94096875000002,
-      "end": 163.94096875000002,
-      "asr_text": "In der heutigen Präsidiumssitzung haben wir bekräftigt, dass Verstöße gegen diese hausrechtliche Anordnung hier im Plenarsaal zugleich auch einen Verstoß gegen unsere parlamentarische Ordnung darstellen. Eine gesundheitliche Gefährdung von Abgeordneten durch das Verhalten anderer Abgeordneter gefährdet die Erledigung der uns aufgetragenen",
-      "human_text": "In der heutigen Präsidiumssitzung haben wir bekräftigt, das Verstöße gegen diese hausrechtliche Anordnung hier im Plenarsaal zugleich auch ein Verstoß gegen unsere parlamentarische Ordnung darstellen. Eine gesundheitliche Gefährdung von Abgeordneten durch das Verhalten anderer Abgeordneter gefährdet die Erledigung der uns aufgetragenen",
-      "cer": 0.008823529411764706,
-      "start_idx": 224,
-      "end_idx": 265
+      "start": 109.92096875000001,
+      "end": 127.87596875,
+      "asr_text": "Zu den medizinischen Gesichtsmasken zählen die sogenannten OP- und die FFP2-Masken sowie Masken mit vergleichbaren Standards. Diese Pflicht zum Tragen medizinischer Gesichtsmasken tritt an die Stelle der bisherigen Verpflichtung zum Tragen einer Mund-Nasen-Bedeckung.",
+      "human_text": "Zu den medizinischen Gesichtsmasken zählen die sogenannten OP- und die FFP2-Masken sowie Masken mit vergleichbaren Standards. Diese Pflicht zum Tragen medizinischer Gesichtsmasken tritt an die Stelle der bisherigen Verpflichtung zum Tragen einer MundNasen-Bedeckung.",
+      "cer": 0.003745318352059925,
+      "start_idx": 6120,
+      "end_idx": 6153
     },
     {
-      "start": 163.94096875000002,
-      "end": 179.74971875,
-      "asr_text": "parlamentarischen Arbeit. Daher mache ich erneut darauf aufmerksam, dass Verstöße gegen die Maskenpflicht auch mit den Mitteln des parlamentarischen Ordnungsrechts geahndet werden können, sofern diese in unseren Sitzungen auftreten.",
-      "human_text": "parlamentarischen Arbeit. Daher mache ich erneut darauf aufmerksam, dass Verstöße gegen die Maskenpflicht auch mit den Mitteln des parlamentarischen Ordnungsrechts geahndet werden können, sofern diese in unseren Sitzungen auftreten.",
+      "start": 127.87596875,
+      "end": 143.93253125,
+      "asr_text": "Im Übrigen bleibt es bei den Regelungen zum Umfang der Tragepflicht, wie Sie bereits aus der seit Oktober geltenden Allgemeinverfügung kennen. Bitte denken Sie also daran, wenn Sie hier durch den Saal oder zum Rednerpult gehen, eine medizinische Gesichtsmaske zu tragen.",
+      "human_text": "Im Übrigen bleibt es bei den Regelungen zum Umfang der Tragepflicht, wie Sie sie bereits aus der seit Oktober geltenden Allgemeinverfügung kennen. Bitte denken Sie also daran, wenn Sie hier durch den Saal oder zum Rednerpult gehen, eine medizinische Gesichtsmaske zu tragen.",
+      "cer": 0.014814814814814815,
+      "start_idx": 6153,
+      "end_idx": 6195
+    },
+    {
+      "start": 143.93253125,
+      "end": 155.26409375000003,
+      "asr_text": "In der heutigen Präsidiumssitzung haben wir bekräftigt, dass Verstöße gegen diese hausrechtliche Anordnung hier im Plenarsaal zugleich auch einen Verstoß gegen unsere parlamentarische Ordnung darstellen.",
+      "human_text": "In der heutigen Präsidiumssitzung haben wir bekräftigt, dass Verstöße gegen diese hausrechtliche Anordnung hier im Plenarsaal zugleich auch einen Verstoß gegen unsere parlamentarische Ordnung darstellen.",
       "cer": 0.0,
-      "start_idx": 265,
-      "end_idx": 294
+      "start_idx": 6195,
+      "end_idx": 6220
     },
     {
-      "start": 179.74971875,
-      "end": 191.95034375,
-      "asr_text": "Dies schließt selbstverständlich die namentlichen Abstimmungen, Wahlen und das Hammelsprungverfahren ein. Ich bitte Sie nachdrücklich, sich an die neuen Vorgaben zu halten.",
-      "human_text": "Dies schließt selbstverständlich die namentlichen Abstimmungen, Wahlen und das Hammelsprungverfahren ein. Ich bitte Sie nachdrücklich, sich an die neuen Vorgaben zu halten.",
+      "start": 155.26409375000003,
+      "end": 171.32909375000003,
+      "asr_text": "Eine gesundheitliche Gefährdung von Abgeordneten durch das Verhalten anderer Abgeordneter gefährdet die Erledigung der uns aufgetragenen parlamentarischen Arbeit. Daher mache ich erneut darauf aufmerksam, dass Verstöße gegen die",
+      "human_text": "Eine gesundheitliche Gefährdung von Abgeordneten durch das Verhalten anderer Abgeordneter gefährdet die Erledigung der uns aufgetragenen parlamentarischen Arbeit. Daher mache ich erneut darauf aufmerksam, dass Verstöße gegen die",
       "cer": 0.0,
-      "start_idx": 294,
-      "end_idx": 316
+      "start_idx": 6220,
+      "end_idx": 6248
     },
     {
-      "start": 191.95034375,
-      "end": 208.19253125,
-      "asr_text": "Für die heutige 208. und die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen.",
-      "human_text": "Für die heutige 208. und die morgige 209. und die 210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen.",
+      "start": 171.32909375000003,
+      "end": 186.17065625,
+      "asr_text": "Maskenpflicht auch mit den Mitteln des parlamentarischen Ordnungsrechts geahndet werden können, sofern diese in unseren Sitzungen auftreten. Dies schließt selbstverständlich die namentlichen Abstimmungen, Wahlen und das Hammelsprungverfahren ein.",
+      "human_text": "Maskenpflicht auch mit den Mitteln des parlamentarischen Ordnungsrechts geahndet werden können, sofern diese in unseren Sitzungen auftreten. Dies schließt selbstverständlich die namentlichen Abstimmungen, Wahlen und das Hammelsprungverfahren ein.",
       "cer": 0.0,
-      "start_idx": 316,
-      "end_idx": 349
+      "start_idx": 6248,
+      "end_idx": 6276
     },
     {
-      "start": 208.19253125,
-      "end": 227.49753125,
-      "asr_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach § 21 Absatz 2 der Geschäftsordnung ist für die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschließende Tagesordnung um die in der Zusatzpunkteliste aufgeführten Punkte zu erweitern.",
-      "human_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach 21 Absatz 3 der Geschäftsordnung ist für die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschließende Tagesordnung um die in der Zusatzpunkteliste aufgeführten Punkte zu erweitern:",
-      "cer": 0.012084592145015106,
-      "start_idx": 349,
-      "end_idx": 391
+      "start": 186.17065625,
+      "end": 197.96628125,
+      "asr_text": "Ich bitte Sie nachdrücklich, sich an die neuen Vorgaben zu halten. Für die heutige 208. und die morgige 209.",
+      "human_text": "Ich bitte Sie nachdrücklich, sich an die neuen Vorgaben zu halten. Für die heutige 208., die morgige 209.",
+      "cer": 0.037037037037037035,
+      "start_idx": 6276,
+      "end_idx": 6294
     },
     {
-      "start": 227.49753125,
-      "end": 246.34690625000002,
-      "asr_text": "Und der Frist für den Beginn der Beratungen soll so weiter förderlich abgewichen werden. Auf Verlangen der Fraktion Bündnis 90 Die Grünen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den jüngsten gewaltsamen, willkürlichen und repressiven Entwicklungen in Russland statt.",
-      "human_text": "Von der Frist für den Beginn der Beratungen soll soweit erforderlich, abgewichen werden. Auf Verlangen der Fraktion Bündnis 90/Die Grünen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den jüngsten gewaltsamen, willkürlichen und repressiven Entwicklungen in Russland statt.",
-      "cer": 0.027439024390243903,
-      "start_idx": 391,
-      "end_idx": 435
+      "start": 197.96628125,
+      "end": 214.16628125,
+      "asr_text": "210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen. Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung eingerufen nach § 21 Absatz 2 der Geschäftsordnung.",
+      "human_text": "210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen. Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach § 21 Absatz 3 der Geschäftsordnung",
+      "cer": 0.017793594306049824,
+      "start_idx": 6296,
+      "end_idx": 6335
     },
     {
-      "start": 246.34690625000002,
-      "end": 265.95565625,
+      "start": 214.16628125,
+      "end": 231.99471875,
+      "asr_text": "ist für die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschließende Tagesordnung um die in der Zusatzpunkteliste aufgeführten Punkte zu erweitern. Und der Frist für den Beginn der Beratungen soll soweit erforderlich abgewichen werden.",
+      "human_text": "ist für die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschließende Tagesordnung um die in der Zusatzpunkteliste aufgeführten Punkte zu erweitern:(A) (B) (C) (D)(A) (B) (C) (D)Die Reform der Weltgesundheitsorganisation –",
+      "cer": 0.23452768729641693,
+      "start_idx": 6335,
+      "end_idx": 6372
+    },
+    {
+      "start": 231.99471875,
+      "end": 246.33846875,
+      "asr_text": "Auf Verlangen der Fraktion Bündnis 90 Die Grünen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den jüngsten gewaltsamen, willkürlichen und repressiven Entwicklungen in Russland statt.",
+      "human_text": "Re-Identifikationsrisiko im Digitale-Versor- gung-Gesetz und in der Datentransparenzver- ordnung reduzieren Medizinische Versorgung im ländlichen Raum sicherstellen – Kommunale",
+      "cer": 0.7196652719665272,
+      "start_idx": 6379,
+      "end_idx": 6397
+    },
+    {
+      "start": 246.33846875,
+      "end": 265.82065625,
       "asr_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag für einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
-      "human_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag für einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
-      "cer": 0.0,
-      "start_idx": 435,
-      "end_idx": 473
+      "human_text": "– Kommunale MVZ stärken Dem Atomwaffenverbotsvertrag der Verein- ten Nationen beitreten Nukleare Teilhabe beenden – Atomwaffen aus Deutschland abziehen Damit kommen wir zur Feststellung der Tagesord- nungen der",
+      "cer": 0.6912751677852349,
+      "start_idx": 6395,
+      "end_idx": 6423
     },
     {
-      "start": 265.95565625,
-      "end": 284.88940625,
+      "start": 265.82065625,
+      "end": 284.72065625000005,
       "asr_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bekämpfung der Geldwäsche auf der Drucksache 19-24186 abschließend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
-      "human_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bekämpfung der Geldwäsche auf der Drucksache 19/24180 abschließend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
-      "cer": 0.006644518272425249,
-      "start_idx": 473,
-      "end_idx": 507
+      "human_text": "stimmt dagegen? – Wer enthält sich? – Dann sind die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des übrigen Hauses so beschlossen.Ich rufe den Tagesordnungspunkt 1 auf: Befragung der Bundesregierung Die Bundesregierung hat",
+      "cer": 0.6910299003322259,
+      "start_idx": 6438,
+      "end_idx": 6473
     },
     {
-      "start": 284.88940625,
-      "end": 300.06003125,
+      "start": 284.72065625000005,
+      "end": 300.04315625000004,
       "asr_text": "Tagesordnungspunkt 17 wird am Freitag aufgerufen. Stattdessen soll eine Beschlussempfehlung zum Antrag Friedensbemühungen im Jemen intensivieren, humanitäre Lage verbessern, auf der Drucksache 19 26 220 aufgesetzt werden.",
-      "human_text": "Tagesordnungspunkt 17 wird am Freitag aufgerufen. Stattdessen soll eine Beschlussempfehlung zum Antrag Friedensbemühungen im Jemen intensivieren, humanitäre Lage verbessern, auf der Drucksache 19/26220 aufgesetzt werden.",
-      "cer": 0.00904977375565611,
-      "start_idx": 507,
-      "end_idx": 532
+      "human_text": "Tagesordnungspunkt 1 auf: Befragung der Bundesregierung Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare",
+      "cer": 0.665158371040724,
+      "start_idx": 6464,
+      "end_idx": 6483
     },
     {
-      "start": 300.06003125,
-      "end": 310.85159375,
-      "asr_text": "Als erster Punkt. Am Freitag soll der Entwurf eines Gesetzes zur Fortgeltung der die epidemische Lage von nationaler Tragweite betreffenden Regelungen aufgerufen werden.",
-      "human_text": "Als erster Punkt am Freitag soll der Entwurf eines Gesetzes zur Fortgeltung der die epidemische Lage von nationaler Tragweite betreffenden Regelungen aufgerufen werden.",
-      "cer": 0.011834319526627219,
-      "start_idx": 532,
-      "end_idx": 555
+      "start": 300.04315625000004,
+      "end": 310.81784375000007,
+      "asr_text": "Als erster Punkt am Freitag soll der Entwurf eines Gesetzes zur Fortgeltung der die epidemische Lage von nationaler Tragweite betreffenden Regelungen aufgerufen werden.",
+      "human_text": "steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
+      "cer": 0.7083333333333334,
+      "start_idx": 6489,
+      "end_idx": 6502
     },
     {
-      "start": 310.85159375,
-      "end": 323.17878125000004,
-      "asr_text": "Tagesordnungspunkt 20 wird abgesetzt. An dieser Stelle soll in verbundener Beratung drei Vorlagen zur Familienpolitik in der Pandemie aufgesetzt werden. Tagesordnungspunkt 21 wird abgesetzt.",
-      "human_text": "Tagesordnungspunkt 20 wird abgesetzt. An dieser Stelle sollen in verbundener Beratung drei Vorlagen zur Familienpolitik in der Pandemie aufgesetzt werden. Tagesordnungspunkt 21 wird abgesetzt.",
-      "cer": 0.010526315789473684,
-      "start_idx": 555,
-      "end_idx": 579
+      "start": 310.81784375000007,
+      "end": 326.62128125000004,
+      "asr_text": "Tagesordnungspunkt 20 wird abgesetzt. An dieser Stelle soll in verbundener Beratung drei Vorlagen zur Familienpolitik in der Pandemie aufgesetzt werden. Tagesordnungspunkt 21 wird abgesetzt. An dieser Stelle soll mit einer Debattenzeit von 30 Minuten",
+      "human_text": "Abgeordnete! Alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, darauf, wie es weitergeht mit den Coronabeschränkungen",
+      "cer": 0.712,
+      "start_idx": 6509,
+      "end_idx": 6528
     },
     {
-      "start": 323.17878125000004,
-      "end": 336.72940625,
-      "asr_text": "An dieser Stelle soll mit einer Debattenzeit von 30 Minuten der Entwurf eines dritten Coronasteuerhilfegesetzes aufgesetzt werden. Daran anschließend soll mit einer Debattenzeit von ebenfalls 30 Minuten der Gesetzentwurf",
-      "human_text": "An dieser Stelle soll mit einer Debattenzeit von 30 Minuten der Entwurf eines Dritten Corona-Steuerhilfegesetzes aufgesetzt werden. Daran anschließend soll mit einer Debattenzeit von ebenfalls 30 Minuten der Gesetzentwurf",
-      "cer": 0.013636363636363636,
-      "start_idx": 579,
-      "end_idx": 608
+      "start": 326.62128125000004,
+      "end": 342.09565625000005,
+      "asr_text": "der Entwurf eines dritten Coronasteuerhilfegesetzes aufgesetzt werden. Daran anschließend soll mit einer Debattenzeit von ebenfalls 30 Minuten der Gesetzentwurf zur Regelung einer Einmalzahlung der Grundsicherungssysteme an Erwachsene, Leistungsberechtigte",
+      "human_text": "es weitergeht mit den Coronabeschränkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute",
+      "cer": 0.6953125,
+      "start_idx": 6523,
+      "end_idx": 6548
     },
     {
-      "start": 336.72940625,
-      "end": 352.32190625000004,
-      "asr_text": "zur Regelung einer Einmalzahlung der Grundsicherungssysteme an Erwachsene, Leistungsberechtigte und zur Verlängerung des erleichterten Zugangs zu sozialer Sicherung und des Sozialdienstleister-Einsatzgesetzes aus Anlass der Covid-19-Pandemie aufgerufen werden.",
-      "human_text": "zur Regelung einer Einmalzahlung der Grundsicherungssysteme an erwachsene Leistungsberechtigte und zur Verlängerung des erleichterten Zugangs zu sozialer Sicherung und zur Änderung des Sozialdienster-Einsatzgesetzes aus Anlass der COVID-19 Pandemie aufgerufen werden.",
-      "cer": 0.09615384615384616,
-      "start_idx": 608,
-      "end_idx": 638
+      "start": 342.09565625000005,
+      "end": 358.07628125,
+      "asr_text": "und zur Verlängerung des erleichterten Zugangs zu sozialer Sicherung und des Sozialdienstleister-Einsatzgesetzes aus Anlass der Covid-19-Pandemie aufgerufen werden. An der Stelle des Tagesordnungspunktes 22 soll der Tagesordnungspunkt 17 aufgerufen werden.",
+      "human_text": "und die entsprechenden Investitionen zahlen sich aus. – Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade",
+      "cer": 0.7109375,
+      "start_idx": 6561,
+      "end_idx": 6589
     },
     {
-      "start": 352.32190625000004,
-      "end": 368.53878125,
-      "asr_text": "An der Stelle des Tagesordnungspunkt 22 soll der Tagesordnungspunkt 17 aufgerufen werden. Die Tagesordnungspunkte 16, 28, c, d und e sollen abgesetzt werden. Außerdem mache ich Sie auf die Überweisung im Anhang zur Zusatzpunkteliste aufmerksam.",
-      "human_text": "An der Stelle des Tagesordnungspunkt 22 soll der Tagesordnungspunkt 17 aufgerufen werden. Die Tagesordnungspunkte 16, 28 c, d und e sollen abgesetzt werden. Außerdem mache ich Sie auf die Überweisung im Anhang zur Zusatzpunkteliste aufmerksam.",
-      "cer": 0.004098360655737705,
-      "start_idx": 638,
-      "end_idx": 673
+      "start": 358.07628125,
+      "end": 368.4551875,
+      "asr_text": "Die Tagesordnungspunkte 16, 28c, d und e sollen abgesetzt werden. Außerdem mache ich Sie auf die Überweisung im Anhang zur Zusatzpunkteliste aufmerksam.",
+      "human_text": "der Insekten. Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung",
+      "cer": 0.7105263157894737,
+      "start_idx": 6592,
+      "end_idx": 6606
     },
     {
-      "start": 368.53878125,
-      "end": 379.432375,
-      "asr_text": "Damit kommen wir zur Feststellung der Tagesordnung der 208. und 209. Sitzung mit den genannten Änderungen und Ergänzungen. Wer stimmt dafür?",
-      "human_text": "damit kommen wir zur Feststellung der Tagesordnungen der 208., 209., 210 Sitzung mit den genannten Änderungen und Ergänzungen. Wer stimmt dafür?",
+      "start": 368.4551875,
+      "end": 379.424328125,
+      "asr_text": "Damit kommen wir zur Feststellung der Tagesordnung der 208, 209 und 210 Sitzung mit den genannten Änderungen und Ergänzungen. Wer stimmt dafür?",
+      "human_text": "Damit kommen wir zur Feststellung der Tagesord- nungen der 208., 209., 210. Sitzung mit den genannten Änderungen und Ergänzungen. Wer stimmt dafür?",
+      "cer": 0.06993006993006994,
+      "start_idx": 6414,
+      "end_idx": 6436
+    },
+    {
+      "start": 379.424328125,
+      "end": 390.23159375,
+      "asr_text": "Wer stimmt dagegen? Wer enthält sich? Dann ist die Tagesordnung gegen die Stimmen der AfD mit den Stimmen des übrigen Hauses so beschlossen.",
+      "human_text": "Wer stimmt dagegen? – Wer enthält sich? – Dann sind die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des übrigen Hauses so beschlossen.Ich",
       "cer": 0.08571428571428572,
-      "start_idx": 674,
-      "end_idx": 695
+      "start_idx": 6437,
+      "end_idx": 6462
     },
     {
-      "start": 379.432375,
-      "end": 390.40034375000005,
-      "asr_text": "Wer stimmt dagegen? Wer enthält sich? Dann ist die Tagesordnung gegen die Stimme der AfD mit den Stimmen des übrigen Hauses so beschlossen.",
-      "human_text": "Wer stimmt dagegen? Wer enthält sich? Dann sind die Tagesordnungen gegen die Stimme der AfD mit den Stimmen des übrigen Hauses so beschlossen.",
-      "cer": 0.03597122302158273,
-      "start_idx": 695,
-      "end_idx": 718
+      "start": 390.23159375,
+      "end": 407.95190625,
+      "asr_text": "Ich rufe auf den Tagesordnungspunkt 1. Wir fragen der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verfügung steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
+      "human_text": "rufe den Tagesordnungspunkt 1 auf: Befragung der Bundesregierung Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verfügung steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
+      "cer": 0.056782334384858045,
+      "start_idx": 6462,
+      "end_idx": 6502
     },
     {
-      "start": 390.40034375000005,
-      "end": 408.09534375000004,
-      "asr_text": "Ich rufe auf den Tagesordnungspunkt 1, Befragung der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verfügung steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
-      "human_text": "Ich rufe auf den Tagesordnungspunkt 1: Befragung der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verfügung steht. Frau Bundesministerin, wenn Sie mögen, haben Sie das Wort für einleitende Ausführungen.",
-      "cer": 0.0031645569620253164,
-      "start_idx": 718,
-      "end_idx": 759
+      "start": 407.95190625,
+      "end": 422.95190625,
+      "asr_text": "Herr Präsident, sehr geehrte Damen und Herren Abgeordnete, alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, wie es weitergeht mit den Corona-Beschränkungen und dem Impfen. Das bestimmt die Diskussion.",
+      "human_text": "Herr Präsident! Sehr geehrte Damen und Herren Abgeordnete! Alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, darauf, wie es weitergeht mit den Coronabeschränkungen und dem Impfen. Das bestimmt die Diskussion",
+      "cer": 0.06521739130434782,
+      "start_idx": 6502,
+      "end_idx": 6535
     },
     {
-      "start": 408.09534375000004,
-      "end": 428.09534375000004,
-      "asr_text": "Herr Präsident, sehr geehrte Damen und Herren Abgeordnete, alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, wie es weitergeht mit den Corona-Beschränkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen über Unabhängigkeit",
-      "human_text": "Herr Präsident! Sehr geehrte Damen und Herren Abgeordnete! Alle Augen und Ohren sind heute natürlich auf die Bund-Länder-Runde gerichtet, wie es weitergeht mit den Corona- beschränkungen und dem Impfen. Das bestimmt die Diskussion in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen über Umweltpolitik",
-      "cer": 0.05357142857142857,
-      "start_idx": 759,
-      "end_idx": 809
+      "start": 422.95190625,
+      "end": 437.95190625,
+      "asr_text": "in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen über Umweltpolitik reden, denn die Pandemie lehrt uns eine intakte Natur und die entsprechenden Investitionen, die zahlen sich aus. Und deshalb",
+      "human_text": "in den Medien und sicherlich auch in den Wohnzimmern. Dennoch will ich heute mit Ihnen über Umweltpolitik reden. Denn die Pandemie lehrt uns: Eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. – Deshalb",
+      "cer": 0.05652173913043478,
+      "start_idx": 6535,
+      "end_idx": 6570
     },
     {
-      "start": 428.09534375000004,
-      "end": 448.09534375000004,
-      "asr_text": "Denn die Pandemie lehrt uns eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten.",
-      "human_text": "denn die Pandemie lehrt uns: Eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht. Gerade heute beim Schutz der Insekten.",
-      "cer": 0.018050541516245487,
-      "start_idx": 810,
-      "end_idx": 850
+      "start": 437.95190625,
+      "end": 452.95190625,
+      "asr_text": "hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht. Gerade heute beim Schutz der Insekten, das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht.",
+      "human_text": "hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten. Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht",
+      "cer": 0.02100840336134454,
+      "start_idx": 6570,
+      "end_idx": 6603
     },
     {
-      "start": 448.09534375000004,
-      "end": 468.09534375000004,
-      "asr_text": "Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltschädlicher Pestizide ganz erheblich eingeschränkt. Endlich, anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr deutlich,",
-      "human_text": "Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung umweltschädlicher Pestizide ganz erheblich eingeschränkt. Endlich! Anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr deutlich",
-      "cer": 0.00967741935483871,
-      "start_idx": 850,
-      "end_idx": 891
+      "start": 452.95190625,
+      "end": 467.95190625,
+      "asr_text": "die Anwendung umweltschädlicher Pestizide ganz erheblich eingeschränkt. Endlich, anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr",
+      "human_text": "die Anwendung umweltschädlicher Pestizide ganz erheblich eingeschränkt. Endlich! Anderthalb Jahre ist es jetzt her, dass ich mit dem Aktionsprogramm Insektenschutz ein Umsteuern eingeleitet habe. Und heute hat das Kabinett sehr",
+      "cer": 0.00881057268722467,
+      "start_idx": 6604,
+      "end_idx": 6634
     },
     {
-      "start": 468.09534375000004,
-      "end": 488.09534375000004,
-      "asr_text": "dass wir das ernst meinen. Äcker sollen wieder einladender werden für Insekten, mehr Klatschbohnen und Kornblume, weniger Ackergifte und ausgeräumte Agrarlandschaften. Und auch Städte sollen insektenfreundlicher werden durch weniger Lichtverschmutzungen, mehr Raum für Insekten auch außerhalb von der Stadt.",
-      "human_text": "dass wir das ernst meinen. Äcker sollen wieder einladender werden für Insekten: Mehr Klatschmohn und Kornblume, weniger Ackergifte und ausgeräumte Agrarlandschaften. Auch Städte sollen insektenfreundlicher werden durch weniger Lichtverschmutzungen, mehr Raum für Insekten auch außerhalb von Parks",
-      "cer": 0.06188925081433225,
-      "start_idx": 892,
-      "end_idx": 929
+      "start": 467.95190625,
+      "end": 482.95190625,
+      "asr_text": "deutlich bewiesen, dass wir das ernst meinen. Äcker sollen wieder einladender werden für Insekten, mehr Klatschbohnen und Kornblume, weniger Ackergifte und ausgeräumte Agrarlandschaften. Und auch Städte sollen insektenfrei",
+      "human_text": "deutlich bewiesen, dass wir das ernst meinen. Äcker sollen wieder einladender werden für Insekten: mehr Klatschmohn und Kornblume, weniger Ackergifte und ausgeräumte Agrarlandschaften. Auch Städte sollen insektenfreundlicher",
+      "cer": 0.07657657657657657,
+      "start_idx": 6634,
+      "end_idx": 6661
     },
     {
-      "start": 488.09534375000004,
-      "end": 508.09534375000004,
-      "asr_text": "von Parks und Gärten. Was ändert sich jetzt konkret? Glyphosat wird endlich verboten. Es tötet wahllos Wildpflanzen ab und zerstört damit die Nahrungsgrundlage für Vögel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte Übergangszeit und dann eben ein Komplettverbot. Und bis dahin",
-      "human_text": "von Parks und Gärten. Was ändert sich jetzt konkret? Glyphosat wird endlich verboten. Es tötet wahllos Wildpflanzen ab und zerstört damit die Nahrungsgrundlage für Vögel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte Übergangszeit und dann eben ein Komplettverbot. Und bis dahin",
+      "start": 482.95190625,
+      "end": 497.95190625,
+      "asr_text": "werden, durch weniger Lichtverschmutzungen mehr Raum für Insekten, auch außerhalb von Parks und Gärten. Was ändert sich jetzt konkret? Glyphosat wird endlich verboten. Es tötet wahllos Wildpflanzen ab und zerstört damit die Nahrungsqualität",
+      "human_text": "werden durch weniger Lichtverschmutzung und mehr Raum für Insekten, auch außerhalb von Parks und Gärten. Was ändert sich jetzt konkret? Glyphosat wird endlich verboten. Es tötet wahllos Wildpflanzen ab und zerstört damit die Nahrungsgrundlage",
+      "cer": 0.05,
+      "start_idx": 6661,
+      "end_idx": 6695
+    },
+    {
+      "start": 497.95190625,
+      "end": 512.95190625,
+      "asr_text": "für Vögel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte Übergangszeit und dann eben ein Komplettverbot. Bis dahin wird der Einsatz erheblich eingeschränkt werden. Flüsse, Bäche, Seen werden sauberer.",
+      "human_text": "für Vögel und Insekten. Bis Ende 2023 gibt es eine europarechtlich bedingte Übergangszeit und dann eben ein Komplettverbot. Und bis dahin wird der Einsatz erheblich eingeschränkt werden. Flüsse, Bäche, Seen werden sauberer,",
+      "cer": 0.0273972602739726,
+      "start_idx": 6695,
+      "end_idx": 6727
+    },
+    {
+      "start": 512.95190625,
+      "end": 527.95190625,
+      "asr_text": "da Pestizide nur noch in angemessenem Abstand eingesetzt werden dürfen. Das schützt Tiere und Pflanzen im Wasser und am Ufer. In Schutzgebieten sollen Insekten wieder echten Schutz finden, Mittel, die Insekten und Wildkräuter abwechslungsvoll",
+      "human_text": "da Pestizide nur noch in angemessenem Abstand eingesetzt werden dürfen. Das schützt Tiere und Pflanzen im Wasser und am Ufer. In Schutzgebieten sollen Insekten wieder echten Schutz finden. Mittel, die Insekten und Wildkräuter abtöten und",
+      "cer": 0.05371900826446281,
+      "start_idx": 6727,
+      "end_idx": 6762
+    },
+    {
+      "start": 527.95190625,
+      "end": 542.95190625,
+      "asr_text": "und dabei die biologische Vielfalt schädigen, wären weitestgehend verbannt. Zusätzliche Flächen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll künftig der Insektenschutz stärker berücksichtigt werden, das erleichtert ist, zum Beispiel",
+      "human_text": "und dabei die biologische Vielfalt schädigen, werden weitestgehend verbannt. Zusätzliche Flächen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll künftig der Insektenschutz stärker berücksichtigt werden. Das erleichtert es zum Beispiel,",
+      "cer": 0.028268551236749116,
+      "start_idx": 6761,
+      "end_idx": 6797
+    },
+    {
+      "start": 542.95190625,
+      "end": 557.95190625,
+      "asr_text": "zum Beispiel Biotope zu einem Netzwerk geschützter Lebensräume zu verbinden. Wir haben im Kabinett damit Lösungen gefunden, die der Landwirtschaft und den Insekten gleichermaßen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben",
+      "human_text": "zum Beispiel, Biotope zu einem Netzwerk geschützter Lebensräume zu verbinden. Wir haben im Kabinett damit Lösungen gefunden, die der Landwirtschaft und den Insekten gleichermaßen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben,",
+      "cer": 0.007575757575757576,
+      "start_idx": 6795,
+      "end_idx": 6831
+    },
+    {
+      "start": 557.95190625,
+      "end": 572.95190625,
+      "asr_text": "der Öffnung für Vertragsnaturschutz und gesellschaftlich gemeinsam erarbeiteten Lösungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema hat erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in",
+      "human_text": "der Öffnung für Vertragsnaturschutz und gesellschaftlich gemeinsam erarbeiteten Lösungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema hat erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in",
       "cer": 0.0,
-      "start_idx": 927,
-      "end_idx": 971
+      "start_idx": 6831,
+      "end_idx": 6860
     },
     {
-      "start": 508.09534375000004,
-      "end": 528.09534375,
-      "asr_text": "wird der Einsatz erheblich eingeschränkt werden. Flüsse, Bäche, Seen werden sauberer, da Pestizide nur noch in angemessenem Abstand eingesetzt werden dürfen. Das schützt Tiere und Pflanzen im Wasser und am Ufer. In Schutzgebieten sollen Insekten wieder echten Schutz finden, Mittel, die Insekten und Wildkräuter abtun.",
-      "human_text": "wird der Einsatz erheblich eingeschränkt werden. Flüsse, Bäche, Seen werden sauberer, da Pestizide nur noch in angemessenem Abstand eingesetzt werden dürfen. Das schützt Tiere und Pflanzen im Wasser und am Ufer. In Schutzgebieten sollen Insekten wieder echten Schutz finden. Mittel, die Insekten und Wildkräuter abtöten",
-      "cer": 0.015723270440251572,
-      "start_idx": 971,
-      "end_idx": 1016
+      "start": 572.95190625,
+      "end": 587.95190625,
+      "asr_text": "in unserer Gesellschaft ist. Ich weiß, die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanständigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Und deshalb setze ich mich dafür ein,",
+      "human_text": "in unserer Gesellschaft ist. Ich weiß: Die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanständigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Deshalb setze ich mich dafür ein,",
+      "cer": 0.029045643153526972,
+      "start_idx": 6859,
+      "end_idx": 6891
     },
     {
-      "start": 528.09534375,
-      "end": 548.09534375,
-      "asr_text": "und dabei die biologische Vielfalt schädigen, wären weitestgehend verbannt. Zusätzliche Flächen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll künftig der Insektenschutz stärker berücksichtigt werden, das erleichtert es zum Beispiel, Biotope zu einem Netzwerk geschützter Lebensräume zu verbinden.",
-      "human_text": "und dabei die biologische Vielfalt schädigen, wären weitestgehend verbannt. Zusätzliche Flächen werden als Biotop anerkannt und unter Schutz gestellt. Und auch bei der Landschaftsplanung soll künftig der Insektenschutz stärker berücksichtigt werden. Das erleichtert es zum Beispiel, Biotope zu einem Netzwerk geschützter Lebensräume zu verbinden.",
-      "cer": 0.005780346820809248,
-      "start_idx": 1016,
-      "end_idx": 1060
+      "start": 587.95190625,
+      "end": 601.4559687500001,
+      "asr_text": "dass das Umsteuern in der Landwirtschaft künftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarförderung in der sogenannten zweiten Säule, um vertragliche kooperative Vereinbarungen besser finanzieren zu können.",
+      "human_text": "dass das Umsteuern in der Landwirtschaft künftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarförderung in der sogenannten zweiten Säule, um vertragliche kooperative Vereinbarungen besser finanzieren können.",
+      "cer": 0.01293103448275862,
+      "start_idx": 6891,
+      "end_idx": 6921
     },
     {
-      "start": 548.09534375,
-      "end": 568.09534375,
-      "asr_text": "Wir haben im Kabinett damit Lösungen gefunden, die der Landwirtschaft und den Insekten gleichermaßen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben, der Öffnung für Vertragsnaturschutz und gesellschaftlich gemeinsam erarbeiteten Lösungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema",
-      "human_text": "Wir haben im Kabinett damit Lösungen gefunden, die der Landwirtschaft und den Insekten gleichermaßen gerecht werden. Die neuen Regelungen sind eine Mischung aus neuen rechtlichen Vorgaben, der Öffnung für Vertragsnaturschutz und gesellschaftlich gemeinsam erarbeiteten Lösungen. Die aufgeheizte Debatte der letzten Wochen zu diesem Thema",
-      "cer": 0.0,
-      "start_idx": 1060,
-      "end_idx": 1104
+      "start": 601.4559687500001,
+      "end": 616.4559687500001,
+      "asr_text": "Meine Damen und Herren Abgeordnete, Insekten, das sind kleine Nutztiere. Sie bestäuben, blüten, sie fressen Schädlinge, sie bereiten gesunde Böden, sie ernähren Vögel und andere Tiere. Insektenschutz sichert nicht nur das",
+      "human_text": "Meine Damen und Herren Abgeordnete, Insekten, das sind kleine Nutztiere. Sie bestäuben Blüten, sie fressen Schädlinge, sie bereiten gesunde Böden, sie ernähren Vögel und andere Tiere. Insektenschutz sichert nicht nur das",
+      "cer": 0.00904977375565611,
+      "start_idx": 6921,
+      "end_idx": 6952
     },
     {
-      "start": 568.09534375,
-      "end": 588.09534375,
-      "asr_text": "erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich weiß, die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanständigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Deshalb setze ich mich dafür ein, dass das Umfeld",
-      "human_text": "erneut deutlich gemacht, wie wichtig das Herstellen von Gemeinsamkeit in unserer Gesellschaft ist. Ich weiß: die Landwirtinnen und Landwirte sind unter Druck aufgrund der teilweise unanständigen Preispolitik des Handels und aufgrund einer jahrelang verfehlten Agrarpolitik. Deshalb setze ich mich dafür ein, dass das Umsteuern",
-      "cer": 0.021671826625386997,
-      "start_idx": 1105,
-      "end_idx": 1149
+      "start": 616.4559687500001,
+      "end": 631.4559687500001,
+      "asr_text": "Überleben von Hirschkäfern und Erdhummeln. Es sichert auch die Zukunft unserer Landwirtschaft und nutzt damit uns allen. Gleiches gilt für viele Projekte der Umweltpolitik, zum Beispiel beim Klimaschutz. Letzte Woche hat das Bundeskabinett beschlossen,",
+      "human_text": "Überleben von Hirschkäfern und Erdhummeln. Er sichert auch die Zukunft unserer Landwirtschaft und nutzt damit uns allen. Gleiches gilt für viele Projekte der Umweltpolitik, zum Beispiel beim Klimaschutz. Letzte Woche hat das Bundeskabinett beschlossen,",
+      "cer": 0.003968253968253968,
+      "start_idx": 6952,
+      "end_idx": 6986
     },
     {
-      "start": 588.09534375,
-      "end": 608.09534375,
-      "asr_text": "in der Landwirtschaft künftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarförderung in der sogenannten zweiten Säule, um vertragliche kooperative Vereinbarungen besser finanzieren zu können. Meine Damen und Herren Abgeordnete, Insekten, das sind kleine Nutztiere. Sie bestäuben, blüten, sie fressen,",
-      "human_text": "in der Landwirtschaft künftig besser entlohnt wird. Wir brauchen deutlich mehr Geld aus der Agrarförderung in der sogenannten zweiten Säule, um vertragliche kooperative Vereinbarungen besser finanzieren zu können. Meine Damen und Herren Abgeordnete, Insekten, das sind kleine Nutztiere. Sie bestäuben Blüten, sie fressen",
-      "cer": 0.009316770186335404,
-      "start_idx": 1149,
-      "end_idx": 1192
+      "start": 631.4559687500001,
+      "end": 647.04378125,
+      "asr_text": "den Anteil erneuerbarer Energien im Verkehr ganz erheblich zu steigern. Weitere Schritte sind nötig, schon alleine aufgrund der Anhebung des EU-Klimazieles für 2030. Ein weiterer großer Erfolg der letzten Wochen und das Ergebnis wirklich harter Arbeit.",
+      "human_text": "den Anteil erneuerbarer Energien im Verkehr ganz erheblich zu steigern. Weitere Schritte sind nötig, schon allein aufgrund der Anhebung des EU-Klimazieles für 2030 – ein weiterer großer Erfolg der letzten Wochen und das Ergebnis wirklich harter Arbeit.",
+      "cer": 0.015873015873015872,
+      "start_idx": 6986,
+      "end_idx": 7023
     },
     {
-      "start": 608.09534375,
-      "end": 628.09534375,
-      "asr_text": "Schädlinge, sie bereiten gesunde Böden, sie ernähren Vögel und andere Tiere. Insektenschutz sichert nicht nur das Überleben von Hirschkäfern und Erdhummeln, es sichert auch die Zukunft unserer Landwirtschaft und nutzt damit uns allen. Gleiches gilt für viele Projekte der Umweltpolitik, zum Beispiel beim Klimaschutz.",
-      "human_text": "Schädlinge, sie bereiten gesunde Böden, sie ernähren Vögel und andere Tiere. Insektenschutz sichert nicht nur das Überleben von Hirschkäfern und Erdhummeln. Er sichert auch die Zukunft unserer Landwirtschaft und nutzt damit uns allen. Gleiches gilt für viele Projekte der Umweltpolitik, zum Beispiel beim Klimaschutz.",
-      "cer": 0.00946372239747634,
-      "start_idx": 1192,
-      "end_idx": 1236
+      "start": 647.04378125,
+      "end": 662.3494062500001,
+      "asr_text": "Auch bei der Reziduzierung von Plastikmüll geht es voran. Wer sich Essen oder Kaffee zum Mitnehmen kauft, soll künftig die Wahl haben zwischen Mehrweg- und Einwegbehältern. Das hat das Kabinett Ende Januar vereinbart und heute erst Regelungen zur Kennzeichnung von Einwegprodukten.",
+      "human_text": "Auch bei der Reduzierung von Plastikmüll geht es voran. Wer sich Essen oder Kaffee zum Mitnehmen kauft, soll künftig die Wahl haben zwischen Mehrweg- und Einwegbehältern. Das hat das Kabinett Ende Januar vereinbart und heute erst Regelungen zur Kennzeichnung von Einwegprodukten.",
+      "cer": 0.0071174377224199285,
+      "start_idx": 7023,
+      "end_idx": 7064
     },
     {
-      "start": 628.09534375,
-      "end": 648.09534375,
-      "asr_text": "Letzte Woche hat das Bundeskabinett beschlossen, den Anteil erneuerbarer Energien im Verkehr ganz erheblich zu steigern. Weitere Schritte sind nötig, schon alleine aufgrund der Anhebung des EU-Klimazieles für 2030. Ein weiterer großer Erfolg der letzten Wochen und das Ergebnis wirklich harter Arbeit. Auch bei der Reziduzierung",
-      "human_text": "Letzte Woche hat das Bundeskabinett beschlossen, den Anteil erneuerbarer Energien im Verkehr ganz erheblich zu steigern. Weitere Schritte sind nötig, schon allein aufgrund der Anhebung des EU-Klimazieles für 2030, ein weiterer großer Erfolg der letzten Wochen und das Ergebnis wirklich harter Arbeit. Auch bei der Reduzierung",
-      "cer": 0.01524390243902439,
-      "start_idx": 1236,
-      "end_idx": 1282
+      "start": 662.3494062500001,
+      "end": 681.9892500000001,
+      "asr_text": "Also die Klimakrise, die Plastikflut, der Insektenverschwund, der Verlust von Lebensräumen, all das geht weiter, leider auch in Pandemiezeiten. Lassen Sie uns daher weiter arbeiten an Lösungen, denen Mensch und Umwelt gleichermaßen zugutekommt. Lassen Sie uns das gemeinsam tun. Ich freue mich jetzt auf Ihre Fragen.",
+      "human_text": "Also, die Klimakrise, die Plastikflut, der Insektenschwund, der Verlust von Lebensräumen, all das geht weiter, leider auch in Pandemiezeiten. Lassen Sie uns daher weiter an Lösungen arbeiten, die Menschen und Umwelt gleichermaßen zugutekommen. Lassen Sie uns das gemeinsam tun! Ich freue mich jetzt auf Ihre Fragen.",
+      "cer": 0.08227848101265822,
+      "start_idx": 7064,
+      "end_idx": 7110
     },
     {
-      "start": 648.09534375,
-      "end": 668.09534375,
-      "asr_text": "Von Plastikmüll geht es voran. Wer sich Essen oder Kaffee zum Mitnehmen kauft, soll künftig die Wahl haben zwischen Mehrweg- und Einwegbehältern. Das hat das Kabinett Ende Januar vereinbart und heute erst Regelungen zur Kennzeichnung von Einwegprodukten. Also die Klimakrise, die Plastikflut, der Insektenverschwund, der Verlust von Lebensräumen, all",
-      "human_text": "von Plastikmüll geht es voran. Wer sich Essen oder Kaffee zum Mitnehmen kauft, soll künftig die Wahl haben zwischen Mehrweg- und Einwegbehältern. Das hat das Kabinett Ende Januar vereinbart und heute erst Regelungen zur Kennzeichnung von Einweg- produkten. Also die Klimakrise, Die Plastikflut, der Insektenschwund, der Verlust von Lebensräume, all",
-      "cer": 0.022857142857142857,
-      "start_idx": 1282,
-      "end_idx": 1332
-    },
-    {
-      "start": 668.09534375,
-      "end": 684.12659375,
-      "asr_text": "das geht leider auch in Pandemiezeiten weiter. Lassen Sie uns daher weiter an Lösungen arbeiten, denen die Menschen und die Umwelt gleichermaßen zugutekommen. Lassen Sie uns das gemeinsam tun. Ich freue mich jetzt auf Ihre Fragen.",
-      "human_text": "weiter, leider auch im Pandemiezeiten. Lassen wir uns daher weiter an Lösungen arbeiten, die Menschen und Umwelt gleichermaßen zugute kommen. Lassen Sie uns das gemeinsam tun. Ich freue mich jetzt auf Ihre Fragen.",
-      "cer": 0.12173913043478261,
-      "start_idx": 1334,
-      "end_idx": 1367
-    },
-    {
-      "start": 684.12659375,
-      "end": 695.31128125,
+      "start": 681.9892500000001,
+      "end": 690.47159375,
       "asr_text": "Die erste Frage stellt der Kollege Carsten Hilse, AfD.",
       "human_text": "Die erste Frage stellt der Kollege Karsten Hilse, AfD.",
       "cer": 0.018518518518518517,
-      "start_idx": 1367,
-      "end_idx": 1376
+      "start_idx": 7110,
+      "end_idx": 7119
     },
     {
-      "start": 695.31128125,
-      "end": 715.31128125,
-      "asr_text": "Vielen Dank, Herr Präsident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingeführt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021.",
-      "human_text": "Vielen Dank, Herr Präsident. Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum ersten 1. Januar 2021, die CO2-Steuer eingeführt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem ersten 1.",
-      "cer": 0.12295081967213115,
-      "start_idx": 1376,
-      "end_idx": 1412
+      "start": 690.47159375,
+      "end": 696.49596875,
+      "asr_text": "Nur die eine Minute.",
+      "human_text": "der Kollege Karsten",
+      "cer": 0.65,
+      "start_idx": 7114,
+      "end_idx": 7117
     },
     {
-      "start": 715.31128125,
-      "end": 733.30878125,
-      "asr_text": "schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur für den Januar. Das ist zum geringen Teil natürlich auch durch die Rücknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den Löwenanteil verursacht die CO2-Steuer.",
-      "human_text": "schlagartig. Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 % mehr, nur für den Januar. Das ist zum geringen Teil natürlich auch durch die Rücknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den Löwenanteil verursacht die CO2- Steuer.",
-      "cer": 0.03169014084507042,
-      "start_idx": 1414,
-      "end_idx": 1454
+      "start": 696.49596875,
+      "end": 716.47753125,
+      "asr_text": "Vielen Dank, Herr Präsident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingeführt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021 schlagartig.",
+      "human_text": "Vielen Dank, Herr Präsident. – Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingeführt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1. Januar 2021 schlagartig.",
+      "cer": 0.1015625,
+      "start_idx": 7119,
+      "end_idx": 7157
     },
     {
-      "start": 733.30878125,
-      "end": 753.30878125,
-      "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatz",
-      "human_text": "bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien. Jetzt meine Frage: Wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energie- verteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem Arbeitsplatzverlust",
-      "cer": 0.05555555555555555,
-      "start_idx": 1456,
-      "end_idx": 1502
+      "start": 716.47753125,
+      "end": 733.1822187500001,
+      "asr_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur für den Januar. Das ist zum geringen Teil natürlich auch durch die Rücknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil, den Löwenanteil, verursacht die CO2-Steuer.",
+      "human_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr, nur für den Januar. Das ist zum geringen Teil natürlich auch der Rücknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil; den Löwenanteil verursacht die CO2-Steuer.",
+      "cer": 0.03676470588235294,
+      "start_idx": 7157,
+      "end_idx": 7194
     },
     {
-      "start": 753.30878125,
-      "end": 773.30878125,
-      "asr_text": "in die Armut getrieben werden. Frau Bundesministerin. Ganz herzlichen Dank für die Frage. Wir haben einen CO2-Preis eingeführt, weil CO2 eine Belastung für das Klima, für die Umwelt ist und deswegen CO2 reduziert werden muss. Der CO2-Preis wirkt ab 1. Januar",
-      "human_text": "in die Armut getrieben werden. Frau Bundesministerin. Ganz herzlichen Dank für die Frage. Wir haben einen CO2-Preis eingeführt, weil CO2 eine Belastung für das Klima für die Umwelt ist und deswegen CO2 reduziert werden muss. CO2-Preis wirkt ab ersten",
-      "cer": 0.050387596899224806,
-      "start_idx": 1502,
-      "end_idx": 1541
+      "start": 733.1822187500001,
+      "end": 748.1822187500001,
+      "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt als das die",
+      "human_text": "bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien.Jetzt meine Frage: Wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die",
+      "cer": 0.05128205128205128,
+      "start_idx": 7196,
+      "end_idx": 7229
     },
     {
-      "start": 773.30878125,
-      "end": 793.30878125,
-      "asr_text": "Das ist genau das Richtige, um eine Umsteuerung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung, weil wir in großem Umfang CO2 emittiert haben. Diese Verantwortung werden wir in dieser Regierung",
-      "human_text": "das ist genau das Richtige, um eben ein Umsteuern Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung, wir haben eine Verantwortung, weil wir eben in großem Umfang CO2 emittiert haben, und dieser Verantwortung werden wir in dieser Regierung",
-      "cer": 0.0989010989010989,
-      "start_idx": 1544,
-      "end_idx": 1588
+      "start": 772.2647197500002,
+      "end": 787.2647197500002,
+      "asr_text": "Das ist genau das Richtige, um eine Umsteuerung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung,",
+      "human_text": "Das ist genau das Richtige, um eben ein Umsteuern in Richtung der klimafreundlichen Alternativen auf den Weg zu bringen. Wir haben weltweit eine Verantwortung. Wir haben eine Verantwortung,",
+      "cer": 0.08571428571428572,
+      "start_idx": 7283,
+      "end_idx": 7311
     },
     {
-      "start": 793.30878125,
-      "end": 809.5669062500001,
-      "asr_text": "auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier auch im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung für die Zukunft. Nachfrage, Herr Kollege.",
-      "human_text": "auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung für die Zukunft. Nachfrage, Herr Kollege?",
-      "cer": 0.027906976744186046,
-      "start_idx": 1588,
-      "end_idx": 1619
+      "start": 787.2647197500002,
+      "end": 806.48721875,
+      "asr_text": "weil wir eben in großem Umfang CO2 emittiert haben. Und dieser Verantwortung werden wir in dieser Regierung auch gerecht. Dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier auch im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung für die Zukunft.",
+      "human_text": "weil wir eben in großem Umfang CO2 emittiert haben. Dieser Verantwortung werden wir in dieser Regierung auch gerecht, dieser Verantwortung werden wir europaweit gerecht. Das wird die AfD hier im Parlament und auch generell nicht verhindern. Wir haben da eine Verantwortung für die Zukunft.",
+      "cer": 0.040268456375838924,
+      "start_idx": 7311,
+      "end_idx": 7355
     },
     {
-      "start": 809.5669062500001,
-      "end": 826.90596875,
-      "asr_text": "Vielen Dank. Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk im Zusammenhang mit der Corona-Epidemie sagten Sie konkret, wir merken im Moment ja alle, dass wir eben nicht alles steuern können.",
-      "human_text": "vielen Dank! Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk Im Zusammenhang mit der Corona- epidemie sagten Sie konkret: Wir merken im Moment ja alle, dass wir eben nicht alles steuern können.",
-      "cer": 0.03398058252427184,
-      "start_idx": 1620,
-      "end_idx": 1652
+      "start": 806.48721875,
+      "end": 810.7565937500001,
+      "asr_text": "Nachfrage, Herr Kollege?",
+      "human_text": "Nachfrage, Herr Kollege?",
+      "cer": 0.0,
+      "start_idx": 7355,
+      "end_idx": 7358
     },
     {
-      "start": 826.90596875,
-      "end": 846.90596875,
-      "asr_text": "Dem können wir natürlich zustimmen, nur zustimmen. Würden Sie uns daher bitte in einfachen und verständlichen Worten erklären, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass mindestens so komplexe, wenn nicht sogar komplexere Klimasysteme der Erde sich von",
-      "human_text": "Dem können wir natürlich zustimmen, nur zustimmen. Würden Sie uns daher bitte in einfachen, verständlichen Worten erklären, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass das mindestens so komplexe, wenn nicht sogar komplexere Klimasystem der Erde sich von",
-      "cer": 0.029900332225913623,
-      "start_idx": 1652,
-      "end_idx": 1695
+      "start": 810.7565937500001,
+      "end": 826.8384687500001,
+      "asr_text": "Ja, vielen Dank. Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk im Zusammenhang mit der Corona-Epidemie sagten Sie konkret, wir merken im Moment ja alle, dass wir eben nicht alles steuern können.",
+      "human_text": "Ja, vielen Dank. – Frau Ministerin, in einem Wortbeitrag im Bayerischen Rundfunk im Zusammenhang mit der Coronaepidemie sagten Sie konkret: „Wir merken ja im Moment alle, dass wir eben nicht alles steuern können.“",
+      "cer": 0.06666666666666667,
+      "start_idx": 7358,
+      "end_idx": 7391
     },
     {
-      "start": 846.90596875,
-      "end": 866.90596875,
-      "asr_text": "oder von Ihrer Regierung beeinflussen lässt? Herr Abgeordneter, ja, mit dem Klima, mit der Natur, mit der Umwelt können Sie nicht verhandeln. Es gibt keine Verhandlungslösung. Das Klima wartet nicht, bis wir so weit sind, sondern wir müssen Maßnahmen ergreifen. Und wir",
-      "human_text": "oder von ihrer Regierung beeinflussen lässt. Herr Abgeordneter, ja, mit dem Klima, mit der Natur, mit der Umwelt können Sie nicht verhandeln. Es gibt keine Verhandlungslösung. Das Klima wartet nicht, bis wir soweit sind, sondern wir müssen Maßnahmen ergreifen, und wir",
-      "cer": 0.01858736059479554,
-      "start_idx": 1696,
-      "end_idx": 1737
+      "start": 826.8384687500001,
+      "end": 841.8384687500001,
+      "asr_text": "Dem können wir natürlich zustimmen, nur zustimmen. Würden Sie uns daher bitte in einfachen und verständlichen Worten erklären, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass mindestens so",
+      "human_text": "Dem können wir natürlich zustimmen, nur zustimmen. Würden Sie uns daher bitte in einfachen, verständlichen Worten erklären, was Sie und Ihre Regierung dazu veranlasst, die Gesellschaft auch darauf auszurichten, dass sich das mindestens so",
+      "cer": 0.05603448275862069,
+      "start_idx": 7391,
+      "end_idx": 7425
     },
     {
-      "start": 866.90596875,
-      "end": 886.90596875,
-      "asr_text": "Wir müssen Vorsorge leisten. Wir müssen CO2 emittieren. 99,8 Prozent aller Wissenschaftlerinnen und Wissenschaftler auf der Welt sind sich einig, dass wir etwas gegen diese Klimaveränderungen tun sollen. Schauen Sie in den IPC.",
-      "human_text": "Wir müssen Vorsorge leisten. Wir müssen CO2-Emissionen reduzieren; denn 99,8 % aller Wissenschaftlerinnen und Wissenschaftler auf der Welt sind sich einig, dass wir etwas gegen diese Klimaveränderungen tun sollen. Schauen Sie ins IPCC,",
-      "cer": 0.14537444933920704,
-      "start_idx": 1743,
-      "end_idx": 1776
+      "start": 841.8384687500001,
+      "end": 853.5178437500001,
+      "asr_text": "komplexere Klimasystem der Erde sich von uns oder von Ihrer Regierung beeinflussen lässt?",
+      "human_text": "komplexere Klimasystem der Erde von uns oder von Ihrer Regierung beeinflussen lässt?",
+      "cer": 0.056179775280898875,
+      "start_idx": 7429,
+      "end_idx": 7441
     },
     {
-      "start": 886.90596875,
-      "end": 906.90596875,
-      "asr_text": "in das internationale Klimapanel, da sehen Sie, dass es eine große Einigkeit in der Wissenschaft gibt. Wir folgen hier der Wissenschaft, wir reduzieren CO2, wir sind in Deutschland in den letzten Jahren da wirklich schon vorangekommen und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung.",
-      "human_text": "in das internationale Klima-Panel! Da sehen Sie, dass es eine große Einigkeit in der Wissenschaft gibt. Wir folgen hier der Wissenschaft, wir reduzieren CO2. Wir sind in Deutschland in den letzten Jahren da wirklich schon vorangekommen und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung",
-      "cer": 0.017994858611825194,
-      "start_idx": 1776,
-      "end_idx": 1833
+      "start": 853.5178437500001,
+      "end": 868.5178437500001,
+      "asr_text": "Herr Abgeordneter, ja, mit dem Klima, mit der Natur, mit der Umwelt können Sie nicht verhandeln. Es gibt keine Verhandlungslösung. Das Klima wartet nicht, bis wir so weit sind, sondern wir müssen Maßnahmen ergreifen.",
+      "human_text": "Herr Abgeordneter, ja, mit dem Klima, mit der Natur, mit der Umwelt können Sie nicht verhandeln. Es gibt keine Verhandlungslösung. Das Klima wartet nicht, bis wir so weit sind, sondern wir müssen Maßnahmen ergreifen.",
+      "cer": 0.0,
+      "start_idx": 7441,
+      "end_idx": 7475
     },
     {
-      "start": 906.90596875,
-      "end": 925.81815625,
-      "asr_text": "der Verwaltung schuldig. Herr Kollege Dr. Hoffmann, FDP, hat eine Nachfrage. Mit dem Mund- und Nasenschutz ist man zwar geschützt, aber auch davor, dass man erkannt wird. Vielen Dank, Herr Präsident. Deswegen hatten wir früher auch mal ein Vermutungsverbot.",
-      "human_text": "Verantwortung schuldig. Der Kollege Dr. Hoffmann, FDP hat eine Nachfrage. Entschuldigung. Mit dem Mund-und Nasen-Schutz ist man zwar geschützt, aber auch davor, dass man erkannt wird. Vielen Dank, Herr Präsident. Deswegen hatten wir früher auch mal ein Vermummungsverbot.",
-      "cer": 0.12062256809338522,
-      "start_idx": 1832,
-      "end_idx": 1870
+      "start": 868.5178437500001,
+      "end": 883.5178437500001,
+      "asr_text": "dass wir sagen, wir müssen Vorsorge leisten, wir müssen CO2 emittieren, weil 99,8 Prozent aller Wissenschaftlerinnen und Wissenschaftler auf der Welt sind sich einig, dass wir etwas gegen diese Klimafaktoren,",
+      "human_text": "dass wir sagen: Wir müssen Vorsorge leisten. Wir müssen CO2-Emissionen reduzieren; denn 99,8 Prozent aller Wissenschaftlerinnen und Wissenschaftler auf der Welt sind sich einig, dass wir etwas gegen diese Klimaveränderungen",
+      "cer": 0.16346153846153846,
+      "start_idx": 7479,
+      "end_idx": 7509
     },
     {
-      "start": 925.81815625,
-      "end": 945.81815625,
-      "asr_text": "Vielen Dank, Herr Präsident. Frau Ministerin, Sie haben es gerade angesprochen, die CO2-Bepreisung. Grundsätzlich sind wir da ja auf der gleichen Schiene. Sie haben aber in diesem Jahr auch gleichzeitig die Kfz-Steuer angehoben. Das ist jetzt nur eine Steuer, die geringe Einkommen belastet und besonders teuer dann ist, wenn man das Fahrzeug wenig benutzt.",
-      "human_text": "Vielen Dank, Herr Präsident. Frau Ministerin, Sie haben es gerade angesprochen: Bei den CO2-Bepreisungen grundsätzlich sind wir da ja auf der gleichen Schiene. Sie haben aber in diesem Jahr auch gleichzeitig die Kfz-Steuer angehoben. Das ist jetzt nur eine Steuer, die geringe Einkommen belastet besonders teuer dann ist, wenn man das Fahrzeug wenig benutzt",
-      "cer": 0.0392156862745098,
-      "start_idx": 1870,
-      "end_idx": 1924
+      "start": 883.5178437500001,
+      "end": 898.5178437500001,
+      "asr_text": "tun sollen. Schauen Sie in IPCC, in das internationale Klimapanel. Da sehen Sie, dass es eine große Einigkeit in der Wissenschaft gibt. Wir folgen hier der Wissenschaft, wir reduzieren CO2, wir sind in Deutschland in den letzten Jahren",
+      "human_text": "tun sollen. Schauen Sie ins IPCC, in das Internationale Klima-Panel! Da sehen Sie, dass es eine große Einigkeit in der Wissenschaft gibt. Wir folgen hier der Wissenschaft, wir reduzieren CO2. Wir sind in Deutschland in den letzten Jahren",
+      "cer": 0.029787234042553193,
+      "start_idx": 7509,
+      "end_idx": 7547
     },
     {
-      "start": 945.81815625,
-      "end": 956.356125,
-      "asr_text": "Ist diese systemwidrige Art, genau das andere zu tun, ausgerechnet bei der Mobilität der Bundesregierung im Sinne ihres Ressorts?",
-      "human_text": "Ist diese systemwidrige Art, genau das andere zu tun, ausgerechnet bei der Mobilität, im Sinne der Bundesregierung, im Sinne Ihres Ressorts?",
-      "cer": 0.09302325581395349,
-      "start_idx": 1924,
-      "end_idx": 1945
+      "start": 898.5178437500001,
+      "end": 908.73284375,
+      "asr_text": "da wirklich schon vorangekommen. Und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung schuldig.",
+      "human_text": "dabei wirklich schon vorangekommen, und wir werden bis Mitte des Jahrhunderts treibhausgasneutral werden. Das sind wir dieser Gesellschaft und das sind wir der internationalen Verantwortung schuldig.",
+      "cer": 0.025510204081632654,
+      "start_idx": 7547,
+      "end_idx": 7573
     },
     {
-      "start": 956.356125,
-      "end": 976.356125,
+      "start": 923.1272197500001,
+      "end": 927.9028437500001,
+      "asr_text": "früher auch mal ein Vermutungsverbot.",
+      "human_text": "früher auch mal ein Vermummungsverbot.",
+      "cer": 0.05405405405405406,
+      "start_idx": 7600,
+      "end_idx": 7605
+    },
+    {
+      "start": 927.9028437500001,
+      "end": 942.9028437500001,
+      "asr_text": "Vielen Dank, Herr Präsident. Frau Ministerin, Sie haben es gerade angesprochen, die CO2-Bepreisung. Grundsätzlich sind wir da ja auf der gleichen Schiene. Sie haben aber in diesem Jahr auch gleichzeitig die Kfz-Steuer angehoben. Das ist jetzt nur eine Steuer, die geringe Einkommen belastet.",
+      "human_text": "Vielen Dank, Herr Präsident. – Frau Ministerin, Sie haben es gerade angesprochen: Bei den CO2-Bepreisungen sind wir ja grundsätzlich auf der gleichen Schiene. Sie haben aber in diesem Jahr auch gleichzeitig die KfzSteuer angehoben. Das ist jetzt nur eine Steuer, die geringe Einkommen belastet",
+      "cer": 0.12371134020618557,
+      "start_idx": 7605,
+      "end_idx": 7649
+    },
+    {
+      "start": 942.9028437500001,
+      "end": 956.8772187500001,
+      "asr_text": "besonders teuer dann ist, wenn man das Fahrzeug wenig benutzt. Ist diese systemwidrige Art, genau das andere zu tun, ausgerechnet bei der Mobilität, im Sinne der Bundesregierung, im Sinne Ihres Ressorts?",
+      "human_text": "besonders teuer dann ist, wenn man das Fahrzeug wenig benutzt. Ist diese systemwidrige Art, genau das andere zu tun, ausgerechnet bei der Mobilität, im Sinne der Bundesregierung, im Sinne Ihres Ressorts?",
+      "cer": 0.0,
+      "start_idx": 7650,
+      "end_idx": 7681
+    },
+    {
+      "start": 956.8772187500001,
+      "end": 971.8772187500001,
       "asr_text": "Herr Abgeordneter, ja, wir haben auch die Kfz-Steuer angehoben.",
       "human_text": "Herr Abgeordneter, ja, wir haben auch die Kfz-Steuer angehoben.",
       "cer": 0.0,
-      "start_idx": 1945,
-      "end_idx": 1954
+      "start_idx": 7681,
+      "end_idx": 7690
     }
   ]
 }

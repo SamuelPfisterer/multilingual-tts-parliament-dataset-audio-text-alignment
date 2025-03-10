@@ -1,0 +1,253 @@
+{
+    "threshold": 0.3,
+    "context_window": 2,
+    "total_jumps": 5,
+    "jumps": [
+        {
+            "jump_index": 1,
+            "cer_change": -0.667479674796748,
+            "context_segments": [
+                {
+                    "segment_idx": 0,
+                    "is_jump_point": false,
+                    "start_time": 0.03096875,
+                    "end_time": 17.20971875,
+                    "cer": 0.7,
+                    "asr_text": "Thank you.",
+                    "human_text": "habe eine"
+                },
+                {
+                    "segment_idx": 1,
+                    "is_jump_point": true,
+                    "start_time": 17.20971875,
+                    "end_time": 32.54065625,
+                    "cer": 0.032520325203252036,
+                    "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen! Bitte nehmen Sie Platz. Ich er\u00f6ffne die Sitzung. Liebe Kolleginnen und Kollegen!",
+                    "human_text": "D\u2014\u2013Guten Tag, liebe Kolleginnen und Kollegen! Bitte nehmen Sie Platz. Ich er\u00f6ffne die Sitzung. Liebe Kolleginnen und Kollegen,"
+                },
+                {
+                    "segment_idx": 2,
+                    "is_jump_point": false,
+                    "start_time": 32.54065625,
+                    "end_time": 42.64878125,
+                    "cer": 0.08333333333333333,
+                    "asr_text": "Wie Sie wissen, sind die besorgniserregenden Varianten des SARS-CoV-2-Virus weltweit",
+                    "human_text": "wie Sie wissen, sind besorgniserregende Varianten des SARS-CoV-2-Virus weltweit,"
+                },
+                {
+                    "segment_idx": 3,
+                    "is_jump_point": false,
+                    "start_time": 42.64878125,
+                    "end_time": 56.671906250000006,
+                    "cer": 0.0,
+                    "asr_text": "aber auch in Europa und in Deutschland identifiziert worden. Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7",
+                    "human_text": "aber auch in Europa und in Deutschland identifiziert worden. Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7"
+                }
+            ]
+        },
+        {
+            "jump_index": 16,
+            "cer_change": 0.4093204443803203,
+            "context_segments": [
+                {
+                    "segment_idx": 14,
+                    "is_jump_point": false,
+                    "start_time": 208.02378125,
+                    "end_time": 218.13190625000001,
+                    "cer": 0.13978494623655913,
+                    "asr_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung nach \u00a7 21 Absatz 2 der Gesch\u00e4ftsordnung eingerufen. Ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich?",
+                    "human_text": "Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach \u00a7 21 Absatz 3 der Gesch\u00e4ftsordnung ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich."
+                },
+                {
+                    "segment_idx": 15,
+                    "is_jump_point": false,
+                    "start_time": 218.13190625000001,
+                    "end_time": 232.05378125000001,
+                    "cer": 0.3103448275862069,
+                    "asr_text": "Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern. Von der Frist f\u00fcr den Beginn der Beratungen soll soweit erforderlich abgewichen werden.",
+                    "human_text": "Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern:(A) (B) (C) (D)(A) (B) (C) (D)Die Reform der Weltgesundheitsorganisation \u2013"
+                },
+                {
+                    "segment_idx": 16,
+                    "is_jump_point": true,
+                    "start_time": 232.05378125000001,
+                    "end_time": 246.38065625000002,
+                    "cer": 0.7196652719665272,
+                    "asr_text": "Auf Verlangen der Fraktion B\u00fcndnis 90 Die Gr\u00fcnen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den j\u00fcngsten gewaltsamen, willk\u00fcrlichen und repressiven Entwicklungen in Russland statt.",
+                    "human_text": "Re-Identifikationsrisiko im Digitale-Versor- gung-Gesetz und in der Datentransparenzver- ordnung reduzieren Medizinische Versorgung im l\u00e4ndlichen Raum sicherstellen \u2013 Kommunale"
+                },
+                {
+                    "segment_idx": 17,
+                    "is_jump_point": false,
+                    "start_time": 246.38065625000002,
+                    "end_time": 258.15940625,
+                    "cer": 0.7111111111111111,
+                    "asr_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag f\u00fcr einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen.",
+                    "human_text": "\u2013 Kommunale MVZ st\u00e4rken Dem Atomwaffenverbotsvertrag der Verein- ten Nationen beitreten Nukleare Teilhabe beenden \u2013 Atomwaffen"
+                },
+                {
+                    "segment_idx": 18,
+                    "is_jump_point": false,
+                    "start_time": 258.15940625,
+                    "end_time": 272.30065625000003,
+                    "cer": 0.7012987012987013,
+                    "asr_text": "An Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden. Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bek\u00e4mpfung der Geldw\u00e4sche",
+                    "human_text": "Feststellung der Tagesord- nungen der 208., 209., 210. Sitzung mit den genannten \u00c4nderungen und Erg\u00e4nzungen. Wer stimmt daf\u00fcr? \u2013 Wer stimmt dagegen? \u2013 Wer enth\u00e4lt"
+                }
+            ]
+        },
+        {
+            "jump_index": 26,
+            "cer_change": -0.6554797661355038,
+            "context_segments": [
+                {
+                    "segment_idx": 24,
+                    "is_jump_point": false,
+                    "start_time": 336.69565625,
+                    "end_time": 352.20378125,
+                    "cer": 0.7038461538461539,
+                    "asr_text": "zur Regelung einer Einmalzahlung der Grundsicherungssysteme an Erwachsene, Leistungsberechtigte und zur Verl\u00e4ngerung des erleichterten Zugangs zu sozialer Sicherung und des Sozialdienstleister-Einsatzgesetzes aus Anlass der Covid-19-Pandemie aufgerufen werden.",
+                    "human_text": "reden. Denn die Pandemie lehrt uns: Eine intakte Natur und die entsprechenden Investitionen zahlen sich aus. \u2013 Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen"
+                },
+                {
+                    "segment_idx": 25,
+                    "is_jump_point": false,
+                    "start_time": 352.20378125,
+                    "end_time": 368.38690625000004,
+                    "cer": 0.7254098360655737,
+                    "asr_text": "An der Stelle des Tagesordnungspunkt 22 soll der Tagesordnungspunkt 17 aufgerufen werden. Die Tagesordnungspunkte 16, 28, c, d und e sollen abgesetzt werden. Au\u00dferdem mache ich Sie auf die \u00dcberweisung im Anhang zur Zusatzpunkteliste aufmerksam.",
+                    "human_text": "hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade heute beim Schutz der Insekten. Das"
+                },
+                {
+                    "segment_idx": 26,
+                    "is_jump_point": true,
+                    "start_time": 368.38690625000004,
+                    "end_time": 378.42753125,
+                    "cer": 0.06993006993006994,
+                    "asr_text": "Damit kommen wir zur Feststellung der Tagesordnung der 208, 209 und 210 Sitzung mit den genannten \u00c4nderungen und Erg\u00e4nzungen. Wer stimmt daf\u00fcr?",
+                    "human_text": "Damit kommen wir zur Feststellung der Tagesord- nungen der 208., 209., 210. Sitzung mit den genannten \u00c4nderungen und Erg\u00e4nzungen. Wer stimmt daf\u00fcr?"
+                },
+                {
+                    "segment_idx": 27,
+                    "is_jump_point": false,
+                    "start_time": 378.42753125,
+                    "end_time": 390.32440625000004,
+                    "cer": 0.08571428571428572,
+                    "asr_text": "Wer stimmt dagegen? Wer enth\u00e4lt sich? Dann ist die Tagesordnung gegen die Stimmen der AfD mit den Stimmen des \u00fcbrigen Hauses so beschlossen.",
+                    "human_text": "Wer stimmt dagegen? \u2013 Wer enth\u00e4lt sich? \u2013 Dann sind die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des \u00fcbrigen Hauses so beschlossen.Ich"
+                },
+                {
+                    "segment_idx": 28,
+                    "is_jump_point": false,
+                    "start_time": 390.32440625000004,
+                    "end_time": 402.10315625000004,
+                    "cer": 0.06140350877192982,
+                    "asr_text": "Ich rufe auf den Tagesordnungspunkt 1, Befragung der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verf\u00fcgung steht.",
+                    "human_text": "rufe den Tagesordnungspunkt 1 auf: Befragung der Bundesregierung Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verf\u00fcgung steht."
+                }
+            ]
+        },
+        {
+            "jump_index": 45,
+            "cer_change": 0.6314814814814815,
+            "context_segments": [
+                {
+                    "segment_idx": 43,
+                    "is_jump_point": false,
+                    "start_time": 670.56596875,
+                    "end_time": 686.4890937499999,
+                    "cer": 0.060109289617486336,
+                    "asr_text": "Lassen Sie uns daher weiter an L\u00f6sungen arbeiten, denen die Menschen und die Umwelt gleicherma\u00dfen zugutekommen. Lassen Sie uns das gemeinsam tun. Ich freue mich jetzt auf Ihre Fragen.",
+                    "human_text": "Lassen Sie uns daher weiter an L\u00f6sungen arbeiten, die Menschen und Umwelt gleicherma\u00dfen zugutekommen. Lassen Sie uns das gemeinsam tun! Ich freue mich jetzt auf Ihre Fragen."
+                },
+                {
+                    "segment_idx": 44,
+                    "is_jump_point": false,
+                    "start_time": 686.4890937499999,
+                    "end_time": 690.47159375,
+                    "cer": 0.018518518518518517,
+                    "asr_text": "Die erste Frage stellt der Kollege Carsten Hilse, AfD.",
+                    "human_text": "Die erste Frage stellt der Kollege Karsten Hilse, AfD."
+                },
+                {
+                    "segment_idx": 45,
+                    "is_jump_point": true,
+                    "start_time": 690.47159375,
+                    "end_time": 696.49596875,
+                    "cer": 0.65,
+                    "asr_text": "Nur die eine Minute.",
+                    "human_text": "der Kollege Karsten"
+                },
+                {
+                    "segment_idx": 46,
+                    "is_jump_point": false,
+                    "start_time": 696.49596875,
+                    "end_time": 716.49596875,
+                    "cer": 0.1015625,
+                    "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021 schlagartig.",
+                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1. Januar 2021 schlagartig."
+                },
+                {
+                    "segment_idx": 47,
+                    "is_jump_point": false,
+                    "start_time": 716.49596875,
+                    "end_time": 732.65065625,
+                    "cer": 0.03690036900369004,
+                    "asr_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch durch die R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den L\u00f6wenanteil verursacht die CO2-Steuer.",
+                    "human_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr, nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch der R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil; den L\u00f6wenanteil verursacht die CO2-Steuer."
+                }
+            ]
+        },
+        {
+            "jump_index": 46,
+            "cer_change": -0.5484375,
+            "context_segments": [
+                {
+                    "segment_idx": 44,
+                    "is_jump_point": false,
+                    "start_time": 686.4890937499999,
+                    "end_time": 690.47159375,
+                    "cer": 0.018518518518518517,
+                    "asr_text": "Die erste Frage stellt der Kollege Carsten Hilse, AfD.",
+                    "human_text": "Die erste Frage stellt der Kollege Karsten Hilse, AfD."
+                },
+                {
+                    "segment_idx": 45,
+                    "is_jump_point": false,
+                    "start_time": 690.47159375,
+                    "end_time": 696.49596875,
+                    "cer": 0.65,
+                    "asr_text": "Nur die eine Minute.",
+                    "human_text": "der Kollege Karsten"
+                },
+                {
+                    "segment_idx": 46,
+                    "is_jump_point": true,
+                    "start_time": 696.49596875,
+                    "end_time": 716.49596875,
+                    "cer": 0.1015625,
+                    "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021 schlagartig.",
+                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1. Januar 2021 schlagartig."
+                },
+                {
+                    "segment_idx": 47,
+                    "is_jump_point": false,
+                    "start_time": 716.49596875,
+                    "end_time": 732.65065625,
+                    "cer": 0.03690036900369004,
+                    "asr_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch durch die R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil. Den L\u00f6wenanteil verursacht die CO2-Steuer.",
+                    "human_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr, nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch der R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil; den L\u00f6wenanteil verursacht die CO2-Steuer."
+                },
+                {
+                    "segment_idx": 48,
+                    "is_jump_point": false,
+                    "start_time": 732.65065625,
+                    "end_time": 752.65065625,
+                    "cer": 0.03536977491961415,
+                    "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitiger",
+                    "human_text": "bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien.Jetzt meine Frage: Wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die Wirtschaft abwandert und die Leute mittels hoher Preise bei gleichzeitigem"
+                }
+            ]
+        }
+    ]
+}

@@ -9,7 +9,7 @@ from omegaconf.listconfig import ListConfig
 from typing import Union, Optional, List, Tuple, Dict, Any
 from dataclasses import dataclass, asdict
 import os
-from pydub import AudioSegment
+from pydub import AudioSegment, silence
 import Levenshtein  # for CER calculation
 import time
 import json
@@ -19,6 +19,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from datetime import timedelta
 import heapq
+import numpy as np
 
 
 # Load .env file from the same directory as this script
@@ -262,6 +263,13 @@ class AudioSegmenter:
         print(f"Diarization type: {type(diarization)}")
         # get the timeline with overlapping speaker segments its of type Timeline
         overlapping_speaker_segments = diarization.get_overlap()
+        
+        audio = AudioSegment.from_file(audio_path)
+        audio = audio.normalize(headroom=5)
+        silence_threshold = np.percentile([frame.rms for frame in audio[::100]], 15)
+        silences = silence.detect_silence(audio, min_silence_len = 200, silence_thresh = silence_threshold, seek_step = 15)
+        silence_regions = Timeline([Segment(start, end) for start, end in silences])
+        
 
 
         
@@ -283,17 +291,17 @@ class AudioSegmenter:
                 current_pos, 
                 window_end
             )
-            print(f"Max segment silence: {max_segment_silence}")
+            #print(f"Max segment silence: {max_segment_silence}")
             if max_segment_silence and max_segment_silence.start == current_pos and max_segment_silence.duration > self.window_min_size:
                 # if the segment we are checking only contains silence, we skip it and adjust the current position accordingly
                 current_pos = max_segment_silence.end # we move the current position to the end of the silence
                 continue
             
             # check if the segment starts with an overlapping speaker segment
-            print(f"Overlapping speaker segments: {overlapping_speaker_segments}")
-            print(f"current pos in time-format like 00:12:52.264: {timedelta(seconds=current_pos)} ")
+            #print(f"Overlapping speaker segments: {overlapping_speaker_segments}")
+            #print(f"current pos in time-format like 00:12:52.264: {timedelta(seconds=current_pos)} ")
             overlapping_speaker_segments_window_start = overlapping_speaker_segments.crop(Segment(current_pos, window_end), mode="loose")
-            print(f"Overlapping speaker segments window start: {overlapping_speaker_segments_window_start}")
+            #print(f"Overlapping speaker segments window start: {overlapping_speaker_segments_window_start}")
             if overlapping_speaker_segments_window_start:
                 # if there is an overlapping speaker segment, we just move the current position to the end of this overlap
                 current_pos = overlapping_speaker_segments_window_start[0].end + 1e-6
@@ -302,7 +310,7 @@ class AudioSegmenter:
             
             # check if there is a speaker change in this segment
             overlapping_segments = diarization.crop(Segment(current_pos, window_end), mode="intersection")
-            print(f"Overlapping segments: {overlapping_segments}")
+            #print(f"Overlapping segments: {overlapping_segments}")
             last_speaker = None
             speaker_change_detected = False
             
@@ -310,13 +318,13 @@ class AudioSegmenter:
             for segment, track, label in overlapping_segments.itertracks(yield_label=True):
                 if last_speaker is None:
                     last_speaker = label
-                    print(f"Last speaker: {last_speaker}")
+                    #print(f"Last speaker: {last_speaker}")
                 elif label != last_speaker:
-                    print(f"Speaker change detected at {segment.start}s")
-                    print(f"Current position: {current_pos}")
-                    print(f"Segment start: {segment.start}")
-                    print(f"Last speaker: {last_speaker}")
-                    print(f"New speaker: {label}")
+                    #print(f"Speaker change detected at {segment.start}s")
+                    #print(f"Current position: {current_pos}")
+                    #print(f"Segment start: {segment.start}")
+                    #print(f"Last speaker: {last_speaker}")
+                    #print(f"New speaker: {label}")
                     segments.add(Segment(current_pos, segment.start))
                     current_pos = segment.start
                     speaker_change_detected = True
@@ -335,9 +343,24 @@ class AudioSegmenter:
             )
             
             if max_silence is None:
-                # If no silence found, end segment at window_end
-                segments.add(Segment(current_pos, window_end))
-                current_pos = window_end
+                # If no silence found with pyannote, we try pydub
+                print(f"No silence found with pyannote, trying pydub")
+                max_silence = self.get_longest_silence(
+                    silence_regions, 
+                    window_start, 
+                    window_end
+                )
+                if max_silence is None:
+                    # If no silence found with pydub, we just add the segment
+                    print(f"No silence found with pydub, adding segment from {current_pos} to {window_end}")
+                    segments.add(Segment(current_pos, window_end))
+                    current_pos = window_end
+                else:
+                    # End segment at middle of silence
+                    print(f"Silence found with pydub, adding segment from {current_pos} to {max_silence.middle}")
+                    silence_middle = max_silence.middle
+                    segments.add(Segment(current_pos, silence_middle))
+                    current_pos = silence_middle
             else:
                 # End segment at middle of silence
                 silence_middle = max_silence.middle
@@ -365,9 +388,9 @@ def initialize_vad_pipeline():
     
     # Configure the pipeline parameters
     vad_pipeline.instantiate({
-        "onset": 0.5,
-        "offset": 0.5,
-        "min_duration_on": 0.0,
+        "onset": 0.9,
+        "offset": 0.9,
+        "min_duration_on": 0.2,
         "min_duration_off": 0.0
     })
     
@@ -446,14 +469,14 @@ class TranscriptAligner:
             AlignedTranscript containing the best match
         """
         # Phase 1: Find the best matching region
-        print(f"Finding best matching region for {asr_segment.text}")
+        #print(f"Finding best matching region for {asr_segment.text}")
         region_start_idxs = self._find_match_region(
             asr_segment.text,
             transcript_tokens,
             start_search_idx, 
             coarse_window_size = len(asr_segment.text.split())
         )
-        print(f"Best matching region start indices: {region_start_idxs}")
+        #print(f"Best matching region start indices: {region_start_idxs}")
         best_matches = []
         for region_start_idx in region_start_idxs:
             best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
@@ -463,7 +486,7 @@ class TranscriptAligner:
                 best_matches.append(best_match)
         if best_matches:
             return min(best_matches, key=lambda x: x.cer)
-        print(f"No good matching region found, so we try to find a region at the beginning of the transcript")
+        #print(f"No good matching region found, so we try to find a region at the beginning of the transcript")
         # No good matching region found, so we try to find a region at the beginning of the transcript
         region_start_idxs = self._find_match_region(
             asr_segment.text,
@@ -821,7 +844,7 @@ def main():
         directory.mkdir(parents=True, exist_ok=True)
     
     # Define file paths
-    file_name = "7501579_3840s"
+    file_name = "7501579_960s"
     audio_path = audio_dir / f"{file_name}.opus"
     #transcript_path = transcript_dir / f"{file_name}.txt"
     transcript_path = "7501579_llm.txt"

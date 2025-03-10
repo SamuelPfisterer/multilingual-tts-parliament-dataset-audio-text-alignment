@@ -31,6 +31,9 @@ def compute_statistics(df: pd.DataFrame) -> Dict[str, Any]:
     # Define CER thresholds for analysis
     cer_thresholds = [0.05, 0.1, 0.15, 0.2, 0.3]
     
+    # Calculate segment durations
+    df["duration"] = df["end"] - df["start"]
+    
     # Basic statistics - convert numpy types to native Python types
     stats = {
         "mean_cer": float(df["cer"].mean()),
@@ -42,7 +45,16 @@ def compute_statistics(df: pd.DataFrame) -> Dict[str, Any]:
         "percentile_10": float(df["cer"].quantile(0.1)),
         "percentile_25": float(df["cer"].quantile(0.25)),
         "percentile_75": float(df["cer"].quantile(0.75)),
-        "percentile_90": float(df["cer"].quantile(0.9))
+        "percentile_90": float(df["cer"].quantile(0.9)),
+        
+        # Duration statistics
+        "mean_duration": float(df["duration"].mean()),
+        "median_duration": float(df["duration"].median()),
+        "min_duration": float(df["duration"].min()),
+        "max_duration": float(df["duration"].max()),
+        "std_duration": float(df["duration"].std()),
+        "long_segments_count": int((df["duration"] >= 20).sum()),
+        "long_segments_percent": float(((df["duration"] >= 20).sum() / len(df)) * 100)
     }
     
     # Add threshold statistics - convert numpy types to native Python types
@@ -139,6 +151,10 @@ def plot_cer_distribution(df: pd.DataFrame, output_dir: str):
     # Set style
     plt.style.use("seaborn-v0_8")
     
+    # Calculate segment durations if not already present
+    if "duration" not in df.columns:
+        df["duration"] = df["end"] - df["start"]
+    
     # 1. Histogram with KDE (zoomed in on low CER values)
     plt.figure(figsize=(12, 6))
     ax = sns.histplot(data=df, x="cer", kde=True, bins=50)
@@ -172,7 +188,6 @@ def plot_cer_distribution(df: pd.DataFrame, output_dir: str):
     
     # 4. CER vs Segment Duration (zoomed in on low CER values)
     plt.figure(figsize=(10, 6))
-    df["duration"] = df["end"] - df["start"]
     sns.scatterplot(data=df, x="duration", y="cer")
     plt.title("CER vs Segment Duration (Low CER Range)")
     plt.xlabel("Segment Duration (seconds)")
@@ -210,10 +225,45 @@ def plot_cer_distribution(df: pd.DataFrame, output_dir: str):
     
     plt.savefig(f"{output_dir}/cer_over_index.png")
     plt.close()
+    
+    # 6. Segment Duration Distribution
+    plt.figure(figsize=(12, 6))
+    ax = sns.histplot(data=df, x="duration", kde=True, bins=50)
+    plt.title("Distribution of Segment Durations")
+    plt.xlabel("Segment Duration (seconds)")
+    plt.ylabel("Count")
+    
+    # Add vertical line at 20 seconds
+    long_segments_count = (df["duration"] >= 20).sum()
+    long_segments_percent = (long_segments_count / len(df)) * 100
+    plt.axvline(x=20, color='r', linestyle='--')
+    plt.text(20.5, ax.get_ylim()[1] * 0.9, 
+             f"≥ 20s: {long_segments_count} segments\n({long_segments_percent:.1f}%)",
+             va='top')
+    
+    plt.savefig(f"{output_dir}/duration_distribution.png")
+    plt.close()
+    
+    # 7. Cumulative distribution of segment durations
+    plt.figure(figsize=(10, 6))
+    sorted_durations = np.sort(df["duration"])
+    yvals = np.arange(len(sorted_durations)) / float(len(sorted_durations))
+    plt.plot(sorted_durations, yvals)
+    plt.title("Cumulative Distribution of Segment Durations")
+    plt.xlabel("Segment Duration (seconds)")
+    plt.ylabel("Cumulative Proportion")
+    plt.grid(True)
+    
+    # Add vertical line at 20 seconds
+    plt.axvline(x=20, color='r', linestyle='--')
+    plt.text(20.5, 0.5, f"≥ 20s: {long_segments_percent:.1f}%", va='center')
+    
+    plt.savefig(f"{output_dir}/duration_cumulative_distribution.png")
+    plt.close()
 
 def main():
     # Load data
-    json_path = "output/alignments/7501579_3840s_aligned.json"
+    json_path = "output/alignments/7501579_960s_aligned.json"
     df = load_alignments(json_path)
     
     # Create output directory structure
@@ -249,6 +299,14 @@ def main():
         print(f"Segments with CER < {threshold:.2f}: "
               f"{stats[f'segments_below_{threshold}']} "
               f"({stats[f'percent_below_{threshold}']:.1f}%)")
+    
+    print("\nSegment Duration Statistics:")
+    print(f"Mean Duration: {stats['mean_duration']:.2f}s")
+    print(f"Median Duration: {stats['median_duration']:.2f}s")
+    print(f"Min Duration: {stats['min_duration']:.2f}s")
+    print(f"Max Duration: {stats['max_duration']:.2f}s")
+    print(f"Std Dev Duration: {stats['std_duration']:.2f}s")
+    print(f"Segments ≥ 20s: {stats['long_segments_count']} ({stats['long_segments_percent']:.1f}%)")
     
     # Create plots in the file-specific directory
     plot_cer_distribution(df, output_dir)

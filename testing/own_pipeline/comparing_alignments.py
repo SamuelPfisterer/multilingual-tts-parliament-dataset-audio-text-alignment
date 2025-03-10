@@ -17,8 +17,8 @@ if "GOOGLE_API_KEY" not in os.environ:
 
 # Configuration
 ALIGNMENTS_DIR = "output/alignments"
-FILE1 = "7501579_3840s_aligned_old.json"
-FILE2 = "7501579_3840s_aligned.json"
+FILE1 = "7501579_960s_aligned_old.json"
+FILE2 = "7501579_960s_aligned.json"
 FRAME_DURATION = 200  # seconds
 OUTPUT_DIR = "output/comparisons"
 MAX_RETRIES = 5

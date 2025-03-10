@@ -1,0 +1,22 @@
+{
+    "mean_cer": 0.17284235437994055,
+    "median_cer": 0.04692342241185717,
+    "std_cer": 0.26257260312778974,
+    "min_cer": 0.0,
+    "max_cer": 0.7254098360655737,
+    "total_segments": 62,
+    "percentile_10": 0.0,
+    "percentile_25": 0.01603409995391898,
+    "percentile_75": 0.13131868131868132,
+    "percentile_90": 0.7035914085914087,
+    "segments_below_0.05": 32,
+    "percent_below_0.05": 51.61290322580645,
+    "segments_below_0.1": 44,
+    "percent_below_0.1": 70.96774193548387,
+    "segments_below_0.15": 49,
+    "percent_below_0.15": 79.03225806451613,
+    "segments_below_0.2": 49,
+    "percent_below_0.2": 79.03225806451613,
+    "segments_below_0.3": 49,
+    "percent_below_0.3": 79.03225806451613
+}

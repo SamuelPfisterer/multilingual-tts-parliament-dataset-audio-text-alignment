@@ -1,0 +1,253 @@
+{
+    "threshold": 0.3,
+    "context_window": 2,
+    "total_jumps": 5,
+    "jumps": [
+        {
+            "jump_index": 1,
+            "cer_change": -0.6227106227106227,
+            "context_segments": [
+                {
+                    "segment_idx": 0,
+                    "is_jump_point": false,
+                    "start_time": 7.72596875,
+                    "end_time": 17.20971875,
+                    "cer": 0.6666666666666666,
+                    "asr_text": "Merci.",
+                    "human_text": "gerne"
+                },
+                {
+                    "segment_idx": 1,
+                    "is_jump_point": true,
+                    "start_time": 17.20971875,
+                    "end_time": 31.27503125,
+                    "cer": 0.04395604395604396,
+                    "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen. Bitte nehmen Sie Platz. Ich er\u00f6ffne die Sitzung.",
+                    "human_text": "D\u2014\u2013Guten Tag, liebe Kolleginnen und Kollegen! Bitte nehmen Sie Platz. Ich er\u00f6ffne die Sitzung."
+                },
+                {
+                    "segment_idx": 2,
+                    "is_jump_point": false,
+                    "start_time": 31.27503125,
+                    "end_time": 46.08284375,
+                    "cer": 0.028089887640449437,
+                    "asr_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die besorgniserregenden Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
+                    "human_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind besorgniserregende Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden."
+                },
+                {
+                    "segment_idx": 3,
+                    "is_jump_point": false,
+                    "start_time": 46.08284375,
+                    "end_time": 61.17753125,
+                    "cer": 0.0,
+                    "asr_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infekti\u00f6ser ist als das bisher bekannte Virus.",
+                    "human_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7 deutlich infekti\u00f6ser ist als das bisher bekannte Virus."
+                }
+            ]
+        },
+        {
+            "jump_index": 16,
+            "cer_change": 0.48513758467011026,
+            "context_segments": [
+                {
+                    "segment_idx": 14,
+                    "is_jump_point": false,
+                    "start_time": 197.96628125,
+                    "end_time": 214.16628125,
+                    "cer": 0.017793594306049824,
+                    "asr_text": "210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen. Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung eingerufen nach \u00a7 21 Absatz 2 der Gesch\u00e4ftsordnung.",
+                    "human_text": "210. Sitzung am Freitag konnte zwischen den Fraktionen keine Tagesordnung vereinbart werden. Die Fraktion der AfD hat dem Vorschlag der anderen Fraktionen widersprochen. Ich habe den Bundestag mit der vorgeschlagenen Tagesordnung einberufen. Nach \u00a7 21 Absatz 3 der Gesch\u00e4ftsordnung"
+                },
+                {
+                    "segment_idx": 15,
+                    "is_jump_point": false,
+                    "start_time": 214.16628125,
+                    "end_time": 231.99471875,
+                    "cer": 0.23452768729641693,
+                    "asr_text": "ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern. Und der Frist f\u00fcr den Beginn der Beratungen soll soweit erforderlich abgewichen werden.",
+                    "human_text": "ist f\u00fcr die Genehmigung der Tagesordnung ein Plenarbeschluss erforderlich. Interfraktionell ist vereinbart worden, die noch zu beschlie\u00dfende Tagesordnung um die in der Zusatzpunkteliste aufgef\u00fchrten Punkte zu erweitern:(A) (B) (C) (D)(A) (B) (C) (D)Die Reform der Weltgesundheitsorganisation \u2013"
+                },
+                {
+                    "segment_idx": 16,
+                    "is_jump_point": true,
+                    "start_time": 231.99471875,
+                    "end_time": 246.33846875,
+                    "cer": 0.7196652719665272,
+                    "asr_text": "Auf Verlangen der Fraktion B\u00fcndnis 90 Die Gr\u00fcnen findet heute nach der Fragestunde eine Aktuelle Stunde zum Thema Konsequenzen der Bundesregierung aus den j\u00fcngsten gewaltsamen, willk\u00fcrlichen und repressiven Entwicklungen in Russland statt.",
+                    "human_text": "Re-Identifikationsrisiko im Digitale-Versor- gung-Gesetz und in der Datentransparenzver- ordnung reduzieren Medizinische Versorgung im l\u00e4ndlichen Raum sicherstellen \u2013 Kommunale"
+                },
+                {
+                    "segment_idx": 17,
+                    "is_jump_point": false,
+                    "start_time": 246.33846875,
+                    "end_time": 265.82065625,
+                    "cer": 0.6912751677852349,
+                    "asr_text": "Tagesordnungspunkt 4 wird abgesetzt. Stattdessen soll ein Antrag f\u00fcr einen Stufenplan in der Pandemie beraten werden. Tagesordnungspunkt 22 wird in verbundener Beratung aufgerufen. Am Donnerstag wird Tagesordnungspunkt 7 abgesetzt. An dieser Stelle soll der Tagesordnungspunkt 19 aufgerufen werden.",
+                    "human_text": "\u2013 Kommunale MVZ st\u00e4rken Dem Atomwaffenverbotsvertrag der Verein- ten Nationen beitreten Nukleare Teilhabe beenden \u2013 Atomwaffen aus Deutschland abziehen Damit kommen wir zur Feststellung der Tagesord- nungen der"
+                },
+                {
+                    "segment_idx": 18,
+                    "is_jump_point": false,
+                    "start_time": 265.82065625,
+                    "end_time": 284.72065625000005,
+                    "cer": 0.6910299003322259,
+                    "asr_text": "Nach Tagesordnungspunkt 11 soll ein Gesetzentwurf zur Verbesserung der strafrechtlichen Bek\u00e4mpfung der Geldw\u00e4sche auf der Drucksache 19-24186 abschlie\u00dfend beraten werden. Der Tagesordnungspunkt 12 und die weiteren Tagesordnungspunkte der Koalitionsfraktionen verschieben sich entsprechend nach hinten.",
+                    "human_text": "stimmt dagegen? \u2013 Wer enth\u00e4lt sich? \u2013 Dann sind die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des \u00fcbrigen Hauses so beschlossen.Ich rufe den Tagesordnungspunkt 1 auf: Befragung der Bundesregierung Die Bundesregierung hat"
+                }
+            ]
+        },
+        {
+            "jump_index": 25,
+            "cer_change": -0.6405962458594038,
+            "context_segments": [
+                {
+                    "segment_idx": 23,
+                    "is_jump_point": false,
+                    "start_time": 342.09565625000005,
+                    "end_time": 358.07628125,
+                    "cer": 0.7109375,
+                    "asr_text": "und zur Verl\u00e4ngerung des erleichterten Zugangs zu sozialer Sicherung und des Sozialdienstleister-Einsatzgesetzes aus Anlass der Covid-19-Pandemie aufgerufen werden. An der Stelle des Tagesordnungspunktes 22 soll der Tagesordnungspunkt 17 aufgerufen werden.",
+                    "human_text": "und die entsprechenden Investitionen zahlen sich aus. \u2013 Deshalb hat die Bundesregierung trotz des Lockdowns in den letzten Wochen und Monaten im Umweltschutz ganz wichtige Fortschritte gemacht, gerade"
+                },
+                {
+                    "segment_idx": 24,
+                    "is_jump_point": false,
+                    "start_time": 358.07628125,
+                    "end_time": 368.4551875,
+                    "cer": 0.7105263157894737,
+                    "asr_text": "Die Tagesordnungspunkte 16, 28c, d und e sollen abgesetzt werden. Au\u00dferdem mache ich Sie auf die \u00dcberweisung im Anhang zur Zusatzpunkteliste aufmerksam.",
+                    "human_text": "der Insekten. Das Bundeskabinett hat das Insektenschutzgesetz auf den Weg gebracht und die Anwendung"
+                },
+                {
+                    "segment_idx": 25,
+                    "is_jump_point": true,
+                    "start_time": 368.4551875,
+                    "end_time": 379.424328125,
+                    "cer": 0.06993006993006994,
+                    "asr_text": "Damit kommen wir zur Feststellung der Tagesordnung der 208, 209 und 210 Sitzung mit den genannten \u00c4nderungen und Erg\u00e4nzungen. Wer stimmt daf\u00fcr?",
+                    "human_text": "Damit kommen wir zur Feststellung der Tagesord- nungen der 208., 209., 210. Sitzung mit den genannten \u00c4nderungen und Erg\u00e4nzungen. Wer stimmt daf\u00fcr?"
+                },
+                {
+                    "segment_idx": 26,
+                    "is_jump_point": false,
+                    "start_time": 379.424328125,
+                    "end_time": 390.23159375,
+                    "cer": 0.08571428571428572,
+                    "asr_text": "Wer stimmt dagegen? Wer enth\u00e4lt sich? Dann ist die Tagesordnung gegen die Stimmen der AfD mit den Stimmen des \u00fcbrigen Hauses so beschlossen.",
+                    "human_text": "Wer stimmt dagegen? \u2013 Wer enth\u00e4lt sich? \u2013 Dann sind die Tagesordnungen gegen die Stimmen der AfD mit den Stimmen des \u00fcbrigen Hauses so beschlossen.Ich"
+                },
+                {
+                    "segment_idx": 27,
+                    "is_jump_point": false,
+                    "start_time": 390.23159375,
+                    "end_time": 407.95190625,
+                    "cer": 0.056782334384858045,
+                    "asr_text": "Ich rufe auf den Tagesordnungspunkt 1. Wir fragen der Bundesregierung. Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verf\u00fcgung steht. Frau Bundesministerin, wenn Sie m\u00f6gen, haben Sie das Wort f\u00fcr einleitende Ausf\u00fchrungen.",
+                    "human_text": "rufe den Tagesordnungspunkt 1 auf: Befragung der Bundesregierung Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit, Frau Svenja Schulze, zur Verf\u00fcgung steht. Frau Bundesministerin, wenn Sie m\u00f6gen, haben Sie das Wort f\u00fcr einleitende Ausf\u00fchrungen."
+                }
+            ]
+        },
+        {
+            "jump_index": 47,
+            "cer_change": 0.6314814814814815,
+            "context_segments": [
+                {
+                    "segment_idx": 45,
+                    "is_jump_point": false,
+                    "start_time": 662.3494062500001,
+                    "end_time": 681.9892500000001,
+                    "cer": 0.08227848101265822,
+                    "asr_text": "Also die Klimakrise, die Plastikflut, der Insektenverschwund, der Verlust von Lebensr\u00e4umen, all das geht weiter, leider auch in Pandemiezeiten. Lassen Sie uns daher weiter arbeiten an L\u00f6sungen, denen Mensch und Umwelt gleicherma\u00dfen zugutekommt. Lassen Sie uns das gemeinsam tun. Ich freue mich jetzt auf Ihre Fragen.",
+                    "human_text": "Also, die Klimakrise, die Plastikflut, der Insektenschwund, der Verlust von Lebensr\u00e4umen, all das geht weiter, leider auch in Pandemiezeiten. Lassen Sie uns daher weiter an L\u00f6sungen arbeiten, die Menschen und Umwelt gleicherma\u00dfen zugutekommen. Lassen Sie uns das gemeinsam tun! Ich freue mich jetzt auf Ihre Fragen."
+                },
+                {
+                    "segment_idx": 46,
+                    "is_jump_point": false,
+                    "start_time": 681.9892500000001,
+                    "end_time": 690.47159375,
+                    "cer": 0.018518518518518517,
+                    "asr_text": "Die erste Frage stellt der Kollege Carsten Hilse, AfD.",
+                    "human_text": "Die erste Frage stellt der Kollege Karsten Hilse, AfD."
+                },
+                {
+                    "segment_idx": 47,
+                    "is_jump_point": true,
+                    "start_time": 690.47159375,
+                    "end_time": 696.49596875,
+                    "cer": 0.65,
+                    "asr_text": "Nur die eine Minute.",
+                    "human_text": "der Kollege Karsten"
+                },
+                {
+                    "segment_idx": 48,
+                    "is_jump_point": false,
+                    "start_time": 696.49596875,
+                    "end_time": 716.47753125,
+                    "cer": 0.1015625,
+                    "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021 schlagartig.",
+                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1. Januar 2021 schlagartig."
+                },
+                {
+                    "segment_idx": 49,
+                    "is_jump_point": false,
+                    "start_time": 716.47753125,
+                    "end_time": 733.1822187500001,
+                    "cer": 0.03676470588235294,
+                    "asr_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch durch die R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil, den L\u00f6wenanteil, verursacht die CO2-Steuer.",
+                    "human_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr, nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch der R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil; den L\u00f6wenanteil verursacht die CO2-Steuer."
+                }
+            ]
+        },
+        {
+            "jump_index": 48,
+            "cer_change": -0.5484375,
+            "context_segments": [
+                {
+                    "segment_idx": 46,
+                    "is_jump_point": false,
+                    "start_time": 681.9892500000001,
+                    "end_time": 690.47159375,
+                    "cer": 0.018518518518518517,
+                    "asr_text": "Die erste Frage stellt der Kollege Carsten Hilse, AfD.",
+                    "human_text": "Die erste Frage stellt der Kollege Karsten Hilse, AfD."
+                },
+                {
+                    "segment_idx": 47,
+                    "is_jump_point": false,
+                    "start_time": 690.47159375,
+                    "end_time": 696.49596875,
+                    "cer": 0.65,
+                    "asr_text": "Nur die eine Minute.",
+                    "human_text": "der Kollege Karsten"
+                },
+                {
+                    "segment_idx": 48,
+                    "is_jump_point": true,
+                    "start_time": 696.49596875,
+                    "end_time": 716.47753125,
+                    "cer": 0.1015625,
+                    "asr_text": "Vielen Dank, Herr Pr\u00e4sident. Sehr geehrte Ministerin, zum Thema CO2-Steuer. Die Bundesregierung hat wirksam zum 01.01.2021 die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig, denn die gesamte Energie verteuerte sich ab dem 01.01.2021 schlagartig.",
+                    "human_text": "Vielen Dank, Herr Pr\u00e4sident. \u2013 Sehr geehrte Ministerin! Zum Thema CO2-Steuer: Die Bundesregierung hat, wirksam zum 1. Januar 2021, die CO2-Steuer eingef\u00fchrt. Deren Wirksamkeit ist offenkundig; denn die gesamte Energie verteuerte sich ab dem 1. Januar 2021 schlagartig."
+                },
+                {
+                    "segment_idx": 49,
+                    "is_jump_point": false,
+                    "start_time": 716.47753125,
+                    "end_time": 733.1822187500001,
+                    "cer": 0.03676470588235294,
+                    "asr_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch durch die R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil, den L\u00f6wenanteil, verursacht die CO2-Steuer.",
+                    "human_text": "Das Vergleichsportal Verivox errechnete im Schnitt stattliche 7 Prozent mehr, nur f\u00fcr den Januar. Das ist zum geringen Teil nat\u00fcrlich auch der R\u00fccknahme der Mehrwertsteuersenkung geschuldet, aber eben nur zum geringen Teil; den L\u00f6wenanteil verursacht die CO2-Steuer."
+                },
+                {
+                    "segment_idx": 50,
+                    "is_jump_point": false,
+                    "start_time": 733.1822187500001,
+                    "end_time": 748.1822187500001,
+                    "cer": 0.05128205128205128,
+                    "asr_text": "Bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien, und jetzt meine Frage, wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt als das die",
+                    "human_text": "bei gleichzeitiger Steigerung von CO2-Emissionen weltweit, zum Beispiel in China und Indien.Jetzt meine Frage: Wie kommen Sie und Ihre Regierung auf die Idee, dass die deutsche Energieverteuerung etwas anderes bewirkt, als dass die"
+                }
+            ]
+        }
+    ]
+}
