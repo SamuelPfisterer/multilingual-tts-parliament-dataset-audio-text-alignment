@@ -1472,10 +1472,10 @@
       "start": 2613.01596875,
       "end": 2617.2253437500003,
       "asr_text": "190 Millionen übrig bisher.",
-      "human_text": "200 Millionen Euro zur",
-      "cer": 0.4444444444444444,
-      "start_idx": 49720,
-      "end_idx": 49724
+      "human_text": "140 Millionen Euro in der",
+      "cer": 0.37037037037037035,
+      "start_idx": 11413,
+      "end_idx": 11418
     },
     {
       "start": 2617.2253437500003,

@@ -18,6 +18,7 @@ import pickle
 from pathlib import Path
 from dotenv import load_dotenv
 from datetime import timedelta
+import heapq
 
 
 # Load .env file from the same directory as this script
@@ -446,29 +447,37 @@ class TranscriptAligner:
         """
         # Phase 1: Find the best matching region
         print(f"Finding best matching region for {asr_segment.text}")
-        region_start_idx = self._find_match_region(
+        region_start_idxs = self._find_match_region(
             asr_segment.text,
             transcript_tokens,
             start_search_idx, 
             coarse_window_size = len(asr_segment.text.split())
         )
-        print(f"Best matching region start index: {region_start_idx}")
-        best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
-        print(f"Best match: {best_match}")
-        if best_match.cer <= self.region_cer_threshold:
-            print(f"Best match CER: {best_match.cer}")
-            return best_match
+        print(f"Best matching region start indices: {region_start_idxs}")
+        best_matches = []
+        for region_start_idx in region_start_idxs:
+            best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
+            print(f"Best match: {best_match}")
+            if best_match.cer <= self.region_cer_threshold:
+                print(f"Best match CER: {best_match.cer}")
+                best_matches.append(best_match)
+        if best_matches:
+            return min(best_matches, key=lambda x: x.cer)
         print(f"No good matching region found, so we try to find a region at the beginning of the transcript")
         # No good matching region found, so we try to find a region at the beginning of the transcript
-        region_start_idx = self._find_match_region(
+        region_start_idxs = self._find_match_region(
             asr_segment.text,
             transcript_tokens,
             0,
             coarse_window_size = len(asr_segment.text.split()),
         )
-        best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
-        if best_match.cer <= self.region_cer_threshold * 1.5:
-            return best_match
+        best_matches = []
+        for region_start_idx in region_start_idxs:
+            best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
+            if best_match.cer <= self.region_cer_threshold * 1.5:
+                best_matches.append(best_match)
+        if best_matches:
+            return min(best_matches, key=lambda x: x.cer)
 
         # No good matching region found, so we create a fallback alignment
         return self._create_fallback_alignment(asr_segment, transcript_tokens, start_search_idx)
@@ -483,7 +492,8 @@ class TranscriptAligner:
                           region_cer_threshold: float = 0.3,
                           max_backward_search: int = 250,  # Maximum tokens to search backward
                           forward_priority: int = 5,  # Check this many forward windows before one backward
-                          step_size: float = 0.5  # Step size, how many windows to move forward and backward each step
+                          step_size: float = 0.5,  # Step size, how many windows to move forward and backward each step
+                          top_k: int = 3 # number of top matches to return if no match with CER below threshold is found    
                           ) -> Optional[int]:
         """Find the most promising region for matching.
         
@@ -501,11 +511,13 @@ class TranscriptAligner:
             region_cer_threshold: Maximum CER to consider a region as promising
             max_backward_search: Maximum number of tokens to search backward
             forward_priority: Number of forward windows to check before each backward window
+            step_size: Step size, how many windows to move forward and backward each step
+            top_k: number of top matches to return if no match with CER below threshold is found, still returns only one match if region with CER below threshold is found
         
         Returns:
             Starting index of best matching region or None if no good match found
         """
-        
+        best_matches = []
          # Initialize debug info collection
         debug_info = [f"Finding best matching region for {asr_text}"]
         if start_search_idx == 0:
@@ -537,6 +549,9 @@ class TranscriptAligner:
                 candidate_end = min(forward_pos + coarse_window_size, forward_limit)
                 candidate_text = " ".join(transcript_tokens[forward_pos:candidate_end])
                 cer = self.compute_cer(asr_text, candidate_text)
+                best_matches.append((cer, forward_pos))
+
+
                 
                 if cer < best_cer:
                     best_cer = cer
@@ -552,7 +567,7 @@ class TranscriptAligner:
                             if debug_file.tell() > 0:
                                 debug_file.write("\n")
                             debug_file.write("\n".join(debug_info) + "\n")
-                        return forward_pos
+                        return [forward_pos]
                 #print(f"Current forward position: {forward_pos}")
                 forward_pos += max(int(coarse_window_size*step_size), 1)#int(coarse_window_size * step_size) # move forward by step_size * coarse_window_size, truncate to integer
                 
@@ -568,6 +583,7 @@ class TranscriptAligner:
                 candidate_end = min(backward_pos + coarse_window_size, forward_limit)
                 candidate_text = " ".join(transcript_tokens[backward_pos:candidate_end])
                 cer = self.compute_cer(asr_text, candidate_text)
+                best_matches.append((cer, backward_pos))
                 
                 if cer < best_cer:
                     best_cer = cer
@@ -583,7 +599,7 @@ class TranscriptAligner:
                             if debug_file.tell() > 0:
                                 debug_file.write("\n")
                             debug_file.write("\n".join(debug_info) + "\n")
-                        return backward_pos
+                        return [backward_pos]
             
             # Stop if we've searched the entire valid range
             if (forward_pos >= forward_limit or reached_forward_limit) and backward_pos <= backward_limit:
@@ -604,7 +620,7 @@ class TranscriptAligner:
                 debug_file.write("\n")
             debug_file.write("\n".join(debug_info) + "\n")
 
-        return best_start_idx
+        return [match[1] for match in heapq.nsmallest(top_k, best_matches)]
 
     def _fine_tune_match(self,
                         asr_segment: TranscribedSegment,

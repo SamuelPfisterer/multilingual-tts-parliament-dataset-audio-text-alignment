@@ -1,7 +1,7 @@
 {
     "threshold": 0.3,
     "context_window": 2,
-    "total_jumps": 32,
+    "total_jumps": 31,
     "jumps": [
         {
             "jump_index": 14,
@@ -1122,57 +1122,6 @@
                     "cer": 0.102803738317757,
                     "asr_text": "Insektenschutzgesetz und was ist in der Verordnung geregelt? Das Insektenschutzgesetz regelt die St\u00e4rkung der Landschaftsplanung, das regelt den gesetzlichen Biotopschutz, das regelt den Biozideinsatz, also Biozide, so etwas wie Holzschutzmittel in Schutzgebieten, das regelt die St\u00e4rkung der Naturschutzma\u00dfnahmen und das",
                     "human_text": "Insektenschutzgesetz, und was ist in der Verordnung geregelt? Das Insektenschutzgesetz regelt die St\u00e4rkung der Landschaftsplanung. Das regelt den gesetzlichen Biotopschutz und den Biozideinsatz \u2013 Biozide sind etwa Holzschutzmittel \u2013 in Schutzgebieten. Das regelt die St\u00e4rkung der Naturschutzma\u00dfnahmen, und das"
-                }
-            ]
-        },
-        {
-            "jump_index": 164,
-            "cer_change": -0.35420054200542006,
-            "context_segments": [
-                {
-                    "segment_idx": 162,
-                    "is_jump_point": false,
-                    "start_time": 2593.01596875,
-                    "end_time": 2613.01596875,
-                    "cer": 0.2822822822822823,
-                    "asr_text": "noch von weiteren 50 Millionen gesprochen. Und jetzt bin ich nicht ganz schlau draus geworden aus Ihrer Antwort auf den Kollegen Hocker. Haben Sie diese Millionen schon im Haushalt oder brauchen Sie noch einen Nachtragshaushalt oder widmen Sie die jetzt um? Da h\u00e4tte ich jetzt gerne ganz konkrete Antwort. Sind da tats\u00e4chlich Hocker?",
-                    "human_text": "von weiteren 50 Millionen Euro gesprochen. Jetzt bin ich aus Ihrer Antwort auf die Frage des Kollegen Hocker nicht ganz schlau geworden. Haben Sie diese Millionen schon im Haushalt, oder brauchen Sie noch einen Nachtragshaushalt, oder widmen Sie die jetzt um? Darauf h\u00e4tte ich jetzt gerne eine ganz konkrete Antwort. Sind da tats\u00e4chlich 190"
-                },
-                {
-                    "segment_idx": 163,
-                    "is_jump_point": false,
-                    "start_time": 2613.01596875,
-                    "end_time": 2617.2253437500003,
-                    "cer": 0.4444444444444444,
-                    "asr_text": "190 Millionen \u00fcbrig bisher.",
-                    "human_text": "200 Millionen Euro zur"
-                },
-                {
-                    "segment_idx": 164,
-                    "is_jump_point": true,
-                    "start_time": 2617.2253437500003,
-                    "end_time": 2637.2253437500003,
-                    "cer": 0.09024390243902439,
-                    "asr_text": "Herr Abgeordneter, ich kenne mich in meinem Haushalt sehr gut aus, aber in dem Haushalt von Frau Kl\u00f6ckner kenne ich mich nicht ganz so gut aus. Deswegen w\u00e4re das, glaube ich, eine Frage, die wir mit der Kollegin noch mal ganz genau kl\u00e4ren m\u00fcssten. Ich w\u00fcrde aber Ihre Vorausbedingungen noch mal ein wenig sozusagen erl\u00e4utern wollen, weil FFH-Gebiete sind nicht grunds\u00e4tzlich ausgenommen, sondern die Gebiete...",
-                    "human_text": "Herr Abgeordneter, ich kenne mich in meinem Haushalt sehr gut aus. Aber in dem Haushalt von Frau Kl\u00f6ckner kenne ich mich nicht ganz so gut aus. Deswegen w\u00e4re das, glaube ich, eine Frage, die wir mit der Kollegin noch mal ganz genau kl\u00e4ren m\u00fcssten. Ich w\u00fcrde aber Ihre Vorausbedingung noch mal ein wenig erl\u00e4utern wollen; denn FFH-Gebiete sind nicht grunds\u00e4tzlich ausgenommen. Vielmehr haben"
-                },
-                {
-                    "segment_idx": 165,
-                    "is_jump_point": false,
-                    "start_time": 2637.2253437500003,
-                    "end_time": 2657.2253437500003,
-                    "cer": 0.14675767918088736,
-                    "asr_text": "die reine FFH-Gebiete sind und keinen weiteren Schutzfaktor haben. Bei diesen Gebieten haben wir gesagt, dass wir dort auf kooperative L\u00f6sungen gehen k\u00f6nnen. Das sind 4,9 Prozent der landwirtschaftlich genutzten Fl\u00e4chen in Deutschland. Also wir stellen jetzt sehr viel unterst\u00fctzt und ein ganz",
-                    "human_text": "die reine FFH-Gebiete sind und keinen weiteren Schutzfaktor haben, gesagt, dass wir dort auf kooperative L\u00f6sungen gehen k\u00f6nnen. Das sind 4,9 Prozent der landwirtschaftlich genutzten Fl\u00e4chen in Deutschland. Wir stellen jetzt sehr viel unter Schutz, und ein ganz"
-                },
-                {
-                    "segment_idx": 166,
-                    "is_jump_point": false,
-                    "start_time": 2657.2253437500003,
-                    "end_time": 2677.2253437500003,
-                    "cer": 0.07961783439490445,
-                    "asr_text": "Ein ganz kleiner Teil davon sind landwirtschaftlich genutzte Fl\u00e4chen. Das sind in erster Linie Gr\u00fcnlandfl\u00e4chen. Im Gr\u00fcnland werden traditionellerweise heute schon deutlich weniger Pflanzenschutzmittel eingesetzt. F\u00fcr diese Fl\u00e4chen werden jetzt kooperative L\u00f6sungen gefunden. Und ja, es wird auch zus\u00e4tzliches Geld.",
-                    "human_text": "ein ganz kleiner Teil davon sind landwirtschaftlich genutzte Fl\u00e4chen. Das sind in erster Linie Gr\u00fcnlandfl\u00e4chen. Im Gr\u00fcn land werden traditionellerweise heute schon deutlich weniger Pflanzenschutzmittel eingesetzt. F\u00fcr diese Fl\u00e4chen werden jetzt eben auch kooperative L\u00f6sungen gefunden. Und ja, es werden zus\u00e4tzliche"
                 }
             ]
         },
