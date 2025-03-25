@@ -20,6 +20,7 @@ from dotenv import load_dotenv
 from datetime import timedelta
 import heapq
 import numpy as np
+#import nemo.collections.asr as nemo_asr
 
 
 # Load .env file from the same directory as this script
@@ -258,11 +259,13 @@ class AudioSegmenter:
         non_speech_regions = speech_regions.get_timeline().gaps()
         print(f"Non speech regions: {non_speech_regions}")
         print(f"Non speech regions type: {type(non_speech_regions)}")
+        print(f"# non speech regions: {len(non_speech_regions)}")
         diarization = self.diarization_pipeline(audio_path)
-        print(f"Diarization: {diarization}")
+        #print(f"Diarization: {diarization}")
         print(f"Diarization type: {type(diarization)}")
         # get the timeline with overlapping speaker segments its of type Timeline
         overlapping_speaker_segments = diarization.get_overlap()
+        
         
         audio = AudioSegment.from_file(audio_path)
         audio = audio.normalize(headroom=5)
@@ -271,7 +274,10 @@ class AudioSegmenter:
         silence_regions = Timeline([Segment(start, end) for start, end in silences])
         
 
-
+        # using silero vad
+        print(f"Using silero vad")
+        non_speech_regions = get_silero_vad(audio_path)
+        print(f"# non speech regions: {len(non_speech_regions)}")
         
         segments = Timeline()
         # we skip initial silence
@@ -395,6 +401,91 @@ def initialize_vad_pipeline():
     })
     
     return vad_pipeline
+'''
+def get_nemo_vad(audio_path, threshold: float = 0.5, frame_length_ms: int = 20):
+    # Load the pre-trained NeMo VAD model
+    vad_model = nemo_asr.models.EncDecFrameClassificationModel.from_pretrained(
+        model_name="vad_multilingual_frame_marblenet",
+        cache_dir=os.getenv("HF_CACHE_DIR")
+    )
+    
+    # Get frame-level speech probabilities
+    vad_output = vad_model.transcribe(audio_path)
+    speech_prob = vad_output[0]  # Frame-level speech probabilities
+    
+    # Convert probabilities to speech/non-speech regions
+    is_speech = speech_prob > threshold
+    
+    # Convert frame-level predictions to timeline
+    non_speech_regions = Timeline()
+    
+    # Find continuous non-speech regions
+    in_silence = False
+    silence_start = 0
+    
+    for i, speech in enumerate(is_speech):
+        time_sec = i * frame_length_ms / 1000
+        
+        if not speech and not in_silence:
+            silence_start = time_sec
+            in_silence = True
+        elif speech and in_silence:
+            non_speech_regions.add(Segment(silence_start, time_sec))
+            in_silence = False
+    
+    # Add final silence if needed
+    if in_silence:
+        non_speech_regions.add(Segment(silence_start, len(is_speech) * frame_length_ms / 1000))
+    
+    return non_speech_regions
+'''
+
+def get_silero_vad(audio_path, threshold=0.5, min_silence_duration_ms=10):
+    # Load Silero VAD model
+    model, utils = torch.hub.load(repo_or_dir='snakers4/silero-vad',
+                                model='silero_vad',
+                                force_reload=True)
+    
+    (get_speech_timestamps, _, read_audio, _, _) = utils
+    
+    # Load audio
+    sampling_rate = 16000
+    wav = read_audio(audio_path, sampling_rate=sampling_rate)
+    
+    # Get speech timestamps
+    speech_timestamps = get_speech_timestamps(
+        wav, 
+        model, 
+        threshold=threshold,
+        sampling_rate=sampling_rate,
+        min_silence_duration_ms=min_silence_duration_ms
+    )
+    
+    # Convert to non-speech regions (silence)
+    non_speech_regions = Timeline()
+    
+    # Get audio duration
+    audio = AudioSegment.from_file(audio_path)
+    audio_duration = len(audio) / 1000  # in seconds
+    
+    # First silence if needed
+    if speech_timestamps and speech_timestamps[0]['start'] > 0:
+        non_speech_regions.add(Segment(0, speech_timestamps[0]['start'] / sampling_rate))
+    
+    # Middle silences
+    for i in range(len(speech_timestamps) - 1):
+        silence_start = speech_timestamps[i]['end'] / sampling_rate
+        silence_end = speech_timestamps[i + 1]['start'] / sampling_rate
+        non_speech_regions.add(Segment(silence_start, silence_end))
+    
+    # Final silence if needed
+    if speech_timestamps:
+        last_end = speech_timestamps[-1]['end'] / sampling_rate
+        if last_end < audio_duration:
+            non_speech_regions.add(Segment(last_end, audio_duration))
+    
+    return non_speech_regions
+
 
 def initialize_diarization_pipeline(): 
     """
@@ -480,9 +571,9 @@ class TranscriptAligner:
         best_matches = []
         for region_start_idx in region_start_idxs:
             best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
-            print(f"Best match: {best_match}")
+            #print(f"Best match: {best_match}")
             if best_match.cer <= self.region_cer_threshold:
-                print(f"Best match CER: {best_match.cer}")
+                #print(f"Best match CER: {best_match.cer}")
                 best_matches.append(best_match)
         if best_matches:
             return min(best_matches, key=lambda x: x.cer)
