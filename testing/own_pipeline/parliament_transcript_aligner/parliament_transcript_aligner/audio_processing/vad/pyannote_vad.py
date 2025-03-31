@@ -1,20 +1,24 @@
 import os
 from pyannote.audio.pipelines import VoiceActivityDetection
 from pyannote.audio import Model
+from typing import Optional
+from pathlib import Path
 
-def initialize_vad_pipeline() -> VoiceActivityDetection:
+def initialize_vad_pipeline(hf_cache_dir: Optional[Path] = None, hf_token: Optional[str] = None) -> VoiceActivityDetection:
     """Initialize the pyannote VAD pipeline.
+    
+    Args:
+        cache_dir: Optional directory for caching models. If None, uses environment variable.
     
     Returns:
         Configured VAD pipeline
     """
-    cache_dir = os.getenv("HF_CACHE_DIR")
     
     # First load the model with cache_dir
     model = Model.from_pretrained(
         "pyannote/segmentation",
-        use_auth_token=os.getenv("HF_TOKEN"),
-        cache_dir=cache_dir
+        use_auth_token=hf_token if hf_token is not None else os.getenv("HF_TOKEN"),
+        cache_dir=hf_cache_dir if hf_cache_dir is not None else os.getenv("HF_CACHE_DIR")
     )
     
     # Then create the VAD pipeline using the loaded model

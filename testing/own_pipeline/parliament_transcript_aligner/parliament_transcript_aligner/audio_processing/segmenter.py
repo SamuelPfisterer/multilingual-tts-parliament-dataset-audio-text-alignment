@@ -1,5 +1,7 @@
-from typing import List, Optional
+from typing import List, Optional, Union
 import os
+import warnings
+from pathlib import Path
 import torch
 from pyannote.audio.pipelines import VoiceActivityDetection
 from pyannote.core import Segment, Timeline
@@ -18,7 +20,8 @@ class AudioSegmenter:
                  vad_pipeline: VoiceActivityDetection, 
                  diarization_pipeline: Pipeline, 
                  window_min_size: float = 10.0, 
-                 window_max_size: float = 20.0):
+                 window_max_size: float = 20.0,
+                 hf_cache_dir: Optional[Union[Path, str]] = None):
         """Initialize the AudioSegmenter.
         
         Args:
@@ -33,23 +36,27 @@ class AudioSegmenter:
         self.window_max_size = window_max_size
         
         # Set cache directory for Hugging Face
-        cache_dir = os.getenv("HF_CACHE_DIR")
+        hf_cache_dir = hf_cache_dir if hf_cache_dir is not None else os.getenv("HF_CACHE_DIR")
         
         # Set environment variable to ensure HF uses the correct cache
-        os.environ['HF_HOME'] = cache_dir
-        os.environ['TRANSFORMERS_CACHE'] = cache_dir
-        os.environ['TORCH_HOME'] = cache_dir
+        if hf_cache_dir is not None:
+            os.environ['HF_HOME'] = str(hf_cache_dir)
+            os.environ['TRANSFORMERS_CACHE'] = str(hf_cache_dir)
+            os.environ['TORCH_HOME'] = str(hf_cache_dir)
+        else:
+            warnings.warn("No cache directory provided, using default cache directory")
+            print("No cache directory provided, using default cache directory")
 
         # Load the model and processor with cache_dir
         model = AutoModelForSpeechSeq2Seq.from_pretrained(
             "openai/whisper-large-v3",
-            cache_dir=cache_dir,
+            cache_dir=hf_cache_dir,
             device_map="cuda" if torch.cuda.is_available() else "cpu"
         )
 
         processor = AutoProcessor.from_pretrained(
             "openai/whisper-large-v3",
-            cache_dir=cache_dir
+            cache_dir=hf_cache_dir
         )
 
         # Create the pipeline using the loaded model and processor
