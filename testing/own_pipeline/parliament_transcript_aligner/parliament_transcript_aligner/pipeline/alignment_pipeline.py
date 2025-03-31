@@ -37,7 +37,11 @@ class AlignmentPipeline:
                  audio_dirs: Optional[List[str]] = None, 
                  transcript_dirs: Optional[List[str]] = None,
                  cache_dir: Optional[str] = None,
-                 use_cache: bool = True):
+                 use_cache: bool = True,
+                 hf_cache_dir: Optional[str] = None,
+                 hf_token: Optional[str] = None,
+                 delete_wav_files: bool = False,
+                 wav_dir: Optional[Union[str, Path]] = None):
         """
         Initialize the pipeline with configuration parameters.
         
@@ -52,6 +56,10 @@ class AlignmentPipeline:
             transcript_dirs: List of directories to search for transcript files
             cache_dir: Directory for caching results
             use_cache: Whether to use cached results
+            hf_cache_dir: Directory for Hugging Face cache
+            hf_token: Hugging Face token
+            delete_wav_files: Whether to delete WAV that are created during segmentation by converting opus files
+            wav_dir: Directory to save WAV files that are created during segmentation by converting opus files
         """
         self.base_dir = Path(base_dir)
         self.csv_path = Path(csv_path)
@@ -86,6 +94,12 @@ class AlignmentPipeline:
         # Create output directories
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
+
+        self.hf_cache_dir = Path(hf_cache_dir) if hf_cache_dir else None
+        self.hf_token = hf_token if hf_token else None
+
+        self.delete_wav_files = delete_wav_files
+        self.wav_dir = Path(wav_dir) if wav_dir else None
     
     def _initialize_audio_segmenter(self) -> AudioSegmenter:
         """Initialize the AudioSegmenter with VAD and diarization.
@@ -93,9 +107,9 @@ class AlignmentPipeline:
         Returns:
             AudioSegmenter instance
         """
-        vad_pipeline = initialize_vad_pipeline()
-        diarization_pipeline = initialize_diarization_pipeline()
-        return AudioSegmenter(vad_pipeline, diarization_pipeline)
+        vad_pipeline = initialize_vad_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
+        diarization_pipeline = initialize_diarization_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
+        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir)
     
     def _load_csv_metadata(self) -> Dict[str, List[str]]:
         """

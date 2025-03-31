@@ -163,3 +163,33 @@ A more robust approach might include:
 4. Add proper logging throughout the library
 5. Enhance CSV processing to handle more formats
 6. Create more examples of pipeline usage 
+
+## Future To-Dos
+
+1. **Modular ASR and Diarization in AudioSegmenter**:
+   - Allow users to provide custom ASR models through dependency injection
+   - Enable swapping diarization models with a common interface
+
+2. **Whisper Model Optimization**:
+   - Implement batching for Whisper ASR processing
+   - Evaluate and integrate faster-whisper implementation
+
+3. **Directory Handling in AlignmentPipeline**:
+   - Implement proper directory creation when paths don't exist
+
+4. **Supabase Logging**:
+   - Implement basic progress logging to Supabase
+
+5. **Multi-GPU Deployment**:
+   - Design parallel processing architecture for multiple GPUs
+
+6. **Enhanced Transcript Preprocessors**:
+   - LLM preprocessing: Pass preprocessor output through an LLM with cleaning prompts
+   - Regex/rule-based preprocessing: Allow passing pattern rules for text cleaning
+   - Provide predefined pattern mappings (e.g., "brackets" → regex to remove all brackets)
+   - Create configurable preprocessing pipelines
+
+7. **Library Update Handling**:
+   - Investigate how library updates affect existing running processes
+   - Implement versioning system to manage compatibility
+   - Design migration pathways for existing deployments 

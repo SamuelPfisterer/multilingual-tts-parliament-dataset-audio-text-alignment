@@ -21,7 +21,9 @@ class AudioSegmenter:
                  diarization_pipeline: Pipeline, 
                  window_min_size: float = 10.0, 
                  window_max_size: float = 20.0,
-                 hf_cache_dir: Optional[Union[Path, str]] = None):
+                 hf_cache_dir: Optional[Union[Path, str]] = None,
+                 delete_wav_files: bool = False,
+                 wav_directory: Optional[Union[Path, str]] = None):
         """Initialize the AudioSegmenter.
         
         Args:
@@ -29,6 +31,9 @@ class AudioSegmenter:
             diarization_pipeline: PyAnnote diarization pipeline
             window_min_size: Minimum size of the window to look for silence in seconds
             window_max_size: Maximum size of the window to look for silence in seconds
+            hf_cache_dir: Optional directory for Hugging Face cache
+            delete_wav_files: Whether to delete temporary WAV files after processing (default: False)
+            wav_directory: Optional directory to store WAV files (default: same directory as audio file)
         """
         self.vad_pipeline = vad_pipeline
         self.diarization_pipeline = diarization_pipeline
@@ -67,6 +72,9 @@ class AudioSegmenter:
             feature_extractor=processor.feature_extractor
         )
         
+        self.delete_wav_files = delete_wav_files
+        self.wav_directory = Path(wav_directory) if wav_directory is not None else None
+        
     def get_longest_silence(self, 
                           non_speech_regions: Timeline, 
                           start: float, 
@@ -104,12 +112,21 @@ class AudioSegmenter:
         """
         if not audio_path.endswith(('.opus', '.wav')):
             raise ValueError("Audio file must be .opus or .wav format")
-            
-        wav_path = audio_path.replace('.opus', '.wav')
+        
+        if audio_path.endswith('.wav'):
+            return audio_path
+        
+        if self.wav_directory:
+            self.wav_directory.mkdir(parents=True, exist_ok=True)
+            wav_path = str(self.wav_directory / Path(audio_path).with_suffix('.wav').name)
+        else:
+            wav_path = str(Path(audio_path).with_suffix('.wav'))
+        
         if not os.path.exists(wav_path):
             print(f"Converting {audio_path} to {wav_path}")
             cmd = f'ffmpeg -y -i {audio_path} -ac 1 -ar 16000 {wav_path}'
             os.system(cmd)
+        
         return wav_path
 
     def extract_audio_segment(self, audio_path: str, start: float, end: float) -> str:
@@ -141,25 +158,29 @@ class AudioSegmenter:
         Returns:
             List of TranscribedSegments containing timing and text
         """
-        # First get all segments
-        segments_timeline = self.segment_audio(audio_path)
-        
-        # Transcribe each segment
-        transcribed_segments = []
-        
-        for segment in segments_timeline:
-            # Extract the segment
-            temp_path = self.extract_audio_segment(audio_path, segment.start, segment.end)
+        converted_wav_path = None
+        try:
+            # Convert to WAV if needed
+            print(f"Converting audio file to wav before segmenting: {audio_path}")
+            converted_wav_path = self.convert_audio_to_wav(audio_path)
             
-            # Transcribe
-            text = self.asr_pipeline(temp_path)["text"].strip()
+            segments_timeline = self.segment_audio(converted_wav_path)
+            transcribed_segments = []
             
-            # Clean up
-            os.remove(temp_path)
+            for segment in segments_timeline:
+                temp_path = self.extract_audio_segment(converted_wav_path, segment.start, segment.end)
+                text = self.asr_pipeline(temp_path)["text"].strip()
+                
+                # Clean up
+                os.remove(temp_path)
+                
+                transcribed_segments.append(TranscribedSegment(segment, text))
             
-            transcribed_segments.append(TranscribedSegment(segment, text))
-            
-        return transcribed_segments
+            return transcribed_segments
+        finally:
+            # Clean up the converted WAV file if needed
+            if self.delete_wav_files and converted_wav_path and converted_wav_path != audio_path:
+                os.remove(converted_wav_path)
 
     def segment_audio(self, audio_path: str) -> Timeline:
         """Segment audio file based on silence detection.
@@ -171,8 +192,6 @@ class AudioSegmenter:
             Timeline containing all segments
         """
         # Get speech regions for the entire audio
-        print(f"Converting audio file to wav before segmenting: {audio_path}")
-        audio_path = self.convert_audio_to_wav(audio_path)
         print(f"Segmenting audio file: {audio_path}")
         
         # Using PyAnnote VAD
