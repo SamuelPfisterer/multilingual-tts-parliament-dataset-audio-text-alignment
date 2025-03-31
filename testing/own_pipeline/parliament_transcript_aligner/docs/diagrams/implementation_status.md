@@ -24,7 +24,8 @@ graph TB
     I11[BasePreprocessor]:::implemented
     I12[PDFPreprocessor]:::implemented
     I13[TXTPreprocessor]:::implemented
-    I14[AlignmentPipeline]:::implemented
+    I14[SRTPreprocessor]:::implemented
+    I16[AlignmentPipeline]:::implemented
     
     %% In Progress Components
     P1[Package Structure]:::inprogress
@@ -57,12 +58,16 @@ graph TB
     P1 --> I12
     P1 --> I13
     P1 --> I14
-    I14 --> I3
-    I14 --> I4
-    I14 --> I11
-    I14 --> I12
-    I14 --> I13
-    I14 -.-> T1
+    P1 --> I15
+    P1 --> I16
+    I16 --> I3
+    I16 --> I4
+    I16 --> I11
+    I16 --> I12
+    I16 --> I13
+    I16 --> I14
+    I16 --> I15
+    I16 -.-> T1
 ```
 
 ## Status Legend
@@ -87,6 +92,7 @@ graph TB
 - `BasePreprocessor`: Implemented in transcript/preprocessor/base.py
 - `PDFPreprocessor`: Implemented in transcript/preprocessor/pdf_preprocessor.py
 - `TXTPreprocessor`: Implemented in transcript/preprocessor/txt_preprocessor.py
+- `SRTPreprocessor`: Implemented in transcript/preprocessor/srt_preprocessor.py
 - `AlignmentPipeline`: Implemented in pipeline/alignment_pipeline.py
 
 ### Needs Refactoring (🟠)
@@ -193,3 +199,11 @@ A more robust approach might include:
    - Investigate how library updates affect existing running processes
    - Implement versioning system to manage compatibility
    - Design migration pathways for existing deployments 
+
+## Potentially Update Documentation For
+
+1. **SRT Preprocessor**:
+   - Add documentation for the SRT preprocessor in the main README
+   - Update component diagram to include SRTPreprocessor
+   - Add example usage for subtitle files
+   - Update supported file types in user documentation 

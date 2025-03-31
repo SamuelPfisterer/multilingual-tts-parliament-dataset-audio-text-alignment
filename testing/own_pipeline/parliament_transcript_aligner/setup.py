@@ -32,6 +32,7 @@ setup(
         "pydub>=0.25.1",
         "tqdm>=4.65.0",
         "numpy>=1.24.2",
-        "python-dotenv>=1.0.0"
+        "python-dotenv>=1.0.0",
+        "pysrt>=1.1.2"
     ],
 ) 

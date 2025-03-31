@@ -4,6 +4,7 @@ from pathlib import Path
 from .base import TranscriptPreprocessor
 from .txt_preprocessor import TxtPreprocessor
 from .pdf_preprocessor import PdfPreprocessor
+from .srt_preprocessor import SrtPreprocessor
 
 def create_preprocessor(file_path: str, config: Optional[Dict[str, Any]] = None) -> TranscriptPreprocessor:
     """Create appropriate preprocessor for the given file.
@@ -26,5 +27,5 @@ def create_preprocessor(file_path: str, config: Optional[Dict[str, Any]] = None)
             
     raise ValueError(f"No suitable preprocessor found for {file_path}")
 # Export the classes and factory function
-__all__ = ['TranscriptPreprocessor', 'TxtPreprocessor', 'PdfPreprocessor', 'create_preprocessor']
+__all__ = ['TranscriptPreprocessor', 'TxtPreprocessor', 'PdfPreprocessor', 'SrtPreprocessor', 'create_preprocessor']
 
