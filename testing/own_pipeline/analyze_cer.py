@@ -263,7 +263,7 @@ def plot_cer_distribution(df: pd.DataFrame, output_dir: str):
 
 def main():
     # Load data
-    json_path = "output/alignments/7501579_960s_aligned.json"
+    json_path = "output/alignments/7501579_1920s_aligned.json"
     df = load_alignments(json_path)
     
     # Create output directory structure

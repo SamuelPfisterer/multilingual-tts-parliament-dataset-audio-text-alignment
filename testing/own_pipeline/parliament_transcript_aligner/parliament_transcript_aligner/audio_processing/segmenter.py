@@ -1,0 +1,269 @@
+from typing import List, Optional
+import os
+import torch
+from pyannote.audio.pipelines import VoiceActivityDetection
+from pyannote.core import Segment, Timeline
+from pyannote.audio import Pipeline
+from transformers import pipeline, AutoModelForSpeechSeq2Seq, AutoProcessor
+from pydub import AudioSegment
+from pydub import silence  # Added this import for silence detection
+import numpy as np
+from tqdm import tqdm  # Added tqdm for progress bar
+
+from ..data_models.models import TranscribedSegment
+from ..audio_processing.vad.silero_vad import get_silero_vad  # Import get_silero_vad directly
+
+class AudioSegmenter:
+    def __init__(self, 
+                 vad_pipeline: VoiceActivityDetection, 
+                 diarization_pipeline: Pipeline, 
+                 window_min_size: float = 10.0, 
+                 window_max_size: float = 20.0):
+        """Initialize the AudioSegmenter.
+        
+        Args:
+            vad_pipeline: PyAnnote VAD pipeline
+            diarization_pipeline: PyAnnote diarization pipeline
+            window_min_size: Minimum size of the window to look for silence in seconds
+            window_max_size: Maximum size of the window to look for silence in seconds
+        """
+        self.vad_pipeline = vad_pipeline
+        self.diarization_pipeline = diarization_pipeline
+        self.window_min_size = window_min_size
+        self.window_max_size = window_max_size
+        
+        # Set cache directory for Hugging Face
+        cache_dir = os.getenv("HF_CACHE_DIR")
+        
+        # Set environment variable to ensure HF uses the correct cache
+        os.environ['HF_HOME'] = cache_dir
+        os.environ['TRANSFORMERS_CACHE'] = cache_dir
+        os.environ['TORCH_HOME'] = cache_dir
+
+        # Load the model and processor with cache_dir
+        model = AutoModelForSpeechSeq2Seq.from_pretrained(
+            "openai/whisper-large-v3",
+            cache_dir=cache_dir,
+            device_map="cuda" if torch.cuda.is_available() else "cpu"
+        )
+
+        processor = AutoProcessor.from_pretrained(
+            "openai/whisper-large-v3",
+            cache_dir=cache_dir
+        )
+
+        # Create the pipeline using the loaded model and processor
+        self.asr_pipeline = pipeline(
+            "automatic-speech-recognition",
+            model=model,
+            tokenizer=processor.tokenizer,
+            feature_extractor=processor.feature_extractor
+        )
+        
+    def get_longest_silence(self, 
+                          non_speech_regions: Timeline, 
+                          start: float, 
+                          end: float) -> Optional[Segment]:
+        """Get the longest silence segment in the given time window.
+        
+        Args:
+            non_speech_regions: Timeline containing non-speech segments
+            start: Start time of window to search in
+            end: End time of window to search in
+            
+        Returns:
+            The longest silence segment in the window, or None if no silence found
+        """
+        # Create a support segment for the window we're analyzing
+        support = Segment(start, end)
+        
+        # Get all silence segments in this window
+        window_silences = non_speech_regions.crop(support=support, mode="intersection")
+        
+        # Find the longest silence segment
+        if not window_silences:
+            return None
+            
+        return max(window_silences, key=lambda s: s.duration)
+
+    def convert_audio_to_wav(self, audio_path: str) -> str:
+        """Convert audio file to wav format using ffmpeg if needed.
+        
+        Args:
+            audio_path: Path to audio file (.opus or .wav)
+            
+        Returns:
+            Path to wav file
+        """
+        if not audio_path.endswith(('.opus', '.wav')):
+            raise ValueError("Audio file must be .opus or .wav format")
+            
+        wav_path = audio_path.replace('.opus', '.wav')
+        if not os.path.exists(wav_path):
+            print(f"Converting {audio_path} to {wav_path}")
+            cmd = f'ffmpeg -y -i {audio_path} -ac 1 -ar 16000 {wav_path}'
+            os.system(cmd)
+        return wav_path
+
+    def extract_audio_segment(self, audio_path: str, start: float, end: float) -> str:
+        """Extract a segment from an audio file and return a temporary path.
+        
+        Args:
+            audio_path: Path to audio file (.opus or .wav)
+            start: Start time in seconds
+            end: End time in seconds
+            
+        Returns:
+            Path to temporary wav file containing the segment
+        """
+        # Convert to wav if needed
+        wav_path = self.convert_audio_to_wav(audio_path)
+        
+        audio = AudioSegment.from_file(wav_path)
+        segment = audio[start * 1000:end * 1000]  # pydub works in milliseconds
+        temp_path = f"/tmp/segment_{start}_{end}.wav"
+        segment.export(temp_path, format="wav")
+        return temp_path
+
+    def segment_and_transcribe(self, audio_path: str) -> List[TranscribedSegment]:
+        """Segment audio file and transcribe each segment.
+        
+        Args:
+            audio_path: Path to audio file
+            
+        Returns:
+            List of TranscribedSegments containing timing and text
+        """
+        # First get all segments
+        segments_timeline = self.segment_audio(audio_path)
+        
+        # Transcribe each segment
+        transcribed_segments = []
+        
+        for segment in segments_timeline:
+            # Extract the segment
+            temp_path = self.extract_audio_segment(audio_path, segment.start, segment.end)
+            
+            # Transcribe
+            text = self.asr_pipeline(temp_path)["text"].strip()
+            
+            # Clean up
+            os.remove(temp_path)
+            
+            transcribed_segments.append(TranscribedSegment(segment, text))
+            
+        return transcribed_segments
+
+    def segment_audio(self, audio_path: str) -> Timeline:
+        """Segment audio file based on silence detection.
+        
+        Args:
+            audio_path: Path to audio file
+            
+        Returns:
+            Timeline containing all segments
+        """
+        # Get speech regions for the entire audio
+        print(f"Converting audio file to wav before segmenting: {audio_path}")
+        audio_path = self.convert_audio_to_wav(audio_path)
+        print(f"Segmenting audio file: {audio_path}")
+        
+        # Using PyAnnote VAD
+        speech_regions = self.vad_pipeline(audio_path)
+        
+        # Instead of deriving non_speech_regions from PyAnnote, use Silero VAD directly
+        # non_speech_regions = speech_regions.get_timeline().gaps()
+        non_speech_regions = get_silero_vad(audio_path)
+        
+        diarization = self.diarization_pipeline(audio_path)
+        overlapping_speaker_segments = diarization.get_overlap()
+        
+        audio = AudioSegment.from_file(audio_path)
+        audio = audio.normalize(headroom=5)
+        silence_threshold = np.percentile([frame.rms for frame in audio[::100]], 15)
+        silences = silence.detect_silence(audio, min_silence_len=200, silence_thresh=silence_threshold, seek_step=15)
+        silence_regions = Timeline([Segment(start/1000, end/1000) for start, end in silences])
+        
+        segments = Timeline()
+        # Skip initial silence
+        current_pos = speech_regions.get_timeline().extent().start
+        # Skip the last silence
+        audio_end = speech_regions.get_timeline().extent().end
+        
+        while current_pos < audio_end:
+            # Define the window we're looking at
+            window_start = current_pos + self.window_min_size
+            window_end = current_pos + self.window_max_size
+
+            # Check if the window only contains silence
+            max_segment_silence = self.get_longest_silence(
+                non_speech_regions, 
+                current_pos, 
+                window_end
+            )
+            if max_segment_silence and max_segment_silence.start == current_pos and max_segment_silence.duration > self.window_min_size:
+                # If the segment we are checking only contains silence, skip it
+                current_pos = max_segment_silence.end
+                continue
+            
+            # Check if the segment starts with an overlapping speaker segment
+            overlapping_speaker_segments_window_start = overlapping_speaker_segments.crop(
+                Segment(current_pos, window_end), 
+                mode="loose"
+            )
+            if overlapping_speaker_segments_window_start:
+                # If there is an overlapping speaker segment, move to its end
+                current_pos = overlapping_speaker_segments_window_start[0].end + 1e-6
+                continue
+
+            # Check if there is a speaker change in this segment
+            overlapping_segments = diarization.crop(
+                Segment(current_pos, window_end), 
+                mode="intersection"
+            )
+            last_speaker = None
+            speaker_change_detected = False
+            
+            # Iterate through speaker segments
+            for segment, track, label in overlapping_segments.itertracks(yield_label=True):
+                if last_speaker is None:
+                    last_speaker = label
+                elif label != last_speaker:
+                    segments.add(Segment(current_pos, segment.start))
+                    current_pos = segment.start
+                    speaker_change_detected = True
+                    break
+                    
+            if speaker_change_detected:
+                continue
+                
+            # Get the longest silence in this window
+            max_silence = self.get_longest_silence(
+                non_speech_regions, 
+                window_start, 
+                window_end
+            )
+            
+            if max_silence is None:
+                # If no silence found with pyannote, try pydub
+                max_silence = self.get_longest_silence(
+                    silence_regions, 
+                    window_start, 
+                    window_end
+                )
+                if max_silence is None:
+                    # If no silence found with pydub, add the whole window
+                    segments.add(Segment(current_pos, window_end))
+                    current_pos = window_end
+                else:
+                    # End segment at middle of silence
+                    silence_middle = max_silence.middle
+                    segments.add(Segment(current_pos, silence_middle))
+                    current_pos = silence_middle
+            else:
+                # End segment at middle of silence
+                silence_middle = max_silence.middle
+                segments.add(Segment(current_pos, silence_middle))
+                current_pos = silence_middle
+                
+        return segments 

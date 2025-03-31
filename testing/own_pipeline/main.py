@@ -935,7 +935,7 @@ def main():
         directory.mkdir(parents=True, exist_ok=True)
     
     # Define file paths
-    file_name = "7501579_960s"
+    file_name = "7501579_1920s"
     audio_path = audio_dir / f"{file_name}.opus"
     #transcript_path = transcript_dir / f"{file_name}.txt"
     transcript_path = "7501579_llm.txt"

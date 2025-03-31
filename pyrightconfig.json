@@ -1,0 +1,9 @@
+{
+    "pythonVersion": "3.8",
+    "venvPath": "/itet-stor/spfisterer/net_scratch/conda_envs",
+    "venv": "rixvox",
+    "pythonPath": "/itet-stor/spfisterer/net_scratch/conda_envs/rixvox/bin/python",
+    "typeCheckingMode": "basic"  // or "strict" for stricter checks
+  }
+  
+  
