@@ -86,6 +86,12 @@ class AlignmentPipeline:
         
         self.cache_dir = Path(cache_dir) if cache_dir else self.output_dir / "cache"
         self.use_cache = use_cache
+
+        self.hf_cache_dir = Path(hf_cache_dir) if hf_cache_dir else None
+        self.hf_token = hf_token if hf_token else None
+
+        self.delete_wav_files = delete_wav_files
+        self.wav_dir = Path(wav_dir) if wav_dir else None
         
         # Initialize components
         self.audio_segmenter = self._initialize_audio_segmenter()
@@ -95,11 +101,6 @@ class AlignmentPipeline:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
-        self.hf_cache_dir = Path(hf_cache_dir) if hf_cache_dir else None
-        self.hf_token = hf_token if hf_token else None
-
-        self.delete_wav_files = delete_wav_files
-        self.wav_dir = Path(wav_dir) if wav_dir else None
     
     def _initialize_audio_segmenter(self) -> AudioSegmenter:
         """Initialize the AudioSegmenter with VAD and diarization.

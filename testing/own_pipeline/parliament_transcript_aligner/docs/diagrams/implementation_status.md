@@ -198,7 +198,11 @@ A more robust approach might include:
 7. **Library Update Handling**:
    - Investigate how library updates affect existing running processes
    - Implement versioning system to manage compatibility
-   - Design migration pathways for existing deployments 
+   - Design migration pathways for existing deployments
+
+8. **Multi-Transcript Alignment Strategy**:
+   - Implement the option to merge multiple transcripts that are potential matches for a video
+   - the transcriptaligner should find the matching parts of the transcripts automatically already
 
 ## Potentially Update Documentation For
 

@@ -23,7 +23,8 @@ class AudioSegmenter:
                  window_max_size: float = 20.0,
                  hf_cache_dir: Optional[Union[Path, str]] = None,
                  delete_wav_files: bool = False,
-                 wav_directory: Optional[Union[Path, str]] = None):
+                 wav_directory: Optional[Union[Path, str]] = None,
+                 with_diarization: bool = False):
         """Initialize the AudioSegmenter.
         
         Args:
@@ -39,7 +40,7 @@ class AudioSegmenter:
         self.diarization_pipeline = diarization_pipeline
         self.window_min_size = window_min_size
         self.window_max_size = window_max_size
-        
+        self.with_diarization = with_diarization
         # Set cache directory for Hugging Face
         hf_cache_dir = hf_cache_dir if hf_cache_dir is not None else os.getenv("HF_CACHE_DIR")
         
@@ -167,7 +168,8 @@ class AudioSegmenter:
             segments_timeline = self.segment_audio(converted_wav_path)
             transcribed_segments = []
             
-            for segment in segments_timeline:
+            # Use tqdm to create a progress bar for segment processing
+            for segment in tqdm(segments_timeline, desc="Transcribing segments", unit="segment"):
                 temp_path = self.extract_audio_segment(converted_wav_path, segment.start, segment.end)
                 text = self.asr_pipeline(temp_path)["text"].strip()
                 
@@ -195,14 +197,18 @@ class AudioSegmenter:
         print(f"Segmenting audio file: {audio_path}")
         
         # Using PyAnnote VAD
-        speech_regions = self.vad_pipeline(audio_path)
+        #speech_regions = self.vad_pipeline(audio_path)
         
         # Instead of deriving non_speech_regions from PyAnnote, use Silero VAD directly
         # non_speech_regions = speech_regions.get_timeline().gaps()
         non_speech_regions = get_silero_vad(audio_path)
         
-        diarization = self.diarization_pipeline(audio_path)
-        overlapping_speaker_segments = diarization.get_overlap()
+        if self.with_diarization:
+            diarization = self.diarization_pipeline(audio_path)
+            overlapping_speaker_segments = diarization.get_overlap()
+        else:
+            diarization = None
+            overlapping_speaker_segments = None
         
         audio = AudioSegment.from_file(audio_path)
         audio = audio.normalize(headroom=5)
@@ -211,10 +217,16 @@ class AudioSegmenter:
         silence_regions = Timeline([Segment(start/1000, end/1000) for start, end in silences])
         
         segments = Timeline()
+
+        # TODO: I think we don't need this necessarily as we should skip full silences anyways
+        """
         # Skip initial silence
         current_pos = speech_regions.get_timeline().extent().start
         # Skip the last silence
         audio_end = speech_regions.get_timeline().extent().end
+        """
+        current_pos = non_speech_regions.extent().start
+        audio_end = non_speech_regions.extent().end
         
         while current_pos < audio_end:
             # Define the window we're looking at
@@ -233,35 +245,36 @@ class AudioSegmenter:
                 continue
             
             # Check if the segment starts with an overlapping speaker segment
-            overlapping_speaker_segments_window_start = overlapping_speaker_segments.crop(
-                Segment(current_pos, window_end), 
-                mode="loose"
-            )
-            if overlapping_speaker_segments_window_start:
-                # If there is an overlapping speaker segment, move to its end
-                current_pos = overlapping_speaker_segments_window_start[0].end + 1e-6
-                continue
+            if overlapping_speaker_segments and diarization:
+                overlapping_speaker_segments_window_start = overlapping_speaker_segments.crop(
+                    Segment(current_pos, window_end), 
+                    mode="loose"
+                )
+                if overlapping_speaker_segments_window_start:
+                    # If there is an overlapping speaker segment, move to its end
+                    current_pos = overlapping_speaker_segments_window_start[0].end + 1e-6
+                    continue
 
-            # Check if there is a speaker change in this segment
-            overlapping_segments = diarization.crop(
-                Segment(current_pos, window_end), 
-                mode="intersection"
-            )
-            last_speaker = None
-            speaker_change_detected = False
+                # Check if there is a speaker change in this segment
+                overlapping_segments = diarization.crop(
+                    Segment(current_pos, window_end), 
+                    mode="intersection"
+                )
+                last_speaker = None
+                speaker_change_detected = False
             
-            # Iterate through speaker segments
-            for segment, track, label in overlapping_segments.itertracks(yield_label=True):
-                if last_speaker is None:
-                    last_speaker = label
-                elif label != last_speaker:
-                    segments.add(Segment(current_pos, segment.start))
-                    current_pos = segment.start
-                    speaker_change_detected = True
-                    break
-                    
-            if speaker_change_detected:
-                continue
+                # Iterate through speaker segments
+                for segment, track, label in overlapping_segments.itertracks(yield_label=True):
+                    if last_speaker is None:
+                        last_speaker = label
+                    elif label != last_speaker:
+                        segments.add(Segment(current_pos, segment.start))
+                        current_pos = segment.start
+                        speaker_change_detected = True
+                        break
+                        
+                if speaker_change_detected:
+                    continue
                 
             # Get the longest silence in this window
             max_silence = self.get_longest_silence(
