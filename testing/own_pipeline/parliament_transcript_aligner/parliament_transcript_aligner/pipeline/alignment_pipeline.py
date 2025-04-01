@@ -41,7 +41,8 @@ class AlignmentPipeline:
                  hf_cache_dir: Optional[str] = None,
                  hf_token: Optional[str] = None,
                  delete_wav_files: bool = False,
-                 wav_dir: Optional[Union[str, Path]] = None):
+                 wav_dir: Optional[Union[str, Path]] = None,
+                 with_diarization: bool = False):
         """
         Initialize the pipeline with configuration parameters.
         
@@ -60,12 +61,14 @@ class AlignmentPipeline:
             hf_token: Hugging Face token
             delete_wav_files: Whether to delete WAV that are created during segmentation by converting opus files
             wav_dir: Directory to save WAV files that are created during segmentation by converting opus files
+            with_diarization: Whether to use diarization
         """
         self.base_dir = Path(base_dir)
         self.csv_path = Path(csv_path)
         self.output_dir = Path(output_dir)
         self.cer_threshold = cer_threshold
         self.multi_transcript_strategy = multi_transcript_strategy
+        self.with_diarization = with_diarization
         
         # Default directories if not specified
         self.audio_dirs = audio_dirs or [
@@ -110,7 +113,7 @@ class AlignmentPipeline:
         """
         vad_pipeline = initialize_vad_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
         diarization_pipeline = initialize_diarization_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
-        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir)
+        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization)
     
     def _load_csv_metadata(self) -> Dict[str, List[str]]:
         """

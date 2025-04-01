@@ -167,7 +167,7 @@ class AudioSegmenter:
             
             segments_timeline = self.segment_audio(converted_wav_path)
             transcribed_segments = []
-            
+
             # Use tqdm to create a progress bar for segment processing
             for segment in tqdm(segments_timeline, desc="Transcribing segments", unit="segment"):
                 temp_path = self.extract_audio_segment(converted_wav_path, segment.start, segment.end)
