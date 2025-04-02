@@ -53,15 +53,22 @@ class AudioSegmenter:
             warnings.warn("No cache directory provided, using default cache directory")
             print("No cache directory provided, using default cache directory")
 
+        #model_name = "openai/whisper-large-v3"
+        #model_name = "distil-whisper/distil-large-v3"
+        model_name = "distil-whisper/distil-large-v3.5"
+
         # Load the model and processor with cache_dir
         model = AutoModelForSpeechSeq2Seq.from_pretrained(
-            "openai/whisper-large-v3",
+            model_name,
+            #torch_dtype=torch.float16,
+            low_cpu_mem_usage=True,
+            #attn_implementation="flash_attention_2",
             cache_dir=hf_cache_dir,
             device_map="cuda" if torch.cuda.is_available() else "cpu"
         )
 
         processor = AutoProcessor.from_pretrained(
-            "openai/whisper-large-v3",
+            model_name,
             cache_dir=hf_cache_dir
         )
 

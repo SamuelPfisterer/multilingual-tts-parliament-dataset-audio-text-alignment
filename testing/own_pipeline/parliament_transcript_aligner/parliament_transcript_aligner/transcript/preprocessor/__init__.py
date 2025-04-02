@@ -19,7 +19,7 @@ def create_preprocessor(file_path: str, config: Optional[Dict[str, Any]] = None)
     Raises:
         ValueError: If no suitable preprocessor is found
     """
-    preprocessors = [TxtPreprocessor, PdfPreprocessor]
+    preprocessors = [TxtPreprocessor, PdfPreprocessor, SrtPreprocessor]
     
     for preprocessor_class in preprocessors:
         if preprocessor_class.can_process(file_path):

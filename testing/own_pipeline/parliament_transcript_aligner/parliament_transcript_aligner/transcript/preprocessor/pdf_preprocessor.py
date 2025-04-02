@@ -39,10 +39,16 @@ class PdfPreprocessor(TranscriptPreprocessor):
             Preprocessed transcript text
         """
         try:
+            # Temporarily modify sys.path
+            import sys
+            original_path = sys.path.copy()
+            sys.path.append('/usr/itetnas04/data-scratch-01/spfisterer/data/Alignment/testing/own_pipeline')
             import my_pymupdf4llm
             import pypandoc
+            # Restore original path after imports
+            sys.path = original_path
         except ImportError:
-            raise ImportError("Please install pymupdf4llm and pypandoc for PDF processing")
+            raise ImportError("Please install my_pymupdf4llm and pypandoc for PDF processing")
         
         # Check if LLM processing is enabled
         use_llm = self.config.get('use_llm', False)
