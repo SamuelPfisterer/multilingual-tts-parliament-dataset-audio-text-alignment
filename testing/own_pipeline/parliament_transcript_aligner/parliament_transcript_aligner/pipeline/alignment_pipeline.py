@@ -42,7 +42,8 @@ class AlignmentPipeline:
                  hf_token: Optional[str] = None,
                  delete_wav_files: bool = False,
                  wav_dir: Optional[Union[str, Path]] = None,
-                 with_diarization: bool = False):
+                 with_diarization: bool = False,
+                 language: str = "en"):
         """
         Initialize the pipeline with configuration parameters.
         
@@ -62,6 +63,8 @@ class AlignmentPipeline:
             delete_wav_files: Whether to delete WAV that are created during segmentation by converting opus files
             wav_dir: Directory to save WAV files that are created during segmentation by converting opus files
             with_diarization: Whether to use diarization
+            language: Audio language code using ISO 639-1 standard (default: "en" for English). Examples: "es" for Spanish, "fr" for French, "de" for German.
+
         """
         self.base_dir = Path(base_dir)
         self.csv_path = Path(csv_path)
@@ -69,7 +72,7 @@ class AlignmentPipeline:
         self.cer_threshold = cer_threshold
         self.multi_transcript_strategy = multi_transcript_strategy
         self.with_diarization = with_diarization
-        
+        self.language = language
         # Default directories if not specified
         self.audio_dirs = audio_dirs or [
             "downloaded_audio/mp4_converted",
@@ -113,7 +116,7 @@ class AlignmentPipeline:
         """
         vad_pipeline = initialize_vad_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
         diarization_pipeline = initialize_diarization_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
-        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization)
+        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language)
     
     def _load_csv_metadata(self) -> Dict[str, List[str]]:
         """

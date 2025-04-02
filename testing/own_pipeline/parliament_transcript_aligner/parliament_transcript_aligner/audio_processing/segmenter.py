@@ -24,7 +24,8 @@ class AudioSegmenter:
                  hf_cache_dir: Optional[Union[Path, str]] = None,
                  delete_wav_files: bool = False,
                  wav_directory: Optional[Union[Path, str]] = None,
-                 with_diarization: bool = False):
+                 with_diarization: bool = False,
+                 language: str = "en"):
         """Initialize the AudioSegmenter.
         
         Args:
@@ -35,12 +36,17 @@ class AudioSegmenter:
             hf_cache_dir: Optional directory for Hugging Face cache
             delete_wav_files: Whether to delete temporary WAV files after processing (default: False)
             wav_directory: Optional directory to store WAV files (default: same directory as audio file)
+            with_diarization: Whether to use diarization (default: False)
+            language: Audio language code using ISO 639-1 standard (default: "en" for English). Examples: "es" for Spanish, "fr" for French, "de" for German.
+
+
         """
         self.vad_pipeline = vad_pipeline
         self.diarization_pipeline = diarization_pipeline
         self.window_min_size = window_min_size
         self.window_max_size = window_max_size
         self.with_diarization = with_diarization
+        self.language = language
         # Set cache directory for Hugging Face
         hf_cache_dir = hf_cache_dir if hf_cache_dir is not None else os.getenv("HF_CACHE_DIR")
         
@@ -55,7 +61,8 @@ class AudioSegmenter:
 
         #model_name = "openai/whisper-large-v3"
         #model_name = "distil-whisper/distil-large-v3"
-        model_name = "distil-whisper/distil-large-v3.5"
+        #model_name = "distil-whisper/distil-large-v3.5" # doesn't support languages other than English unfortunatelly
+        model_name = "openai/whisper-large-v3-turbo"
 
         # Load the model and processor with cache_dir
         model = AutoModelForSpeechSeq2Seq.from_pretrained(
@@ -73,11 +80,13 @@ class AudioSegmenter:
         )
 
         # Create the pipeline using the loaded model and processor
+        print(f"Using language: {self.language}")
         self.asr_pipeline = pipeline(
             "automatic-speech-recognition",
             model=model,
             tokenizer=processor.tokenizer,
-            feature_extractor=processor.feature_extractor
+            feature_extractor=processor.feature_extractor,
+            generate_kwargs={"language": self.language}
         )
         
         self.delete_wav_files = delete_wav_files
