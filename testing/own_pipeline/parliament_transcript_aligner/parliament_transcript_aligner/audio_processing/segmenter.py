@@ -25,7 +25,8 @@ class AudioSegmenter:
                  delete_wav_files: bool = False,
                  wav_directory: Optional[Union[Path, str]] = None,
                  with_diarization: bool = False,
-                 language: str = "en"):
+                 language: str = "en",
+                 batch_size: int = 1):
         """Initialize the AudioSegmenter.
         
         Args:
@@ -38,8 +39,7 @@ class AudioSegmenter:
             wav_directory: Optional directory to store WAV files (default: same directory as audio file)
             with_diarization: Whether to use diarization (default: False)
             language: Audio language code using ISO 639-1 standard (default: "en" for English). Examples: "es" for Spanish, "fr" for French, "de" for German.
-
-
+            batch_size: Number of segments the ASR model processes at once (default: 1, i.e. no batching, make sure to check how much VRAM is needed)
         """
         self.vad_pipeline = vad_pipeline
         self.diarization_pipeline = diarization_pipeline
@@ -47,6 +47,8 @@ class AudioSegmenter:
         self.window_max_size = window_max_size
         self.with_diarization = with_diarization
         self.language = language
+        self.batch_size = batch_size
+    
         # Set cache directory for Hugging Face
         hf_cache_dir = hf_cache_dir if hf_cache_dir is not None else os.getenv("HF_CACHE_DIR")
         
@@ -86,7 +88,8 @@ class AudioSegmenter:
             model=model,
             tokenizer=processor.tokenizer,
             feature_extractor=processor.feature_extractor,
-            generate_kwargs={"language": self.language}
+            generate_kwargs={"language": self.language},
+            batch_size=self.batch_size
         )
         
         self.delete_wav_files = delete_wav_files
@@ -182,17 +185,37 @@ class AudioSegmenter:
             converted_wav_path = self.convert_audio_to_wav(audio_path)
             
             segments_timeline = self.segment_audio(converted_wav_path)
+
+
+
             transcribed_segments = []
 
-            # Use tqdm to create a progress bar for segment processing
-            for segment in tqdm(segments_timeline, desc="Transcribing segments", unit="segment"):
-                temp_path = self.extract_audio_segment(converted_wav_path, segment.start, segment.end)
-                text = self.asr_pipeline(temp_path)["text"].strip()
-                
-                # Clean up
-                os.remove(temp_path)
-                
-                transcribed_segments.append(TranscribedSegment(segment, text))
+            if self.batch_size > 1:
+                temp_paths = [ self.extract_audio_segment(converted_wav_path, segment.start, segment.end) for segment in segments_timeline]
+                for i in tqdm(range(0, len(temp_paths), self.batch_size), desc="Batch Transcribing Segments with Batch Size of {self.batch_size}"):
+                    batch_temp_paths = temp_paths[i:i+self.batch_size]
+                    results = self.asr_pipeline(
+                        batch_temp_paths,
+                        return_timestamps=False  # Faster than word-level timestamps
+                    )
+
+                    # Cleanup and result mapping
+                    for temp_path, result in zip(batch_temp_paths, results):
+                        os.remove(temp_path)
+                        text = result["text"].strip()
+                        transcribed_segments.append(TranscribedSegment(segments_timeline[i], text))
+                        i += 1
+                    
+            else:
+                # Use tqdm to create a progress bar for segment processing
+                for segment in tqdm(segments_timeline, desc="Transcribing segments", unit="segment"):
+                    temp_path = self.extract_audio_segment(converted_wav_path, segment.start, segment.end)
+                    text = self.asr_pipeline(temp_path)["text"].strip()
+                    
+                    # Clean up
+                    os.remove(temp_path)
+                    
+                    transcribed_segments.append(TranscribedSegment(segment, text))
             
             return transcribed_segments
         finally:

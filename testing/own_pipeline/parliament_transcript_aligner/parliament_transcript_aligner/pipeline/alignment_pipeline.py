@@ -43,7 +43,8 @@ class AlignmentPipeline:
                  delete_wav_files: bool = False,
                  wav_dir: Optional[Union[str, Path]] = None,
                  with_diarization: bool = False,
-                 language: str = "en"):
+                 language: str = "en",
+                 batch_size: int = 1):
         """
         Initialize the pipeline with configuration parameters.
         
@@ -64,7 +65,7 @@ class AlignmentPipeline:
             wav_dir: Directory to save WAV files that are created during segmentation by converting opus files
             with_diarization: Whether to use diarization
             language: Audio language code using ISO 639-1 standard (default: "en" for English). Examples: "es" for Spanish, "fr" for French, "de" for German.
-
+            batch_size: Number of segments the ASR model processes at once (default: 1, i.e. no batching, make sure to check how much VRAM is needed)
         """
         self.base_dir = Path(base_dir)
         self.csv_path = Path(csv_path)
@@ -73,6 +74,8 @@ class AlignmentPipeline:
         self.multi_transcript_strategy = multi_transcript_strategy
         self.with_diarization = with_diarization
         self.language = language
+        self.batch_size = batch_size
+
         # Default directories if not specified
         self.audio_dirs = audio_dirs or [
             "downloaded_audio/mp4_converted",
@@ -116,7 +119,7 @@ class AlignmentPipeline:
         """
         vad_pipeline = initialize_vad_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
         diarization_pipeline = initialize_diarization_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
-        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language)
+        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language, batch_size=self.batch_size)
     
     def _load_csv_metadata(self) -> Dict[str, List[str]]:
         """
@@ -124,6 +127,9 @@ class AlignmentPipeline:
         
         Returns:
             A dictionary mapping video_ids to potential transcript_ids.
+
+        Raises:
+            ValueError: If no video_id or transcript_id is found for a row.
         """
         metadata = {}
         
@@ -134,10 +140,11 @@ class AlignmentPipeline:
                 video_id = row.get('video_id')
                 transcript_id = row.get('transcript_id')
                 
-                # Handle different CSV formats
-                if not video_id and 'processed_video_link' in row:
-                    # Extract from URL if needed
-                    video_id = self._extract_id_from_url(row['processed_video_link'])
+                # If video_id is not present, transcript_id is the video_id
+                if not video_id:
+                    if not transcript_id:
+                        raise ValueError(f"No video_id or transcript_id found for row: {row}")
+                    video_id = transcript_id
                 
                 if video_id:
                     if video_id not in metadata:

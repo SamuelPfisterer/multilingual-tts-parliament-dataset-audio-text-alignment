@@ -1,0 +1,59 @@
+{
+  "audio_file": "data/testing_library/audio/7501579_60s.opus",
+  "segments": [
+    {
+      "start": 7.72596875,
+      "end": 17.20971875,
+      "asr_text": "Merci.",
+      "human_text": "Bericht",
+      "cer": 0.6666666666666666,
+      "start_idx": 5,
+      "end_idx": 6
+    },
+    {
+      "start": 17.20971875,
+      "end": 26.54159375,
+      "asr_text": "Guten Tag, liebe Kolleginnen und Kollegen. Bitte nehmen Sie Platz.",
+      "human_text": "Guten Tag, liebe Kolleginnen und Kollegen! Bitte nehmen Sie Platz.",
+      "cer": 0.015151515151515152,
+      "start_idx": 6929,
+      "end_idx": 6939
+    },
+    {
+      "start": 26.54159375,
+      "end": 31.215968750000002,
+      "asr_text": "Ich eröffne die Sitzung.",
+      "human_text": "Ich eröffne die Sitzung.",
+      "cer": 0.0,
+      "start_idx": 6939,
+      "end_idx": 6943
+    },
+    {
+      "start": 31.215968750000002,
+      "end": 46.08,
+      "asr_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind die besorgniserregenden Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
+      "human_text": "Liebe Kolleginnen und Kollegen, wie Sie wissen, sind besorgniserregende Varianten des SARS-CoV-2-Virus weltweit, aber auch in Europa und in Deutschland identifiziert worden.",
+      "cer": 0.028089887640449437,
+      "start_idx": 6943,
+      "end_idx": 6965
+    },
+    {
+      "start": 46.08,
+      "end": 57.007999999999996,
+      "asr_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7",
+      "human_text": "Epidemiologische Erkenntnisse deuten darauf hin, dass insbesondere die in Deutschland nachgewiesene Mutation B.1.1.7",
+      "cer": 0.0,
+      "start_idx": 6965,
+      "end_idx": 6978
+    },
+    {
+      "start": 57.007999999999996,
+      "end": 77.008,
+      "asr_text": "deutlich infektiöser ist als das bisher bekannte Virus.",
+      "human_text": "deutlich infektiöser ist als das bisher bekannte Virus.",
+      "cer": 0.0,
+      "start_idx": 6978,
+      "end_idx": 6986
+    }
+  ]
+}
