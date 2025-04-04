@@ -91,7 +91,7 @@ class PdfPreprocessor(TranscriptPreprocessor):
                 if not self.config.get('keep_output_file', False):
                     Path(txt_path).unlink(missing_ok=True)
                     
-            return result
+            return self.solve_abbreviations(result)
         
         # Return markdown text if plain text conversion not requested
-        return md_text
+        return self.solve_abbreviations(md_text)

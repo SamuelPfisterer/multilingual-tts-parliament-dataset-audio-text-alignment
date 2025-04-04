@@ -19,6 +19,8 @@ from ..transcript.preprocessor import create_preprocessor
 from ..data_models.models import TranscribedSegment, AlignedTranscript
 from ..utils.io import save_alignments, save_transcribed_segments, load_transcribed_segments
 
+from typeguard import typechecked
+
 
 class AlignmentPipeline:
     """
@@ -44,7 +46,8 @@ class AlignmentPipeline:
                  wav_dir: Optional[Union[str, Path]] = None,
                  with_diarization: bool = False,
                  language: str = "en",
-                 batch_size: int = 1):
+                 batch_size: int = 1,
+                 abbreviations: Optional[Dict[str, str]] = {}):
         """
         Initialize the pipeline with configuration parameters.
         
@@ -66,6 +69,7 @@ class AlignmentPipeline:
             with_diarization: Whether to use diarization
             language: Audio language code using ISO 639-1 standard (default: "en" for English). Examples: "es" for Spanish, "fr" for French, "de" for German.
             batch_size: Number of segments the ASR model processes at once (default: 1, i.e. no batching, make sure to check how much VRAM is needed)
+            abbreviations: Dictionary mapping abbreviations to their full forms
         """
         self.base_dir = Path(base_dir)
         self.csv_path = Path(csv_path)
@@ -75,7 +79,7 @@ class AlignmentPipeline:
         self.with_diarization = with_diarization
         self.language = language
         self.batch_size = batch_size
-
+        self.abbreviations = abbreviations
         # Default directories if not specified
         self.audio_dirs = audio_dirs or [
             "downloaded_audio/mp4_converted",
@@ -281,6 +285,8 @@ class AlignmentPipeline:
         print(f"Preprocessing {format_type} transcript: {transcript_path}")
         # Use the factory to create an appropriate preprocessor
         preprocessor = create_preprocessor(str(transcript_path))
+        if self.abbreviations:
+            preprocessor.abbreviations = self.abbreviations
         
         # Preprocess the transcript
         return preprocessor.preprocess(str(transcript_path))
@@ -511,6 +517,7 @@ class AlignmentPipeline:
                 print(f"Error processing video {video_id}: {e}")
                 # Continue with next video
     
+    @typechecked
     def process_subset(self, video_ids: List[str]) -> None:
         """
         Process only a subset of video IDs.
@@ -520,6 +527,9 @@ class AlignmentPipeline:
         """
         print(f"Loading metadata from {self.csv_path}")
         metadata = self._load_csv_metadata()
+        print(f"Found {len(metadata)} video IDs in metadata")
+        
+        
         
         for video_id in video_ids:
             if video_id in metadata:
