@@ -17,9 +17,19 @@ from ..audio_processing.vad import initialize_vad_pipeline
 from ..transcript.aligner import TranscriptAligner
 from ..transcript.preprocessor import create_preprocessor
 from ..data_models.models import TranscribedSegment, AlignedTranscript
-from ..utils.io import save_alignments, save_transcribed_segments, load_transcribed_segments
+from ..utils.io import save_alignments, save_transcribed_segments, load_transcribed_segments, get_alignment_stats
+
+from ..utils.logging.supabase_logging import (
+    get_supabase,
+    SupabaseClient,
+    SupabaseClientError,
+    AlignmentMetrics
+)
 
 from typeguard import typechecked
+
+SUPABASE_URL = "https://jyrujzmpicrqjcdwfwwr.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp5cnVqem1waWNycWpjZHdmd3dyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzYwOTI3ODcsImV4cCI6MjA1MTY2ODc4N30.jzAOM2BFVAH25kZNfR4ownHYqRF_XXqpYq9DiERi-Lk"
 
 
 class AlignmentPipeline:
@@ -47,7 +57,12 @@ class AlignmentPipeline:
                  with_diarization: bool = False,
                  language: str = "en",
                  batch_size: int = 1,
-                 abbreviations: Optional[Dict[str, str]] = {}):
+                 abbreviations: Optional[Dict[str, str]] = {},
+                 supabase_logging_enabled: bool = True,
+                 supabase_url: Optional[str] = SUPABASE_URL,
+                 supabase_key: Optional[str] = SUPABASE_KEY,
+                 supabase_environment_file_path: Optional[str] = None,
+                 parliament_id: Optional[str] = None):
         """
         Initialize the pipeline with configuration parameters.
         
@@ -70,6 +85,11 @@ class AlignmentPipeline:
             language: Audio language code using ISO 639-1 standard (default: "en" for English). Examples: "es" for Spanish, "fr" for French, "de" for German.
             batch_size: Number of segments the ASR model processes at once (default: 1, i.e. no batching, make sure to check how much VRAM is needed)
             abbreviations: Dictionary mapping abbreviations to their full forms
+            supabase_logging_enabled: Whether to enable logging to Supabase
+            supabase_url: Supabase URL
+            supabase_key: Supabase key
+            supabase_environment_file_path: Path to environment file containing Supabase URL and key
+            parliament_id: Parliament ID
         """
         self.base_dir = Path(base_dir)
         self.csv_path = Path(csv_path)
@@ -80,6 +100,11 @@ class AlignmentPipeline:
         self.language = language
         self.batch_size = batch_size
         self.abbreviations = abbreviations
+        self.supabase_logging_enabled = supabase_logging_enabled
+        self.supabase_url = supabase_url
+        self.supabase_key = supabase_key
+        self.supabase_environment_file_path = supabase_environment_file_path
+        self.parliament_id = parliament_id
         # Default directories if not specified
         self.audio_dirs = audio_dirs or [
             "downloaded_audio/mp4_converted",
@@ -96,6 +121,23 @@ class AlignmentPipeline:
             "downloaded_transcript/processed_text_transcripts",
             "downloaded_subtitle/srt_subtitles"
         ]
+
+        # supabase check
+        self.supabase_client = None
+        if supabase_logging_enabled:
+            if not parliament_id:
+                raise ValueError("parliament_id is required when using SupabaseClient")
+            if not (supabase_url and supabase_key) and not supabase_environment_file_path:
+                raise ValueError("supabase_url and supabase_key or supabase_environment_file_path is required when using SupabaseClient")
+            self.supabase_client = get_supabase(
+                url=self.supabase_url,
+                key=self.supabase_key,
+                environment_file_path=self.supabase_environment_file_path,
+                parliament_id=parliament_id,
+                audio_dirs=[str(self.base_dir / audio_dir) for audio_dir in self.audio_dirs]
+            )
+            # check if the parliament_id exist in the database
+
         
         self.cache_dir = Path(cache_dir) if cache_dir else self.output_dir / "cache"
         self.use_cache = use_cache
@@ -123,7 +165,7 @@ class AlignmentPipeline:
         """
         vad_pipeline = initialize_vad_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
         diarization_pipeline = initialize_diarization_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
-        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language, batch_size=self.batch_size)
+        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language, batch_size=self.batch_size, supabase_client=self.supabase_client)
     
     def _load_csv_metadata(self) -> Dict[str, List[str]]:
         """
@@ -263,7 +305,7 @@ class AlignmentPipeline:
         
         print(f"Segmenting audio for {video_id}")
         # Segment and transcribe
-        segments = self.audio_segmenter.segment_and_transcribe(str(audio_path))
+        segments = self.audio_segmenter.segment_and_transcribe(str(audio_path), video_id=video_id)
         
         # Cache results
         print(f"Caching segments for {video_id}")
@@ -459,10 +501,15 @@ class AlignmentPipeline:
             'video_id': video_id,
             'audio_path': str(audio_path),
             'selected_transcripts': selected_transcripts
-        }
+        } 
         
         self._save_results(video_id, results)
-        
+
+        if self.supabase_client:
+            transcript_paths = [f"{self.output_dir}/{video_id}_{transcript_data['transcript_id']}_aligned.json" for transcript_data in results['selected_transcripts']] # depends on _save_results
+            metrics = get_alignment_stats(transcript_paths)
+            self.supabase_client.complete_video_alignment(video_id, metrics)
+
         return results
     
     def _save_results(self, video_id: str, results: Dict[str, Any]) -> None:
@@ -509,12 +556,18 @@ class AlignmentPipeline:
         metadata = self._load_csv_metadata()
         
         print(f"Found {len(metadata)} video IDs in metadata")
+
         
         for video_id in metadata:
+            if self.supabase_client:
+                self.supabase_client.start_video_alignment(video_id) # we might check if the video_id already exists in the database, whcih is supported by start_video_alignment
+
             try:
                 self._process_single_audio(video_id, metadata)
             except Exception as e:
                 print(f"Error processing video {video_id}: {e}")
+                if self.supabase_client:
+                    self.supabase_client.fail_video_alignment(video_id, str(e))
                 # Continue with next video
     
     @typechecked
@@ -533,9 +586,13 @@ class AlignmentPipeline:
         
         for video_id in video_ids:
             if video_id in metadata:
+                if self.supabase_client:
+                    self.supabase_client.start_video_alignment(video_id) # we might check if the video_id already exists in the database, whcih is supported by start_video_alignment
                 try:
                     self._process_single_audio(video_id, metadata)
                 except Exception as e:
                     print(f"Error processing video {video_id}: {e}")
+                    if self.supabase_client:
+                        self.supabase_client.fail_video_alignment(video_id, str(e))
             else:
                 print(f"Video ID {video_id} not found in metadata")

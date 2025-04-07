@@ -11,9 +11,11 @@ from pydub import AudioSegment
 from pydub import silence  # Added this import for silence detection
 import numpy as np
 from tqdm import tqdm  # Added tqdm for progress bar
+import time
 
 from ..data_models.models import TranscribedSegment
 from ..audio_processing.vad.silero_vad import get_silero_vad  # Import get_silero_vad directly
+from ..utils.logging.supabase_logging import SupabaseClient
 
 class AudioSegmenter:
     def __init__(self, 
@@ -26,7 +28,8 @@ class AudioSegmenter:
                  wav_directory: Optional[Union[Path, str]] = None,
                  with_diarization: bool = False,
                  language: str = "en",
-                 batch_size: int = 1):
+                 batch_size: int = 1,
+                 supabase_client: Optional[SupabaseClient] = None):
         """Initialize the AudioSegmenter.
         
         Args:
@@ -48,6 +51,7 @@ class AudioSegmenter:
         self.with_diarization = with_diarization
         self.language = language
         self.batch_size = batch_size
+        self.supabase_client = supabase_client
     
         # Set cache directory for Hugging Face
         hf_cache_dir = hf_cache_dir if hf_cache_dir is not None else os.getenv("HF_CACHE_DIR")
@@ -169,7 +173,7 @@ class AudioSegmenter:
         segment.export(temp_path, format="wav")
         return temp_path
 
-    def segment_and_transcribe(self, audio_path: str) -> List[TranscribedSegment]:
+    def segment_and_transcribe(self, audio_path: str, video_id: Optional[str] = None) -> List[TranscribedSegment]:
         """Segment audio file and transcribe each segment.
         
         Args:
@@ -183,10 +187,31 @@ class AudioSegmenter:
             # Convert to WAV if needed
             print(f"Converting audio file to wav before segmenting: {audio_path}")
             converted_wav_path = self.convert_audio_to_wav(audio_path)
+
+            if self.supabase_client:
+                if video_id is None:
+                    raise ValueError("video_id is required when using SupabaseClient")
+                self.supabase_client.update_transcribing_start(video_id)
+            segmentation_start_time = time.time()    
             
             segments_timeline = self.segment_audio(converted_wav_path)
 
+            segmentation_duration = time.time() - segmentation_start_time
 
+            print(f"Segmentation duration: {segmentation_duration} seconds")
+
+            if self.supabase_client:
+                if video_id is None:
+                    raise ValueError("video_id is required when using SupabaseClient")
+                self.supabase_client.update_segmentation_complete(video_id, segmentation_duration, len(segments_timeline))
+
+
+
+            if self.supabase_client: 
+                if video_id is None:
+                    raise ValueError("video_id is required when using SupabaseClient")
+                self.supabase_client.update_transcribing_start(video_id)
+            transcribing_start_time = time.time()
 
             transcribed_segments = []
 
@@ -217,6 +242,14 @@ class AudioSegmenter:
                     
                     transcribed_segments.append(TranscribedSegment(segment, text))
             
+            transcribing_duration = time.time() - transcribing_start_time
+            print(f"Transcribing duration: {transcribing_duration} seconds")
+
+            if self.supabase_client:
+                if video_id is None:
+                    raise ValueError("video_id is required when using SupabaseClient")
+                self.supabase_client.update_transcribing_complete(video_id, transcribing_duration)
+
             return transcribed_segments
         finally:
             # Clean up the converted WAV file if needed
