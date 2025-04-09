@@ -225,7 +225,15 @@ class TranscriptAligner:
             
             if crossed_cer_threshold and best_cer_for_candidate_start > self.finetune_cer_threshold:
                 return best_match
-                
+        if best_match is None:
+            print(f"No best match found for {asr_segment.text}")
+            # print the values relevant for the for looops, to see if we didn't go into some loops/ break always
+            print(f"num_predicted: {num_predicted}")
+            print(f"local_margin: {local_margin}")
+            print(f"region_start_idx: {region_start_idx}")
+            print(f"transcript_tokens length: {len(transcript_tokens)}")
+            
+
         return best_match
 
     def _create_fallback_alignment(self,

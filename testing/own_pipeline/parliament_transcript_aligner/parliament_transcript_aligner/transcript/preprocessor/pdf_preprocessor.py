@@ -52,6 +52,8 @@ class PdfPreprocessor(TranscriptPreprocessor):
         
         # Check if LLM processing is enabled
         use_llm = self.config.get('use_llm', False)
+        # Check if docling processing is enabled
+        with_docling = self.config.get('with_docling', False)
         
         # Define system prompt for LLM if enabled
         system_prompt = None
@@ -59,13 +61,23 @@ class PdfPreprocessor(TranscriptPreprocessor):
             # Allow custom system prompt from config
             system_prompt = self.config.get('system_prompt', self.DEFAULT_SYSTEM_PROMPT)
         
-        # Extract text from PDF
-        md_text = my_pymupdf4llm.to_markdown(
-            file_path, 
-            debug_columns=self.config.get('debug_columns', False),
-            use_llm=use_llm,
-            llm_system_prompt=system_prompt if use_llm else None
-        )
+        # Extract text from PDF using docling if specified
+        if with_docling:
+            try:
+                from docling.document_converter import DocumentConverter
+                converter = DocumentConverter()
+                docx_result = converter.convert(file_path)
+                md_text = docx_result.document.export_to_markdown()
+            except ImportError:
+                raise ImportError("Please install docling for document conversion")
+        else:
+            # Use the default method
+            md_text = my_pymupdf4llm.to_markdown(
+                file_path, 
+                debug_columns=self.config.get('debug_columns', False),
+                use_llm=use_llm,
+                llm_system_prompt=system_prompt if use_llm else None
+            )
         
         # Convert markdown to plain text if requested
         if self.config.get('convert_to_plain', True):
@@ -86,10 +98,13 @@ class PdfPreprocessor(TranscriptPreprocessor):
                 result = f.read()
                 
             # Clean up temporary files
+            """"
             if not self.config.get('keep_temp_files', False):
                 Path(temp_md_path).unlink(missing_ok=True)
                 if not self.config.get('keep_output_file', False):
                     Path(txt_path).unlink(missing_ok=True)
+            """
+            print(f"Keeping temporary files: {temp_md_path} and {txt_path}")
                     
             return self.solve_abbreviations(result)
         

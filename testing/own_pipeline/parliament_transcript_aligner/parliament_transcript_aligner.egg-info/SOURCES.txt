@@ -21,7 +21,9 @@ parliament_transcript_aligner/transcript/__init__.py
 parliament_transcript_aligner/transcript/aligner.py
 parliament_transcript_aligner/transcript/preprocessor/__init__.py
 parliament_transcript_aligner/transcript/preprocessor/base.py
+parliament_transcript_aligner/transcript/preprocessor/docx_preprocessor.py
 parliament_transcript_aligner/transcript/preprocessor/pdf_preprocessor.py
+parliament_transcript_aligner/transcript/preprocessor/srt_preprocessor.py
 parliament_transcript_aligner/transcript/preprocessor/txt_preprocessor.py
 parliament_transcript_aligner/utils/__init__.py
 parliament_transcript_aligner/utils/io.py

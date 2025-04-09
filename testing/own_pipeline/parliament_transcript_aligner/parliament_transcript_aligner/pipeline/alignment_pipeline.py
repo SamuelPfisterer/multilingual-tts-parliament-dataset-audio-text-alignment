@@ -27,6 +27,7 @@ from ..utils.logging.supabase_logging import (
 )
 
 from typeguard import typechecked
+import traceback
 
 SUPABASE_URL = "https://jyrujzmpicrqjcdwfwwr.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp5cnVqem1waWNycWpjZHdmd3dyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzYwOTI3ODcsImV4cCI6MjA1MTY2ODc4N30.jzAOM2BFVAH25kZNfR4ownHYqRF_XXqpYq9DiERi-Lk"
@@ -120,6 +121,7 @@ class AlignmentPipeline:
             "downloaded_transcript/dynamic_html_transcripts",
             "downloaded_transcript/processed_html_transcripts",
             "downloaded_transcript/processed_text_transcripts",
+            "downloaded_transcript/doc_transcripts",
             "downloaded_subtitle/srt_subtitles"
         ]
 
@@ -260,18 +262,28 @@ class AlignmentPipeline:
             A dictionary mapping format to file path
         """
         transcript_files = {}
+
+        found_valid_transcript_directory = False
+        valid_extensions = ['.pdf', '.html', '.txt', '.srt', '.docx', '.doc']
         
         for transcript_dir in self.transcript_dirs:
             full_dir = self.base_dir / transcript_dir
             if not full_dir.exists():
                 continue
             
+            found_valid_transcript_directory = True
             # Check for different format extensions
-            for ext in ['.pdf', '.html', '.txt', '.srt']:
+            for ext in valid_extensions:
                 file_path = full_dir / f"{transcript_id}{ext}"
                 if file_path.exists():
                     format_type = ext[1:]  # Remove the dot
                     transcript_files[format_type] = file_path
+
+        if not found_valid_transcript_directory:
+            print(f"No valid transcript directory found for {transcript_id}")
+
+        if not transcript_files:
+            print(f"No transcript files found for {transcript_id}. Searched {valid_extensions}")
         
         return transcript_files
     
@@ -362,7 +374,12 @@ class AlignmentPipeline:
             List of aligned transcript segments
         """
         print(f"Aligning transcript with {len(segments)} segments")
-        return self.transcript_aligner.align_transcript(segments, transcript_text)
+        try:
+            return self.transcript_aligner.align_transcript(segments, transcript_text)
+        except Exception as e:
+            print(f"Error aligning transcript: {e}")
+            traceback.print_exc()
+            raise e
     
     def _process_single_audio(self, video_id: str, metadata: Dict[str, List[str]]) -> Optional[Dict[str, Any]]:
         """
