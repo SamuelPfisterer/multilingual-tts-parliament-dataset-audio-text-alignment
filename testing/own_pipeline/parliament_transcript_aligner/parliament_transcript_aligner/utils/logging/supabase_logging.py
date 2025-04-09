@@ -78,14 +78,17 @@ class SupabaseClient:
 
         if not response.data:
             logger.info(f"Parliament {parliament_id} does not exist in the database, creating a new entry")
+            found_non_empty_dir = False  # Flag to track if a non-empty directory is found
             for audio_dir in audio_dirs:
                 audio_stats = get_audio_directory_stats(audio_dir)
                 if audio_stats['total_audio_files'] > 0:
                     logger.info(f"Found {audio_stats['total_audio_files']} audio files in {audio_dir}, selecting this directory for parliament stats")
                     self.create_parliament_entry(parliament_id, audio_stats['total_audio_files'], audio_stats['total_audio_duration_hours'])
+                    found_non_empty_dir = True
                     break
-            logger.error(f"All audio directories are empty, please check the audio_dirs parameter. The following directories were checked: {audio_dirs}")
-            raise SupabaseClientError(f"All audio directories are empty, please check the audio_dirs parameter")
+            if not found_non_empty_dir:
+                logger.error(f"All audio directories are empty, please check the audio_dirs parameter. The following directories were checked: {audio_dirs}")
+                raise SupabaseClientError(f"All audio directories are empty, please check the audio_dirs parameter")
             
     def create_parliament_entry(self, 
                               parliament_id: str,
