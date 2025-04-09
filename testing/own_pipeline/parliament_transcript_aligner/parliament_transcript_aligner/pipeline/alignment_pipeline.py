@@ -110,7 +110,8 @@ class AlignmentPipeline:
             "downloaded_audio/mp4_converted",
             "downloaded_audio/youtube_converted",
             "downloaded_audio/m3u8_streams",
-            "downloaded_audio/generic_video"
+            "downloaded_audio/generic_video",
+            "downloaded_audio/mp3_audio"
         ]
         
         self.transcript_dirs = transcript_dirs or [
@@ -560,7 +561,10 @@ class AlignmentPipeline:
         
         for video_id in metadata:
             if self.supabase_client:
-                self.supabase_client.start_video_alignment(video_id) # we might check if the video_id already exists in the database, whcih is supported by start_video_alignment
+                is_new = self.supabase_client.start_video_alignment(video_id)
+                if not is_new:
+                    print(f"Video {video_id} already exists in the database, skipping")
+                    continue
 
             try:
                 self._process_single_audio(video_id, metadata)
