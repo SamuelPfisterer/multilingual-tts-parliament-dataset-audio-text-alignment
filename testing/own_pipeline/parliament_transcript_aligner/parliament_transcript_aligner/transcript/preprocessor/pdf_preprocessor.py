@@ -98,13 +98,16 @@ class PdfPreprocessor(TranscriptPreprocessor):
                 result = f.read()
                 
             # Clean up temporary files
-            """"
+            
             if not self.config.get('keep_temp_files', False):
                 Path(temp_md_path).unlink(missing_ok=True)
                 if not self.config.get('keep_output_file', False):
                     Path(txt_path).unlink(missing_ok=True)
-            """
-            print(f"Keeping temporary files: {temp_md_path} and {txt_path}")
+                else:
+                    print(f"Keeping temporary file: {txt_path}")
+            else:
+                print(f"Keeping temporary files: {temp_md_path} and {txt_path}")
+        
                     
             return self.solve_abbreviations(result)
         
