@@ -24,7 +24,7 @@ class AudioSegmenter:
                  window_min_size: float = 10.0, 
                  window_max_size: float = 20.0,
                  hf_cache_dir: Optional[Union[Path, str]] = None,
-                 delete_wav_files: bool = False,
+                 delete_wav_files: bool = True,
                  wav_directory: Optional[Union[Path, str]] = None,
                  with_diarization: bool = False,
                  language: str = "en",
