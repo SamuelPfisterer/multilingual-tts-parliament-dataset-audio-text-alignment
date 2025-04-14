@@ -9,7 +9,7 @@ import csv
 import json
 import statistics
 from pathlib import Path
-from typing import Dict, List, Optional, Any, Union, Tuple
+from typing import Dict, List, Optional, Any, Union, Tuple, Callable
 
 from ..audio_processing.segmenter import AudioSegmenter
 from ..audio_processing.diarization import initialize_diarization_pipeline
@@ -28,6 +28,8 @@ from ..utils.logging.supabase_logging import (
 
 from typeguard import typechecked
 import traceback
+import logging
+
 
 SUPABASE_URL = "https://jyrujzmpicrqjcdwfwwr.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp5cnVqem1waWNycWpjZHdmd3dyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzYwOTI3ODcsImV4cCI6MjA1MTY2ODc4N30.jzAOM2BFVAH25kZNfR4ownHYqRF_XXqpYq9DiERi-Lk"
@@ -59,6 +61,7 @@ class AlignmentPipeline:
                  language: str = "en",
                  batch_size: int = 1,
                  abbreviations: Optional[Dict[str, str]] = {},
+                 html_processor: Optional[Callable] = None,
                  supabase_logging_enabled: bool = True,
                  supabase_url: Optional[str] = SUPABASE_URL,
                  supabase_key: Optional[str] = SUPABASE_KEY,
@@ -86,6 +89,7 @@ class AlignmentPipeline:
             language: Audio language code using ISO 639-1 standard (default: "en" for English). Examples: "es" for Spanish, "fr" for French, "de" for German.
             batch_size: Number of segments the ASR model processes at once (default: 1, i.e. no batching, make sure to check how much VRAM is needed)
             abbreviations: Dictionary mapping abbreviations to their full forms
+            html_processor: Custom function for processing HTML transcripts, must be of type Callable[[str, Dict], str], i.e. it takes a html string and a dictionary and returns a string
             supabase_logging_enabled: Whether to enable logging to Supabase
             supabase_url: Supabase URL
             supabase_key: Supabase key
@@ -101,6 +105,7 @@ class AlignmentPipeline:
         self.language = language
         self.batch_size = batch_size
         self.abbreviations = abbreviations
+        self.html_processor = html_processor
         self.supabase_logging_enabled = supabase_logging_enabled
         self.supabase_url = supabase_url
         self.supabase_key = supabase_key
@@ -112,7 +117,8 @@ class AlignmentPipeline:
             "downloaded_audio/youtube_converted",
             "downloaded_audio/m3u8_streams",
             "downloaded_audio/generic_video",
-            "downloaded_audio/mp3_audio"
+            "downloaded_audio/mp3_audio",
+            "downloaded_audio/processed_video"
         ]
         
         self.transcript_dirs = transcript_dirs or [
@@ -166,8 +172,9 @@ class AlignmentPipeline:
         Returns:
             AudioSegmenter instance
         """
-        vad_pipeline = initialize_vad_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
-        diarization_pipeline = initialize_diarization_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
+        vad_pipeline = None #initialize_vad_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
+        diarization_pipeline = None # initialize_diarization_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
+        logging.warning("Diarization pipeline and VAD pipeline not initialized!!! We did this because of the weights only problem")
         return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language, batch_size=self.batch_size, supabase_client=self.supabase_client)
     
     def _load_csv_metadata(self) -> Dict[str, List[str]]:
@@ -200,9 +207,10 @@ class AlignmentPipeline:
                         metadata[video_id] = []
                     
                     if transcript_id:
+                        # If transcript_id and video_id, we have to try transcript_id or f"{video_id}_{transcript_id}"
                         metadata[video_id].append(transcript_id)
+                        metadata[video_id].append(f"{video_id}_{transcript_id}")
                     elif video_id not in metadata[video_id]:
-                        # If no transcript_id, use video_id as transcript_id
                         metadata[video_id].append(video_id)
         
         return metadata
@@ -338,8 +346,17 @@ class AlignmentPipeline:
             The preprocessed text
         """
         print(f"Preprocessing {format_type} transcript: {transcript_path}")
+        
+        # Create preprocessor config
+        config = {}
+        
+        # Add HTML processor to config if available and this is an HTML file
+        if format_type == 'html' and self.html_processor:
+            config['html_processor'] = self.html_processor
+            print(f"Using custom HTML processor for {transcript_path}")
+        
         # Use the factory to create an appropriate preprocessor
-        preprocessor = create_preprocessor(str(transcript_path))
+        preprocessor = create_preprocessor(str(transcript_path), config=config)
         if self.abbreviations:
             preprocessor.abbreviations = self.abbreviations
         
