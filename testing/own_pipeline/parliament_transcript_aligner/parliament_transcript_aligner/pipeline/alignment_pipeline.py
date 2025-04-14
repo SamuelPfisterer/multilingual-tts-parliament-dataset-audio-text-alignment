@@ -66,7 +66,8 @@ class AlignmentPipeline:
                  supabase_url: Optional[str] = SUPABASE_URL,
                  supabase_key: Optional[str] = SUPABASE_KEY,
                  supabase_environment_file_path: Optional[str] = None,
-                 parliament_id: Optional[str] = None):
+                 parliament_id: Optional[str] = None,
+                 with_pydub_silences: bool = False):
         """
         Initialize the pipeline with configuration parameters.
         
@@ -95,6 +96,7 @@ class AlignmentPipeline:
             supabase_key: Supabase key
             supabase_environment_file_path: Path to environment file containing Supabase URL and key
             parliament_id: Parliament ID
+            with_pydub_silences: Whether to use pydub to detect silences, when no silences are detected with VAD (default: False)
         """
         self.base_dir = Path(base_dir)
         self.csv_path = Path(csv_path)
@@ -111,6 +113,7 @@ class AlignmentPipeline:
         self.supabase_key = supabase_key
         self.supabase_environment_file_path = supabase_environment_file_path
         self.parliament_id = parliament_id
+        self.with_pydub_silences = with_pydub_silences
         # Default directories if not specified
         self.audio_dirs = audio_dirs or [
             "downloaded_audio/mp4_converted",
@@ -175,7 +178,7 @@ class AlignmentPipeline:
         vad_pipeline = None #initialize_vad_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
         diarization_pipeline = None # initialize_diarization_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
         logging.warning("Diarization pipeline and VAD pipeline not initialized!!! We did this because of the weights only problem")
-        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language, batch_size=self.batch_size, supabase_client=self.supabase_client)
+        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language, batch_size=self.batch_size, supabase_client=self.supabase_client, with_pydub_silences=self.with_pydub_silences)
     
     def _load_csv_metadata(self) -> Dict[str, List[str]]:
         """

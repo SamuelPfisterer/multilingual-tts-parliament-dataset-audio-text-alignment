@@ -29,7 +29,8 @@ class AudioSegmenter:
                  with_diarization: bool = False,
                  language: str = "en",
                  batch_size: int = 1,
-                 supabase_client: Optional[SupabaseClient] = None):
+                 supabase_client: Optional[SupabaseClient] = None,
+                 with_pydub_silences: bool = False):
         """Initialize the AudioSegmenter.
         
         Args:
@@ -43,6 +44,7 @@ class AudioSegmenter:
             with_diarization: Whether to use diarization (default: False)
             language: Audio language code using ISO 639-1 standard (default: "en" for English). Examples: "es" for Spanish, "fr" for French, "de" for German.
             batch_size: Number of segments the ASR model processes at once (default: 1, i.e. no batching, make sure to check how much VRAM is needed)
+            with_pydub_silences: Whether to use pydub to detect silences, when no silences are detected with VAD (default: False)
         """
         self.vad_pipeline = vad_pipeline
         self.diarization_pipeline = diarization_pipeline
@@ -52,7 +54,7 @@ class AudioSegmenter:
         self.language = language
         self.batch_size = batch_size
         self.supabase_client = supabase_client
-    
+        self.with_pydub_silences = with_pydub_silences
         # Set cache directory for Hugging Face
         hf_cache_dir = hf_cache_dir if hf_cache_dir is not None else os.getenv("HF_CACHE_DIR")
         
@@ -285,8 +287,11 @@ class AudioSegmenter:
         audio = AudioSegment.from_file(audio_path)
         audio = audio.normalize(headroom=5)
         silence_threshold = np.percentile([frame.rms for frame in audio[::100]], 15)
-        silences = silence.detect_silence(audio, min_silence_len=200, silence_thresh=silence_threshold, seek_step=15)
-        silence_regions = Timeline([Segment(start/1000, end/1000) for start, end in silences])
+        if self.with_pydub_silences:
+            silences = silence.detect_silence(audio, min_silence_len=200, silence_thresh=silence_threshold, seek_step=15)
+            silence_regions = Timeline([Segment(start/1000, end/1000) for start, end in silences])
+        else:
+            silence_regions = None
         
         segments = Timeline()
 
@@ -356,12 +361,13 @@ class AudioSegmenter:
             )
             
             if max_silence is None:
-                # If no silence found with pyannote, try pydub
-                max_silence = self.get_longest_silence(
-                    silence_regions, 
-                    window_start, 
-                    window_end
-                )
+                if self.with_pydub_silences and silence_regions:
+                    # If no silence found with pyannote, try pydub
+                    max_silence = self.get_longest_silence(
+                        silence_regions, 
+                        window_start, 
+                        window_end
+                    )
                 if max_silence is None:
                     # If no silence found with pydub, add the whole window
                     segments.add(Segment(current_pos, window_end))
