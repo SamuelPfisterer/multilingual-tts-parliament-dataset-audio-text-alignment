@@ -3,6 +3,9 @@ from pyannote.audio.pipelines import VoiceActivityDetection
 from pyannote.audio import Model
 from typing import Optional
 from pathlib import Path
+import torch
+import torch.serialization
+
 
 def initialize_vad_pipeline(hf_cache_dir: Optional[Path] = None, hf_token: Optional[str] = None) -> VoiceActivityDetection:
     """Initialize the pyannote VAD pipeline.
@@ -14,6 +17,14 @@ def initialize_vad_pipeline(hf_cache_dir: Optional[Path] = None, hf_token: Optio
         Configured VAD pipeline
     """
     
+    # Add omegaconf.listconfig.ListConfig to safe globals for PyTorch 2.6+ compatibility
+    from omegaconf import ListConfig
+    from omegaconf.base import ContainerMetadata
+
+    torch.serialization.add_safe_globals([ListConfig, ContainerMetadata])
+    torch.serialization.add_safe_globals([object])
+
+
     # First load the model with cache_dir
     model = Model.from_pretrained(
         "pyannote/segmentation",

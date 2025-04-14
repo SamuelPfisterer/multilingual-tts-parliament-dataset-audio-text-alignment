@@ -459,6 +459,10 @@ class AlignmentPipeline:
                 
                 # Align with audio segments
                 aligned_segments = self._align_transcript(audio_segments, transcript_text)
+
+                # remove all none elements from aligned_segments
+                aligned_segments = [segment for segment in aligned_segments if segment is not None]
+                #TODO: maybe we should add logging here if we have removed many elements
                 
                 # Calculate CER
                 median_cer = self._calculate_median_cer(aligned_segments)
@@ -604,6 +608,7 @@ class AlignmentPipeline:
                 self._process_single_audio(video_id, metadata)
             except Exception as e:
                 print(f"Error processing video {video_id}: {e}")
+                traceback.print_exc()
                 if self.supabase_client:
                     self.supabase_client.fail_video_alignment(video_id, str(e))
                 # Continue with next video
@@ -630,6 +635,7 @@ class AlignmentPipeline:
                     self._process_single_audio(video_id, metadata)
                 except Exception as e:
                     print(f"Error processing video {video_id}: {e}")
+                    traceback.print_exc()
                     if self.supabase_client:
                         self.supabase_client.fail_video_alignment(video_id, str(e))
             else:

@@ -64,6 +64,9 @@ class TranscriptAligner:
         best_matches = []
         for region_start_idx in region_start_idxs:
             best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
+            if not best_match:
+                #TODO: maybe we should add some logging here
+                continue
             if best_match.cer <= self.region_cer_threshold:
                 best_matches.append(best_match)
                 
@@ -81,6 +84,9 @@ class TranscriptAligner:
         best_matches = []
         for region_start_idx in region_start_idxs:
             best_match = self._fine_tune_match(asr_segment, transcript_tokens, region_start_idx)
+            if not best_match:
+                #TODO: maybe we should add some logging here
+                continue
             if best_match.cer <= self.region_cer_threshold * 1.5:
                 best_matches.append(best_match)
                 
