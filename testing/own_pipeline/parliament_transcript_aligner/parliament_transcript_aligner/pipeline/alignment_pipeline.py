@@ -178,8 +178,7 @@ class AlignmentPipeline:
         vad_pipeline = None #initialize_vad_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
         diarization_pipeline = None # initialize_diarization_pipeline(hf_cache_dir=self.hf_cache_dir, hf_token=self.hf_token)
         logging.warning("Diarization pipeline and VAD pipeline not initialized!!! We did this because of the weights only problem")
-        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language, batch_size=self.batch_size, supabase_client=self.supabase_client, with_pydub_silences=self.with_pydub_silences
-        wav_directory=self.wav_directory, delete_wav_files=self.delete_wav_files)
+        return AudioSegmenter(vad_pipeline, diarization_pipeline, hf_cache_dir=self.hf_cache_dir, with_diarization=self.with_diarization, language=self.language, batch_size=self.batch_size, supabase_client=self.supabase_client, with_pydub_silences=self.with_pydub_silences, wav_directory=self.wav_dir, delete_wav_files=self.delete_wav_files)
     
     def _load_csv_metadata(self) -> Dict[str, List[str]]:
         """

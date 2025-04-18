@@ -232,12 +232,14 @@ class TranscriptAligner:
             if crossed_cer_threshold and best_cer_for_candidate_start > self.finetune_cer_threshold:
                 return best_match
         if best_match is None:
+            """
             print(f"No best match found for {asr_segment.text}")
             # print the values relevant for the for looops, to see if we didn't go into some loops/ break always
             print(f"num_predicted: {num_predicted}")
             print(f"local_margin: {local_margin}")
             print(f"region_start_idx: {region_start_idx}")
             print(f"transcript_tokens length: {len(transcript_tokens)}")
+            """
             
 
         return best_match
@@ -266,7 +268,7 @@ class TranscriptAligner:
         last_end_idx = 0
         
         # Add progress bar for alignment
-        for segment in tqdm(transcribed_segments, desc="Aligning segments"):
+        for segment in tqdm(transcribed_segments, desc="Aligning segments", mininterval=60.0):
             aligned = self.find_best_match(
                 segment, 
                 transcript_tokens,

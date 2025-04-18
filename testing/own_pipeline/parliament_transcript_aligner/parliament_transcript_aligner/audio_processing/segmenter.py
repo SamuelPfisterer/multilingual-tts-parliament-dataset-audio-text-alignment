@@ -12,7 +12,8 @@ from pydub import silence  # Added this import for silence detection
 import numpy as np
 from tqdm import tqdm  # Added tqdm for progress bar
 import time
-
+import logging
+import shutil
 from ..data_models.models import TranscribedSegment
 from ..audio_processing.vad.silero_vad import get_silero_vad  # Import get_silero_vad directly
 from ..utils.logging.supabase_logging import SupabaseClient
@@ -30,7 +31,8 @@ class AudioSegmenter:
                  language: str = "en",
                  batch_size: int = 1,
                  supabase_client: Optional[SupabaseClient] = None,
-                 with_pydub_silences: bool = False):
+                 with_pydub_silences: bool = False,
+                 temp_directory: Optional[Union[Path, str]] = None):
         """Initialize the AudioSegmenter.
         
         Args:
@@ -45,6 +47,7 @@ class AudioSegmenter:
             language: Audio language code using ISO 639-1 standard (default: "en" for English). Examples: "es" for Spanish, "fr" for French, "de" for German.
             batch_size: Number of segments the ASR model processes at once (default: 1, i.e. no batching, make sure to check how much VRAM is needed)
             with_pydub_silences: Whether to use pydub to detect silences, when no silences are detected with VAD (default: False)
+            temp_directory: Optional directory for temporary files (default: system temp directory)
         """
         self.vad_pipeline = vad_pipeline
         self.diarization_pipeline = diarization_pipeline
@@ -55,6 +58,10 @@ class AudioSegmenter:
         self.batch_size = batch_size
         self.supabase_client = supabase_client
         self.with_pydub_silences = with_pydub_silences
+        self.wav_directory = wav_directory
+        self.temp_directory = Path(temp_directory) if temp_directory else Path("/tmp/") 
+        self.temp_directory.mkdir(parents=True, exist_ok=True)
+        
         # Set cache directory for Hugging Face
         hf_cache_dir = hf_cache_dir if hf_cache_dir is not None else os.getenv("HF_CACHE_DIR")
         
@@ -100,6 +107,9 @@ class AudioSegmenter:
         
         self.delete_wav_files = delete_wav_files
         self.wav_directory = Path(wav_directory) if wav_directory is not None else None
+        
+        # Set up logging
+        self.logger = logging.getLogger(__name__)
         
     def get_longest_silence(self, 
                           non_speech_regions: Timeline, 
@@ -155,6 +165,29 @@ class AudioSegmenter:
         
         return wav_path
 
+    def _check_disk_space(self, required_mb: int = 100) -> bool:
+        """Check if there's enough disk space in temp directory.
+        
+        Args:
+            required_mb: Required space in megabytes
+            
+        Returns:
+            bool: True if enough space available, False otherwise
+        """
+        try:
+            total, used, free = shutil.disk_usage(self.temp_directory)
+            free_mb = free // (1024 * 1024)  # Convert to MB
+            used_mb = used // (1024 * 1024)  # Convert to MB
+            total_mb = total // (1024 * 1024)  # Convert to MB
+            self.logger.info(f"Available disk space in temp directory: {free_mb}MB. Used: {used_mb}MB. Total: {total_mb}MB")
+            if free_mb < required_mb:
+                self.logger.error(f"Insufficient disk space. Only {free_mb}MB available, need {required_mb}MB")
+                return False
+            return True
+        except Exception as e:
+            self.logger.error(f"Error checking disk space: {e}")
+            return False
+
     def extract_audio_segment(self, audio_path: str, start: float, end: float) -> str:
         """Extract a segment from an audio file and return a temporary path.
         
@@ -166,14 +199,29 @@ class AudioSegmenter:
         Returns:
             Path to temporary wav file containing the segment
         """
-        # Convert to wav if needed
-        wav_path = self.convert_audio_to_wav(audio_path)
-        
-        audio = AudioSegment.from_file(wav_path)
-        segment = audio[start * 1000:end * 1000]  # pydub works in milliseconds
-        temp_path = f"/tmp/segment_{start}_{end}.wav"
-        segment.export(temp_path, format="wav")
-        return temp_path
+        try:
+            # Check disk space before proceeding
+            segment_duration = end - start
+            estimated_size_mb = int(segment_duration * 32)  # Rough estimate: 32KB per second
+            if not self._check_disk_space(estimated_size_mb):
+                raise OSError(f"Insufficient disk space for audio segment (need ~{estimated_size_mb}MB)")
+            
+            # Convert to wav if needed
+            wav_path = self.convert_audio_to_wav(audio_path)
+            
+            audio = AudioSegment.from_file(wav_path)
+            segment = audio[start * 1000:end * 1000]  # pydub works in milliseconds
+            
+            # Use temp_directory instead of /tmp
+            temp_path = str(self.temp_directory / f"segment_{start}_{end}.wav")
+            self.logger.debug(f"Creating temporary segment file: {temp_path}")
+            
+            segment.export(temp_path, format="wav")
+            return temp_path
+            
+        except Exception as e:
+            self.logger.error(f"Error extracting audio segment: {e}")
+            raise
 
     def segment_and_transcribe(self, audio_path: str, video_id: Optional[str] = None) -> List[TranscribedSegment]:
         """Segment audio file and transcribe each segment.
@@ -185,6 +233,8 @@ class AudioSegmenter:
             List of TranscribedSegments containing timing and text
         """
         converted_wav_path = None
+        temp_paths = []
+        
         try:
             # Convert to WAV if needed
             print(f"Converting audio file to wav before segmenting: {audio_path}")
@@ -218,31 +268,45 @@ class AudioSegmenter:
             transcribed_segments = []
 
             if self.batch_size > 1:
-                temp_paths = [ self.extract_audio_segment(converted_wav_path, segment.start, segment.end) for segment in segments_timeline]
-                for i in tqdm(range(0, len(temp_paths), self.batch_size), desc="Batch Transcribing Segments with Batch Size of {self.batch_size}"):
-                    batch_temp_paths = temp_paths[i:i+self.batch_size]
-                    results = self.asr_pipeline(
-                        batch_temp_paths,
-                        return_timestamps=False  # Faster than word-level timestamps
-                    )
+                try:
+                    temp_paths = [ self.extract_audio_segment(converted_wav_path, segment.start, segment.end) for segment in segments_timeline]
+                    for i in tqdm(range(0, len(temp_paths), self.batch_size), desc="Batch Transcribing Segments with Batch Size of {self.batch_size}", mininterval=60.0):
+                        batch_temp_paths = temp_paths[i:i+self.batch_size]
+                        results = self.asr_pipeline(
+                            batch_temp_paths,
+                            return_timestamps=False  # Faster than word-level timestamps
+                        )
 
-                    # Cleanup and result mapping
-                    for temp_path, result in zip(batch_temp_paths, results):
-                        os.remove(temp_path)
-                        text = result["text"].strip()
-                        transcribed_segments.append(TranscribedSegment(segments_timeline[i], text))
-                        i += 1
-                    
+                        # Cleanup and result mapping
+                        for temp_path, result in zip(batch_temp_paths, results):
+                            os.remove(temp_path)
+                            text = result["text"].strip()
+                            transcribed_segments.append(TranscribedSegment(segments_timeline[i], text))
+                            i += 1
+                except Exception as e:
+                    print(f"Error transcribing segments: {e}")
+                    raise e
+                finally:
+                    for temp_path in temp_paths:
+                        if temp_path and os.path.exists(temp_path):
+                            os.remove(temp_path)
             else:
                 # Use tqdm to create a progress bar for segment processing
-                for segment in tqdm(segments_timeline, desc="Transcribing segments", unit="segment"):
-                    temp_path = self.extract_audio_segment(converted_wav_path, segment.start, segment.end)
-                    text = self.asr_pipeline(temp_path)["text"].strip()
+                for segment in tqdm(segments_timeline, desc="Transcribing segments", unit="segment", mininterval=60.0):
+                    try:
+                        temp_path = self.extract_audio_segment(converted_wav_path, segment.start, segment.end)
+                        text = self.asr_pipeline(temp_path)["text"].strip()
                     
-                    # Clean up
-                    os.remove(temp_path)
-                    
-                    transcribed_segments.append(TranscribedSegment(segment, text))
+                        # Clean up
+                        os.remove(temp_path)
+                        
+                        transcribed_segments.append(TranscribedSegment(segment, text))
+                    except Exception as e:
+                        print(f"Error transcribing segment: {e}")
+                        raise e
+                    finally:
+                        if temp_path and os.path.exists(temp_path):
+                            os.remove(temp_path)
             
             transcribing_duration = time.time() - transcribing_start_time
             print(f"Transcribing duration: {transcribing_duration} seconds")
